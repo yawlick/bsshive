@@ -1,0 +1,8903 @@
+[
+ {
+  "giver": "Bee Bear",
+  "name": "Beautify The Beesmas Tree",
+  "id": "Beautify The Beesmas Tree",
+  "file": "BeeBear2Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 1,
+   "RoyalJelly": 1,
+   "FieldDice": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "red",
+    "amount": 2000
+   }
+  ],
+  "otherTasks": [
+   "Have Ornaments"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Slay Bells Jingling",
+  "id": "Slay Bells Jingling",
+  "file": "BeeBear2Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 1,
+   "RoyalJelly": 1,
+   "JellyBeans": 3
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 10000
+   }
+  ],
+  "otherTasks": [
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Blue Beesmas",
+  "id": "Blue Beesmas",
+  "file": "BeeBear2Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 1,
+   "RoyalJelly": 1,
+   "BlueExtract": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "blue",
+    "amount": 50000
+   },
+   {
+    "field": "Blue Flower Field",
+    "color": null,
+    "amount": 20000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Use Items",
+   "Have Ornaments"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Beesmas Blitz",
+  "id": "Beesmas Blitz",
+  "file": "BeeBear2Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 1,
+   "RoyalJelly": 1,
+   "Oil": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": null,
+    "amount": 150000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "A Time For Sharing",
+  "id": "A Time For Sharing",
+  "file": "BeeBear2Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 1,
+   "RoyalJelly": 1,
+   "Bitterberry": 10
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "red",
+    "amount": 300000
+   }
+  ],
+  "otherTasks": [
+   "Share Jelly Beans",
+   "Use Items",
+   "Defeat Monsters",
+   "Have Ornaments"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Naughty Or Nice",
+  "id": "Naughty Or Nice",
+  "file": "BeeBear2Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 1,
+   "RoyalJelly": 2,
+   "Micro-Converter": 5
+  },
+  "pollen": [
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 400000
+   },
+   {
+    "field": "Pineapple Patch",
+    "color": null,
+    "amount": 400000
+   }
+  ],
+  "otherTasks": [
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Unsilent Night",
+  "id": "Unsilent Night",
+  "file": "BeeBear2Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 1,
+   "RoyalJelly": 2,
+   "Neonberry": 3
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 1000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Use Toy",
+   "Defeat Monsters",
+   "Have Ornaments"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Presents For Polar Bear",
+  "id": "Presents For Polar Bear",
+  "file": "BeeBear2Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 1,
+   "RoyalJelly": 3,
+   "Glitter": 1,
+   "FieldDice": 5
+  },
+  "pollen": [
+   {
+    "field": "Cactus Field",
+    "color": null,
+    "amount": 1000000
+   },
+   {
+    "field": "Rose Field",
+    "color": null,
+    "amount": 1000000
+   }
+  ],
+  "otherTasks": [
+   "Complete Quests"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "All I Want For Beesmas Is Goo",
+  "id": "All I Want For Beesmas Is Goo",
+  "file": "BeeBear2Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 1,
+   "RoyalJelly": 3,
+   "Glue": 3,
+   "JellyBeans": 3,
+   "Neonberry": 3
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens",
+   "Defeat Monsters",
+   "Craft Ingredients",
+   "Collect Goo",
+   "Collect Goo",
+   "Collect Goo",
+   "Collect Goo",
+   "Collect Goo",
+   "Collect Goo",
+   "Collect Goo",
+   "Collect Goo",
+   "Collect Goo",
+   "Collect Goo",
+   "Collect Goo",
+   "Collect Goo",
+   "Collect Goo"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "A Beesmas Miracle",
+  "id": "A Beemas Miracle",
+  "file": "BeeBear2Init.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": null,
+    "color": "red",
+    "amount": 5000000
+   },
+   {
+    "field": null,
+    "color": "white",
+    "amount": 5000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Share Jelly Beans",
+   "Use Items",
+   "Defeat Monsters",
+   "Have Ornaments"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Bee Cub Workshop 1",
+  "id": "Bee Cub Workshop 1",
+  "file": "BeeBear2Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 5,
+   "Bitterberry": 25,
+   "MagicBean": 3
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "blue",
+    "amount": 10000000
+   },
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 5000000
+   },
+   {
+    "field": "Pumpkin Patch",
+    "color": null,
+    "amount": 5000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Use Items",
+   "Defeat Monsters",
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Bee Cub Workshop 2",
+  "id": "Bee Cub Workshop 2",
+  "file": "BeeBear2Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 5,
+   "Oil": 1,
+   "TropicalDrink": 1,
+   "Micro-Converter": 3,
+   "AntPass": 5
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "red",
+    "amount": 25000000
+   },
+   {
+    "field": "Mountain Top Field",
+    "color": null,
+    "amount": 10000000
+   },
+   {
+    "field": "Pineapple Patch",
+    "color": null,
+    "amount": 10000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Use Items",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Craft Ingredients"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Bee Cub Workshop 3",
+  "id": "Bee Cub Workshop 3",
+  "file": "BeeBear2Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 5,
+   "Enzymes": 1,
+   "Glitter": 1,
+   "Neonberry": 1,
+   "JellyBeans": 5
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 50000000
+   },
+   {
+    "field": "Rose Field",
+    "color": null,
+    "amount": 25000000
+   }
+  ],
+  "otherTasks": [
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Have Ornaments"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Bee Cub Workshop 4",
+  "id": "Bee Cub Workshop 4",
+  "file": "BeeBear2Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 5,
+   "Bitterberry": 50,
+   "FieldDice": 10,
+   "CloudVial": 10,
+   "Glitter": 5
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": null,
+    "amount": 200000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Use Items",
+   "Use Items",
+   "Use Items",
+   "Use Items",
+   "Use Items",
+   "Use Items",
+   "Complete Quests",
+   "Share Jelly Beans",
+   "Craft Ingredients",
+   "Have Ornaments"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Bee Cub Workshop 5",
+  "id": "Bee Cub Workshop 5",
+  "file": "BeeBear2Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 5,
+   "AtomicTreat": 1,
+   "NightBell": 1,
+   "Glitter": 5,
+   "MagicBean": 5,
+   "Bee": 1
+  },
+  "pollen": [
+   {
+    "field": "Strawberry Field",
+    "color": null,
+    "amount": 150000000
+   },
+   {
+    "field": "Bamboo Field",
+    "color": null,
+    "amount": 150000000
+   },
+   {
+    "field": "Spider Field",
+    "color": null,
+    "amount": 150000000
+   },
+   {
+    "field": "Pepper Patch",
+    "color": null,
+    "amount": 150000000
+   },
+   {
+    "field": "Dandelion Field",
+    "color": null,
+    "amount": 150000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Goo",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Use Toy",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Craft Ingredients",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Have Ornaments"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Beesmas Beequips",
+  "id": "Beesmas Beequips",
+  "file": "BeeBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "GingerbreadBear": 1,
+   "BeequipCase": 1,
+   "Elf Cap": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "red",
+    "amount": 1000
+   },
+   {
+    "field": null,
+    "color": "white",
+    "amount": 1000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Bee Bear's Catalog",
+  "id": "Bee Bear 2020 2",
+  "file": "BeeBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "GingerbreadBear": 1,
+   "Present": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 5000
+   },
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 5000
+   }
+  ],
+  "otherTasks": [
+   "Use Toy",
+   "Equip Beequips",
+   "Purchase Bee Bear's Catalog Items"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Beesmas Unboxing Begins",
+  "id": "Bee Bear 2020 3",
+  "file": "BeeBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "GingerbreadBear": 1,
+   "JellyBeans": 1,
+   "Micro-Converter": 5
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "blue",
+    "amount": 2000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Defeat Monsters",
+   "Give Presents",
+   "Have Items"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Search In The Stockings",
+  "id": "Bee Bear 2020 4",
+  "file": "BeeBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "GingerbreadBear": 1,
+   "Gumdrops": 25,
+   "Present": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 50000
+   },
+   {
+    "field": "Bamboo Field",
+    "color": null,
+    "amount": 30000
+   },
+   {
+    "field": "Strawberry Field",
+    "color": null,
+    "amount": 30000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Equip Beequips",
+   "Have Items"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Subdue The Snowbear",
+  "id": "Bee Bear 2020 5",
+  "file": "BeeBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "GingerbreadBear": 1,
+   "Warm Scarf": 1,
+   "BeequipCaseSlot": 3
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": null,
+    "amount": 120000
+   },
+   {
+    "field": "Sunflower Field",
+    "color": null,
+    "amount": 40000
+   },
+   {
+    "field": "Dandelion Field",
+    "color": null,
+    "amount": 40000
+   }
+  ],
+  "otherTasks": [
+   "Use Items",
+   "Use Toy",
+   "Purchase Bee Bear's Catalog Items",
+   "Have Items",
+   "Defeat Snowbear"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Snowflake Feast",
+  "id": "Bee Bear 2020 6",
+  "file": "BeeBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "GingerbreadBear": 2,
+   "JellyBeans": 5,
+   "Present": 1
+  },
+  "pollen": [
+   {
+    "field": "Pineapple Patch",
+    "color": null,
+    "amount": 250000
+   }
+  ],
+  "otherTasks": [
+   "Use Items",
+   "Use Items",
+   "Use Items",
+   "Match Pairs",
+   "Collect Tokens",
+   "Equip Beequips",
+   "Give Presents"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Naughty Knock-Out",
+  "id": "Bee Bear 2020 7",
+  "file": "BeeBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "GingerbreadBear": 2,
+   "Stinger": 3,
+   "Oil": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "red",
+    "amount": 500000
+   },
+   {
+    "field": "Cactus Field",
+    "color": null,
+    "amount": 200000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Have Items",
+   "Catch Falling Beesmas Lights"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Beesmas Bundles And Bean Bugs",
+  "id": "Bee Bear 2020 8",
+  "file": "BeeBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "GingerbreadBear": 2,
+   "Stinger": 3,
+   "Present": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 750000
+   },
+   {
+    "field": "Pumpkin Patch",
+    "color": null,
+    "amount": 250000
+   },
+   {
+    "field": "Mushroom Field",
+    "color": null,
+    "amount": 250000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens",
+   "Use Toy",
+   "Purchase Bee Bear's Catalog Items"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Presents To Polar Bear",
+  "id": "Bee Bear 2020 9",
+  "file": "BeeBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "GingerbreadBear": 2,
+   "MagicBean": 1,
+   "Enzymes": 3
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": null,
+    "amount": 2000000
+   }
+  ],
+  "otherTasks": [
+   "Use Items",
+   "Use Items",
+   "Catch Falling Beesmas Lights",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Complete Quests",
+   "Equip Beequips",
+   "Give Presents"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Festive Feast With the Whole Family",
+  "id": "Bee Bear 2020 10",
+  "file": "BeeBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "GingerbreadBear": 2,
+   "Peppermint Antennas": 1,
+   "BeequipCaseSlot": 3
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 2500000
+   },
+   {
+    "field": null,
+    "color": "red",
+    "amount": 2500000
+   }
+  ],
+  "otherTasks": [
+   "Use Items",
+   "Share Jelly Beans",
+   "Collect Tokens",
+   "Defeat Monsters",
+   "Use Toy",
+   "Purchase Bee Bear's Catalog Items",
+   "Give Presents",
+   "Defeat Snowbear"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Holly Jolly Tokens",
+  "id": "Bee Bear 2020 11",
+  "file": "BeeBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "GingerbreadBear": 3,
+   "MagicBean": 1,
+   "Micro-Converter": 5,
+   "Present": 1
+  },
+  "pollen": [
+   {
+    "field": "Pine Tree Forest",
+    "color": null,
+    "amount": 4000000
+   },
+   {
+    "field": "Rose Field",
+    "color": null,
+    "amount": 4000000
+   },
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 4000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Use Toy"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Walking in a Windy Wonderland",
+  "id": "Bee Bear 2020 12",
+  "file": "BeeBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "GingerbreadBear": 3,
+   "Neonberry": 5,
+   "FieldDice": 5,
+   "Glitter": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 20000000
+   }
+  ],
+  "otherTasks": [
+   "Use Items",
+   "Use Items",
+   "Collect Tokens",
+   "Use Toy",
+   "Purchase Bee Bear's Catalog Items",
+   "Equip Beequips"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Twinkling Tinsel Token Treck",
+  "id": "Bee Bear 2020 13",
+  "file": "BeeBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "GingerbreadBear": 3,
+   "Gumdrops": 50,
+   "Oil": 1,
+   "Present": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": null,
+    "amount": 40000000
+   }
+  ],
+  "otherTasks": [
+   "Pop Bubbles",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Catch Falling Beesmas Lights",
+   "Have Items"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Beequips and Berries Make Me So Merry",
+  "id": "Bee Bear 2020 14",
+  "file": "BeeBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "GingerbreadBear": 2,
+   "Neonberry": 10,
+   "Glue": 1,
+   "TropicalDrink": 1
+  },
+  "pollen": [
+   {
+    "field": "Mountain Top Field",
+    "color": null,
+    "amount": 50000000
+   },
+   {
+    "field": null,
+    "color": "blue",
+    "amount": 50000000
+   }
+  ],
+  "otherTasks": [
+   "Use Items",
+   "Use Items",
+   "Use Items",
+   "Use Items",
+   "Use Items",
+   "Use Toy",
+   "Collect Tokens",
+   "Equip Beequips",
+   "Give Presents"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Festive Fight Finale",
+  "id": "Bee Bear 2020 15",
+  "file": "BeeBear3Init.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 100000000
+   },
+   {
+    "field": "Pine Tree Forest",
+    "color": null,
+    "amount": 30000000
+   },
+   {
+    "field": "Dandelion Field",
+    "color": null,
+    "amount": 30000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Goo",
+   "Complete Quests",
+   "Use Toy",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Give Presents",
+   "Defeat Snowbear"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Festive Wreath Workshop 1",
+  "id": "Bee Bear 2020 16",
+  "file": "BeeBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "GingerbreadBear": 3,
+   "Present": 1,
+   "BeequipStorageSlot": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "red",
+    "amount": 200000000
+   },
+   {
+    "field": "Pumpkin Patch",
+    "color": null,
+    "amount": 60000000
+   }
+  ],
+  "otherTasks": [
+   "Use Items",
+   "Use Items",
+   "Use Items",
+   "Collect Tokens",
+   "Craft Ingredients",
+   "Defeat Monsters",
+   "Equip Beequips",
+   "Purchase Bee Bear's Catalog Items"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Festive Wreath Workshop 2",
+  "id": "Bee Bear 2020 17",
+  "file": "BeeBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "GingerbreadBear": 3,
+   "BeequipStorageSlot": 1,
+   "Glitter": 1,
+   "Micro-Converter": 5
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": null,
+    "amount": 500000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Goo",
+   "Collect Goo",
+   "Collect Goo",
+   "Collect Tokens",
+   "Spawn Flames",
+   "Pop Bubbles",
+   "Use Toy",
+   "Have Items"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Festive Wreath Workshop 3",
+  "id": "Bee Bear 2020 18",
+  "file": "BeeBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "GingerbreadBear": 3,
+   "BeequipStorageSlot": 1,
+   "Gumdrops": 100,
+   "Present": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "blue",
+    "amount": 500000000
+   },
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 140000000
+   },
+   {
+    "field": "Blue Flower Field",
+    "color": null,
+    "amount": 110000000
+   },
+   {
+    "field": "Pineapple Patch",
+    "color": null,
+    "amount": 80000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Goo",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Defeat Monsters",
+   "Use Toy",
+   "Purchase Bee Bear's Catalog Items"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Festive Wreath Workshop 4",
+  "id": "Bee Bear 2020 19",
+  "file": "BeeBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "GingerbreadBear": 3,
+   "BeequipStorageSlot": 1,
+   "MagicBean": 3,
+   "Enzymes": 5
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": null,
+    "amount": 1000000000
+   },
+   {
+    "field": "Pepper Patch",
+    "color": null,
+    "amount": 300000000
+   },
+   {
+    "field": "Bamboo Field",
+    "color": null,
+    "amount": 300000000
+   },
+   {
+    "field": "Sunflower Field",
+    "color": null,
+    "amount": 300000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Craft Ingredients",
+   "Equip Beequips",
+   "Collect Tokens",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Festive Wreath Workshop 5",
+  "id": "Bee Bear 2020 20",
+  "file": "BeeBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "GingerbreadBear": 3,
+   "BeequipStorageSlot": 1,
+   "BeequipCaseSlot": 1,
+   "Present": 1,
+   "Ticket": 100
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 1000000000
+   },
+   {
+    "field": "Cactus Field",
+    "color": null,
+    "amount": 1000000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Goo",
+   "Collect Tokens",
+   "Catch Falling Coconuts",
+   "Catch Falling Beesmas Lights",
+   "Use Toy",
+   "Use Toy",
+   "Defeat Monsters",
+   "Defeat Snowbear"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Festive Wreath Workshop 6",
+  "id": "Bee Bear 2020 21",
+  "file": "BeeBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "GingerbreadBear": 5,
+   "BeequipStorageSlot": 1,
+   "FieldDice": 5
+  },
+  "pollen": [
+   {
+    "field": "Mountain Top Field",
+    "color": null,
+    "amount": 1500000000
+   },
+   {
+    "field": "Strawberry Field",
+    "color": null,
+    "amount": 1200000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Goo",
+   "Collect Tokens",
+   "Use Items",
+   "Use Items",
+   "Use Items",
+   "Use Items",
+   "Use Items",
+   "Collect Tokens",
+   "Use Toy",
+   "Purchase Bee Bear's Catalog Items"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Festive Wreath Workshop 7",
+  "id": "Bee Bear 2020 22",
+  "file": "BeeBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "GingerbreadBear": 5,
+   "BeequipStorageSlot": 1,
+   "RedExtract": 10,
+   "Present": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "red",
+    "amount": 4000000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens",
+   "Use Items",
+   "Collect Tokens",
+   "Use Toy",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Catch Mythic Meteors",
+   "Have Items"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Festive Wreath Workshop 8",
+  "id": "Bee Bear 2020 23",
+  "file": "BeeBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "GingerbreadBear": 5,
+   "BeequipStorageSlot": 1,
+   "PurplePotion": 1,
+   "Box-O-Frogs": 3
+  },
+  "pollen": [
+   {
+    "field": "Pine Tree Forest",
+    "color": null,
+    "amount": 5000000000
+   },
+   {
+    "field": "Mushroom Field",
+    "color": null,
+    "amount": 1000000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Goo",
+   "Collect Tokens",
+   "Use Items",
+   "Use Items",
+   "Use Items",
+   "Share Jelly Beans",
+   "Use Toy",
+   "Use Toy",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Purchase Bee Bear's Catalog Items"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Festive Wreath Workshop 9",
+  "id": "Bee Bear 2020 24",
+  "file": "BeeBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "GingerbreadBear": 5,
+   "BeequipStorageSlot": 1,
+   "Glitter": 1,
+   "Present": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 10000000000
+   },
+   {
+    "field": "Rose Field",
+    "color": null,
+    "amount": 5000000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Goo",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Complete Quests",
+   "Catch Mythic Meteors",
+   "Craft Ingredients",
+   "Use Toy",
+   "Have Items"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Festive Wreath Workshop 10",
+  "id": "Bee Bear 2020 25",
+  "file": "BeeBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "GingerbreadBear": 5,
+   "BeequipStorageSlot": 1,
+   "Festive Wreath": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": null,
+    "amount": 25000000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Catch Falling Beesmas Lights",
+   "Give Presents",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Snowbear",
+   "Use Toy",
+   "Use Toy",
+   "Use Toy",
+   "Use Toy",
+   "Use Toy",
+   "Use Toy",
+   "Purchase Bee Bear's Catalog Items"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Beesmas Begins",
+  "id": "Beesmas Begins",
+  "file": "BeeBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 1,
+   "Treat": 3
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 250
+   },
+   {
+    "field": null,
+    "color": "red",
+    "amount": 250
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Beating Beetles on Beesmas",
+  "id": "Beating Beetles on Beesmas",
+  "file": "BeeBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 1,
+   "Blueberry": 3
+  },
+  "pollen": [
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 1000
+   }
+  ],
+  "otherTasks": [
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "BEElieve",
+  "id": "BEElieve",
+  "file": "BeeBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Present": 1,
+   "Ticket": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "blue",
+    "amount": 2500
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Defeat Monsters",
+   "Believe In Bubble Bee Man"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "White Beesmas",
+  "id": "White Beesmas",
+  "file": "BeeBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 1,
+   "SunflowerSeed": 5
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 10000
+   }
+  ],
+  "otherTasks": [
+   "Deliver Presents"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "A Time For Giving",
+  "id": "A Time For Giving",
+  "file": "BeeBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 1,
+   "RoyalJelly": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Use Items",
+   "Use Items",
+   "Use Items"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Beesmas Beatdown",
+  "id": "Beesmas Beatdown",
+  "file": "BeeBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 1,
+   "Present": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Beautiful Beesmas Lights",
+  "id": "Beautiful Beesmas Lights",
+  "file": "BeeBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 1,
+   "MoonCharm": 5
+  },
+  "pollen": [
+   {
+    "field": "Bamboo Field",
+    "color": null,
+    "amount": 25000
+   },
+   {
+    "field": "Blue Flower Field",
+    "color": null,
+    "amount": 10000
+   }
+  ],
+  "otherTasks": [
+   "Deliver Presents",
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Festive Fruit Salad",
+  "id": "Festive Fruit Salad",
+  "file": "BeeBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 1,
+   "Strawberry": 5,
+   "Pineapple": 5,
+   "Blueberry": 5
+  },
+  "pollen": [
+   {
+    "field": "Pineapple Patch",
+    "color": null,
+    "amount": 55000
+   },
+   {
+    "field": "Strawberry Field",
+    "color": null,
+    "amount": 35000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Beesmas Tree Hunt",
+  "id": "Beesmas Tree Hunt",
+  "file": "BeeBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Present": 1,
+   "Ticket": 1
+  },
+  "pollen": [
+   {
+    "field": "Pine Tree Forest",
+    "color": null,
+    "amount": 100000
+   }
+  ],
+  "otherTasks": [
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Honeyday Harvest",
+  "id": "Honeyday Harvest",
+  "file": "BeeBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 1,
+   "Treat": 25
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Deliver Presents",
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Breaking In On Beesmas",
+  "id": "Breaking In On Beesmas",
+  "file": "BeeBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 1,
+   "Gumdrops": 50
+  },
+  "pollen": [
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 80000
+   },
+   {
+    "field": "Spider Field",
+    "color": null,
+    "amount": 120000
+   },
+   {
+    "field": "Pumpkin Patch",
+    "color": null,
+    "amount": 250000
+   }
+  ],
+  "otherTasks": [
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Quality Time With Polar Bear",
+  "id": "Quality Time With Polar Bear",
+  "file": "BeeBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Present": 1,
+   "Ticket": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Complete Quests"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "The Beesmas Rush",
+  "id": "The Beesmas Rush",
+  "file": "BeeBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 1,
+   "Oil": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "red",
+    "amount": 600000
+   },
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 400000
+   }
+  ],
+  "otherTasks": [
+   "Deliver Presents",
+   "Collect Tokens",
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Bee-liz Honey-dad",
+  "id": "Bee-liz Honey-dad",
+  "file": "BeeBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 1,
+   "MagicBean": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Goo",
+   "Collect Tokens",
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Joy To The Bees",
+  "id": "Joy To The Bees",
+  "file": "BeeBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Present": 1,
+   "Ticket": 1
+  },
+  "pollen": [
+   {
+    "field": "Dandelion Field",
+    "color": null,
+    "amount": 1000000
+   },
+   {
+    "field": "Cactus Field",
+    "color": null,
+    "amount": 1000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Use Items",
+   "Use Items",
+   "Use Items",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "The Night Before Beesmas",
+  "id": "The Night Before Beesmas",
+  "file": "BeeBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 1,
+   "RoyalJelly": 3
+  },
+  "pollen": [
+   {
+    "field": "Mountain Top Field",
+    "color": null,
+    "amount": 4000000
+   },
+   {
+    "field": null,
+    "color": "white",
+    "amount": 2000000
+   }
+  ],
+  "otherTasks": [
+   "Deliver Presents",
+   "Collect Tokens",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "A Pinch Of Magic",
+  "id": "A Pinch Of Magic",
+  "file": "BeeBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 1,
+   "Glitter": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens",
+   "Use Items"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Jolly Labor Of Love",
+  "id": "Jolly Labor Of Love",
+  "file": "BeeBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Present": 1,
+   "Ticket": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "blue",
+    "amount": 20000000
+   },
+   {
+    "field": "Blue Flower Field",
+    "color": null,
+    "amount": 5000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens",
+   "Craft Ingredients"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Festive Bee Workshop 1",
+  "id": "Festive Bee Workshop 1",
+  "file": "BeeBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 1,
+   "MagicBean": 1,
+   "Gumdrops": 50
+  },
+  "pollen": [
+   {
+    "field": "Rose Field",
+    "color": null,
+    "amount": 25000000
+   }
+  ],
+  "otherTasks": [
+   "Deliver Presents",
+   "Collect Goo",
+   "Collect Tokens",
+   "Defeat Monsters",
+   "Craft Ingredients"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Festive Bee Workshop 2",
+  "id": "Festive Bee Workshop 2",
+  "file": "BeeBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 1,
+   "MagicBean": 1,
+   "MoonCharm": 25,
+   "RedExtract": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 40000000
+   },
+   {
+    "field": "Strawberry Field",
+    "color": null,
+    "amount": 20000000
+   }
+  ],
+  "otherTasks": [
+   "Use Items",
+   "Use Items",
+   "Complete Quests",
+   "Complete Quests"
+  ]
+ },
+ {
+  "giver": "Bee Bear",
+  "name": "Festive Bee Workshop 3",
+  "id": "Festive Bee Workshop 3",
+  "file": "BeeBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Mountain Top Field",
+    "color": null,
+    "amount": 100000000
+   },
+   {
+    "field": "Mushroom Field",
+    "color": null,
+    "amount": 50000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Goo",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Defeat Monsters",
+   "Complete Quests",
+   "Craft Ingredients"
+  ]
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Sunflower Corral",
+  "id": "Sunflower Corral",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 5,
+   "JellyBeans": 3,
+   "SunflowerSeed": 10
+  },
+  "pollen": [
+   {
+    "field": "Sunflower Field",
+    "color": null,
+    "amount": 300
+   }
+  ],
+  "otherTasks": [
+   "Capture Chicks"
+  ]
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Black Bear's Ornament",
+  "id": "Black Bear's Ornament",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 5,
+   "JellyBeans": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 500
+   },
+   {
+    "field": "Mushroom Field",
+    "color": null,
+    "amount": 200
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Sunflower Start",
+  "id": "Sunflower Start",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 200,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Sunflower Field",
+    "color": null,
+    "amount": 100
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Dandelion Deed",
+  "id": "Dandelion Deed",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 400,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Dandelion Field",
+    "color": null,
+    "amount": 250
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Pollen Fetcher",
+  "id": "Pollen Fetcher",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 500,
+  "items": {},
+  "pollen": [
+   {
+    "field": null,
+    "color": null,
+    "amount": 500
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Red Request",
+  "id": "Red Request",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 650,
+  "items": {},
+  "pollen": [
+   {
+    "field": null,
+    "color": "red",
+    "amount": 600
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Into The Blue",
+  "id": "Into The Blue",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 750,
+  "items": {},
+  "pollen": [
+   {
+    "field": null,
+    "color": "blue",
+    "amount": 1000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Variety Fetcher",
+  "id": "Variety Fetcher",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 1000,
+  "items": {
+   "Silver": 1
+  },
+  "pollen": [
+   {
+    "field": "Mushroom Field",
+    "color": null,
+    "amount": 1000
+   },
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 1000
+   },
+   {
+    "field": "Blue Flower Field",
+    "color": null,
+    "amount": 1000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Bamboo Boogie",
+  "id": "Bamboo Boogie",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 2000,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Bamboo Field",
+    "color": null,
+    "amount": 4000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Red Request 2",
+  "id": "Red Request 2",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 2500,
+  "items": {},
+  "pollen": [
+   {
+    "field": null,
+    "color": "red",
+    "amount": 5000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Cobweb Sweeper",
+  "id": "Cobweb Sweeper",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 3200,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Spider Field",
+    "color": null,
+    "amount": 6000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Leisure Loot",
+  "id": "Leisure Loot",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 10000,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Sunflower Field",
+    "color": null,
+    "amount": 3000
+   },
+   {
+    "field": "Dandelion Field",
+    "color": null,
+    "amount": 3000
+   },
+   {
+    "field": "Mushroom Field",
+    "color": null,
+    "amount": 3000
+   },
+   {
+    "field": "Blue Flower Field",
+    "color": null,
+    "amount": 3000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "White Pollen Wrangler",
+  "id": "White Pollen Wrangler",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 7500,
+  "items": {},
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 10000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Pineapple Picking",
+  "id": "Pineapple Picking",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 10500,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Pineapple Patch",
+    "color": null,
+    "amount": 13000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Pollen Fetcher 2",
+  "id": "Pollen Fetcher 2",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 12000,
+  "items": {},
+  "pollen": [
+   {
+    "field": null,
+    "color": null,
+    "amount": 16000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Weed Wacker",
+  "id": "Weed Wacker",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 25000,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Strawberry Field",
+    "color": null,
+    "amount": 10000
+   },
+   {
+    "field": "Bamboo Field",
+    "color": null,
+    "amount": 10000
+   },
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 10000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Red + Blue = Gold",
+  "id": "Red + Blue = Gold",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 25000,
+  "items": {
+   "Gold": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "red",
+    "amount": 25000
+   },
+   {
+    "field": null,
+    "color": "blue",
+    "amount": 25000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Colorless Collection",
+  "id": "Colorless Collection",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 35000,
+  "items": {},
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 50000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Spirit Of Springtime",
+  "id": "Spirit Of Springtime",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 44000,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Strawberry Field",
+    "color": null,
+    "amount": 30000
+   },
+   {
+    "field": "Sunflower Field",
+    "color": null,
+    "amount": 30000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Weed Wacker 2",
+  "id": "Weed Wacker 2",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 50000,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Bamboo Field",
+    "color": null,
+    "amount": 40000
+   },
+   {
+    "field": "Dandelion Field",
+    "color": null,
+    "amount": 40000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Pollen Fetcher 3",
+  "id": "Pollen Fetcher 3",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 1,
+  "honey": 50000,
+  "items": {},
+  "pollen": [
+   {
+    "field": null,
+    "color": null,
+    "amount": 100000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Lucky Landscaping",
+  "id": "Lucky Landscaping",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 75000,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 100000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Azure Adventure",
+  "id": "Azure Adventure",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 100000,
+  "items": {},
+  "pollen": [
+   {
+    "field": null,
+    "color": "blue",
+    "amount": 150000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Pink Pineapples",
+  "id": "Pink Pineapples",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 122000,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Pineapple Patch",
+    "color": null,
+    "amount": 80000
+   },
+   {
+    "field": null,
+    "color": "red",
+    "amount": 80000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Blue Mushrooms",
+  "id": "Blue Mushrooms",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 1,
+  "honey": 150000,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Blue Flower Field",
+    "color": null,
+    "amount": 100000
+   },
+   {
+    "field": "Mushroom Field",
+    "color": null,
+    "amount": 100000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Cobweb Sweeper 2",
+  "id": "Cobweb Sweeper 2",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 185000,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Spider Field",
+    "color": null,
+    "amount": 250000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Rojo-A-Go-Go",
+  "id": "Rojo-A-Go-Go",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 200000,
+  "items": {},
+  "pollen": [
+   {
+    "field": null,
+    "color": "red",
+    "amount": 300000
+   },
+   {
+    "field": "Cactus Field",
+    "color": null,
+    "amount": 8
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Pumpkin Plower",
+  "id": "Pumpkin Plower",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 225000,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Pumpkin Patch",
+    "color": null,
+    "amount": 315000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Pollen Fetcher 4",
+  "id": "Pollen Fetcher 4",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 1,
+  "honey": 250000,
+  "items": {},
+  "pollen": [
+   {
+    "field": null,
+    "color": null,
+    "amount": 375000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Bouncing Around Biomes",
+  "id": "Bouncing Around Biomes",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 275000,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Pine Tree Forest",
+    "color": null,
+    "amount": 180000
+   },
+   {
+    "field": "Cactus Field",
+    "color": null,
+    "amount": 180000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Blue Pineapples",
+  "id": "Blue Pineapples",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 300000,
+  "items": {},
+  "pollen": [
+   {
+    "field": null,
+    "color": "blue",
+    "amount": 200000
+   },
+   {
+    "field": "Pineapple Patch",
+    "color": null,
+    "amount": 200000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Rose Request",
+  "id": "Rose Request",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 320000,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Rose Field",
+    "color": null,
+    "amount": 450000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Search For The White Clover",
+  "id": "Search For The White Clover",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 1,
+  "honey": 350000,
+  "items": {},
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 300000
+   },
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 200000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Stomping Grounds",
+  "id": "Stomping Grounds",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 1,
+  "honey": 400000,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Sunflower Field",
+    "color": null,
+    "amount": 100000
+   },
+   {
+    "field": "Dandelion Field",
+    "color": null,
+    "amount": 100000
+   },
+   {
+    "field": "Mushroom Field",
+    "color": null,
+    "amount": 100000
+   },
+   {
+    "field": "Blue Flower Field",
+    "color": null,
+    "amount": 100000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Collecting Cliffside",
+  "id": "Collecting Cliffside",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 2,
+  "honey": 450000,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Strawberry Field",
+    "color": null,
+    "amount": 250000
+   },
+   {
+    "field": "Spider Field",
+    "color": null,
+    "amount": 250000
+   },
+   {
+    "field": "Bamboo Field",
+    "color": null,
+    "amount": 250000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Mountain Meandering",
+  "id": "Mountain Meandering",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 3,
+  "honey": 500000,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Rose Field",
+    "color": null,
+    "amount": 275000
+   },
+   {
+    "field": "Pine Tree Forest",
+    "color": null,
+    "amount": 275000
+   },
+   {
+    "field": "Pumpkin Patch",
+    "color": null,
+    "amount": 275000
+   },
+   {
+    "field": "Cactus Field",
+    "color": null,
+    "amount": 275000
+   },
+   {
+    "field": "Pineapple Patch",
+    "color": null,
+    "amount": 275000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Quest Of Legends",
+  "id": "Quest Of Legends",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 1000000,
+  "items": {
+   "Diamond": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 500000
+   },
+   {
+    "field": null,
+    "color": "red",
+    "amount": 500000
+   },
+   {
+    "field": null,
+    "color": "blue",
+    "amount": 500000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "High Altitude",
+  "id": "High Altitude",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 1,
+  "honey": 650000,
+  "items": {
+   "Ticket": 5,
+   "FieldDice": 1
+  },
+  "pollen": [
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 500000
+   },
+   {
+    "field": "Mountain Top Field",
+    "color": null,
+    "amount": 750000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Blissfully Blue",
+  "id": "Blissfully Blue",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 1,
+  "honey": 700000,
+  "items": {
+   "Ticket": 5,
+   "Blueberry": 30
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "blue",
+    "amount": 1400000
+   },
+   {
+    "field": "Bamboo Field",
+    "color": null,
+    "amount": 800000
+   },
+   {
+    "field": "Blue Flower Field",
+    "color": null,
+    "amount": 500000
+   },
+   {
+    "field": "Pineapple Patch",
+    "color": "blue",
+    "amount": 50000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Rouge Round-up",
+  "id": "Rouge Round-up",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 1,
+  "honey": 750000,
+  "items": {
+   "Ticket": 5,
+   "Strawberry": 30
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "red",
+    "amount": 1600000
+   },
+   {
+    "field": "Rose Field",
+    "color": null,
+    "amount": 900000
+   },
+   {
+    "field": "Strawberry Field",
+    "color": null,
+    "amount": 700000
+   },
+   {
+    "field": "Cactus Field",
+    "color": "red",
+    "amount": 400000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "White As Snow",
+  "id": "White As Snow",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 1,
+  "honey": 800000,
+  "items": {
+   "Ticket": 5,
+   "Pineapple": 30
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 1500000
+   },
+   {
+    "field": "Pineapple Patch",
+    "color": null,
+    "amount": 700000
+   },
+   {
+    "field": "Spider Field",
+    "color": null,
+    "amount": 400000
+   },
+   {
+    "field": "Dandelion Field",
+    "color": null,
+    "amount": 300000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Solo On The Stump",
+  "id": "Solo On The Stump",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 1,
+  "honey": 825000,
+  "items": {
+   "Ticket": 10,
+   "Gumdrops": 30
+  },
+  "pollen": [
+   {
+    "field": "Stump Field",
+    "color": null,
+    "amount": 1000000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Colorful Craving",
+  "id": "Colorful Craving",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 1,
+  "honey": 850000,
+  "items": {
+   "Ticket": 5,
+   "FieldDice": 3
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "red",
+    "amount": 1500000
+   },
+   {
+    "field": null,
+    "color": "blue",
+    "amount": 1500000
+   },
+   {
+    "field": "Pine Tree Forest",
+    "color": null,
+    "amount": 1000000
+   },
+   {
+    "field": "Mushroom Field",
+    "color": null,
+    "amount": 600000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Pumpkins, Please!",
+  "id": "Pumpkins, Please!",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 1,
+  "honey": 875000,
+  "items": {
+   "Ticket": 5,
+   "MagicBean": 1
+  },
+  "pollen": [
+   {
+    "field": "Pumpkin Patch",
+    "color": null,
+    "amount": 2000000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Smorgasbord",
+  "id": "Smorgasbord",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 1,
+  "honey": 1000000,
+  "items": {
+   "Ticket": 5,
+   "FieldDice": 3
+  },
+  "pollen": [
+   {
+    "field": "Sunflower Field",
+    "color": null,
+    "amount": 500000
+   },
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 500000
+   },
+   {
+    "field": "Bamboo Field",
+    "color": null,
+    "amount": 500000
+   },
+   {
+    "field": "Pineapple Patch",
+    "color": null,
+    "amount": 500000
+   },
+   {
+    "field": "Cactus Field",
+    "color": null,
+    "amount": 500000
+   },
+   {
+    "field": "Rose Field",
+    "color": null,
+    "amount": 500000
+   },
+   {
+    "field": "Mountain Top Field",
+    "color": null,
+    "amount": 500000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Pollen Fetcher 5",
+  "id": "Pollen Fetcher 5",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 1,
+  "honey": 1150000,
+  "items": {
+   "Ticket": 5,
+   "Micro-Converter": 5
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": null,
+    "amount": 6000000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "White Clover Redux",
+  "id": "White Clover Redux",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 5,
+  "honey": 1250000,
+  "items": {
+   "Ticket": 5
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 3000000
+   },
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 3000000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Strawberry Field Forever",
+  "id": "Strawberry Field Forever",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 1,
+  "honey": 1500000,
+  "items": {
+   "Ticket": 5,
+   "Strawberry": 60
+  },
+  "pollen": [
+   {
+    "field": "Strawberry Field",
+    "color": null,
+    "amount": 6000000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Tasting The Sky",
+  "id": "Tasting The Sky",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 1,
+  "honey": 2000000,
+  "items": {
+   "Ticket": 5,
+   "SunflowerSeed": 60
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "blue",
+    "amount": 6000000
+   },
+   {
+    "field": "Mountain Top Field",
+    "color": null,
+    "amount": 3000000
+   },
+   {
+    "field": "Sunflower Field",
+    "color": null,
+    "amount": 1000000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Whispy And Crispy",
+  "id": "Whispy And Crispy",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 1,
+  "honey": 2200000,
+  "items": {
+   "Ticket": 5,
+   "Micro-Converter": 5
+  },
+  "pollen": [
+   {
+    "field": "Cactus Field",
+    "color": null,
+    "amount": 4750000
+   },
+   {
+    "field": "Dandelion Field",
+    "color": null,
+    "amount": 1500000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Walk Through The Woods",
+  "id": "Walk Through The Woods",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 1,
+  "honey": 2500000,
+  "items": {
+   "Ticket": 5,
+   "BlueExtract": 1
+  },
+  "pollen": [
+   {
+    "field": "Pine Tree Forest",
+    "color": null,
+    "amount": 8000000
+   },
+   {
+    "field": "Bamboo Field",
+    "color": null,
+    "amount": 5000000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Get Red-y",
+  "id": "Get Red-y",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 2,
+  "honey": 2800000,
+  "items": {
+   "Ticket": 5,
+   "Treat": 100,
+   "RedExtract": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "red",
+    "amount": 10000000
+   },
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 4000000
+   },
+   {
+    "field": "Stump Field",
+    "color": null,
+    "amount": 1500000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "One Stop On The Tip Top",
+  "id": "One Stop On The Tip Top",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 2,
+  "honey": 3000000,
+  "items": {
+   "Ticket": 5,
+   "Treat": 200,
+   "FieldDice": 5
+  },
+  "pollen": [
+   {
+    "field": "Mountain Top Field",
+    "color": null,
+    "amount": 15000000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Blue Mushrooms 2",
+  "id": "Blue Mushrooms 2",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 2,
+  "honey": 3500000,
+  "items": {
+   "Ticket": 5,
+   "Treat": 300,
+   "Micro-Converter": 5
+  },
+  "pollen": [
+   {
+    "field": "Blue Flower Field",
+    "color": null,
+    "amount": 6000000
+   },
+   {
+    "field": "Mushroom Field",
+    "color": null,
+    "amount": 6000000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Pretty Pumpkins",
+  "id": "Pretty Pumpkins",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 2,
+  "honey": 4000000,
+  "items": {
+   "Ticket": 5,
+   "Treat": 400,
+   "Glitter": 1
+  },
+  "pollen": [
+   {
+    "field": "Pumpkin Patch",
+    "color": null,
+    "amount": 10000000
+   },
+   {
+    "field": "Rose Field",
+    "color": null,
+    "amount": 12500000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Black Bear, Why?",
+  "id": "Black Bear, Why?",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 2,
+  "honey": 4500000,
+  "items": {
+   "Ticket": 5,
+   "Treat": 500,
+   "Stinger": 15
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "red",
+    "amount": 15000000
+   },
+   {
+    "field": null,
+    "color": "blue",
+    "amount": 15000000
+   },
+   {
+    "field": "Cactus Field",
+    "color": null,
+    "amount": 10000000
+   },
+   {
+    "field": "Spider Field",
+    "color": null,
+    "amount": 6000000
+   },
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 4000000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Bee A Star",
+  "id": "Bee A Star",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 5000000,
+  "items": {
+   "Ticket": 5,
+   "Treat": 1000,
+   "StarJelly": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 20000000
+   },
+   {
+    "field": "Mountain Top Field",
+    "color": null,
+    "amount": 15000000
+   },
+   {
+    "field": "Pine Tree Forest",
+    "color": null,
+    "amount": 8000000
+   },
+   {
+    "field": "Rose Field",
+    "color": null,
+    "amount": 8000000
+   },
+   {
+    "field": "Stump Field",
+    "color": null,
+    "amount": 3000000
+   },
+   {
+    "field": "Pineapple Patch",
+    "color": null,
+    "amount": 3000000
+   },
+   {
+    "field": "Sunflower Field",
+    "color": null,
+    "amount": 3000000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Bamboo Boogie 2: Bamboo Boogaloo",
+  "id": "BB2:BB",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 3,
+  "honey": 10000000,
+  "items": {
+   "Ticket": 5,
+   "Treat": 2000,
+   "FieldDice": 3,
+   "BlueExtract": 1
+  },
+  "pollen": [
+   {
+    "field": "Bamboo Field",
+    "color": null,
+    "amount": 30000000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Rocky Red Mountain",
+  "id": "Rocky Red Mountain",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 4,
+  "honey": 12500000,
+  "items": {
+   "Ticket": 5,
+   "Treat": 2500,
+   "MagicBean": 1,
+   "SunflowerSeed": 25,
+   "RedExtract": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "red",
+    "amount": 30000000
+   },
+   {
+    "field": "Mountain Top Field",
+    "color": null,
+    "amount": 20000000
+   },
+   {
+    "field": "Dandelion Field",
+    "color": null,
+    "amount": 10000000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Can't Without Ants",
+  "id": "Can't Without Ants",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 5,
+  "honey": 15000000,
+  "items": {
+   "Ticket": 5,
+   "Treat": 2500,
+   "JellyBeans": 3,
+   "AntPass": 3
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": null,
+    "amount": 50000000
+   },
+   {
+    "field": "Ant Field",
+    "color": null,
+    "amount": 2500000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "The 15 Bee Zone",
+  "id": "The 15 Bee Zone",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 6,
+  "honey": 20000000,
+  "items": {
+   "Ticket": 5,
+   "Treat": 3000,
+   "Micro-Converter": 3,
+   "Enzymes": 1
+  },
+  "pollen": [
+   {
+    "field": "Cactus Field",
+    "color": null,
+    "amount": 15000000
+   },
+   {
+    "field": "Pumpkin Patch",
+    "color": null,
+    "amount": 15000000
+   },
+   {
+    "field": "Pine Tree Forest",
+    "color": null,
+    "amount": 15000000
+   },
+   {
+    "field": "Rose Field",
+    "color": null,
+    "amount": 15000000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Bubble Trouble",
+  "id": "Bubble Trouble",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 25000000,
+  "items": {
+   "Ticket": 5,
+   "Treat": 3500,
+   "Blueberry": 75,
+   "Box-O-Frogs": 1,
+   "StarJelly": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "blue",
+    "amount": 80000000
+   },
+   {
+    "field": "Stump Field",
+    "color": null,
+    "amount": 10000000
+   },
+   {
+    "field": "Blue Flower Field",
+    "color": null,
+    "amount": 10000000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Sweet And Sour",
+  "id": "Sweet And Sour",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 8,
+  "honey": 30000000,
+  "items": {
+   "Ticket": 5,
+   "Treat": 4000,
+   "Gumdrops": 25,
+   "Bitterberry": 25
+  },
+  "pollen": [
+   {
+    "field": "Pineapple Patch",
+    "color": null,
+    "amount": 60000000
+   },
+   {
+    "field": "Mushroom Field",
+    "color": null,
+    "amount": 30000000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Rare Red Clover",
+  "id": "Rare Red Clover",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 9,
+  "honey": 40000000,
+  "items": {
+   "Ticket": 5,
+   "Treat": 4500,
+   "MagicBean": 1,
+   "MoonCharm": 25,
+   "Strawberry": 75
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "red",
+    "amount": 120000000
+   },
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 40000000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Low Tier Treck",
+  "id": "Low Tier Treck",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 10,
+  "honey": 50000000,
+  "items": {
+   "Ticket": 5,
+   "Treat": 5000,
+   "FieldDice": 5,
+   "Pineapple": 75,
+   "JellyBeans": 3
+  },
+  "pollen": [
+   {
+    "field": "Strawberry Field",
+    "color": null,
+    "amount": 12000000
+   },
+   {
+    "field": "Spider Field",
+    "color": null,
+    "amount": 12000000
+   },
+   {
+    "field": "Bamboo Field",
+    "color": null,
+    "amount": 12000000
+   },
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 12000000
+   },
+   {
+    "field": "Blue Flower Field",
+    "color": null,
+    "amount": 12000000
+   },
+   {
+    "field": "Mushroom Field",
+    "color": null,
+    "amount": 12000000
+   },
+   {
+    "field": "Dandelion Field",
+    "color": null,
+    "amount": 12000000
+   },
+   {
+    "field": "Sunflower Field",
+    "color": null,
+    "amount": 12000000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Okey-Pokey",
+  "id": "Okey-Pokey",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 10,
+  "honey": 60000000,
+  "items": {
+   "Ticket": 5,
+   "Treat": 6000,
+   "Stinger": 5,
+   "MagicBean": 1,
+   "Coconut": 10
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 150000000
+   },
+   {
+    "field": "Rose Field",
+    "color": null,
+    "amount": 50000000
+   },
+   {
+    "field": "Cactus Field",
+    "color": null,
+    "amount": 50000000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Pollen Fetcher 6",
+  "id": "Pollen Fetcher 6",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 75000000,
+  "items": {
+   "Ticket": 5,
+   "Treat": 7500,
+   "SunflowerSeed": 75,
+   "Pineapple": 75,
+   "StarJelly": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": null,
+    "amount": 250000000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Capsaicin Collector",
+  "id": "Capsaicin Collector",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 10,
+  "honey": 80000000,
+  "items": {
+   "Ticket": 5,
+   "Treat": 8000,
+   "MagicBean": 1,
+   "Micro-Converter": 5,
+   "RedExtract": 1
+  },
+  "pollen": [
+   {
+    "field": "Pepper Patch",
+    "color": null,
+    "amount": 120000000
+   },
+   {
+    "field": "Spider Field",
+    "color": null,
+    "amount": 50000000
+   },
+   {
+    "field": "Dandelion Field",
+    "color": null,
+    "amount": 20000000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Mountain Mix",
+  "id": "Mountain Mix",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 10,
+  "honey": 90000000,
+  "items": {
+   "Ticket": 5,
+   "Treat": 9000,
+   "MagicBean": 1,
+   "JellyBeans": 3,
+   "PurplePotion": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "red",
+    "amount": 200000000
+   },
+   {
+    "field": null,
+    "color": "blue",
+    "amount": 200000000
+   },
+   {
+    "field": "Mountain Top Field",
+    "color": null,
+    "amount": 200000000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "You Blue It",
+  "id": "You Blue It",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 10,
+  "honey": 100000000,
+  "items": {
+   "Ticket": 5,
+   "Treat": 10000,
+   "JellyBeans": 5,
+   "Blueberry": 25,
+   "BlueExtract": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "blue",
+    "amount": 350000000
+   },
+   {
+    "field": "Blue Flower Field",
+    "color": null,
+    "amount": 50000000
+   },
+   {
+    "field": "Ant Field",
+    "color": null,
+    "amount": 10000000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Variety Fetcher 2",
+  "id": "Variety Fetcher 2",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 10,
+  "honey": 125000000,
+  "items": {
+   "Ticket": 5,
+   "Treat": 10000,
+   "MagicBean": 1,
+   "FieldDice": 5,
+   "Pineapple": 75
+  },
+  "pollen": [
+   {
+    "field": "Pepper Patch",
+    "color": null,
+    "amount": 100000000
+   },
+   {
+    "field": "Pineapple Patch",
+    "color": null,
+    "amount": 100000000
+   },
+   {
+    "field": "Strawberry Field",
+    "color": null,
+    "amount": 100000000
+   },
+   {
+    "field": "Pine Tree Forest",
+    "color": null,
+    "amount": 100000000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Getting Stumped",
+  "id": "Getting Stumped",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 150000000,
+  "items": {
+   "Ticket": 5,
+   "Treat": 10000,
+   "Gumdrops": 50,
+   "JellyBeans": 10,
+   "GiftedSilver": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": null,
+    "amount": 500000000
+   },
+   {
+    "field": "Stump Field",
+    "color": null,
+    "amount": 300000000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Weed Wacker 3",
+  "id": "Weed Wacker 3",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 20,
+  "honey": 175000000,
+  "items": {
+   "Ticket": 5,
+   "Treat": 11000,
+   "MagicBean": 3,
+   "Gumdrops": 25,
+   "Bitterberry": 25
+  },
+  "pollen": [
+   {
+    "field": "Pepper Patch",
+    "color": null,
+    "amount": 400000000
+   },
+   {
+    "field": "Bamboo Field",
+    "color": null,
+    "amount": 200000000
+   },
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 100000000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "All-Whitey Then",
+  "id": "All-Whitey Then",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 25,
+  "honey": 200000000,
+  "items": {
+   "Ticket": 5,
+   "Treat": 12500,
+   "Glue": 1,
+   "Glitter": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 600000000
+   },
+   {
+    "field": "Spider Field",
+    "color": null,
+    "amount": 60000000
+   },
+   {
+    "field": "Dandelion Field",
+    "color": null,
+    "amount": 40000000
+   },
+   {
+    "field": "Cactus Field",
+    "color": "white",
+    "amount": 10000000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Red Delicacy",
+  "id": "Red Delicacy",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 30,
+  "honey": 250000000,
+  "items": {
+   "Ticket": 5,
+   "Treat": 15000,
+   "JellyBeans": 3,
+   "MoonCharm": 50,
+   "Strawberry": 75
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "red",
+    "amount": 700000000
+   },
+   {
+    "field": "Strawberry Field",
+    "color": "red",
+    "amount": 150000000
+   },
+   {
+    "field": "Pumpkin Patch",
+    "color": "red",
+    "amount": 50000000
+   },
+   {
+    "field": "Coconut Field",
+    "color": "red",
+    "amount": 25000000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Boss Battles",
+  "id": "Boss Battles",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 50,
+  "honey": 300000000,
+  "items": {
+   "Ticket": 5,
+   "Treat": 20000,
+   "Box-O-Frogs": 3,
+   "MagicBean": 3,
+   "TropicalDrink": 3
+  },
+  "pollen": [
+   {
+    "field": "Coconut Field",
+    "color": null,
+    "amount": 600000000
+   },
+   {
+    "field": "Stump Field",
+    "color": null,
+    "amount": 600000000
+   },
+   {
+    "field": "Ant Field",
+    "color": null,
+    "amount": 25000000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Black Bear",
+  "name": "Myth In The Making",
+  "id": "MythITM",
+  "file": "BlackBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 500000000,
+  "items": {
+   "Ticket": 5,
+   "Treat": 50000,
+   "Mythic": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "red",
+    "amount": 1000000000
+   },
+   {
+    "field": null,
+    "color": "blue",
+    "amount": 1000000000
+   },
+   {
+    "field": "Sunflower Field",
+    "color": null,
+    "amount": 50000000
+   },
+   {
+    "field": "Dandelion Field",
+    "color": null,
+    "amount": 50000000
+   },
+   {
+    "field": "Mushroom Field",
+    "color": null,
+    "amount": 50000000
+   },
+   {
+    "field": "Blue Flower Field",
+    "color": null,
+    "amount": 50000000
+   },
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 50000000
+   },
+   {
+    "field": "Strawberry Field",
+    "color": null,
+    "amount": 50000000
+   },
+   {
+    "field": "Spider Field",
+    "color": null,
+    "amount": 50000000
+   },
+   {
+    "field": "Bamboo Field",
+    "color": null,
+    "amount": 50000000
+   },
+   {
+    "field": "Pineapple Patch",
+    "color": null,
+    "amount": 50000000
+   },
+   {
+    "field": "Stump Field",
+    "color": null,
+    "amount": 50000000
+   },
+   {
+    "field": "Cactus Field",
+    "color": null,
+    "amount": 50000000
+   },
+   {
+    "field": "Pumpkin Patch",
+    "color": null,
+    "amount": 50000000
+   },
+   {
+    "field": "Pine Tree Forest",
+    "color": null,
+    "amount": 50000000
+   },
+   {
+    "field": "Rose Field",
+    "color": null,
+    "amount": 50000000
+   },
+   {
+    "field": "Mountain Top Field",
+    "color": null,
+    "amount": 50000000
+   },
+   {
+    "field": "Pepper Patch",
+    "color": null,
+    "amount": 50000000
+   },
+   {
+    "field": "Coconut Field",
+    "color": null,
+    "amount": 50000000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Brown Bear",
+  "name": "Commando Chick's Hideout",
+  "id": "Commando Chick's Hideout",
+  "file": "BrownBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 5,
+   "RoyalJelly": 1,
+   "FieldDice": 1,
+   "Gumdrops": 25
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Have Flags",
+   "Capture Chicks"
+  ]
+ },
+ {
+  "giver": "Brown Bear",
+  "name": "Brown Bear's Ornament",
+  "id": "Brown Bear's Ornament",
+  "file": "BrownBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 5,
+   "RoyalJelly": 1
+  },
+  "pollen": [
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 25000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Brown Bear",
+  "name": "Egg Hunt: Brown Bear",
+  "id": "Egg Hunt: Brown Bear",
+  "file": "BrownBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "MarshmallowBee": 1,
+   "Micro-Converter": 3,
+   "RoyalJelly": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Have Items"
+  ]
+ },
+ {
+  "giver": "Brown Bear",
+  "name": "SunBearWait3",
+  "id": "SunBearWait3",
+  "file": "BrownBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 20,
+   "Enzymes": 5,
+   "RedBalloon": 1,
+   "StarJelly": 1
+  },
+  "pollen": [
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 12500000
+   },
+   {
+    "field": null,
+    "color": null,
+    "amount": 5000000
+   }
+  ],
+  "otherTasks": [
+   "Earn Badges",
+   "Use Items",
+   "Collect Tokens",
+   "Collect Items",
+   "Collect Items",
+   "Collect Items",
+   "Collect Items",
+   "Have Total",
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Bubble Bee Man",
+  "name": "B.B.M. Mission",
+  "id": "B.B.M. Mission",
+  "file": "BubbleBeeMan2Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [],
+  "otherTasks": [
+   "Deliver Presents",
+   "Complete Quests",
+   "Complete Quests",
+   "Collect Tokens",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Gifted Bucko Bee",
+  "name": "Bucko Bee's Ornament",
+  "id": "Bucko Bee's Ornament",
+  "file": "BuckoBeeInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 5,
+   "BlueExtract": 5
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "blue",
+    "amount": 250000000
+   },
+   {
+    "field": "Cactus Field",
+    "color": "blue",
+    "amount": 100000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Use Toy"
+  ]
+ },
+ {
+  "giver": "Gifted Bucko Bee",
+  "name": "Egg Hunt: Bucko Bee",
+  "id": "Egg Hunt: Bucko Bee",
+  "file": "BuckoBeeInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "MarshmallowBee": 5,
+   "BlueExtract": 10,
+   "MoonCharm": 50,
+   "Micro-Converter": 15,
+   "JellyBeans": 5,
+   "Blue Flower Field Boost": 5
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Dapper Bear",
+  "name": "Barter For The Blue Drive",
+  "id": "GetBlueDrive",
+  "file": "DapperBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "TicketPlanter": 1,
+   "SwirledWax": 1,
+   "ComfortingVial": 1,
+   "BlueDrive": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Have Total",
+   "Have Total",
+   "Have Total",
+   "Have Total",
+   "Deal Damage To A Single Puffshroom"
+  ]
+ },
+ {
+  "giver": "Gummy Bear",
+  "name": "Begin The Goo Invasion",
+  "id": "Begin The Goo Invasion",
+  "file": "GummyBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Gumdrops": 1,
+   "Ticket": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Goo"
+  ]
+ },
+ {
+  "giver": "Gummy Bear",
+  "name": "Patient Plundering",
+  "id": "Patient Plundering",
+  "file": "GummyBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Gumdrops": 1,
+   "Ticket": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Goo"
+  ]
+ },
+ {
+  "giver": "Gummy Bear",
+  "name": "Piecewise Invasion",
+  "id": "Piecewise Invasion",
+  "file": "GummyBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Gumdrops": 1,
+   "Ticket": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Goo"
+  ]
+ },
+ {
+  "giver": "Gummy Bear",
+  "name": "Colorful Conquest",
+  "id": "Colorful Conquest",
+  "file": "GummyBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Gumdrops": 1,
+   "Ticket": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Goo",
+   "Collect Goo",
+   "Collect Goo"
+  ]
+ },
+ {
+  "giver": "Gummy Bear",
+  "name": "Stickier Than Spider Webs",
+  "id": "Stickier Than Spider Webs",
+  "file": "GummyBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "RoyalJelly": 1,
+   "Gumdrops": 1,
+   "Ticket": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Goo",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Gummy Bear",
+  "name": "Four Front Assault",
+  "id": "Four Front Assault",
+  "file": "GummyBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Gumdrops": 1,
+   "Ticket": 2
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Goo",
+   "Collect Goo",
+   "Collect Goo",
+   "Collect Goo",
+   "Collect Goo"
+  ]
+ },
+ {
+  "giver": "Gummy Bear",
+  "name": "Total Gummification",
+  "id": "Total Gummification",
+  "file": "GummyBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Gumdrops": 1,
+   "Ticket": 2
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Goo"
+  ]
+ },
+ {
+  "giver": "Gummy Bear",
+  "name": "Artillery Lessons: Slingshot",
+  "id": "Artillery Lessons: Slingshot",
+  "file": "GummyBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Gumdrops": 1,
+   "Ticket": 2
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens",
+   "Use Toy",
+   "Collect Goo"
+  ]
+ },
+ {
+  "giver": "Gummy Bear",
+  "name": "GOO Away, Bugs",
+  "id": "GOO Away, Bugs",
+  "file": "GummyBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Gumdrops": 1,
+   "Ticket": 2
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Goo",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Gummy Bear",
+  "name": "Colorful Conquest 2",
+  "id": "Colorful Conquest 2",
+  "file": "GummyBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "RoyalJelly": 2,
+   "Gumdrops": 1,
+   "Ticket": 2
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Use Toy",
+   "Collect Goo",
+   "Collect Goo",
+   "Collect Goo"
+  ]
+ },
+ {
+  "giver": "Gummy Bear",
+  "name": "Artillery Lessons: Yellow Cannon",
+  "id": "Artillery Lessons: Yellow Cannon",
+  "file": "GummyBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Gumdrops": 1,
+   "Ticket": 3
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens",
+   "Use Toy",
+   "Collect Goo"
+  ]
+ },
+ {
+  "giver": "Gummy Bear",
+  "name": "Peace Through Goo-nity",
+  "id": "Peace Through Goo-nity",
+  "file": "GummyBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Gumdrops": 1,
+   "Ticket": 4
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Goo",
+   "Collect Goo",
+   "Collect Goo"
+  ]
+ },
+ {
+  "giver": "Gummy Bear",
+  "name": "Artillery Lessons: Blue Cannon",
+  "id": "Artillery Lessons: Blue Cannon",
+  "file": "GummyBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Gumdrops": 1,
+   "Ticket": 4
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens",
+   "Use Toy",
+   "Collect Goo",
+   "Collect Goo",
+   "Collect Goo"
+  ]
+ },
+ {
+  "giver": "Gummy Bear",
+  "name": "Goo-ing Goo-mmando",
+  "id": "Goo-ing Goo-mmando",
+  "file": "GummyBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Gumdrops": 1,
+   "Ticket": 5
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Goo",
+   "Use Toy",
+   "Use Toy",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Gummy Bear",
+  "name": "Candy Conquest",
+  "id": "Candy Conquest",
+  "file": "GummyBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "GummyBee": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Goo",
+   "Collect Goo",
+   "Collect Goo",
+   "Collect Goo",
+   "Collect Goo",
+   "Collect Goo",
+   "Use Toy",
+   "Use Toy",
+   "Use Toy"
+  ]
+ },
+ {
+  "giver": "Mother Bear",
+  "name": "Search For A Spotted Chick",
+  "id": "Search For A Spotted Chick",
+  "file": "MotherBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 5,
+   "Micro-Converter": 5,
+   "MoonCharm": 5
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Use Items",
+   "Have Bees",
+   "Capture Chicks"
+  ]
+ },
+ {
+  "giver": "Mother Bear",
+  "name": "Mother Bear's Ornament",
+  "id": "Mother Bear's Ornament",
+  "file": "MotherBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 5,
+   "Strawberry": 25
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "red",
+    "amount": 5000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Use Items"
+  ]
+ },
+ {
+  "giver": "Mother Bear",
+  "name": "Egg Hunt: Mother Bear",
+  "id": "Egg Hunt: Mother Bear",
+  "file": "MotherBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "MarshmallowBee": 1,
+   "Treat": 10,
+   "JellyBeans": 3
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Mother Bear",
+  "name": "SunBearWait2",
+  "id": "SunBearWait2",
+  "file": "MotherBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 15,
+   "Glitter": 1,
+   "PinkBalloon": 1,
+   "JellyBeans": 10
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Earn Badges",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Use Items",
+   "Use Items",
+   "Obtain To Give"
+  ]
+ },
+ {
+  "giver": "Mother Bear",
+  "name": "SunBearWait5",
+  "id": "SunBearWait5",
+  "file": "MotherBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 50,
+   "MarshmallowBee": 3,
+   "Glitter": 3,
+   "PinkBalloon": 1,
+   "SwirledWax": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": null,
+    "amount": 50000000
+   },
+   {
+    "field": "Mountain Top Field",
+    "color": null,
+    "amount": 80000000
+   },
+   {
+    "field": "Sunflower Field",
+    "color": null,
+    "amount": 40000000
+   }
+  ],
+  "otherTasks": [
+   "Earn Badges",
+   "Have Flags",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Have Total",
+   "Collect Items",
+   "Use Items",
+   "Use Items",
+   "Obtain To Give",
+   "Obtain To Give"
+  ]
+ },
+ {
+  "giver": "Mother Bear",
+  "name": "Treat Tutorial",
+  "id": "Treat Tutorial",
+  "file": "MotherBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Treat": 3,
+   "Ticket": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Have Bees",
+   "Use Items"
+  ]
+ },
+ {
+  "giver": "Mother Bear",
+  "name": "Bonding With Bees",
+  "id": "Bonding With Bees",
+  "file": "MotherBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Treat": 3,
+   "Ticket": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Have Bees",
+   "Have Bees",
+   "Use Items"
+  ]
+ },
+ {
+  "giver": "Mother Bear",
+  "name": "Search For A Sunflower Seed",
+  "id": "Search For A Sunflower Seed",
+  "file": "MotherBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Treat": 3,
+   "Ticket": 2
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Have Bees",
+   "Use Items",
+   "Use Items"
+  ]
+ },
+ {
+  "giver": "Mother Bear",
+  "name": "The Gist Of Jellies",
+  "id": "The Gist Of Jellies",
+  "file": "MotherBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Treat": 5,
+   "Ticket": 2
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Have Bees",
+   "Use Items",
+   "Use Items"
+  ]
+ },
+ {
+  "giver": "Mother Bear",
+  "name": "Search For Strawberries",
+  "id": "Search For Strawberries",
+  "file": "MotherBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Treat": 5,
+   "Ticket": 3
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Have Bees",
+   "Have Bees",
+   "Use Items",
+   "Use Items"
+  ]
+ },
+ {
+  "giver": "Mother Bear",
+  "name": "Binging On Blueberries",
+  "id": "Binging On Blueberries",
+  "file": "MotherBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Treat": 10,
+   "Ticket": 3
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Have Bees",
+   "Use Items",
+   "Use Items"
+  ]
+ },
+ {
+  "giver": "Mother Bear",
+  "name": "Royal Jelly Jamboree",
+  "id": "Royal Jelly Jamboree",
+  "file": "MotherBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Treat": 20,
+   "Ticket": 4
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Have Bees",
+   "Have Bees",
+   "Use Items",
+   "Use Items"
+  ]
+ },
+ {
+  "giver": "Mother Bear",
+  "name": "Search For Sunflower Seeds",
+  "id": "Search For Sunflower Seeds",
+  "file": "MotherBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Treat": 30,
+   "Ticket": 4,
+   "RoyalJelly": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Have Bees",
+   "Use Items",
+   "Use Items"
+  ]
+ },
+ {
+  "giver": "Mother Bear",
+  "name": "Picking Out Pineapples",
+  "id": "Picking Out Pineapples",
+  "file": "MotherBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Treat": 40,
+   "Ticket": 5,
+   "RoyalJelly": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Have Bees",
+   "Have Bees",
+   "Have Bees",
+   "Use Items",
+   "Use Items"
+  ]
+ },
+ {
+  "giver": "Mother Bear",
+  "name": "Seven To Seven",
+  "id": "Seven To Seven",
+  "file": "MotherBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Star": 1,
+   "Treat": 50,
+   "Ticket": 6,
+   "RoyalJelly": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Have Bees",
+   "Use Items",
+   "Use Items",
+   "Use Items"
+  ]
+ },
+ {
+  "giver": "Mother Bear",
+  "name": "Mother Bear's Midterm",
+  "id": "Mother Bear's Midterm",
+  "file": "MotherBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Treat": 100,
+   "Ticket": 7,
+   "RoyalJelly": 2
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Have Bees",
+   "Have Bees",
+   "Have Bees",
+   "Use Items",
+   "Use Items",
+   "Use Items",
+   "Use Items",
+   "Use Items"
+  ]
+ },
+ {
+  "giver": "Mother Bear",
+  "name": "Eight To Eight",
+  "id": "Eight To Eight",
+  "file": "MotherBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Treat": 250,
+   "Ticket": 8,
+   "RoyalJelly": 3
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Have Bees",
+   "Use Items",
+   "Use Items",
+   "Use Items"
+  ]
+ },
+ {
+  "giver": "Mother Bear",
+  "name": "Sights On The Stars",
+  "id": "Sights On The Stars",
+  "file": "MotherBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Treat": 1000,
+   "Ticket": 9,
+   "RoyalJelly": 4
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Have Bees",
+   "Use Items",
+   "Use Items"
+  ]
+ },
+ {
+  "giver": "Mother Bear",
+  "name": "The Family Final",
+  "id": "The Family Final",
+  "file": "MotherBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "StarTreat": 1,
+   "Treat": 2500,
+   "Ticket": 10,
+   "RoyalJelly": 5
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Have Bees",
+   "Have Bees",
+   "Have Bees",
+   "Use Items",
+   "Use Items",
+   "Use Items",
+   "Use Items",
+   "Use Items"
+  ]
+ },
+ {
+  "giver": "Onett",
+  "name": "Star Journey 1",
+  "id": "Star Journey 1",
+  "file": "Onett1Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "RoyalJelly": 25,
+   "Treat": 1000,
+   "Ticket": 10,
+   "Pineapple": 25
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 25000000
+   },
+   {
+    "field": "Pumpkin Patch",
+    "color": null,
+    "amount": 10000000
+   },
+   {
+    "field": "Pineapple Patch",
+    "color": null,
+    "amount": 5000000
+   },
+   {
+    "field": "Dandelion Field",
+    "color": null,
+    "amount": 2500000
+   }
+  ],
+  "otherTasks": [
+   "Collect Goo",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Onett",
+  "name": "Star Journey 2",
+  "id": "Star Journey 2",
+  "file": "Onett1Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "RoyalJelly": 50,
+   "Treat": 2000,
+   "Ticket": 15
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "red",
+    "amount": 50000000
+   },
+   {
+    "field": "Rose Field",
+    "color": null,
+    "amount": 25000000
+   },
+   {
+    "field": "Strawberry Field",
+    "color": null,
+    "amount": 12500000
+   },
+   {
+    "field": "Mushroom Field",
+    "color": null,
+    "amount": 6250000
+   }
+  ],
+  "otherTasks": [
+   "Collect Goo",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Use Toy",
+   "Use Toy"
+  ]
+ },
+ {
+  "giver": "Onett",
+  "name": "Star Journey 3",
+  "id": "Star Journey 3",
+  "file": "Onett1Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "RoyalJelly": 75,
+   "Treat": 5000,
+   "Ticket": 20
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "blue",
+    "amount": 100000000
+   },
+   {
+    "field": "Pine Tree Forest",
+    "color": null,
+    "amount": 50000000
+   },
+   {
+    "field": "Bamboo Field",
+    "color": null,
+    "amount": 25000000
+   },
+   {
+    "field": "Blue Flower Field",
+    "color": null,
+    "amount": 12500000
+   }
+  ],
+  "otherTasks": [
+   "Collect Goo",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Use Toy",
+   "Use Toy"
+  ]
+ },
+ {
+  "giver": "Onett",
+  "name": "Star Journey 4",
+  "id": "Star Journey 4",
+  "file": "Onett1Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "RoyalJelly": 100,
+   "Treat": 7000,
+   "Ticket": 25
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 250000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Goo",
+   "Collect Goo",
+   "Collect Goo",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Onett",
+  "name": "Star Journey 5",
+  "id": "Star Journey 5",
+  "file": "Onett1Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Treat": 10000,
+   "Ticket": 50,
+   "StarTreat": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 1000000000
+   },
+   {
+    "field": null,
+    "color": "red",
+    "amount": 1000000000
+   },
+   {
+    "field": null,
+    "color": "blue",
+    "amount": 1000000000
+   },
+   {
+    "field": "Spider Field",
+    "color": null,
+    "amount": 100000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Goo",
+   "Collect Goo",
+   "Collect Goo",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Panda Bear",
+  "name": "Ready For The Red Drive?",
+  "id": "GetRedDrive",
+  "file": "PandaBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Stinger": 25,
+   "LoadedDice": 3,
+   "RedDrive": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Have Total",
+   "Get Score",
+   "Get Score",
+   "Have Total",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Panda Bear",
+  "name": "Hostage Rescue",
+  "id": "Hostage Rescue",
+  "file": "PandaBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 5,
+   "AntPass": 3,
+   "Box-O-Frogs": 3,
+   "Coconut": 25
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Capture Chicks"
+  ]
+ },
+ {
+  "giver": "Panda Bear",
+  "name": "Panda Bear's Ornament",
+  "id": "Panda Bear's Ornament",
+  "file": "PandaBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 5,
+   "AntPass": 1
+  },
+  "pollen": [
+   {
+    "field": "Bamboo Field",
+    "color": null,
+    "amount": 100000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens",
+   "Earn Badges"
+  ]
+ },
+ {
+  "giver": "Panda Bear",
+  "name": "Egg Hunt: Panda Bear",
+  "id": "Egg Hunt: Panda Bear",
+  "file": "PandaBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "MarshmallowBee": 2,
+   "Stinger": 10,
+   "JellyBeans": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Panda Bear",
+  "name": "Ant Arrival",
+  "id": "Ant Arrival",
+  "file": "PandaBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 1,
+   "AntPass": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Panda Bear",
+  "name": "Winged Wack Attack",
+  "id": "Winged Wack Attack",
+  "file": "PandaBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 1,
+   "AntPass": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Panda Bear",
+  "name": "Fire Fighter",
+  "id": "Fire Fighter",
+  "file": "PandaBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "RoyalJelly": 1,
+   "Ticket": 1,
+   "AntPass": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Panda Bear",
+  "name": "Army Ant Assault",
+  "id": "Army Ant Assault",
+  "file": "PandaBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "RoyalJelly": 1,
+   "Ticket": 1,
+   "AntPass": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Panda Bear",
+  "name": "Colossal Combat",
+  "id": "Colossal Combat",
+  "file": "PandaBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 1,
+   "AntPass": 1,
+   "Diamond": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Defeat Monsters",
+   "Get Score"
+  ]
+ },
+ {
+  "giver": "Panda Bear",
+  "name": "Eager Exterminator",
+  "id": "Eager Exterminator",
+  "file": "PandaBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "RoyalJelly": 3,
+   "Ticket": 6,
+   "AntPass": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Panda Bear",
+  "name": "Leaper Lickin'",
+  "id": "Leaper Lickin'",
+  "file": "PandaBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "RoyalJelly": 3,
+   "Ticket": 7,
+   "AntPass": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Panda Bear",
+  "name": "Colossal Combat 2",
+  "id": "Colossal Combat 2",
+  "file": "PandaBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "RoyalJelly": 3,
+   "Ticket": 8,
+   "AntPass": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Panda Bear",
+  "name": "Outrageous Onslaught",
+  "id": "Outrageous Onslaught",
+  "file": "PandaBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "RoyalJelly": 3,
+   "Ticket": 9,
+   "AntPass": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Panda Bear",
+  "name": "Royal Rumble",
+  "id": "Royal Rumble",
+  "file": "PandaBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "RoyalJelly": 3,
+   "Ticket": 10,
+   "AntPass": 1,
+   "Star": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Get Score"
+  ]
+ },
+ {
+  "giver": "Panda Bear",
+  "name": "Ultimate Ant Annihilation 1",
+  "id": "Ultimate Ant Annihilation 1",
+  "file": "PandaBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "RoyalJelly": 5,
+   "Ticket": 11,
+   "AntPass": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Panda Bear",
+  "name": "Ultimate Ant Annihilation 2",
+  "id": "Ultimate Ant Annihilation 2",
+  "file": "PandaBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "RoyalJelly": 6,
+   "Ticket": 12,
+   "AntPass": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Panda Bear",
+  "name": "Ultimate Ant Annihilation 3",
+  "id": "Ultimate Ant Annihilation 3",
+  "file": "PandaBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "RoyalJelly": 7,
+   "Ticket": 13,
+   "AntPass": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Panda Bear",
+  "name": "Ultimate Ant Annihilation 4",
+  "id": "Ultimate Ant Annihilation 4",
+  "file": "PandaBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "RoyalJelly": 8,
+   "Ticket": 14,
+   "AntPass": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Panda Bear",
+  "name": "Ultimate Ant Annihilation 5",
+  "id": "Ultimate Ant Annihilation 5",
+  "file": "PandaBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 25,
+   "StarTreat": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Get Score"
+  ]
+ },
+ {
+  "giver": "Polar Bear",
+  "name": "Pumpkin Pest Control",
+  "id": "Pumpkin Pest Control",
+  "file": "PolarBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 5,
+   "MagicBean": 1,
+   "Oil": 1,
+   "Pineapple": 25
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Goo",
+   "Capture Chicks"
+  ]
+ },
+ {
+  "giver": "Polar Bear",
+  "name": "Polar Bear's Ornament",
+  "id": "Polar Bear's Ornament",
+  "file": "PolarBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 5,
+   "Oil": 2
+  },
+  "pollen": [
+   {
+    "field": "Pumpkin Patch",
+    "color": null,
+    "amount": 500000
+   },
+   {
+    "field": "Blue Flower Field",
+    "color": null,
+    "amount": 200000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Polar Bear",
+  "name": "Egg Hunt: Polar Bear",
+  "id": "Egg Hunt: Polar Bear",
+  "file": "PolarBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "MarshmallowBee": 3,
+   "JellyBeans": 5,
+   "Polar Power": 5
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Goo",
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Polar Bear",
+  "name": "SunBearWait4",
+  "id": "SunBearWait4",
+  "file": "PolarBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 25,
+   "Oil": 5,
+   "WhiteBalloon": 1,
+   "CausticWax": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 60000000
+   }
+  ],
+  "otherTasks": [
+   "Earn Badges",
+   "Have Total",
+   "Collect Items",
+   "Collect Items",
+   "Collect Items",
+   "Defeat Puffshrooms",
+   "Defeat Puffshrooms",
+   "Defeat Monsters",
+   "Obtain To Give"
+  ]
+ },
+ {
+  "giver": "Gifted Riley Bee",
+  "name": "Riley Bee's Ornament",
+  "id": "Riley Bee's Ornament",
+  "file": "RileyBeeInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 5,
+   "RedExtract": 5
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "red",
+    "amount": 250000000
+   },
+   {
+    "field": "Cactus Field",
+    "color": "red",
+    "amount": 100000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Use Toy"
+  ]
+ },
+ {
+  "giver": "Gifted Riley Bee",
+  "name": "Egg Hunt: Riley Bee",
+  "id": "Egg Hunt: Riley Bee",
+  "file": "RileyBeeInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "MarshmallowBee": 5,
+   "RedExtract": 10,
+   "Stinger": 10,
+   "FieldDice": 5,
+   "JellyBeans": 5,
+   "Mushroom Field Boost": 5
+  },
+  "pollen": [
+   {
+    "field": "Clover Field",
+    "color": "red",
+    "amount": 2500000
+   }
+  ],
+  "otherTasks": [
+   "Collect Goo",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Repairing The White Drive",
+  "id": "GetWhiteDrive",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 25,
+   "AtomicTreat": 1,
+   "WhiteBalloon": 1,
+   "WhiteDrive": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Have Total",
+   "Have Total",
+   "Collect Tokens",
+   "Have Total",
+   "Use Toy",
+   "Have Items",
+   "Have Items",
+   "Have Items"
+  ]
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Corrupting The Glitched Drive",
+  "id": "GetGlitchedDrive",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 31415,
+  "items": {},
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens",
+   "Have Total",
+   "Have Total",
+   "Have Total",
+   "Craft Ingredients",
+   "Defeat Monsters",
+   "Have Items",
+   "Have Items",
+   "Have Items"
+  ]
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Science Bear's Ornament",
+  "id": "Science Bear's Ornament",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 5,
+   "Enzymes": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 150000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Match Pairs",
+   "Earn Badges"
+  ]
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Egg Hunt: Science Bear",
+  "id": "Egg Hunt: Science Bear",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "MarshmallowBee": 3,
+   "Gumdrops": 50,
+   "JellyBeans": 3,
+   "Micro-Converter": 5
+  },
+  "pollen": [
+   {
+    "field": "Pineapple Patch",
+    "color": null,
+    "amount": 8000
+   },
+   {
+    "field": "Spider Field",
+    "color": null,
+    "amount": 4000
+   },
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 2000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Preliminary Research",
+  "id": "Preliminary Research",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 20000
+   },
+   {
+    "field": "Strawberry Field",
+    "color": null,
+    "amount": 10000
+   },
+   {
+    "field": "Bamboo Field",
+    "color": null,
+    "amount": 10000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Biology Study",
+  "id": "Biology Study",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": null,
+    "color": "red",
+    "amount": 30000
+   },
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 20000
+   }
+  ],
+  "otherTasks": [
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Proving The Hypothesis",
+  "id": "Proving The Hypothesis",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": null,
+    "color": "blue",
+    "amount": 35000
+   },
+   {
+    "field": "Pineapple Patch",
+    "color": null,
+    "amount": 35000
+   }
+  ],
+  "otherTasks": [
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Bear Botany",
+  "id": "Bear Botany",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Dandelion Field",
+    "color": null,
+    "amount": 25000
+   },
+   {
+    "field": "Sunflower Field",
+    "color": null,
+    "amount": 25000
+   },
+   {
+    "field": "Blue Flower Field",
+    "color": null,
+    "amount": 25000
+   }
+  ],
+  "otherTasks": [
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Kingdom Collection",
+  "id": "Kingdom Collection",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Bamboo Field",
+    "color": null,
+    "amount": 75000
+   },
+   {
+    "field": "Mushroom Field",
+    "color": null,
+    "amount": 35000
+   }
+  ],
+  "otherTasks": [
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Defensive Adaptations",
+  "id": "Defensive Adaptations",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Cactus Field",
+    "color": null,
+    "amount": 60000
+   },
+   {
+    "field": "Rose Field",
+    "color": null,
+    "amount": 60000
+   }
+  ],
+  "otherTasks": [
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Benefits of Technology",
+  "id": "Benefits of Technology",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Pumpkin Patch",
+    "color": null,
+    "amount": 75000
+   },
+   {
+    "field": "Pine Tree Forest",
+    "color": null,
+    "amount": 75000
+   }
+  ],
+  "otherTasks": [
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Spider Study",
+  "id": "Spider Study",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 120000
+   }
+  ],
+  "otherTasks": [
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Roses And Weeds",
+  "id": "Roses And Weeds",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Rose Field",
+    "color": null,
+    "amount": 100000
+   },
+   {
+    "field": "Dandelion Field",
+    "color": null,
+    "amount": 30000
+   }
+  ],
+  "otherTasks": [
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Blue Review",
+  "id": "Blue Review",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Pine Tree Forest",
+    "color": null,
+    "amount": 115000
+   },
+   {
+    "field": "Blue Flower Field",
+    "color": null,
+    "amount": 35000
+   }
+  ],
+  "otherTasks": [
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Ongoing Progress",
+  "id": "Ongoing Progress",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 125000
+   },
+   {
+    "field": "Strawberry Field",
+    "color": null,
+    "amount": 65000
+   },
+   {
+    "field": "Cactus Field",
+    "color": null,
+    "amount": 65000
+   }
+  ],
+  "otherTasks": [
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Red / Blue Duality",
+  "id": "Red / Blue Duality",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": null,
+    "color": "red",
+    "amount": 240000
+   },
+   {
+    "field": null,
+    "color": "blue",
+    "amount": 240000
+   },
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 240000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Costs Of Computation",
+  "id": "Costs Of Computation",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Pumpkin Patch",
+    "color": null,
+    "amount": 422000
+   },
+   {
+    "field": "Spider Field",
+    "color": null,
+    "amount": 244000
+   }
+  ],
+  "otherTasks": [
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Pollination Practice",
+  "id": "Pollination Practice",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": null,
+    "color": null,
+    "amount": 870000
+   },
+   {
+    "field": "Pineapple Patch",
+    "color": null,
+    "amount": 435000
+   }
+  ],
+  "otherTasks": [
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Optimizing Abilities",
+  "id": "Optimizing Abilities",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": null,
+    "color": "blue",
+    "amount": 820020
+   },
+   {
+    "field": null,
+    "color": "white",
+    "amount": 720020
+   },
+   {
+    "field": "Sunflower Field",
+    "color": null,
+    "amount": 320020
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Ready For Infrared",
+  "id": "Ready For Infrared",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": null,
+    "color": "red",
+    "amount": 1818181
+   },
+   {
+    "field": "Strawberry Field",
+    "color": null,
+    "amount": 636363
+   },
+   {
+    "field": "Mushroom Field",
+    "color": null,
+    "amount": 424242
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Breaking Down Badges",
+  "id": "Breaking Down Badges",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Bamboo Field",
+    "color": null,
+    "amount": 2525252
+   }
+  ],
+  "otherTasks": [
+   "Earn Badges",
+   "Earn Badges",
+   "Earn Badges",
+   "Collect Tokens",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Subsidized Agriculture",
+  "id": "Subsidized Agriculture",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Meticulously Crafted",
+  "id": "Meticulously Crafted",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Pumpkin Patch",
+    "color": null,
+    "amount": 3333333
+   },
+   {
+    "field": "Cactus Field",
+    "color": null,
+    "amount": 3333333
+   }
+  ],
+  "otherTasks": [
+   "Earn Badges",
+   "Craft Ingredients"
+  ]
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Smart, Not Hard",
+  "id": "Smart, Not Hard",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 4444444
+   },
+   {
+    "field": null,
+    "color": "blue",
+    "amount": 4444444
+   },
+   {
+    "field": null,
+    "color": "red",
+    "amount": 4444444
+   }
+  ],
+  "otherTasks": [
+   "Use Toy",
+   "Use Toy",
+   "Use Toy",
+   "Craft Ingredients"
+  ]
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Limits of Language",
+  "id": "Limits of Language",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Dandelion Field",
+    "color": null,
+    "amount": 5000000
+   }
+  ],
+  "otherTasks": [
+   "Earn Badges",
+   "Collect Tokens",
+   "Craft Ingredients",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Patterns and Probability",
+  "id": "Patterns and Probability",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 7777777
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Defeat Monsters",
+   "Craft Ingredients",
+   "Use Items"
+  ]
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Chemical Analysis",
+  "id": "Chemical Analysis",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Sunflower Field",
+    "color": null,
+    "amount": 2700000
+   },
+   {
+    "field": "Blue Flower Field",
+    "color": null,
+    "amount": 2700000
+   }
+  ],
+  "otherTasks": [
+   "Collect Goo",
+   "Collect Goo",
+   "Collect Goo",
+   "Collect Goo",
+   "Craft Ingredients",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Mark Mechanics",
+  "id": "Mark Mechanics",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Pine Tree Forest",
+    "color": null,
+    "amount": 28282828
+   },
+   {
+    "field": "Mushroom Field",
+    "color": null,
+    "amount": 2828282
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Defeat Monsters",
+   "Craft Ingredients",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Meditating On Phenomenon",
+  "id": "Meditating On Phenomenon",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 2000000
+   },
+   {
+    "field": "Spider Field",
+    "color": null,
+    "amount": 2000000
+   },
+   {
+    "field": "Bamboo Field",
+    "color": null,
+    "amount": 2000000
+   },
+   {
+    "field": "Strawberry Field",
+    "color": null,
+    "amount": 2000000
+   },
+   {
+    "field": "Pineapple Patch",
+    "color": null,
+    "amount": 2000000
+   },
+   {
+    "field": "Pumpkin Patch",
+    "color": null,
+    "amount": 2000000
+   },
+   {
+    "field": "Cactus Field",
+    "color": null,
+    "amount": 2000000
+   },
+   {
+    "field": "Rose Field",
+    "color": null,
+    "amount": 2000000
+   },
+   {
+    "field": "Pine Tree Forest",
+    "color": null,
+    "amount": 2000000
+   },
+   {
+    "field": "Mountain Top Field",
+    "color": null,
+    "amount": 2000000
+   },
+   {
+    "field": null,
+    "color": "red",
+    "amount": 20000000
+   },
+   {
+    "field": null,
+    "color": "blue",
+    "amount": 20000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Craft Ingredients",
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Beesperanto",
+  "id": "Beesperanto",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 40000000
+   }
+  ],
+  "otherTasks": [
+   "Have Bees",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Goo",
+   "Collect Goo",
+   "Collect Goo",
+   "Collect Tokens",
+   "Use Items",
+   "Craft Ingredients",
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Hive Minded Bias",
+  "id": "Hive Minded Bias",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Cactus Field",
+    "color": null,
+    "amount": 44444444
+   },
+   {
+    "field": "Spider Field",
+    "color": null,
+    "amount": 44444444
+   },
+   {
+    "field": "Ant Field",
+    "color": null,
+    "amount": 444444
+   }
+  ],
+  "otherTasks": [
+   "Use Items",
+   "Use Items",
+   "Use Items",
+   "Use Items",
+   "Collect Tokens",
+   "Defeat Monsters",
+   "Craft Ingredients",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Mushroom Measurement Monotony",
+  "id": "Mushroom Measurement Monotony",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Mushroom Field",
+    "color": null,
+    "amount": 150000000
+   }
+  ],
+  "otherTasks": []
+ },
+ {
+  "giver": "Science Bear",
+  "name": "The Power Of Information",
+  "id": "The Power Of Information",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 330000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Goo",
+   "Defeat Monsters",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Use Toy",
+   "Use Toy",
+   "Use Toy",
+   "Craft Ingredients",
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Testing Teamwork",
+  "id": "Testing Teamwork",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [],
+  "otherTasks": [
+   "Collect Goo",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Science Bear",
+  "name": "Epistemological Endeavor",
+  "id": "Epistemological Endeavor",
+  "file": "ScienceBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Sunflower Field",
+    "color": null,
+    "amount": 268435456
+   },
+   {
+    "field": "Pineapple Patch",
+    "color": null,
+    "amount": 268435456
+   },
+   {
+    "field": "Pumpkin Patch",
+    "color": null,
+    "amount": 268435456
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Use Items",
+   "Use Items",
+   "Use Items",
+   "Use Items",
+   "Craft Ingredients",
+   "Defeat Monsters",
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Spirit Bear",
+  "name": "Spirit Bear's Ornament",
+  "id": "Spirit Bear's Ornament",
+  "file": "SpiritBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 5,
+   "CloudVial": 10
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 100000000
+   },
+   {
+    "field": "Pine Tree Forest",
+    "color": null,
+    "amount": 50000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens",
+   "Match Pairs",
+   "Donate To Wind Shrine",
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Spirit Bear",
+  "name": "Spirit's Starter",
+  "id": "Spirit's Starter",
+  "file": "SpiritBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 10,
+  "honey": 25000000,
+  "items": {
+   "Glitter": 1,
+   "Micro-Converter": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 20000000
+   },
+   {
+    "field": "Mountain Top Field",
+    "color": null,
+    "amount": 50000000
+   },
+   {
+    "field": "Dandelion Field",
+    "color": null,
+    "amount": 10000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Goo",
+   "Collect Tokens",
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Spirit Bear",
+  "name": "The First Offering",
+  "id": "The First Offering",
+  "file": "SpiritBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 20,
+  "honey": 35000000,
+  "items": {
+   "Glitter": 1,
+   "MoonCharm": 5,
+   "FieldDice": 3
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 30000000
+   },
+   {
+    "field": "Pumpkin Patch",
+    "color": null,
+    "amount": 30000000
+   },
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 30000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Goo",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Donate To Wind Shrine"
+  ]
+ },
+ {
+  "giver": "Spirit Bear",
+  "name": "Rules Of The Road",
+  "id": "Rules Of The Road",
+  "file": "SpiritBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 30,
+  "honey": 40000000,
+  "items": {
+   "Glitter": 1,
+   "MoonCharm": 10,
+   "Micro-Converter": 3
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 40000000
+   },
+   {
+    "field": "Pineapple Patch",
+    "color": null,
+    "amount": 40000000
+   },
+   {
+    "field": "Rose Field",
+    "color": null,
+    "amount": 40000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Goo",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Donate To Wind Shrine"
+  ]
+ },
+ {
+  "giver": "Spirit Bear",
+  "name": "QR Quest",
+  "id": "QR Quest",
+  "file": "SpiritBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 40,
+  "honey": 45000000,
+  "items": {
+   "Glitter": 1,
+   "MoonCharm": 15,
+   "JellyBeans": 5
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 50000000
+   },
+   {
+    "field": "Bamboo Field",
+    "color": null,
+    "amount": 50000000
+   },
+   {
+    "field": "Spider Field",
+    "color": null,
+    "amount": 30000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Goo",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Donate To Wind Shrine"
+  ]
+ },
+ {
+  "giver": "Spirit Bear",
+  "name": "Pleasant Pastimes",
+  "id": "Pleasant Pastimes",
+  "file": "SpiritBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 50000000,
+  "items": {
+   "Glitter": 1,
+   "StarJelly": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 60000000
+   },
+   {
+    "field": "Pepper Patch",
+    "color": null,
+    "amount": 80000000
+   },
+   {
+    "field": "Sunflower Field",
+    "color": null,
+    "amount": 30000000
+   }
+  ],
+  "otherTasks": [
+   "Earn Badges",
+   "Collect Goo",
+   "Collect Tokens",
+   "Share Jelly Beans",
+   "Match Pairs"
+  ]
+ },
+ {
+  "giver": "Spirit Bear",
+  "name": "Nature's Lessons",
+  "id": "Nature's Lessons",
+  "file": "SpiritBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 80,
+  "honey": 60000000,
+  "items": {
+   "Glitter": 1,
+   "MoonCharm": 20,
+   "FieldDice": 3,
+   "Pineapple": 250
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 80000000
+   },
+   {
+    "field": "Pine Tree Forest",
+    "color": null,
+    "amount": 100000000
+   },
+   {
+    "field": "Mushroom Field",
+    "color": null,
+    "amount": 50000000
+   }
+  ],
+  "otherTasks": [
+   "Earn Badges",
+   "Collect Goo",
+   "Use Items",
+   "Use Items",
+   "Collect Tokens",
+   "Donate To Wind Shrine"
+  ]
+ },
+ {
+  "giver": "Spirit Bear",
+  "name": "The Gifts Of Life",
+  "id": "The Gifts Of Life",
+  "file": "SpiritBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 90,
+  "honey": 70000000,
+  "items": {
+   "Glitter": 1,
+   "MoonCharm": 25,
+   "Stinger": 10,
+   "Micro-Converter": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 100000000
+   },
+   {
+    "field": "Cactus Field",
+    "color": null,
+    "amount": 120000000
+   },
+   {
+    "field": "Strawberry Field",
+    "color": null,
+    "amount": 80000000
+   }
+  ],
+  "otherTasks": [
+   "Earn Badges",
+   "Collect Goo",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Donate To Wind Shrine"
+  ]
+ },
+ {
+  "giver": "Spirit Bear",
+  "name": "Out-Questing Questions",
+  "id": "Out-Questing Questions",
+  "file": "SpiritBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 120000000
+   },
+   {
+    "field": "Pumpkin Patch",
+    "color": null,
+    "amount": 100000000
+   },
+   {
+    "field": "Blue Flower Field",
+    "color": null,
+    "amount": 80000000
+   }
+  ],
+  "otherTasks": [
+   "Earn Badges",
+   "Collect Goo",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Donate To Wind Shrine",
+   "Match Pairs"
+  ]
+ },
+ {
+  "giver": "Spirit Bear",
+  "name": "Forcefully Friendly",
+  "id": "Forcefully Friendly",
+  "file": "SpiritBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 120,
+  "honey": 90000000,
+  "items": {
+   "Glitter": 1,
+   "MoonCharm": 25,
+   "Gumdrops": 100,
+   "Micro-Converter": 5
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 140000000
+   },
+   {
+    "field": "Rose Field",
+    "color": null,
+    "amount": 160000000
+   },
+   {
+    "field": "Pineapple Patch",
+    "color": null,
+    "amount": 60000000
+   },
+   {
+    "field": "Stump Field",
+    "color": null,
+    "amount": 20000000
+   }
+  ],
+  "otherTasks": [
+   "Earn Badges",
+   "Collect Goo",
+   "Use Items",
+   "Use Items",
+   "Complete Quests",
+   "Collect Tokens",
+   "Donate To Wind Shrine",
+   "Donate To Wind Shrine"
+  ]
+ },
+ {
+  "giver": "Spirit Bear",
+  "name": "Sway Away",
+  "id": "Sway Away",
+  "file": "SpiritBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 100000000,
+  "items": {
+   "SpiritPetal": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 150000000
+   },
+   {
+    "field": "Mountain Top Field",
+    "color": null,
+    "amount": 150000000
+   },
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 50000000
+   },
+   {
+    "field": "Sunflower Field",
+    "color": null,
+    "amount": 50000000
+   }
+  ],
+  "otherTasks": [
+   "Earn Badges",
+   "Collect Goo",
+   "Collect Tokens",
+   "Share Jelly Beans",
+   "Donate To Wind Shrine",
+   "Donate To Wind Shrine"
+  ]
+ },
+ {
+  "giver": "Spirit Bear",
+  "name": "Memories of Memories",
+  "id": "Memories of Memories",
+  "file": "SpiritBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 180000000
+   },
+   {
+    "field": "Bamboo Field",
+    "color": null,
+    "amount": 150000000
+   },
+   {
+    "field": "Spider Field",
+    "color": null,
+    "amount": 90000000
+   }
+  ],
+  "otherTasks": [
+   "Earn Badges",
+   "Collect Goo",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Donate To Wind Shrine",
+   "Use Toy",
+   "Match Pairs"
+  ]
+ },
+ {
+  "giver": "Spirit Bear",
+  "name": "Beans Becoming",
+  "id": "Beans Becoming",
+  "file": "SpiritBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 140,
+  "honey": 100000000,
+  "items": {
+   "Glitter": 2,
+   "MoonCharm": 30,
+   "Gumdrops": 250,
+   "Micro-Converter": 5,
+   "Pineapple": 500
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 200000000
+   },
+   {
+    "field": "Pumpkin Patch",
+    "color": null,
+    "amount": 160000000
+   },
+   {
+    "field": "Mushroom Field",
+    "color": null,
+    "amount": 120000000
+   }
+  ],
+  "otherTasks": [
+   "Earn Badges",
+   "Collect Goo",
+   "Collect Tokens",
+   "Use Items",
+   "Collect Tokens",
+   "Share Jelly Beans",
+   "Donate To Wind Shrine"
+  ]
+ },
+ {
+  "giver": "Spirit Bear",
+  "name": "Do You Bee-lieve In Magic?",
+  "id": "Do You Bee-lieve In Magic?",
+  "file": "SpiritBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 230000000
+   },
+   {
+    "field": "Pine Tree Forest",
+    "color": null,
+    "amount": 220000000
+   },
+   {
+    "field": "Pineapple Patch",
+    "color": null,
+    "amount": 200000000
+   }
+  ],
+  "otherTasks": [
+   "Earn Badges",
+   "Collect Goo",
+   "Collect Tokens",
+   "Use Toy",
+   "Use Toy",
+   "Use Toy",
+   "Donate To Wind Shrine"
+  ]
+ },
+ {
+  "giver": "Spirit Bear",
+  "name": "The Ways Of The Winds / The Wind And Its Ways",
+  "id": "The Ways Of The Winds / The Wind And Its Ways",
+  "file": "SpiritBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 180,
+  "honey": 100000000,
+  "items": {
+   "Glitter": 2,
+   "MoonCharm": 50,
+   "CloudVial": 1,
+   "Coconut": 25
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 250000000
+   },
+   {
+    "field": "Cactus Field",
+    "color": null,
+    "amount": 260000000
+   },
+   {
+    "field": "Blue Flower Field",
+    "color": null,
+    "amount": 180000000
+   }
+  ],
+  "otherTasks": [
+   "Earn Badges",
+   "Collect Goo",
+   "Collect Tokens",
+   "Use Items",
+   "Donate To Wind Shrine"
+  ]
+ },
+ {
+  "giver": "Spirit Bear",
+  "name": "Beauty Duty",
+  "id": "Beauty Duty",
+  "file": "SpiritBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 150000000,
+  "items": {
+   "Glitter": 2,
+   "StarJelly": 2,
+   "FieldDice": 5,
+   "Micro-Converter": 5,
+   "Coconut": 10
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 300000000
+   },
+   {
+    "field": "Coconut Field",
+    "color": null,
+    "amount": 150000000
+   },
+   {
+    "field": "Rose Field",
+    "color": null,
+    "amount": 150000000
+   },
+   {
+    "field": "Dandelion Field",
+    "color": null,
+    "amount": 100000000
+   }
+  ],
+  "otherTasks": [
+   "Earn Badges",
+   "Collect Goo",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Share Jelly Beans"
+  ]
+ },
+ {
+  "giver": "Spirit Bear",
+  "name": "Witness Grandeur",
+  "id": "Witness Grandeur",
+  "file": "SpiritBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 200,
+  "honey": 150000000,
+  "items": {
+   "Glitter": 2,
+   "MoonCharm": 50,
+   "CloudVial": 1,
+   "JellyBeans": 10,
+   "Pineapple": 100
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 350000000
+   },
+   {
+    "field": "Mountain Top Field",
+    "color": null,
+    "amount": 300000000
+   },
+   {
+    "field": "Spider Field",
+    "color": null,
+    "amount": 150000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Goo",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Donate To Wind Shrine",
+   "Donate To Wind Shrine"
+  ]
+ },
+ {
+  "giver": "Spirit Bear",
+  "name": "Beeternity",
+  "id": "Beeternity",
+  "file": "SpiritBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 220,
+  "honey": 150000000,
+  "items": {
+   "MoonCharm": 100,
+   "MagicBean": 5,
+   "Micro-Converter": 5,
+   "FieldDice": 5
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 400000000
+   },
+   {
+    "field": "Pepper Patch",
+    "color": null,
+    "amount": 300000000
+   },
+   {
+    "field": "Pumpkin Patch",
+    "color": null,
+    "amount": 250000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Goo",
+   "Use Items",
+   "Catch Falling Coconuts",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Use Toy",
+   "Match Pairs",
+   "Donate To Wind Shrine"
+  ]
+ },
+ {
+  "giver": "Spirit Bear",
+  "name": "A Breath Of Blue",
+  "id": "A Breath Of Blue",
+  "file": "SpiritBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 240,
+  "honey": 150000000,
+  "items": {
+   "Glitter": 2,
+   "MagicBean": 10,
+   "Gumdrops": 100,
+   "Micro-Converter": 5
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 450000000
+   },
+   {
+    "field": "Pine Tree Forest",
+    "color": null,
+    "amount": 400000000
+   },
+   {
+    "field": "Bamboo Field",
+    "color": null,
+    "amount": 300000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Goo",
+   "Use Items",
+   "Use Items",
+   "Collect Tokens",
+   "Donate To Wind Shrine",
+   "Donate To Wind Shrine"
+  ]
+ },
+ {
+  "giver": "Spirit Bear",
+  "name": "Glory Of Goo",
+  "id": "Glory Of Goo",
+  "file": "SpiritBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 250,
+  "honey": 150000000,
+  "items": {
+   "Glitter": 2,
+   "MoonCharm": 50,
+   "Gumdrops": 250,
+   "JellyBeans": 5
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 500000000
+   },
+   {
+    "field": "Mushroom Field",
+    "color": null,
+    "amount": 300000000
+   },
+   {
+    "field": "Sunflower Field",
+    "color": null,
+    "amount": 250000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Goo",
+   "Collect Goo",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Donate To Wind Shrine",
+   "Donate To Wind Shrine"
+  ]
+ },
+ {
+  "giver": "Spirit Bear",
+  "name": "Tickle The Wind",
+  "id": "Tickle The Wind",
+  "file": "SpiritBearInit.lua",
+  "hasRewards": false,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 500000000
+   },
+   {
+    "field": "Mountain Top Field",
+    "color": null,
+    "amount": 1000000000
+   },
+   {
+    "field": "Coconut Field",
+    "color": null,
+    "amount": 250000000
+   },
+   {
+    "field": "Dandelion Field",
+    "color": null,
+    "amount": 150000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Goo",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Share Jelly Beans"
+  ]
+ },
+ {
+  "giver": "Spirit Bear",
+  "name": "Rhubarb That Could Have Been",
+  "id": "Rhubarb That Could Have Been",
+  "file": "SpiritBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 400000000,
+  "items": {
+   "Glitter": 3,
+   "StarJelly": 1,
+   "JellyBeans": 10,
+   "MagicBean": 5,
+   "Enzymes": 5,
+   "Pineapple": 250
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 700000000
+   },
+   {
+    "field": "Pineapple Patch",
+    "color": null,
+    "amount": 500000000
+   },
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 400000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Goo",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Use Items",
+   "Donate To Wind Shrine",
+   "Donate To Wind Shrine",
+   "Match Pairs"
+  ]
+ },
+ {
+  "giver": "Spirit Bear",
+  "name": "Dreams Of Being A Bee",
+  "id": "Dreams Of Being A Bee",
+  "file": "SpiritBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 500000000,
+  "items": {
+   "Glitter": 3,
+   "StarJelly": 1,
+   "Stinger": 15,
+   "MagicBean": 5,
+   "Micro-Converter": 5,
+   "MoonCharm": 200
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 1000000000
+   },
+   {
+    "field": "Strawberry Field",
+    "color": null,
+    "amount": 800000000
+   },
+   {
+    "field": "Cactus Field",
+    "color": null,
+    "amount": 700000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Goo",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Use Items",
+   "Use Toy",
+   "Use Toy",
+   "Donate To Wind Shrine",
+   "Donate To Wind Shrine"
+  ]
+ },
+ {
+  "giver": "Spirit Bear",
+  "name": "The Sky Over The Stump",
+  "id": "The Sky Over The Stump",
+  "file": "SpiritBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 700000000,
+  "items": {
+   "Glitter": 3,
+   "StarJelly": 2,
+   "MagicBean": 10,
+   "Micro-Converter": 10,
+   "CloudVial": 10,
+   "MoonCharm": 100
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 1300000000
+   },
+   {
+    "field": "Rose Field",
+    "color": null,
+    "amount": 1000000000
+   },
+   {
+    "field": "Stump Field",
+    "color": null,
+    "amount": 700000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Goo",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Use Items",
+   "Donate To Wind Shrine",
+   "Donate To Wind Shrine"
+  ]
+ },
+ {
+  "giver": "Spirit Bear",
+  "name": "Space Oblivion",
+  "id": "Space Oblivion",
+  "file": "SpiritBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 1000000000,
+  "items": {
+   "Glitter": 3,
+   "StarJelly": 1,
+   "MoonCharm": 250,
+   "JellyBeans": 10,
+   "FieldDice": 5
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 1600000000
+   },
+   {
+    "field": "Pumpkin Patch",
+    "color": null,
+    "amount": 800000000
+   },
+   {
+    "field": "Blue Flower Field",
+    "color": null,
+    "amount": 700000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Goo",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Donate To Wind Shrine",
+   "Donate To Wind Shrine"
+  ]
+ },
+ {
+  "giver": "Spirit Bear",
+  "name": "Pollenpalooza",
+  "id": "Pollenpalooza",
+  "file": "SpiritBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 1500000000,
+  "items": {
+   "Glitter": 5,
+   "StarJelly": 3,
+   "CloudVial": 5,
+   "FieldDice": 5,
+   "Micro-Converter": 5,
+   "Gumdrops": 100
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 2000000000
+   },
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 1200000000
+   },
+   {
+    "field": "Coconut Field",
+    "color": null,
+    "amount": 1000000000
+   },
+   {
+    "field": "Sunflower Field",
+    "color": null,
+    "amount": 500000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Goo",
+   "Catch Falling Coconuts",
+   "Use Items",
+   "Collect Tokens",
+   "Share Jelly Beans",
+   "Donate To Wind Shrine"
+  ]
+ },
+ {
+  "giver": "Spirit Bear",
+  "name": "Dancing With Stick Bug",
+  "id": "Dancing With Stick Bug",
+  "file": "SpiritBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 2500000000,
+  "items": {
+   "Glitter": 5,
+   "StarJelly": 3,
+   "Gumdrops": 250,
+   "Micro-Converter": 10,
+   "JellyBeans": 10,
+   "Enzymes": 25
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 3000000000
+   },
+   {
+    "field": "Pine Tree Forest",
+    "color": null,
+    "amount": 2000000000
+   },
+   {
+    "field": "Cactus Field",
+    "color": null,
+    "amount": 1300000000
+   },
+   {
+    "field": "Spider Field",
+    "color": null,
+    "amount": 1000000000
+   }
+  ],
+  "otherTasks": [
+   "Earn Badges",
+   "Collect Goo",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Use Items",
+   "Donate To Wind Shrine",
+   "Match Pairs"
+  ]
+ },
+ {
+  "giver": "Spirit Bear",
+  "name": "Bear Without Despair",
+  "id": "Bear Without Despair",
+  "file": "SpiritBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 3000000000,
+  "items": {
+   "Glitter": 5,
+   "StarJelly": 4,
+   "MagicBean": 10,
+   "FieldDice": 10,
+   "JellyBeans": 10,
+   "Micro-Converter": 10,
+   "TropicalDrink": 5
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 4000000000
+   },
+   {
+    "field": "Strawberry Field",
+    "color": null,
+    "amount": 2400000000
+   },
+   {
+    "field": "Pineapple Patch",
+    "color": null,
+    "amount": 1800000000
+   },
+   {
+    "field": "Stump Field",
+    "color": null,
+    "amount": 1000000000
+   }
+  ],
+  "otherTasks": [
+   "Earn Badges",
+   "Collect Goo",
+   "Use Items",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Use Toy",
+   "Use Toy",
+   "Donate To Wind Shrine"
+  ]
+ },
+ {
+  "giver": "Spirit Bear",
+  "name": "Spirit Spree",
+  "id": "Spirit Spree",
+  "file": "SpiritBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 5000000000,
+  "items": {
+   "Glitter": 5,
+   "StarJelly": 5,
+   "MoonCharm": 150,
+   "Micro-Converter": 15,
+   "JellyBeans": 10
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 6000000000
+   },
+   {
+    "field": "Pumpkin Patch",
+    "color": null,
+    "amount": 3000000000
+   },
+   {
+    "field": "Mushroom Field",
+    "color": null,
+    "amount": 3000000000
+   },
+   {
+    "field": "Rose Field",
+    "color": null,
+    "amount": 2000000000
+   }
+  ],
+  "otherTasks": [
+   "Earn Badges",
+   "Collect Goo",
+   "Use Items",
+   "Collect Tokens",
+   "Catch Falling Coconuts",
+   "Collect Tokens",
+   "Donate To Wind Shrine",
+   "Donate To Wind Shrine",
+   "Donate To Wind Shrine",
+   "Donate To Wind Shrine"
+  ]
+ },
+ {
+  "giver": "Spirit Bear",
+  "name": "Echoing Call",
+  "id": "Echoing Call",
+  "file": "SpiritBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 7000000000,
+  "items": {
+   "Glitter": 5,
+   "StarJelly": 5,
+   "MagicBean": 50,
+   "MoonCharm": 250,
+   "Gumdrops": 250,
+   "Micro-Converter": 15,
+   "FieldDice": 10
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 8000000000
+   },
+   {
+    "field": "Pepper Patch",
+    "color": null,
+    "amount": 6000000000
+   },
+   {
+    "field": "Bamboo Field",
+    "color": null,
+    "amount": 5000000000
+   },
+   {
+    "field": "Blue Flower Field",
+    "color": null,
+    "amount": 2000000000
+   }
+  ],
+  "otherTasks": [
+   "Earn Badges",
+   "Collect Goo",
+   "Use Items",
+   "Use Items",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Donate To Wind Shrine",
+   "Donate To Wind Shrine",
+   "Match Pairs"
+  ]
+ },
+ {
+  "giver": "Spirit Bear",
+  "name": "Spring Out Of The Mountain",
+  "id": "Spring Out Of The Mountain",
+  "file": "SpiritBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "SpiritPetal": 1,
+   "Glitter": 5,
+   "StarJelly": 5
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 10000000000
+   },
+   {
+    "field": "Mountain Top Field",
+    "color": null,
+    "amount": 10000000000
+   },
+   {
+    "field": "Coconut Field",
+    "color": null,
+    "amount": 6000000000
+   },
+   {
+    "field": "Stump Field",
+    "color": null,
+    "amount": 4000000000
+   },
+   {
+    "field": "Dandelion Field",
+    "color": null,
+    "amount": 3000000000
+   }
+  ],
+  "otherTasks": [
+   "Earn Badges",
+   "Collect Goo",
+   "Share Jelly Beans",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Donate To Wind Shrine"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "Activating Abilities",
+  "id": "Activating Abilities",
+  "file": "SunBear2Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 3
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "Sticking To The Staples",
+  "id": "Sticking To The Staples",
+  "file": "SunBear2Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 3,
+   "RoyalJelly": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": null,
+    "amount": 5000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "Token Treck",
+  "id": "Token Treck",
+  "file": "SunBear2Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 3,
+   "RoyalJelly": 1,
+   "Treat": 25
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "Quick Feet, Sharp Mind",
+  "id": "Quick Feet, Sharp Mind",
+  "file": "SunBear2Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 3,
+   "RoyalJelly": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "blue",
+    "amount": 25000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "Boot Lootin",
+  "id": "Boot Lootin",
+  "file": "SunBear2Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 3
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "Sprouts For Sun Bear's Sanity",
+  "id": "Sprouts For Sun Bear's Sanity",
+  "file": "SunBear2Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 3
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "Thinking About Those Links",
+  "id": "Thinking About Those Links",
+  "file": "SunBear2Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 3,
+   "RoyalJelly": 1
+  },
+  "pollen": [
+   {
+    "field": "Spider Field",
+    "color": null,
+    "amount": 100000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "Light Up The Night",
+  "id": "Light Up The Night",
+  "file": "SunBear2Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 3,
+   "Treat": 25
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "Show Me The Honey",
+  "id": "Show Me The Honey",
+  "file": "SunBear2Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 3,
+   "SunflowerSeed": 20
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "Battle For Boots",
+  "id": "Battle For Boots",
+  "file": "SunBear2Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 3
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens",
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "Sun Bear's Scavenger Hunt",
+  "id": "Sun Bear's Scavenger Hunt",
+  "file": "SunBear2Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 3,
+   "RoyalJelly": 1,
+   "Treat": 500
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "Sun Bear's Abili-Tour",
+  "id": "Sun Bear's Abili-Tour",
+  "file": "SunBear2Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 3,
+   "RoyalJelly": 2
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "Vicious Bee Begone",
+  "id": "Vicious Bee Begone",
+  "file": "SunBear2Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 3,
+   "RoyalJelly": 3
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "Sun Bear Spectacular",
+  "id": "Sun Bear Spectacular",
+  "file": "SunBear2Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 3
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "Bean Bug Busser",
+  "id": "Bean Bug Busser",
+  "file": "SunBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "JellyBeans": 3
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "Bombs, Blueberries, and Bean Bugs",
+  "id": "Bombs, Blueberries, and Bean Bugs",
+  "file": "SunBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 3,
+   "JellyBeans": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "Bean Bugs And Boosts",
+  "id": "Bean Bugs And Boosts",
+  "file": "SunBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Gumdrops": 25
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "Make It Hasty",
+  "id": "Make It Hasty",
+  "file": "SunBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "FieldDice": 3,
+   "JellyBeans": 3
+  },
+  "pollen": [
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 100000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "Total Focus",
+  "id": "Total Focus",
+  "file": "SunBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Micro-Converter": 5,
+   "JellyBeans": 3
+  },
+  "pollen": [
+   {
+    "field": "Pineapple Patch",
+    "color": null,
+    "amount": 250000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens",
+   "Match Pairs"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "On Your Marks",
+  "id": "On Your Marks",
+  "file": "SunBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "RoyalJelly": 1,
+   "CloudVial": 1,
+   "FieldDice": 3,
+   "Gumdrops": 50
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": "red",
+    "amount": 500000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "Look In The Leaves",
+  "id": "Look In The Leaves",
+  "file": "SunBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "JellyBeans": 5,
+   "Micro-Converter": 5,
+   "RoyalJelly": 1
+  },
+  "pollen": [
+   {
+    "field": "Cactus Field",
+    "color": null,
+    "amount": 1000000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "What About Sprouts",
+  "id": "What About Sprouts",
+  "file": "SunBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "MagicBean": 3,
+   "Gumdrops": 100
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "Bean Bug Beat Down",
+  "id": "Bean Bug Beat Down",
+  "file": "SunBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "RoyalJelly": 1,
+   "Stinger": 10,
+   "JellyBeans": 10,
+   "Enzymes": 1,
+   "Micro-Converter": 5
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens",
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "Bean Bug Blackout",
+  "id": "Bean Bug Blackout",
+  "file": "SunBear3Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 250
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "Egg Hunt: Chick Invasion",
+  "id": "Egg Hunt: Chick Invasion",
+  "file": "SunBear4Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 5,
+   "StarJelly": 1,
+   "Treat": 25,
+   "MarshmallowBee": 1,
+   "MagicBean": 1,
+   "Micro-Converter": 3
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Have Total"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "SunBearGolf1",
+  "id": "SunBearGolf1",
+  "file": "SunBear5Init.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 5,
+   "Micro-Converter": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": null,
+    "amount": 200
+   }
+  ],
+  "otherTasks": [
+   "Have Total"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "Token Teaser",
+  "id": "Token Teaser",
+  "file": "SunBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 1
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens",
+   "Defeat Monsters",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "Bring On The Bombs",
+  "id": "Bring On The Bombs",
+  "file": "SunBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Dandelion Field",
+    "color": null,
+    "amount": 5000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "Boost Brilliance",
+  "id": "Boost Brilliance",
+  "file": "SunBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": null,
+    "color": "red",
+    "amount": 8000
+   },
+   {
+    "field": null,
+    "color": "blue",
+    "amount": 8000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "A Need For Haste",
+  "id": "A Need For Haste",
+  "file": "SunBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Clover Field",
+    "color": null,
+    "amount": 31000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "B&B",
+  "id": "B&B",
+  "file": "SunBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "Snag A Belt Bag",
+  "id": "Snag A Belt Bag",
+  "file": "SunBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Pineapple Patch",
+    "color": null,
+    "amount": 50000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "Focus Feature",
+  "id": "Focus Feature",
+  "file": "SunBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": "Cactus Field",
+    "color": null,
+    "amount": 100000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "Look At Those Links",
+  "id": "Look At Those Links",
+  "file": "SunBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [
+   {
+    "field": null,
+    "color": "white",
+    "amount": 80000
+   },
+   {
+    "field": "Bamboo Field",
+    "color": null,
+    "amount": 80000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "Bring Back The Boosts",
+  "id": "Bring Back The Boosts",
+  "file": "SunBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 1
+  },
+  "pollen": [
+   {
+    "field": null,
+    "color": null,
+    "amount": 250000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "Non-Stop Action",
+  "id": "Non-Stop Action",
+  "file": "SunBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "Ticket": 2
+  },
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens",
+   "Defeat Monsters"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "Fat Stacks",
+  "id": "Fat Stacks",
+  "file": "SunBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {
+   "RoyalJelly": 1
+  },
+  "pollen": [
+   {
+    "field": "Pine Tree Forest",
+    "color": null,
+    "amount": 150000
+   },
+   {
+    "field": "Pumpkin Patch",
+    "color": null,
+    "amount": 125000
+   },
+   {
+    "field": "Pineapple Patch",
+    "color": null,
+    "amount": 100000
+   }
+  ],
+  "otherTasks": [
+   "Collect Tokens",
+   "Collect Tokens"
+  ]
+ },
+ {
+  "giver": "Sun Bear",
+  "name": "The Mondo Mission",
+  "id": "The Mondo Mission",
+  "file": "SunBearInit.lua",
+  "hasRewards": true,
+  "royalJelly": 0,
+  "honey": 0,
+  "items": {},
+  "pollen": [],
+  "otherTasks": [
+   "Collect Tokens",
+   "Defeat Monsters"
+  ]
+ }
+]

@@ -1,0 +1,2251 @@
+[
+ {
+  "key": "Basic",
+  "name": "Basic Bee",
+  "id": 1,
+  "rarity": "common",
+  "color": "white",
+  "faceColor": "#f1f1f1",
+  "stripeColor": "#e5cf38",
+  "stats": {
+   "GatherTime": 4,
+   "GatherAmount": 10,
+   "HoneyProductionTime": 4,
+   "HoneyProductionAmount": 80,
+   "MaxEnergy": 20,
+   "Movespeed": 14,
+   "AttackPower": 1,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "PollenBonus",
+   "Value": 1.2,
+   "Op": "Mul"
+  },
+  "giftedPerkDesc": "x1.2 Pollen",
+  "abilities": [],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Bomber",
+  "name": "Bomber Bee",
+  "id": 2,
+  "rarity": "rare",
+  "color": "white",
+  "faceColor": "#f1f1f1",
+  "stripeColor": "#1b2a35",
+  "stats": {
+   "GatherTime": 4,
+   "GatherAmount": 10,
+   "HoneyProductionTime": 4,
+   "HoneyProductionAmount": 120,
+   "MaxEnergy": 20,
+   "Movespeed": 15.400000000000002,
+   "AttackPower": 2,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "PollenBonus",
+   "Value": 1.1,
+   "Op": "Mul",
+   "Params": {
+    "Tag": "Bomb"
+   }
+  },
+  "giftedPerkDesc": "x1.1 Bomb Pollen",
+  "abilities": [
+   "Buzz Bomb"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Rascal",
+  "name": "Rascal Bee",
+  "id": 3,
+  "rarity": "rare",
+  "color": "red",
+  "faceColor": "#f3492d",
+  "stripeColor": "#f3492d",
+  "stats": {
+   "GatherTime": 4,
+   "GatherAmount": 10,
+   "HoneyProductionTime": 4,
+   "HoneyProductionAmount": 80,
+   "MaxEnergy": 20,
+   "Movespeed": 16.099999999999998,
+   "AttackPower": 3,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "PollenBonus",
+   "Value": 1.25,
+   "Op": "Mul",
+   "Params": {
+    "Tag": "Red Bomb"
+   }
+  },
+  "giftedPerkDesc": "x1.25 Red Bomb Pollen",
+  "abilities": [
+   "Red Bomb"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Bumble",
+  "name": "Bumble Bee",
+  "id": 4,
+  "rarity": "rare",
+  "color": "blue",
+  "faceColor": "#3b8ed1",
+  "stripeColor": "#3b8ed1",
+  "stats": {
+   "GatherTime": 4,
+   "GatherAmount": 18,
+   "HoneyProductionTime": 4,
+   "HoneyProductionAmount": 80,
+   "MaxEnergy": 40,
+   "Movespeed": 10.5,
+   "AttackPower": 1,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "ContainerSpaceMultiplier",
+   "Value": 1.1,
+   "Op": "Mul"
+  },
+  "giftedPerkDesc": "x1.1 Capacity",
+  "abilities": [
+   "Blue Bomb"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Cool",
+  "name": "Cool Bee",
+  "id": 5,
+  "rarity": "rare",
+  "color": "blue",
+  "faceColor": "#afd7f6",
+  "stripeColor": "#3b8ed1",
+  "stats": {
+   "GatherTime": 3,
+   "GatherAmount": 10,
+   "HoneyProductionTime": 4,
+   "HoneyProductionAmount": 120,
+   "MaxEnergy": 20,
+   "Movespeed": 14,
+   "AttackPower": 2,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "PollenBonus",
+   "Value": 1.1,
+   "Op": "Mul",
+   "Params": {
+    "Color": "Blue"
+   }
+  },
+  "giftedPerkDesc": "x1.1 Blue Pollen",
+  "abilities": [
+   "Blue Boost"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Brave",
+  "name": "Brave Bee",
+  "id": 6,
+  "rarity": "rare",
+  "color": "white",
+  "faceColor": "#1b2a35",
+  "stripeColor": "#f1f1f1",
+  "stats": {
+   "GatherTime": 4,
+   "GatherAmount": 10,
+   "HoneyProductionTime": 4,
+   "HoneyProductionAmount": 200,
+   "MaxEnergy": 30,
+   "Movespeed": 16.8,
+   "AttackPower": 6,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "BeeAttack",
+   "Value": 1,
+   "Op": "Add"
+  },
+  "giftedPerkDesc": "+1 Bee Attack",
+  "abilities": [],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Hasty",
+  "name": "Hasty Bee",
+  "id": 7,
+  "rarity": "rare",
+  "color": "white",
+  "faceColor": "#1b2a35",
+  "stripeColor": "#e5cf38",
+  "stats": {
+   "GatherTime": 3,
+   "GatherAmount": 10,
+   "HoneyProductionTime": 3,
+   "HoneyProductionAmount": 80,
+   "MaxEnergy": 20,
+   "Movespeed": 19.599999999999998,
+   "AttackPower": 1,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "PlayerMovespeed",
+   "Value": 1.15,
+   "Op": "Mul"
+  },
+  "giftedPerkDesc": "+15% Player Movespeed",
+  "abilities": [
+   "Haste"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Rad",
+  "name": "Rad Bee",
+  "id": 8,
+  "rarity": "rare",
+  "color": "red",
+  "faceColor": "#9d2916",
+  "stripeColor": "#9d2916",
+  "stats": {
+   "GatherTime": 4,
+   "GatherAmount": 13,
+   "HoneyProductionTime": 3,
+   "HoneyProductionAmount": 80,
+   "MaxEnergy": 20,
+   "Movespeed": 14,
+   "AttackPower": 1,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "PollenBonus",
+   "Value": 1.1,
+   "Op": "Mul",
+   "Params": {
+    "Color": "Red"
+   }
+  },
+  "giftedPerkDesc": "x1.1 Red Pollen",
+  "abilities": [
+   "Red Boost"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Looker",
+  "name": "Looker Bee",
+  "id": 9,
+  "rarity": "rare",
+  "color": "white",
+  "faceColor": "#f1f1f1",
+  "stripeColor": "#1b2a35",
+  "stats": {
+   "GatherTime": 4,
+   "GatherAmount": 13,
+   "HoneyProductionTime": 4,
+   "HoneyProductionAmount": 160,
+   "MaxEnergy": 20,
+   "Movespeed": 14,
+   "AttackPower": 1,
+   "AbilityRate": 1,
+   "CriticalChance": 0.05,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "CriticalPower",
+   "Value": 0.25,
+   "Op": "Add"
+  },
+  "giftedPerkDesc": "+25% Critical Power",
+  "abilities": [
+   "Focus"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Stubborn",
+  "name": "Stubborn Bee",
+  "id": 10,
+  "rarity": "rare",
+  "color": "white",
+  "faceColor": "#f1f1f1",
+  "stats": {
+   "GatherTime": 4,
+   "GatherAmount": 10,
+   "HoneyProductionTime": 3,
+   "HoneyProductionAmount": 80,
+   "MaxEnergy": 20,
+   "Movespeed": 11.9,
+   "AttackPower": 2,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "AbilityTokenLifespan",
+   "Value": 0.15,
+   "Op": "Add"
+  },
+  "giftedPerkDesc": "+15% Ability Token Lifespan",
+  "abilities": [
+   "Pollen Mark"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Shocked",
+  "name": "Shocked Bee",
+  "id": 11,
+  "rarity": "epic",
+  "color": "white",
+  "faceColor": "#f1f1f1",
+  "stripeColor": "#f1f1f1",
+  "stats": {
+   "GatherTime": 4,
+   "GatherAmount": 10,
+   "HoneyProductionTime": 2,
+   "HoneyProductionAmount": 80,
+   "MaxEnergy": 20,
+   "Movespeed": 19.599999999999998,
+   "AttackPower": 2,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 7.5,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "PollenBonus",
+   "Value": 1.1,
+   "Op": "Mul",
+   "Params": {
+    "Color": "White"
+   }
+  },
+  "giftedPerkDesc": "x1.1 White Pollen",
+  "abilities": [
+   "Haste",
+   "Token Link"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Demo",
+  "name": "Demo Bee",
+  "id": 12,
+  "rarity": "epic",
+  "color": "white",
+  "faceColor": "#e5cf38",
+  "stripeColor": "#e5cf38",
+  "stats": {
+   "GatherTime": 4,
+   "GatherAmount": 10,
+   "HoneyProductionTime": 4,
+   "HoneyProductionAmount": 330,
+   "MaxEnergy": 20,
+   "Movespeed": 16.8,
+   "AttackPower": 3,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "PollenBonus",
+   "Value": 1.25,
+   "Op": "Mul",
+   "Params": {
+    "Tag": "Buzz Bomb"
+   }
+  },
+  "giftedPerkDesc": "x1.25 Buzz Bomb Pollen",
+  "abilities": [
+   "Buzz Bomb+"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Bubble",
+  "name": "Bubble Bee",
+  "id": 13,
+  "rarity": "epic",
+  "color": "blue",
+  "faceColor": "#3b8ed1",
+  "stripeColor": "#3b8ed1",
+  "stats": {
+   "GatherTime": 4,
+   "GatherAmount": 10,
+   "HoneyProductionTime": 4,
+   "HoneyProductionAmount": 160,
+   "MaxEnergy": 20,
+   "Movespeed": 16.099999999999998,
+   "AttackPower": 3,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0.35,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": true,
+  "giftedPerk": {
+   "Type": "PollenBonus",
+   "Params": {
+    "Tag": "Bubble"
+   },
+   "Value": 1.25,
+   "Op": "Mul"
+  },
+  "giftedPerkDesc": "x1.25 Bubble Pollen",
+  "abilities": [
+   "Blue Bomb"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Rage",
+  "name": "Rage Bee",
+  "id": 14,
+  "rarity": "epic",
+  "color": "red",
+  "faceColor": "#f3492d",
+  "stripeColor": "#f3492d",
+  "stats": {
+   "GatherTime": 4,
+   "GatherAmount": 10,
+   "HoneyProductionTime": 4,
+   "HoneyProductionAmount": 80,
+   "MaxEnergy": 20,
+   "Movespeed": 15.400000000000002,
+   "AttackPower": 5,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "BeeAttackMultiplier",
+   "Value": 0.1,
+   "Op": "Add"
+  },
+  "giftedPerkDesc": "+10% Bee Attack",
+  "abilities": [
+   "Rage",
+   "Token Link"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Frosty",
+  "name": "Frosty Bee",
+  "id": 15,
+  "rarity": "epic",
+  "color": "blue",
+  "faceColor": "#3b8ed1",
+  "stripeColor": "#3b8ed1",
+  "stats": {
+   "GatherTime": 4,
+   "GatherAmount": 10,
+   "HoneyProductionTime": 4,
+   "HoneyProductionAmount": 80,
+   "MaxEnergy": 25,
+   "Movespeed": 11.200000000000001,
+   "AttackPower": 2,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "PollenBonus",
+   "Value": 1.25,
+   "Op": "Mul",
+   "Params": {
+    "Tag": "Blue Bomb"
+   }
+  },
+  "giftedPerkDesc": "x1.25 Blue Bomb Pollen",
+  "abilities": [
+   "Blue Boost",
+   "Blue Bomb+"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Exhausted",
+  "name": "Exhausted Bee",
+  "id": 16,
+  "rarity": "epic",
+  "color": "white",
+  "faceColor": "#f1f1f1",
+  "stripeColor": "#9f9f9f",
+  "stats": {
+   "GatherTime": 4.6,
+   "GatherAmount": 10,
+   "HoneyProductionTime": 4,
+   "HoneyProductionAmount": 240,
+   "MaxEnergy": 19999999999980,
+   "Movespeed": 10.5,
+   "AttackPower": 2,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "ContainerSpaceMultiplier",
+   "Value": 0.2,
+   "Params": {
+    "Color": "White"
+   },
+   "Op": "Add"
+  },
+  "giftedPerkDesc": "+20% White Field Capacity",
+  "abilities": [
+   "Buzz Bomb",
+   "Token Link"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Bucko",
+  "name": "Bucko Bee",
+  "id": 17,
+  "rarity": "epic",
+  "color": "blue",
+  "faceColor": "#3b8ed1",
+  "stripeColor": "#3b8ed1",
+  "stats": {
+   "GatherTime": 4,
+   "GatherAmount": 17,
+   "HoneyProductionTime": 3,
+   "HoneyProductionAmount": 80,
+   "MaxEnergy": 30,
+   "Movespeed": 15.400000000000002,
+   "AttackPower": 6,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "ContainerSpaceMultiplier",
+   "Value": 0.2,
+   "Params": {
+    "Color": "Blue"
+   },
+   "Op": "Add"
+  },
+  "giftedPerkDesc": "+20% Blue Field Capacity",
+  "abilities": [
+   "Blue Boost"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Riley",
+  "name": "Riley Bee",
+  "id": 18,
+  "rarity": "epic",
+  "color": "red",
+  "faceColor": "#f3492d",
+  "stripeColor": "#f3492d",
+  "stats": {
+   "GatherTime": 2,
+   "GatherAmount": 10,
+   "HoneyProductionTime": 4,
+   "HoneyProductionAmount": 140,
+   "MaxEnergy": 25,
+   "Movespeed": 15.400000000000002,
+   "AttackPower": 6,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "ContainerSpaceMultiplier",
+   "Value": 0.2,
+   "Params": {
+    "Color": "Red"
+   },
+   "Op": "Add"
+  },
+  "giftedPerkDesc": "+20% Red Field Capacity",
+  "abilities": [
+   "Red Boost"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Honey",
+  "name": "Honey Bee",
+  "id": 19,
+  "rarity": "epic",
+  "color": "white",
+  "faceColor": "#1b2a35",
+  "stripeColor": "#1b2a35",
+  "stats": {
+   "GatherTime": 4,
+   "GatherAmount": 10,
+   "HoneyProductionTime": 2,
+   "HoneyProductionAmount": 360,
+   "MaxEnergy": 20,
+   "Movespeed": 14,
+   "AttackPower": 2,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "HoneyFromTokens",
+   "Value": 1.5,
+   "Op": "Mul"
+  },
+  "giftedPerkDesc": "x1.5 Honey From Tokens",
+  "abilities": [
+   "Honey Gift",
+   "Honey Mark"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Fire",
+  "name": "Fire Bee",
+  "id": 20,
+  "rarity": "epic",
+  "color": "red",
+  "faceColor": "#e5cf38",
+  "stripeColor": "#f3492d",
+  "stats": {
+   "GatherTime": 4,
+   "GatherAmount": 10,
+   "HoneyProductionTime": 4,
+   "HoneyProductionAmount": 80,
+   "MaxEnergy": 25,
+   "Movespeed": 11.200000000000001,
+   "AttackPower": 4,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0.35,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {
+   "GatherFlameSpireChance": 0.5
+  },
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "PollenBonus",
+   "Params": {
+    "Tag": "Flame"
+   },
+   "Value": 1.25,
+   "Op": "Mul"
+  },
+  "giftedPerkDesc": "x1.25 Flame Pollen",
+  "abilities": [
+   "Red Bomb+"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Commander",
+  "name": "Commander Bee",
+  "id": 21,
+  "rarity": "epic",
+  "color": "white",
+  "faceColor": "#1b2a35",
+  "stripeColor": "#1b2a35",
+  "stats": {
+   "GatherTime": 4,
+   "GatherAmount": 15,
+   "HoneyProductionTime": 4,
+   "HoneyProductionAmount": 80,
+   "MaxEnergy": 30,
+   "Movespeed": 14,
+   "AttackPower": 4,
+   "AbilityRate": 1,
+   "CriticalChance": 0.05,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "CriticalChance",
+   "Value": 0.03,
+   "Op": "Add"
+  },
+  "giftedPerkDesc": "+3% Critical Chance",
+  "abilities": [
+   "Focus",
+   "Buzz Bomb"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Baby",
+  "name": "Baby Bee",
+  "id": 22,
+  "rarity": "legendary",
+  "color": "white",
+  "faceColor": "#f1f1f1",
+  "stripeColor": "#88dce8",
+  "stats": {
+   "GatherTime": 5,
+   "GatherAmount": 10,
+   "HoneyProductionTime": 5,
+   "HoneyProductionAmount": 80,
+   "MaxEnergy": 15,
+   "Movespeed": 10.5,
+   "AttackPower": 0,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "Luck",
+   "Value": 0.25,
+   "Op": "Add"
+  },
+  "giftedPerkDesc": "+25% Loot Luck",
+  "abilities": [
+   "Baby Love"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Diamond",
+  "name": "Diamond Bee",
+  "id": 23,
+  "rarity": "legendary",
+  "color": "blue",
+  "faceColor": "#f1f1f1",
+  "stripeColor": "#f1f1f1",
+  "stats": {
+   "GatherTime": 4,
+   "GatherAmount": 10,
+   "HoneyProductionTime": 4,
+   "HoneyProductionAmount": 1000,
+   "MaxEnergy": 20,
+   "Movespeed": 14,
+   "AttackPower": 1,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0.25,
+   "HiveConvertBonusHoneyPerLvl": 0.025
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "BaseProductionRate",
+   "Value": 1.2,
+   "Op": "Mul"
+  },
+  "giftedPerkDesc": "x1.2 Convert Rate",
+  "abilities": [
+   "Blue Boost",
+   "Honey Gift+"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Lion",
+  "name": "Lion Bee",
+  "id": 24,
+  "rarity": "legendary",
+  "color": "white",
+  "faceColor": "#1b2a35",
+  "stripeColor": "#e5cf38",
+  "stats": {
+   "GatherTime": 4,
+   "GatherAmount": 20,
+   "HoneyProductionTime": 2,
+   "HoneyProductionAmount": 180,
+   "MaxEnergy": 60,
+   "Movespeed": 19.599999999999998,
+   "AttackPower": 10,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "PollenBonus",
+   "Value": 0.05,
+   "Op": "Add",
+   "Params": {
+    "Tag": "Gifted Bee"
+   }
+  },
+  "giftedPerkDesc": "+5% Gifted Bee Pollen",
+  "abilities": [
+   "Buzz Bomb+"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Shy",
+  "name": "Shy Bee",
+  "id": 25,
+  "rarity": "legendary",
+  "color": "red",
+  "faceColor": "#f1f1f1",
+  "stripeColor": "#f3492d",
+  "stats": {
+   "GatherTime": 2,
+   "GatherAmount": 10,
+   "HoneyProductionTime": 4,
+   "HoneyProductionAmount": 320,
+   "MaxEnergy": 40,
+   "Movespeed": 18.2,
+   "AttackPower": 2,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "PollenBonus",
+   "Value": 0.05,
+   "Op": "Add",
+   "Params": {
+    "Tag": "Bee Ability"
+   }
+  },
+  "giftedPerkDesc": "+5% Bee Ability Pollen",
+  "abilities": [
+   "Red Boost",
+   "Red Bomb"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Demon",
+  "name": "Demon Bee",
+  "id": 26,
+  "rarity": "legendary",
+  "color": "red",
+  "faceColor": "#f3492d",
+  "stripeColor": "#f3492d",
+  "stats": {
+   "GatherTime": 4,
+   "GatherAmount": 35,
+   "HoneyProductionTime": 4,
+   "HoneyProductionAmount": 60,
+   "MaxEnergy": 20,
+   "Movespeed": 10.5,
+   "AttackPower": 8,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0.2,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0.65,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {
+   "InstantConversion": 0.30000000000000004,
+   "GatherFlameSpireChance": 0.8500000000000001
+  },
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "PollenConversion",
+   "Value": 0.2,
+   "Op": "Add",
+   "Params": {
+    "Tag": "Bomb"
+   }
+  },
+  "giftedPerkDesc": "+20% Instant Bomb Conversion",
+  "abilities": [
+   "Red Bomb",
+   "Red Bomb+"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Ninja",
+  "name": "Ninja Bee",
+  "id": 27,
+  "rarity": "legendary",
+  "color": "blue",
+  "faceColor": "#3b8ed1",
+  "stripeColor": "#3b8ed1",
+  "stats": {
+   "GatherTime": 2,
+   "GatherAmount": 10,
+   "HoneyProductionTime": 2,
+   "HoneyProductionAmount": 80,
+   "MaxEnergy": 20,
+   "Movespeed": 21,
+   "AttackPower": 4,
+   "AbilityRate": 1,
+   "CriticalChance": 0.1,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "BeeMovespeedMultiplier",
+   "Value": 0.05,
+   "Op": "Add"
+  },
+  "giftedPerkDesc": "+5% Bee Movespeed",
+  "abilities": [
+   "Haste",
+   "Blue Bomb+"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Music",
+  "name": "Music Bee",
+  "id": 28,
+  "rarity": "legendary",
+  "color": "white",
+  "faceColor": "#f1f1f1",
+  "stripeColor": "#f1f1f1",
+  "stats": {
+   "GatherTime": 4,
+   "GatherAmount": 16,
+   "HoneyProductionTime": 4,
+   "HoneyProductionAmount": 240,
+   "MaxEnergy": 20,
+   "Movespeed": 16.099999999999998,
+   "AttackPower": 1,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "PollenBonus",
+   "Params": {
+    "Tag": "Bee Gather"
+   },
+   "Value": 0.25,
+   "Op": "Add"
+  },
+  "giftedPerkDesc": "+25% Pollen From Bee Gathering",
+  "abilities": [
+   "Melody",
+   "Focus",
+   "Token Link"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Carpenter",
+  "name": "Carpenter Bee",
+  "id": 29,
+  "rarity": "legendary",
+  "color": "white",
+  "faceColor": "#f1f1f1",
+  "stats": {
+   "GatherTime": 3,
+   "GatherAmount": 10,
+   "HoneyProductionTime": 4,
+   "HoneyProductionAmount": 120,
+   "MaxEnergy": 25,
+   "Movespeed": 11.200000000000001,
+   "AttackPower": 5,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "PollenBonus",
+   "Params": {
+    "Tag": "Tool"
+   },
+   "Value": 0.25,
+   "Op": "Add"
+  },
+  "giftedPerkDesc": "+25% Tool Pollen",
+  "abilities": [
+   "Honey Mark+",
+   "Pollen Mark"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Bear",
+  "name": "Bear Bee",
+  "id": 30,
+  "rarity": "event",
+  "color": "white",
+  "faceColor": "#1b2a35",
+  "stripeColor": "#1b2a35",
+  "stats": {
+   "GatherTime": 2,
+   "GatherAmount": 15,
+   "HoneyProductionTime": 2,
+   "HoneyProductionAmount": 200,
+   "MaxEnergy": 35,
+   "Movespeed": 14,
+   "AttackPower": 5,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "PollenBonus",
+   "Value": 0.1,
+   "Op": "Add"
+  },
+  "giftedPerkDesc": "+10% Pollen",
+  "abilities": [
+   "Bear Morph"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Photon",
+  "name": "Photon Bee",
+  "id": 31,
+  "rarity": "event",
+  "color": "white",
+  "faceColor": "#1b2a35",
+  "stripeColor": "#f1f1f1",
+  "stats": {
+   "GatherTime": 2,
+   "GatherAmount": 20,
+   "HoneyProductionTime": 2,
+   "HoneyProductionAmount": 240,
+   "MaxEnergy": 19999999999999980,
+   "Movespeed": 21,
+   "AttackPower": 4,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "PollenConversion",
+   "Value": 0.05,
+   "Op": "Add"
+  },
+  "giftedPerkDesc": "+5% Instant Conversion",
+  "abilities": [
+   "Beamstorm",
+   "Haste"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Tabby",
+  "name": "Tabby Bee",
+  "id": 32,
+  "rarity": "event",
+  "color": "white",
+  "faceColor": "#1b2a35",
+  "stripeColor": "#644926",
+  "stats": {
+   "GatherTime": 4,
+   "GatherAmount": 10,
+   "HoneyProductionTime": 3,
+   "HoneyProductionAmount": 160,
+   "MaxEnergy": 28,
+   "Movespeed": 16.099999999999998,
+   "AttackPower": 4,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "CriticalPower",
+   "Value": 0.5,
+   "Op": "Add"
+  },
+  "giftedPerkDesc": "+50% Critical Power",
+  "abilities": [
+   "Scratch",
+   "Tabby Love"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Gummy",
+  "name": "Gummy Bee",
+  "id": 33,
+  "rarity": "event",
+  "color": "white",
+  "faceColor": "#21ffac",
+  "stripeColor": "#21ffac",
+  "stats": {
+   "GatherTime": 4,
+   "GatherAmount": 10,
+   "HoneyProductionTime": 4,
+   "HoneyProductionAmount": 700,
+   "MaxEnergy": 50,
+   "Movespeed": 14,
+   "AttackPower": 4,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "PollenValue",
+   "Value": 0.05,
+   "Op": "Add"
+  },
+  "giftedPerkDesc": "+5% Honey Per Pollen",
+  "abilities": [
+   "Gumdrop Barrage",
+   "Glob"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Cobalt",
+  "name": "Cobalt Bee",
+  "id": 34,
+  "rarity": "event",
+  "color": "blue",
+  "faceColor": "#f1f1f1",
+  "stripeColor": "#f1f1f1",
+  "stats": {
+   "GatherTime": 4,
+   "GatherAmount": 10,
+   "HoneyProductionTime": 3,
+   "HoneyProductionAmount": 140,
+   "MaxEnergy": 35,
+   "Movespeed": 18.2,
+   "AttackPower": 7,
+   "AbilityRate": 1,
+   "CriticalChance": 0.05,
+   "SuperCritChance": 0,
+   "InstantConversion": 0.1,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "PollenConversion",
+   "Value": 0.15,
+   "Op": "Add",
+   "Params": {
+    "Color": "Blue"
+   }
+  },
+  "giftedPerkDesc": "+15% Instant Blue Conversion",
+  "abilities": [
+   "Blue Pulse",
+   "Blue Bomb Sync"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Crimson",
+  "name": "Crimson Bee",
+  "id": 35,
+  "rarity": "event",
+  "color": "red",
+  "faceColor": "#f1f1f1",
+  "stripeColor": "#f1f1f1",
+  "stats": {
+   "GatherTime": 4,
+   "GatherAmount": 10,
+   "HoneyProductionTime": 3,
+   "HoneyProductionAmount": 140,
+   "MaxEnergy": 35,
+   "Movespeed": 18.2,
+   "AttackPower": 7,
+   "AbilityRate": 1,
+   "CriticalChance": 0.05,
+   "SuperCritChance": 0,
+   "InstantConversion": 0.1,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "PollenConversion",
+   "Value": 0.15,
+   "Op": "Add",
+   "Params": {
+    "Color": "Red"
+   }
+  },
+  "giftedPerkDesc": "+15% Instant Red Conversion",
+  "abilities": [
+   "Red Pulse",
+   "Red Bomb Sync"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Puppy",
+  "name": "Puppy Bee",
+  "id": 36,
+  "rarity": "event",
+  "color": "white",
+  "faceColor": "#f1f1f1",
+  "stats": {
+   "GatherTime": 4,
+   "GatherAmount": 25,
+   "HoneyProductionTime": 4,
+   "HoneyProductionAmount": 280,
+   "MaxEnergy": 40,
+   "Movespeed": 16.099999999999998,
+   "AttackPower": 2,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "TreatBondMultiplier",
+   "Value": 0.2,
+   "Op": "Add"
+  },
+  "giftedPerkDesc": "+20% Bond From Treats",
+  "abilities": [
+   "Fetch",
+   "Puppy Love"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Vicious",
+  "name": "Vicious Bee",
+  "id": 37,
+  "rarity": "event",
+  "color": "blue",
+  "faceColor": "#f1f1f1",
+  "stats": {
+   "GatherTime": 4,
+   "GatherAmount": 10,
+   "HoneyProductionTime": 4,
+   "HoneyProductionAmount": 80,
+   "MaxEnergy": 50,
+   "Movespeed": 17.5,
+   "AttackPower": 9,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "MonsterCooldownReduction",
+   "Value": 0.15,
+   "Op": "Add"
+  },
+  "giftedPerkDesc": "-15% Monster Respawn Times",
+  "abilities": [
+   "Impale",
+   "Blue Bomb+"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Festive",
+  "name": "Festive Bee",
+  "id": 38,
+  "rarity": "event",
+  "color": "red",
+  "faceColor": "#f1f1f1",
+  "stats": {
+   "GatherTime": 4,
+   "GatherAmount": 40,
+   "HoneyProductionTime": 1,
+   "HoneyProductionAmount": 150,
+   "MaxEnergy": 20,
+   "Movespeed": 16.099999999999998,
+   "AttackPower": 1,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "ConversionAtHive",
+   "Value": 1.25,
+   "Op": "Mul"
+  },
+  "giftedPerkDesc": "x1.25 Convert Rate at Hive",
+  "abilities": [
+   "Festive Gift",
+   "Honey Mark",
+   "Red Bomb+"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Windy",
+  "name": "Windy Bee",
+  "id": 39,
+  "rarity": "event",
+  "color": "white",
+  "faceColor": "#f1f1f1",
+  "stats": {
+   "GatherTime": 3,
+   "GatherAmount": 10,
+   "HoneyProductionTime": 2,
+   "HoneyProductionAmount": 180,
+   "MaxEnergy": 20,
+   "Movespeed": 19.599999999999998,
+   "AttackPower": 4,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "PollenConversion",
+   "Value": 0.15,
+   "Op": "Add",
+   "Params": {
+    "Color": "White"
+   }
+  },
+  "giftedPerkDesc": "+15% Instant White Conversion, x2 Boosts From Clouds",
+  "abilities": [
+   "White Boost",
+   "Rain Cloud",
+   "Tornado"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Tadpole",
+  "name": "Tadpole Bee",
+  "id": 40,
+  "rarity": "mythic",
+  "color": "blue",
+  "faceColor": "#f1f1f1",
+  "stats": {
+   "GatherTime": 6,
+   "GatherAmount": 10,
+   "HoneyProductionTime": 4,
+   "HoneyProductionAmount": 120,
+   "MaxEnergy": 10,
+   "Movespeed": 11.200000000000001,
+   "AttackPower": 1,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0.65,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": true,
+  "giftedPerk": [
+   {
+    "Type": "BubbleDurationMultiplier",
+    "Value": 0.25,
+    "Op": "Add"
+   }
+  ],
+  "giftedPerkDesc": "+25% Bubble Duration",
+  "abilities": [
+   "Blue Boost",
+   "Summon Frog",
+   "Baby Love"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Vector",
+  "name": "Vector Bee",
+  "id": 41,
+  "rarity": "mythic",
+  "color": "white",
+  "faceColor": "#f1f1f1",
+  "stats": {
+   "GatherTime": 4,
+   "GatherAmount": 18,
+   "HoneyProductionTime": 2.72,
+   "HoneyProductionAmount": 144,
+   "MaxEnergy": 45.599999999999994,
+   "Movespeed": 16.24,
+   "AttackPower": 5,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "MarkDurationMultiplier",
+   "Value": 0.15,
+   "Op": "Add"
+  },
+  "giftedPerkDesc": "+15% Mark Duration",
+  "abilities": [
+   "Pollen Mark+",
+   "Triangulate",
+   "Mark Surge"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Spicy",
+  "name": "Spicy Bee",
+  "id": 42,
+  "rarity": "mythic",
+  "color": "red",
+  "faceColor": "#f1f1f1",
+  "stats": {
+   "GatherTime": 4,
+   "GatherAmount": 14,
+   "HoneyProductionTime": 2,
+   "HoneyProductionAmount": 300,
+   "MaxEnergy": 20,
+   "Movespeed": 14,
+   "AttackPower": 5,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "FlameDurationMultiplier",
+   "Value": 0.25,
+   "Op": "Add"
+  },
+  "giftedPerkDesc": "+25% Flame Duration",
+  "abilities": [
+   "Inferno",
+   "Rage",
+   "Flame Fuel"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Fuzzy",
+  "name": "Fuzzy Bee",
+  "id": 43,
+  "rarity": "mythic",
+  "color": "white",
+  "faceColor": "#f1f1f1",
+  "stats": {
+   "GatherTime": 6,
+   "GatherAmount": 100,
+   "HoneyProductionTime": 6,
+   "HoneyProductionAmount": 40,
+   "MaxEnergy": 50,
+   "Movespeed": 11.9,
+   "AttackPower": 3,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 1,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "BombPower",
+   "Value": 1.1,
+   "Op": "Mul",
+   "Transient": true
+  },
+  "giftedPerkDesc": "x1.1 Bomb Power",
+  "abilities": [
+   "Fuzz Bombs",
+   "Buzz Bomb+",
+   "Pollen Haze"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Buoyant",
+  "name": "Buoyant Bee",
+  "id": 44,
+  "rarity": "mythic",
+  "color": "blue",
+  "faceColor": "#f1f1f1",
+  "stats": {
+   "GatherTime": 5,
+   "GatherAmount": 15,
+   "HoneyProductionTime": 3,
+   "HoneyProductionAmount": 150,
+   "MaxEnergy": 60,
+   "Movespeed": 14,
+   "AttackPower": 4,
+   "AbilityRate": 1,
+   "CriticalChance": 0,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "ContainerSpaceMultiplier",
+   "Value": 1.2,
+   "Op": "Mul"
+  },
+  "giftedPerkDesc": "x1.2 Capacity",
+  "abilities": [
+   "Blue Bomb",
+   "Inflate Balloons",
+   "Surprise Party"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Precise",
+  "name": "Precise Bee",
+  "id": 45,
+  "rarity": "mythic",
+  "color": "red",
+  "faceColor": "#f1f1f1",
+  "stats": {
+   "GatherTime": 4,
+   "GatherAmount": 20,
+   "HoneyProductionTime": 4,
+   "HoneyProductionAmount": 80,
+   "MaxEnergy": 40,
+   "Movespeed": 11.200000000000001,
+   "AttackPower": 8,
+   "AbilityRate": 1,
+   "CriticalChance": 0.05,
+   "SuperCritChance": 0.03,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "SuperCritChance",
+   "Value": 0.03,
+   "Op": "Add"
+  },
+  "giftedPerkDesc": "+3% Super-Crit Chance",
+  "abilities": [
+   "Target Practice"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ },
+ {
+  "key": "Digital",
+  "name": "Digital Bee",
+  "id": 46,
+  "rarity": "event",
+  "color": "white",
+  "faceColor": "#f1f1f1",
+  "stats": {
+   "GatherTime": 4,
+   "GatherAmount": 10,
+   "HoneyProductionTime": 4,
+   "HoneyProductionAmount": 80,
+   "MaxEnergy": 20,
+   "Movespeed": 11.9,
+   "AttackPower": 1,
+   "AbilityRate": 1,
+   "CriticalChance": 0.1,
+   "SuperCritChance": 0,
+   "InstantConversion": 0,
+   "GatherBubbleChance": 0,
+   "GatherFlameSpireChance": 0,
+   "GatherPollinateChance": 0,
+   "SleepTime": 15,
+   "WhiteGatherBonus": 1,
+   "RedGatherBonus": 1,
+   "BlueGatherBonus": 1,
+   "HiveConvertBonusHoney": 0,
+   "HiveConvertBonusHoneyPerLvl": 0
+  },
+  "giftedStats": {},
+  "giftedTypo": false,
+  "giftedPerk": {
+   "Type": "AbilityDupeChance",
+   "Value": 0.01,
+   "Op": "Add"
+  },
+  "giftedPerkDesc": "+1% Ability Duplication Chance",
+  "abilities": [
+   "Glitch",
+   "Mind Hack",
+   "Map Corruption"
+  ],
+  "gatherPowers": {
+   "White": 10,
+   "Red": 10,
+   "Blue": 10
+  }
+ }
+]

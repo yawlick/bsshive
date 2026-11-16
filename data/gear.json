@@ -1,0 +1,3576 @@
+{
+ "tools": [
+  {
+   "name": "Scooper",
+   "flowers": 2,
+   "collect": 2,
+   "time": 0.8,
+   "white": 1,
+   "red": 1,
+   "blue": 1,
+   "pollenPerSec": 5,
+   "special": ""
+  },
+  {
+   "name": "Rake",
+   "flowers": 3,
+   "collect": 2,
+   "time": 0.7,
+   "white": 1,
+   "red": 1,
+   "blue": 1,
+   "pollenPerSec": 8.6,
+   "special": ""
+  },
+  {
+   "name": "Clippers",
+   "flowers": 1,
+   "collect": 9,
+   "time": 0.6,
+   "white": 1,
+   "red": 1,
+   "blue": 1,
+   "pollenPerSec": 15,
+   "special": ""
+  },
+  {
+   "name": "Magnet",
+   "flowers": 9,
+   "collect": 2,
+   "time": 0.8,
+   "white": 1,
+   "red": 1,
+   "blue": 1,
+   "pollenPerSec": 22.5,
+   "special": ""
+  },
+  {
+   "name": "Vacuum",
+   "flowers": 13,
+   "collect": 2,
+   "time": 0.8,
+   "white": 1,
+   "red": 1,
+   "blue": 1,
+   "pollenPerSec": 32.5,
+   "special": ""
+  },
+  {
+   "name": "Super-Scooper",
+   "flowers": 5,
+   "collect": 4,
+   "time": 0.5,
+   "white": 1,
+   "red": 1,
+   "blue": 1,
+   "pollenPerSec": 40,
+   "special": ""
+  },
+  {
+   "name": "Pulsar",
+   "flowers": 29,
+   "collect": 2,
+   "time": 1,
+   "white": 1,
+   "red": 1,
+   "blue": 1,
+   "pollenPerSec": 58,
+   "special": ""
+  },
+  {
+   "name": "Scissors",
+   "flowers": 1,
+   "collect": 30,
+   "time": 0.5,
+   "white": 1,
+   "red": 1,
+   "blue": 1,
+   "pollenPerSec": 60,
+   "special": "None"
+  },
+  {
+   "name": "Electro-Magnet",
+   "flowers": 9,
+   "collect": 4,
+   "time": 0.5,
+   "white": 1,
+   "red": 1,
+   "blue": 1,
+   "pollenPerSec": 72,
+   "special": ""
+  },
+  {
+   "name": "Scythe",
+   "flowers": 7,
+   "collect": 7,
+   "time": 0.47,
+   "white": 1,
+   "red": 2,
+   "blue": 1,
+   "pollenPerSec": 104.3,
+   "special": "x2 Red Pollen Multiplier"
+  },
+  {
+   "name": "Honey Dipper",
+   "flowers": 49,
+   "collect": 2,
+   "time": 0.9,
+   "white": 1,
+   "red": 1,
+   "blue": 1,
+   "pollenPerSec": 108.9,
+   "special": ""
+  },
+  {
+   "name": "Tide Popper",
+   "flowers": 22,
+   "collect": 5,
+   "time": 1,
+   "white": 1.2,
+   "red": 1,
+   "blue": 2.5,
+   "pollenPerSec": 110,
+   "special": "x1.25 Blue Pollen"
+  },
+  {
+   "name": "Bubble Wand",
+   "flowers": 16,
+   "collect": 6,
+   "time": 0.8,
+   "white": 1,
+   "red": 1,
+   "blue": 2,
+   "pollenPerSec": 120,
+   "special": "×2 Blue Pollen Multiplier"
+  },
+  {
+   "name": "Sticker-Seeker",
+   "flowers": 13,
+   "collect": 10,
+   "time": 1,
+   "white": 1,
+   "red": 1,
+   "blue": 1,
+   "pollenPerSec": 130,
+   "special": "Grants the ability to use the Sticker-Seeker Quest Machine, dig up Stickers, and find Seeker-Stickers"
+  },
+  {
+   "name": "Spark Staff",
+   "flowers": 3,
+   "collect": 30,
+   "time": 0.5,
+   "white": 1.2,
+   "red": 1.2,
+   "blue": 1.2,
+   "pollenPerSec": 180,
+   "special": ""
+  },
+  {
+   "name": "Porcelain Dipper",
+   "flowers": 49,
+   "collect": 3,
+   "time": 0.7,
+   "white": 1.5,
+   "red": 1,
+   "blue": 1,
+   "pollenPerSec": 210,
+   "special": "50% White Pollen Multiplier"
+  },
+  {
+   "name": "Golden Rake",
+   "flowers": 26,
+   "collect": 7,
+   "time": 0.75,
+   "white": 1,
+   "red": 1,
+   "blue": 1,
+   "pollenPerSec": 242.7,
+   "special": ""
+  },
+  {
+   "name": "Gummyballer",
+   "flowers": 29,
+   "collect": 9,
+   "time": 1,
+   "white": 2.5,
+   "red": 2.5,
+   "blue": 2.5,
+   "pollenPerSec": 261,
+   "special": "Takes goo, if there is goo when collecting pollen it increases the stack of your gummyball."
+  },
+  {
+   "name": "Petal Wand",
+   "flowers": 37,
+   "collect": 6,
+   "time": 0.7,
+   "white": 2,
+   "red": 2,
+   "blue": 2,
+   "pollenPerSec": 317.1,
+   "special": "100% Pollen Multiplier"
+  },
+  {
+   "name": "Dark Scythe",
+   "flowers": 31,
+   "collect": 13,
+   "time": 0.5,
+   "white": 1,
+   "red": 1,
+   "blue": 1,
+   "pollenPerSec": 806,
+   "special": "?"
+  }
+ ],
+ "bags": [
+  {
+   "name": "Pouch",
+   "capacity": 200,
+   "stats": []
+  },
+  {
+   "name": "Jar",
+   "capacity": 750,
+   "stats": []
+  },
+  {
+   "name": "Backpack",
+   "capacity": 3500,
+   "stats": []
+  },
+  {
+   "name": "Canister",
+   "capacity": 10000,
+   "stats": [
+    {
+     "text": "+30% Convert Rate",
+     "op": "add",
+     "value": 30,
+     "percent": true,
+     "stat": "Convert Rate"
+    }
+   ]
+  },
+  {
+   "name": "Mega-Jug",
+   "capacity": 25000,
+   "stats": [
+    {
+     "text": "+40% Convert Rate",
+     "op": "add",
+     "value": 40,
+     "percent": true,
+     "stat": "Convert Rate"
+    }
+   ]
+  },
+  {
+   "name": "Compressor",
+   "capacity": 50000,
+   "stats": [
+    {
+     "text": "+55% Convert Rate",
+     "op": "add",
+     "value": 55,
+     "percent": true,
+     "stat": "Convert Rate"
+    }
+   ]
+  },
+  {
+   "name": "Elite Barrel",
+   "capacity": 125000,
+   "stats": [
+    {
+     "text": "+70% Convert Rate",
+     "op": "add",
+     "value": 70,
+     "percent": true,
+     "stat": "Convert Rate"
+    }
+   ]
+  },
+  {
+   "name": "Port-O-Hive",
+   "capacity": 250000,
+   "stats": [
+    {
+     "text": "+100% Convert Rate",
+     "op": "add",
+     "value": 100,
+     "percent": true,
+     "stat": "Convert Rate"
+    },
+    {
+     "text": "+5% Instant Conversion",
+     "op": "add",
+     "value": 5,
+     "percent": true,
+     "stat": "Instant Conversion"
+    }
+   ]
+  },
+  {
+   "name": "Blue Port-O-Hive",
+   "capacity": 400000,
+   "stats": [
+    {
+     "text": "+150% Convert Rate",
+     "op": "add",
+     "value": 150,
+     "percent": true,
+     "stat": "Convert Rate"
+    },
+    {
+     "text": "+10% Blue Bee Convert Rate",
+     "op": "add",
+     "value": 10,
+     "percent": true,
+     "stat": "Blue Bee Convert Rate"
+    },
+    {
+     "text": "+10% Instant Blue Conversion",
+     "op": "add",
+     "value": 10,
+     "percent": true,
+     "stat": "Instant Blue Conversion"
+    },
+    {
+     "text": "+10% Blue Pollen",
+     "op": "add",
+     "value": 10,
+     "percent": true,
+     "stat": "Blue Pollen"
+    }
+   ]
+  },
+  {
+   "name": "Red Port-O-Hive",
+   "capacity": 400000,
+   "stats": [
+    {
+     "text": "+150% Convert Rate",
+     "op": "add",
+     "value": 150,
+     "percent": true,
+     "stat": "Convert Rate"
+    },
+    {
+     "text": "+10% Red Bee Convert Rate",
+     "op": "add",
+     "value": 10,
+     "percent": true,
+     "stat": "Red Bee Convert Rate"
+    },
+    {
+     "text": "+10% Instant Red Conversion",
+     "op": "add",
+     "value": 10,
+     "percent": true,
+     "stat": "Instant Red Conversion"
+    },
+    {
+     "text": "+10% Red Pollen",
+     "op": "add",
+     "value": 10,
+     "percent": true,
+     "stat": "Red Pollen"
+    }
+   ]
+  },
+  {
+   "name": "Porcelain Port-O-Hive",
+   "capacity": 600000,
+   "stats": [
+    {
+     "text": "+250% Convert Rate",
+     "op": "add",
+     "value": 250,
+     "percent": true,
+     "stat": "Convert Rate"
+    },
+    {
+     "text": "x1.25 Convert Rate at Hive",
+     "op": "mul",
+     "value": 1.25,
+     "percent": false,
+     "stat": "Convert Rate at Hive"
+    },
+    {
+     "text": "+10% Instant Conversion",
+     "op": "add",
+     "value": 10,
+     "percent": true,
+     "stat": "Instant Conversion"
+    },
+    {
+     "text": "+50% White Pollen",
+     "op": "add",
+     "value": 50,
+     "percent": true,
+     "stat": "White Pollen"
+    }
+   ]
+  },
+  {
+   "name": "Coconut Canister",
+   "capacity": 1000000,
+   "stats": [
+    {
+     "text": "+400% Convert Rate",
+     "op": "add",
+     "value": 400,
+     "percent": true,
+     "stat": "Convert Rate"
+    },
+    {
+     "text": "x1.5 Convert Rate At Hive",
+     "op": "mul",
+     "value": 1.5,
+     "percent": false,
+     "stat": "Convert Rate At Hive"
+    },
+    {
+     "text": "+10% Instant Conversion",
+     "op": "add",
+     "value": 10,
+     "percent": true,
+     "stat": "Instant Conversion"
+    },
+    {
+     "text": "+10% Instant White Conversion",
+     "op": "add",
+     "value": 10,
+     "percent": true,
+     "stat": "Instant White Conversion"
+    },
+    {
+     "text": "+100% White Pollen",
+     "op": "add",
+     "value": 100,
+     "percent": true,
+     "stat": "White Pollen"
+    },
+    {
+     "text": "+Passive: Inspire Coconuts",
+     "passive": "Inspire Coconuts"
+    },
+    {
+     "text": "+Passive: Emergency Coconut Shield",
+     "passive": "Emergency Coconut Shield"
+    }
+   ]
+  }
+ ],
+ "hats": [
+  {
+   "name": "B.B.M. Mask",
+   "stats": [
+    {
+     "text": "+75,000 Capacity",
+     "op": "add",
+     "value": 75000,
+     "percent": false,
+     "stat": "Capacity"
+    },
+    {
+     "text": "+25 Convert Amount",
+     "op": "add",
+     "value": 25,
+     "percent": false,
+     "stat": "Convert Amount"
+    },
+    {
+     "text": "+50% Honey From Tokens",
+     "op": "add",
+     "value": 50,
+     "percent": true,
+     "stat": "Honey From Tokens"
+    },
+    {
+     "text": "+1 Blue Bee Attack",
+     "op": "add",
+     "value": 1,
+     "percent": false,
+     "stat": "Blue Bee Attack"
+    }
+   ]
+  },
+  {
+   "name": "Beekeeper's Mask",
+   "stats": [
+    {
+     "text": "+20% Pollen",
+     "op": "add",
+     "value": 20,
+     "percent": true,
+     "stat": "Pollen"
+    },
+    {
+     "text": "+20% Bee Gather Pollen",
+     "op": "add",
+     "value": 20,
+     "percent": true,
+     "stat": "Bee Gather Pollen"
+    },
+    {
+     "text": "+10% Bee Ability Rate",
+     "op": "add",
+     "value": 10,
+     "percent": true,
+     "stat": "Bee Ability Rate"
+    },
+    {
+     "text": "+25% Defense",
+     "op": "add",
+     "value": 25,
+     "percent": true,
+     "stat": "Defense"
+    }
+   ]
+  },
+  {
+   "name": "Bubble Mask",
+   "stats": [
+    {
+     "text": "x1.5 Blue Pollen",
+     "op": "mul",
+     "value": 1.5,
+     "percent": false,
+     "stat": "Blue Pollen"
+    },
+    {
+     "text": "x1.5 Capacity",
+     "op": "mul",
+     "value": 1.5,
+     "percent": false,
+     "stat": "Capacity"
+    },
+    {
+     "text": "x1.25 Blue Field Capacity",
+     "op": "mul",
+     "value": 1.25,
+     "percent": false,
+     "stat": "Blue Field Capacity"
+    },
+    {
+     "text": "x1.25 Bubble Pollen",
+     "op": "mul",
+     "value": 1.25,
+     "percent": false,
+     "stat": "Bubble Pollen"
+    },
+    {
+     "text": "+30% Defense",
+     "op": "add",
+     "value": 30,
+     "percent": true,
+     "stat": "Defense"
+    },
+    {
+     "text": "+15% Bee Ability Rate",
+     "op": "add",
+     "value": 15,
+     "percent": true,
+     "stat": "Bee Ability Rate"
+    },
+    {
+     "text": "+Passive: Bubble Bombs",
+     "passive": "Bubble Bombs"
+    }
+   ]
+  },
+  {
+   "name": "Demon Mask",
+   "stats": [
+    {
+     "text": "x1.5 Red Pollen",
+     "op": "mul",
+     "value": 1.5,
+     "percent": false,
+     "stat": "Red Pollen"
+    },
+    {
+     "text": "+25% Pollen",
+     "op": "add",
+     "value": 25,
+     "percent": true,
+     "stat": "Pollen"
+    },
+    {
+     "text": "x1.5 Capacity",
+     "op": "mul",
+     "value": 1.5,
+     "percent": false,
+     "stat": "Capacity"
+    },
+    {
+     "text": "x1.5 Red Field Capacity",
+     "op": "mul",
+     "value": 1.5,
+     "percent": false,
+     "stat": "Red Field Capacity"
+    },
+    {
+     "text": "+20% Instant Red Conversion",
+     "op": "add",
+     "value": 20,
+     "percent": true,
+     "stat": "Instant Red Conversion"
+    },
+    {
+     "text": "+50% Instant Flame Conversion",
+     "op": "add",
+     "value": 50,
+     "percent": true,
+     "stat": "Instant Flame Conversion"
+    },
+    {
+     "text": "x1.25 Flame Pollen",
+     "op": "mul",
+     "value": 1.25,
+     "percent": false,
+     "stat": "Flame Pollen"
+    },
+    {
+     "text": "+25% Bee Attack",
+     "op": "add",
+     "value": 25,
+     "percent": true,
+     "stat": "Bee Attack"
+    },
+    {
+     "text": "+35% Defense",
+     "op": "add",
+     "value": 35,
+     "percent": true,
+     "stat": "Defense"
+    },
+    {
+     "text": "+20% Bee Ability Rate",
+     "op": "add",
+     "value": 20,
+     "percent": true,
+     "stat": "Bee Ability Rate"
+    },
+    {
+     "text": "+Passive: Ignite",
+     "passive": "Ignite"
+    },
+    {
+     "text": "+Passive: X-Flame",
+     "passive": "X-Flame"
+    }
+   ]
+  },
+  {
+   "name": "Diamond Mask",
+   "stats": [
+    {
+     "text": "x1.5 Blue Pollen",
+     "op": "mul",
+     "value": 1.5,
+     "percent": false,
+     "stat": "Blue Pollen"
+    },
+    {
+     "text": "+15% Instant Blue Conversion",
+     "op": "add",
+     "value": 15,
+     "percent": true,
+     "stat": "Instant Blue Conversion"
+    },
+    {
+     "text": "+25% Pollen",
+     "op": "add",
+     "value": 25,
+     "percent": true,
+     "stat": "Pollen"
+    },
+    {
+     "text": "x3 Capacity",
+     "op": "mul",
+     "value": 3,
+     "percent": false,
+     "stat": "Capacity"
+    },
+    {
+     "text": "x1.5 Bubble Pollen",
+     "op": "mul",
+     "value": 1.5,
+     "percent": false,
+     "stat": "Bubble Pollen"
+    },
+    {
+     "text": "+35% Defense",
+     "op": "add",
+     "value": 35,
+     "percent": true,
+     "stat": "Defense"
+    },
+    {
+     "text": "+20% Bee Ability Rate",
+     "op": "add",
+     "value": 20,
+     "percent": true,
+     "stat": "Bee Ability Rate"
+    },
+    {
+     "text": "+Passive: Bubble Bombs",
+     "passive": "Bubble Bombs"
+    },
+    {
+     "text": "+Passive: Diamond Drain",
+     "passive": "Diamond Drain"
+    }
+   ]
+  },
+  {
+   "name": "Fire Mask",
+   "stats": [
+    {
+     "text": "x1.5 Red Pollen",
+     "op": "mul",
+     "value": 1.5,
+     "percent": false,
+     "stat": "Red Pollen"
+    },
+    {
+     "text": "+15% Instant Red Conversion",
+     "op": "add",
+     "value": 15,
+     "percent": true,
+     "stat": "Instant Red Conversion"
+    },
+    {
+     "text": "x1.5 Capacity",
+     "op": "mul",
+     "value": 1.5,
+     "percent": false,
+     "stat": "Capacity"
+    },
+    {
+     "text": "+50% Instant Flame Conversion",
+     "op": "add",
+     "value": 50,
+     "percent": true,
+     "stat": "Instant Flame Conversion"
+    },
+    {
+     "text": "+15% Bee Attack",
+     "op": "add",
+     "value": 15,
+     "percent": true,
+     "stat": "Bee Attack"
+    },
+    {
+     "text": "+35% Defense",
+     "op": "add",
+     "value": 35,
+     "percent": true,
+     "stat": "Defense"
+    },
+    {
+     "text": "+15% Bee Ability Rate",
+     "op": "add",
+     "value": 15,
+     "percent": true,
+     "stat": "Bee Ability Rate"
+    },
+    {
+     "text": "+Passive: Ignite",
+     "passive": "Ignite"
+    }
+   ]
+  },
+  {
+   "name": "Gummy Mask",
+   "stats": [
+    {
+     "text": "+75% Goo",
+     "op": "add",
+     "value": 75,
+     "percent": true,
+     "stat": "Goo"
+    },
+    {
+     "text": "+10% Goo Conversion",
+     "op": "add",
+     "value": 10,
+     "percent": true,
+     "stat": "Goo Conversion"
+    },
+    {
+     "text": "x1.25 White Pollen",
+     "op": "mul",
+     "value": 1.25,
+     "percent": false,
+     "stat": "White Pollen"
+    },
+    {
+     "text": "+25% Pollen",
+     "op": "add",
+     "value": 25,
+     "percent": true,
+     "stat": "Pollen"
+    },
+    {
+     "text": "x1.5 Capacity",
+     "op": "mul",
+     "value": 1.5,
+     "percent": false,
+     "stat": "Capacity"
+    },
+    {
+     "text": "x1.5 White Field Capacity",
+     "op": "mul",
+     "value": 1.5,
+     "percent": false,
+     "stat": "White Field Capacity"
+    },
+    {
+     "text": "+30% Defense",
+     "op": "add",
+     "value": 30,
+     "percent": true,
+     "stat": "Defense"
+    },
+    {
+     "text": "+20% Bee Ability Rate",
+     "op": "add",
+     "value": 20,
+     "percent": true,
+     "stat": "Bee Ability Rate"
+    },
+    {
+     "text": "+Passive: Coin Scatter",
+     "passive": "Coin Scatter"
+    },
+    {
+     "text": "+Passive: Gummy Morph",
+     "passive": "Gummy Morph"
+    }
+   ]
+  },
+  {
+   "name": "Helmet",
+   "stats": [
+    {
+     "text": "+10% Pollen",
+     "op": "add",
+     "value": 10,
+     "percent": true,
+     "stat": "Pollen"
+    },
+    {
+     "text": "+25% Defense",
+     "op": "add",
+     "value": 25,
+     "percent": true,
+     "stat": "Defense"
+    }
+   ]
+  },
+  {
+   "name": "Honey Mask",
+   "stats": [
+    {
+     "text": "+25% Pollen",
+     "op": "add",
+     "value": 25,
+     "percent": true,
+     "stat": "Pollen"
+    },
+    {
+     "text": "+25% Bee Gather Pollen",
+     "op": "add",
+     "value": 25,
+     "percent": true,
+     "stat": "Bee Gather Pollen"
+    },
+    {
+     "text": "x1.25 Capacity",
+     "op": "mul",
+     "value": 1.25,
+     "percent": false,
+     "stat": "Capacity"
+    },
+    {
+     "text": "+50% Honey From Tokens",
+     "op": "add",
+     "value": 50,
+     "percent": true,
+     "stat": "Honey From Tokens"
+    },
+    {
+     "text": "+80 Convert Amount",
+     "op": "add",
+     "value": 80,
+     "percent": false,
+     "stat": "Convert Amount"
+    },
+    {
+     "text": "+30% Defense",
+     "op": "add",
+     "value": 30,
+     "percent": true,
+     "stat": "Defense"
+    },
+    {
+     "text": "+15% Bee Ability Rate",
+     "op": "add",
+     "value": 15,
+     "percent": true,
+     "stat": "Bee Ability Rate"
+    },
+    {
+     "text": "+Passive: Coin Scatter",
+     "passive": "Coin Scatter"
+    }
+   ]
+  },
+  {
+   "name": "Mondo B.B.M. Mask",
+   "stats": [
+    {
+     "text": "+250,000 Capacity",
+     "op": "add",
+     "value": 250000,
+     "percent": false,
+     "stat": "Capacity"
+    },
+    {
+     "text": "+50 Convert Amount",
+     "op": "add",
+     "value": 50,
+     "percent": false,
+     "stat": "Convert Amount"
+    },
+    {
+     "text": "+100% Honey From Tokens",
+     "op": "add",
+     "value": 100,
+     "percent": true,
+     "stat": "Honey From Tokens"
+    },
+    {
+     "text": "+1 Bee Attack",
+     "op": "add",
+     "value": 1,
+     "percent": false,
+     "stat": "Bee Attack"
+    }
+   ]
+  },
+  {
+   "name": "Propeller Hat",
+   "stats": [
+    {
+     "text": "+15% Pollen",
+     "op": "add",
+     "value": 15,
+     "percent": true,
+     "stat": "Pollen"
+    },
+    {
+     "text": "+5% Bee Ability Rate",
+     "op": "add",
+     "value": 5,
+     "percent": true,
+     "stat": "Bee Ability Rate"
+    },
+    {
+     "text": "+10% Defense",
+     "op": "add",
+     "value": 10,
+     "percent": true,
+     "stat": "Defense"
+    },
+    {
+     "text": "+10 Jump Power",
+     "op": "add",
+     "value": 10,
+     "percent": false,
+     "stat": "Jump Power"
+    }
+   ]
+  },
+  {
+   "name": "Strange Goggles",
+   "stats": [
+    {
+     "text": "+77 Capacity",
+     "op": "add",
+     "value": 77,
+     "percent": false,
+     "stat": "Capacity"
+    },
+    {
+     "text": "+7% Defense",
+     "op": "add",
+     "value": 7,
+     "percent": true,
+     "stat": "Defense"
+    }
+   ]
+  }
+ ],
+ "belts": [
+  {
+   "name": "Belt Bag",
+   "stats": [
+    {
+     "text": "+25,000 Capacity",
+     "op": "add",
+     "value": 25000,
+     "percent": false,
+     "stat": "Capacity"
+    },
+    {
+     "text": "+20 Convert Amount",
+     "op": "add",
+     "value": 20,
+     "percent": false,
+     "stat": "Convert Amount"
+    },
+    {
+     "text": "+50% Loot Luck",
+     "op": "add",
+     "value": 50,
+     "percent": true,
+     "stat": "Loot Luck"
+    }
+   ]
+  },
+  {
+   "name": "Belt Pocket",
+   "stats": [
+    {
+     "text": "+5,000 Capacity",
+     "op": "add",
+     "value": 5000,
+     "percent": false,
+     "stat": "Capacity"
+    },
+    {
+     "text": "+10 Convert Amount",
+     "op": "add",
+     "value": 10,
+     "percent": false,
+     "stat": "Convert Amount"
+    },
+    {
+     "text": "+25% Loot Luck",
+     "op": "add",
+     "value": 25,
+     "percent": true,
+     "stat": "Loot Luck"
+    }
+   ]
+  },
+  {
+   "name": "Coconut Belt",
+   "stats": [
+    {
+     "text": "+350,000 Capacity",
+     "op": "add",
+     "value": 350000,
+     "percent": false,
+     "stat": "Capacity"
+    },
+    {
+     "text": "+75% Capacity",
+     "op": "add",
+     "value": 75,
+     "percent": true,
+     "stat": "Capacity"
+    },
+    {
+     "text": "+120 Convert Amount",
+     "op": "add",
+     "value": 120,
+     "percent": false,
+     "stat": "Convert Amount"
+    },
+    {
+     "text": "+102% Loot Luck",
+     "op": "add",
+     "value": 102,
+     "percent": true,
+     "stat": "Loot Luck"
+    },
+    {
+     "text": "+100% Honey From Tokens",
+     "op": "add",
+     "value": 100,
+     "percent": true,
+     "stat": "Honey From Tokens"
+    },
+    {
+     "text": "x1.1 Coconut Field Pollen",
+     "op": "mul",
+     "value": 1.1,
+     "percent": false,
+     "stat": "Coconut Field Pollen"
+    },
+    {
+     "text": "+10% Gifted Bee Pollen",
+     "op": "add",
+     "value": 10,
+     "percent": true,
+     "stat": "Gifted Bee Pollen"
+    },
+    {
+     "text": "+1 Bee Attack",
+     "op": "add",
+     "value": 1,
+     "percent": false,
+     "stat": "Bee Attack"
+    },
+    {
+     "text": "+Passive: Petal Storm",
+     "passive": "Petal Storm"
+    },
+    {
+     "text": "+Passive: Combo Coconuts",
+     "passive": "Combo Coconuts"
+    }
+   ]
+  },
+  {
+   "name": "Honeycomb Belt",
+   "stats": [
+    {
+     "text": "+150,000 Capacity",
+     "op": "add",
+     "value": 150000,
+     "percent": false,
+     "stat": "Capacity"
+    },
+    {
+     "text": "+25% Capacity",
+     "op": "add",
+     "value": 25,
+     "percent": true,
+     "stat": "Capacity"
+    },
+    {
+     "text": "+75 Convert Amount",
+     "op": "add",
+     "value": 75,
+     "percent": false,
+     "stat": "Convert Amount"
+    },
+    {
+     "text": "+100% Loot Luck",
+     "op": "add",
+     "value": 100,
+     "percent": true,
+     "stat": "Loot Luck"
+    },
+    {
+     "text": "+20% Buzz Bomb Pollen",
+     "op": "add",
+     "value": 20,
+     "percent": true,
+     "stat": "Buzz Bomb Pollen"
+    },
+    {
+     "text": "+50% Honey From Tokens",
+     "op": "add",
+     "value": 50,
+     "percent": true,
+     "stat": "Honey From Tokens"
+    },
+    {
+     "text": "+1 Colorless Bee Attack",
+     "op": "add",
+     "value": 1,
+     "percent": false,
+     "stat": "Colorless Bee Attack"
+    }
+   ]
+  },
+  {
+   "name": "Mondo Belt Bag",
+   "stats": [
+    {
+     "text": "+100,000 Capacity",
+     "op": "add",
+     "value": 100000,
+     "percent": false,
+     "stat": "Capacity"
+    },
+    {
+     "text": "+50 Convert Amount",
+     "op": "add",
+     "value": 50,
+     "percent": false,
+     "stat": "Convert Amount"
+    },
+    {
+     "text": "+75% Loot Luck",
+     "op": "add",
+     "value": 75,
+     "percent": true,
+     "stat": "Loot Luck"
+    }
+   ]
+  },
+  {
+   "name": "Petal Belt",
+   "stats": [
+    {
+     "text": "+250,000 Capacity",
+     "op": "add",
+     "value": 250000,
+     "percent": false,
+     "stat": "Capacity"
+    },
+    {
+     "text": "+50% Capacity",
+     "op": "add",
+     "value": 50,
+     "percent": true,
+     "stat": "Capacity"
+    },
+    {
+     "text": "+100 Convert Amount",
+     "op": "add",
+     "value": 100,
+     "percent": false,
+     "stat": "Convert Amount"
+    },
+    {
+     "text": "+101% Loot Luck",
+     "op": "add",
+     "value": 101,
+     "percent": true,
+     "stat": "Loot Luck"
+    },
+    {
+     "text": "+75% Honey From Tokens",
+     "op": "add",
+     "value": 75,
+     "percent": true,
+     "stat": "Honey From Tokens"
+    },
+    {
+     "text": "+30% Buzz Bomb Pollen",
+     "op": "add",
+     "value": 30,
+     "percent": true,
+     "stat": "Buzz Bomb Pollen"
+    },
+    {
+     "text": "+1 Colorless Bee Attack",
+     "op": "add",
+     "value": 1,
+     "percent": false,
+     "stat": "Colorless Bee Attack"
+    },
+    {
+     "text": "+Passive: Petal Storm",
+     "passive": "Petal Storm"
+    }
+   ]
+  }
+ ],
+ "boots": [
+  {
+   "name": "Basic Boots",
+   "stats": [
+    {
+     "text": "+4 Player Movespeed",
+     "op": "add",
+     "value": 4,
+     "percent": false,
+     "stat": "Player Movespeed"
+    },
+    {
+     "text": "+2 Movement Collection",
+     "op": "add",
+     "value": 2,
+     "percent": false,
+     "stat": "Movement Collection"
+    }
+   ]
+  },
+  {
+   "name": "Beekeeper's Boots",
+   "stats": [
+    {
+     "text": "+25% Bee Gather Pollen",
+     "op": "add",
+     "value": 25,
+     "percent": true,
+     "stat": "Bee Gather Pollen"
+    },
+    {
+     "text": "+6 Player Movespeed",
+     "op": "add",
+     "value": 6,
+     "percent": false,
+     "stat": "Player Movespeed"
+    },
+    {
+     "text": "+20 Jump Power",
+     "op": "add",
+     "value": 20,
+     "percent": false,
+     "stat": "Jump Power"
+    },
+    {
+     "text": "+10 Movement Collection",
+     "op": "add",
+     "value": 10,
+     "percent": false,
+     "stat": "Movement Collection"
+    },
+    {
+     "text": "+1 Bee Attack",
+     "op": "add",
+     "value": 1,
+     "percent": false,
+     "stat": "Bee Attack"
+    }
+   ]
+  },
+  {
+   "name": "Coconut Clogs",
+   "stats": [
+    {
+     "text": "+15% Pollen",
+     "op": "add",
+     "value": 15,
+     "percent": true,
+     "stat": "Pollen"
+    },
+    {
+     "text": "x1.15 Coconut Field Pollen",
+     "op": "mul",
+     "value": 1.15,
+     "percent": false,
+     "stat": "Coconut Field Pollen"
+    },
+    {
+     "text": "+25% Honey From Tokens",
+     "op": "add",
+     "value": 25,
+     "percent": true,
+     "stat": "Honey From Tokens"
+    },
+    {
+     "text": "+2 Bee Attack",
+     "op": "add",
+     "value": 2,
+     "percent": false,
+     "stat": "Bee Attack"
+    },
+    {
+     "text": "+7 Player Movespeed",
+     "op": "add",
+     "value": 7,
+     "percent": false,
+     "stat": "Player Movespeed"
+    },
+    {
+     "text": "+22 Jump Power",
+     "op": "add",
+     "value": 22,
+     "percent": false,
+     "stat": "Jump Power"
+    },
+    {
+     "text": "+14 Movement Collection",
+     "op": "add",
+     "value": 14,
+     "percent": false,
+     "stat": "Movement Collection"
+    },
+    {
+     "text": "+Passive: Coconut Haste",
+     "passive": "Coconut Haste"
+    }
+   ]
+  },
+  {
+   "name": "Gummy Boots",
+   "stats": [
+    {
+     "text": "+25% Goo",
+     "op": "add",
+     "value": 25,
+     "percent": true,
+     "stat": "Goo"
+    },
+    {
+     "text": "+20% Pollen",
+     "op": "add",
+     "value": 20,
+     "percent": true,
+     "stat": "Pollen"
+    },
+    {
+     "text": "+50% Honey From Tokens",
+     "op": "add",
+     "value": 50,
+     "percent": true,
+     "stat": "Honey From Tokens"
+    },
+    {
+     "text": "+3 Bee Attack",
+     "op": "add",
+     "value": 3,
+     "percent": false,
+     "stat": "Bee Attack"
+    },
+    {
+     "text": "+9 Player Movespeed",
+     "op": "add",
+     "value": 9,
+     "percent": false,
+     "stat": "Player Movespeed"
+    },
+    {
+     "text": "+22 Jump Power",
+     "op": "add",
+     "value": 22,
+     "percent": false,
+     "stat": "Jump Power"
+    },
+    {
+     "text": "+16 Movement Collection",
+     "op": "add",
+     "value": 16,
+     "percent": false,
+     "stat": "Movement Collection"
+    },
+    {
+     "text": "+Passive: Coconut Haste",
+     "passive": "Coconut Haste"
+    },
+    {
+     "text": "+Passive: Goo Trail",
+     "passive": "Goo Trail"
+    }
+   ]
+  },
+  {
+   "name": "Hiking Boots",
+   "stats": [
+    {
+     "text": "+5 Player Movespeed",
+     "op": "add",
+     "value": 5,
+     "percent": false,
+     "stat": "Player Movespeed"
+    },
+    {
+     "text": "+10 Jump Power",
+     "op": "add",
+     "value": 10,
+     "percent": false,
+     "stat": "Jump Power"
+    },
+    {
+     "text": "+6 Movement Collection",
+     "op": "add",
+     "value": 6,
+     "percent": false,
+     "stat": "Movement Collection"
+    },
+    {
+     "text": "+1 Bee Attack",
+     "op": "add",
+     "value": 1,
+     "percent": false,
+     "stat": "Bee Attack"
+    }
+   ]
+  }
+ ],
+ "guards": [
+  {
+   "name": "Blue Guard",
+   "stats": [
+    {
+     "text": "+25,000 Capacity",
+     "op": "add",
+     "value": 25000,
+     "percent": false,
+     "stat": "Capacity"
+    },
+    {
+     "text": "+15% Blue Pollen",
+     "op": "add",
+     "value": 15,
+     "percent": true,
+     "stat": "Blue Pollen"
+    },
+    {
+     "text": "+5% Defense",
+     "op": "add",
+     "value": 5,
+     "percent": true,
+     "stat": "Defense"
+    },
+    {
+     "text": "+1 Blue Bee Attack",
+     "op": "add",
+     "value": 1,
+     "percent": false,
+     "stat": "Blue Bee Attack"
+    }
+   ]
+  },
+  {
+   "name": "Bomber Guard",
+   "stats": [
+    {
+     "text": "+15,000 Capacity",
+     "op": "add",
+     "value": 15000,
+     "percent": false,
+     "stat": "Capacity"
+    },
+    {
+     "text": "+5% White Pollen",
+     "op": "add",
+     "value": 5,
+     "percent": true,
+     "stat": "White Pollen"
+    },
+    {
+     "text": "+15% Bomb Pollen",
+     "op": "add",
+     "value": 15,
+     "percent": true,
+     "stat": "Bomb Pollen"
+    }
+   ]
+  },
+  {
+   "name": "Brave Guard",
+   "stats": [
+    {
+     "text": "+15,000 Capacity",
+     "op": "add",
+     "value": 15000,
+     "percent": false,
+     "stat": "Capacity"
+    },
+    {
+     "text": "+5% White Pollen",
+     "op": "add",
+     "value": 5,
+     "percent": true,
+     "stat": "White Pollen"
+    },
+    {
+     "text": "+1 Colorless Bee Attack",
+     "op": "add",
+     "value": 1,
+     "percent": false,
+     "stat": "Colorless Bee Attack"
+    }
+   ]
+  },
+  {
+   "name": "Bucko Guard",
+   "stats": [
+    {
+     "text": "+150,000 Capacity",
+     "op": "add",
+     "value": 150000,
+     "percent": false,
+     "stat": "Capacity"
+    },
+    {
+     "text": "+35% Blue Pollen",
+     "op": "add",
+     "value": 35,
+     "percent": true,
+     "stat": "Blue Pollen"
+    },
+    {
+     "text": "+10% Defense",
+     "op": "add",
+     "value": 10,
+     "percent": true,
+     "stat": "Defense"
+    },
+    {
+     "text": "+75% Critical Power",
+     "op": "add",
+     "value": 75,
+     "percent": true,
+     "stat": "Critical Power"
+    },
+    {
+     "text": "+2 Blue Bee Attack",
+     "op": "add",
+     "value": 2,
+     "percent": false,
+     "stat": "Blue Bee Attack"
+    }
+   ]
+  },
+  {
+   "name": "Cobalt Guard",
+   "stats": [
+    {
+     "text": "+250,000 Capacity",
+     "op": "add",
+     "value": 250000,
+     "percent": false,
+     "stat": "Capacity"
+    },
+    {
+     "text": "+50% Blue Pollen",
+     "op": "add",
+     "value": 50,
+     "percent": true,
+     "stat": "Blue Pollen"
+    },
+    {
+     "text": "+20% Blue Bomb Pollen",
+     "op": "add",
+     "value": 20,
+     "percent": true,
+     "stat": "Blue Bomb Pollen"
+    },
+    {
+     "text": "+3 Blue Bee Attack",
+     "op": "add",
+     "value": 3,
+     "percent": false,
+     "stat": "Blue Bee Attack"
+    },
+    {
+     "text": "+10% Defense",
+     "op": "add",
+     "value": 10,
+     "percent": true,
+     "stat": "Defense"
+    },
+    {
+     "text": "+100% Critical Power",
+     "op": "add",
+     "value": 100,
+     "percent": true,
+     "stat": "Critical Power"
+    },
+    {
+     "text": "+Passive: Haste Pulser",
+     "passive": "Haste Pulser"
+    }
+   ]
+  },
+  {
+   "name": "Crimson Guard",
+   "stats": [
+    {
+     "text": "+250,000 Capacity",
+     "op": "add",
+     "value": 250000,
+     "percent": false,
+     "stat": "Capacity"
+    },
+    {
+     "text": "+50% Red Pollen",
+     "op": "add",
+     "value": 50,
+     "percent": true,
+     "stat": "Red Pollen"
+    },
+    {
+     "text": "+20% Red Bomb Pollen",
+     "op": "add",
+     "value": 20,
+     "percent": true,
+     "stat": "Red Bomb Pollen"
+    },
+    {
+     "text": "+3 Red Bee Attack",
+     "op": "add",
+     "value": 3,
+     "percent": false,
+     "stat": "Red Bee Attack"
+    },
+    {
+     "text": "+10% Defense",
+     "op": "add",
+     "value": 10,
+     "percent": true,
+     "stat": "Defense"
+    },
+    {
+     "text": "+10% Critical Chance",
+     "op": "add",
+     "value": 10,
+     "percent": true,
+     "stat": "Critical Chance"
+    },
+    {
+     "text": "+Passive: Focus Pulser",
+     "passive": "Focus Pulser"
+    }
+   ]
+  },
+  {
+   "name": "Elite Blue Guard",
+   "stats": [
+    {
+     "text": "+75,000 Capacity",
+     "op": "add",
+     "value": 75000,
+     "percent": false,
+     "stat": "Capacity"
+    },
+    {
+     "text": "+25% Blue Pollen",
+     "op": "add",
+     "value": 25,
+     "percent": true,
+     "stat": "Blue Pollen"
+    },
+    {
+     "text": "+7% Defense",
+     "op": "add",
+     "value": 7,
+     "percent": true,
+     "stat": "Defense"
+    },
+    {
+     "text": "+50% Critical Power",
+     "op": "add",
+     "value": 50,
+     "percent": true,
+     "stat": "Critical Power"
+    },
+    {
+     "text": "+1 Blue Bee Attack",
+     "op": "add",
+     "value": 1,
+     "percent": false,
+     "stat": "Blue Bee Attack"
+    }
+   ]
+  },
+  {
+   "name": "Elite Red Guard",
+   "stats": [
+    {
+     "text": "+75,000 Capacity",
+     "op": "add",
+     "value": 75000,
+     "percent": false,
+     "stat": "Capacity"
+    },
+    {
+     "text": "+25% Red Pollen",
+     "op": "add",
+     "value": 25,
+     "percent": true,
+     "stat": "Red Pollen"
+    },
+    {
+     "text": "+7% Defense",
+     "op": "add",
+     "value": 7,
+     "percent": true,
+     "stat": "Defense"
+    },
+    {
+     "text": "+5% Critical Chance",
+     "op": "add",
+     "value": 5,
+     "percent": true,
+     "stat": "Critical Chance"
+    },
+    {
+     "text": "+1 Red Bee Attack",
+     "op": "add",
+     "value": 1,
+     "percent": false,
+     "stat": "Red Bee Attack"
+    }
+   ]
+  },
+  {
+   "name": "Hasty Guard",
+   "stats": [
+    {
+     "text": "+15,000 Capacity",
+     "op": "add",
+     "value": 15000,
+     "percent": false,
+     "stat": "Capacity"
+    },
+    {
+     "text": "+1% Bee Movespeed",
+     "op": "add",
+     "value": 1,
+     "percent": true,
+     "stat": "Bee Movespeed"
+    },
+    {
+     "text": "x1.1 Player Movespeed",
+     "op": "mul",
+     "value": 1.1,
+     "percent": false,
+     "stat": "Player Movespeed"
+    }
+   ]
+  },
+  {
+   "name": "Looker Guard",
+   "stats": [
+    {
+     "text": "+15,000 Capacity",
+     "op": "add",
+     "value": 15000,
+     "percent": false,
+     "stat": "Capacity"
+    },
+    {
+     "text": "+1% Critical Chance",
+     "op": "add",
+     "value": 1,
+     "percent": true,
+     "stat": "Critical Chance"
+    },
+    {
+     "text": "+25% Critical Power",
+     "op": "add",
+     "value": 25,
+     "percent": true,
+     "stat": "Critical Power"
+    }
+   ]
+  },
+  {
+   "name": "Red Guard",
+   "stats": [
+    {
+     "text": "+25,000 Capacity",
+     "op": "add",
+     "value": 25000,
+     "percent": false,
+     "stat": "Capacity"
+    },
+    {
+     "text": "+15% Red Pollen",
+     "op": "add",
+     "value": 15,
+     "percent": true,
+     "stat": "Red Pollen"
+    },
+    {
+     "text": "+5% Defense",
+     "op": "add",
+     "value": 5,
+     "percent": true,
+     "stat": "Defense"
+    },
+    {
+     "text": "+1 Red Bee Attack",
+     "op": "add",
+     "value": 1,
+     "percent": false,
+     "stat": "Red Bee Attack"
+    }
+   ]
+  },
+  {
+   "name": "Riley Guard",
+   "stats": [
+    {
+     "text": "+150,000 Capacity",
+     "op": "add",
+     "value": 150000,
+     "percent": false,
+     "stat": "Capacity"
+    },
+    {
+     "text": "+35% Red Pollen",
+     "op": "add",
+     "value": 35,
+     "percent": true,
+     "stat": "Red Pollen"
+    },
+    {
+     "text": "+10% Defense",
+     "op": "add",
+     "value": 10,
+     "percent": true,
+     "stat": "Defense"
+    },
+    {
+     "text": "+8% Critical Chance",
+     "op": "add",
+     "value": 8,
+     "percent": true,
+     "stat": "Critical Chance"
+    },
+    {
+     "text": "+2 Red Bee Attack",
+     "op": "add",
+     "value": 2,
+     "percent": false,
+     "stat": "Red Bee Attack"
+    }
+   ]
+  }
+ ],
+ "amulets": [
+  {
+   "name": "Star Amulet"
+  },
+  {
+   "name": "Moon Amulet"
+  },
+  {
+   "name": "Shell Amulet"
+  },
+  {
+   "name": "Ant Amulet"
+  },
+  {
+   "name": "Stick Bug Amulet"
+  },
+  {
+   "name": "King Beetle Amulet"
+  },
+  {
+   "name": "Cog Amulet"
+  }
+ ],
+ "badges": [
+  {
+   "category": "Honey",
+   "tiers": [
+    {
+     "tier": "Cadet",
+     "stats": [
+      {
+       "text": "x1.3 Convert Rate",
+       "op": "mul",
+       "value": 1.3,
+       "percent": false,
+       "stat": "Convert Rate"
+      }
+     ]
+    },
+    {
+     "tier": "Hotshot",
+     "stats": [
+      {
+       "text": "x1.6 Convert Rate",
+       "op": "mul",
+       "value": 1.6,
+       "percent": false,
+       "stat": "Convert Rate"
+      }
+     ]
+    },
+    {
+     "tier": "Ace",
+     "stats": [
+      {
+       "text": "x1.9 Convert Rate",
+       "op": "mul",
+       "value": 1.9,
+       "percent": false,
+       "stat": "Convert Rate"
+      }
+     ]
+    },
+    {
+     "tier": "Master",
+     "stats": [
+      {
+       "text": "x2.2 Convert Rate",
+       "op": "mul",
+       "value": 2.2,
+       "percent": false,
+       "stat": "Convert Rate"
+      }
+     ]
+    },
+    {
+     "tier": "Grandmaster",
+     "stats": [
+      {
+       "text": "x2.5 Convert Rate",
+       "op": "mul",
+       "value": 2.5,
+       "percent": false,
+       "stat": "Convert Rate"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "category": "Quest",
+   "tiers": [
+    {
+     "tier": "Cadet",
+     "stats": [
+      {
+       "text": "x1.25 Capacity",
+       "op": "mul",
+       "value": 1.25,
+       "percent": false,
+       "stat": "Capacity"
+      }
+     ]
+    },
+    {
+     "tier": "Hotshot",
+     "stats": [
+      {
+       "text": "x1.5 Capacity",
+       "op": "mul",
+       "value": 1.5,
+       "percent": false,
+       "stat": "Capacity"
+      }
+     ]
+    },
+    {
+     "tier": "Ace",
+     "stats": [
+      {
+       "text": "x1.75 Capacity",
+       "op": "mul",
+       "value": 1.75,
+       "percent": false,
+       "stat": "Capacity"
+      }
+     ]
+    },
+    {
+     "tier": "Master",
+     "stats": [
+      {
+       "text": "x2 Capacity",
+       "op": "mul",
+       "value": 2,
+       "percent": false,
+       "stat": "Capacity"
+      }
+     ]
+    },
+    {
+     "tier": "Grandmaster",
+     "stats": [
+      {
+       "text": "x2.25 Capacity",
+       "op": "mul",
+       "value": 2.25,
+       "percent": false,
+       "stat": "Capacity"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "category": "Battle",
+   "tiers": [
+    {
+     "tier": "Cadet",
+     "stats": [
+      {
+       "text": "+10% Critical Power",
+       "op": "add",
+       "value": 10,
+       "percent": true,
+       "stat": "Critical Power"
+      }
+     ]
+    },
+    {
+     "tier": "Hotshot",
+     "stats": [
+      {
+       "text": "+20% Critical Power",
+       "op": "add",
+       "value": 20,
+       "percent": true,
+       "stat": "Critical Power"
+      }
+     ]
+    },
+    {
+     "tier": "Ace",
+     "stats": [
+      {
+       "text": "+40% Critical Power",
+       "op": "add",
+       "value": 40,
+       "percent": true,
+       "stat": "Critical Power"
+      }
+     ]
+    },
+    {
+     "tier": "Master",
+     "stats": [
+      {
+       "text": "+70% Critical Power",
+       "op": "add",
+       "value": 70,
+       "percent": true,
+       "stat": "Critical Power"
+      }
+     ]
+    },
+    {
+     "tier": "Grandmaster",
+     "stats": [
+      {
+       "text": "+100% Critical Power",
+       "op": "add",
+       "value": 100,
+       "percent": true,
+       "stat": "Critical Power"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "category": "Ability",
+   "tiers": [
+    {
+     "tier": "Cadet",
+     "stats": [
+      {
+       "text": "+25,000 Capacity",
+       "op": "add",
+       "value": 25000,
+       "percent": false,
+       "stat": "Capacity"
+      }
+     ]
+    },
+    {
+     "tier": "Hotshot",
+     "stats": [
+      {
+       "text": "+50,000 Capacity",
+       "op": "add",
+       "value": 50000,
+       "percent": false,
+       "stat": "Capacity"
+      }
+     ]
+    },
+    {
+     "tier": "Ace",
+     "stats": [
+      {
+       "text": "+100,000 Capacity",
+       "op": "add",
+       "value": 100000,
+       "percent": false,
+       "stat": "Capacity"
+      }
+     ]
+    },
+    {
+     "tier": "Master",
+     "stats": [
+      {
+       "text": "+150,000 Capacity",
+       "op": "add",
+       "value": 150000,
+       "percent": false,
+       "stat": "Capacity"
+      }
+     ]
+    },
+    {
+     "tier": "Grandmaster",
+     "stats": [
+      {
+       "text": "+250,000 Capacity",
+       "op": "add",
+       "value": 250000,
+       "percent": false,
+       "stat": "Capacity"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "category": "Goo",
+   "tiers": [
+    {
+     "tier": "Cadet",
+     "stats": [
+      {
+       "text": "+2% Honey Per Pollen",
+       "op": "add",
+       "value": 2,
+       "percent": true,
+       "stat": "Honey Per Pollen"
+      }
+     ]
+    },
+    {
+     "tier": "Hotshot",
+     "stats": [
+      {
+       "text": "+4% Honey Per Pollen",
+       "op": "add",
+       "value": 4,
+       "percent": true,
+       "stat": "Honey Per Pollen"
+      }
+     ]
+    },
+    {
+     "tier": "Ace",
+     "stats": [
+      {
+       "text": "+6% Honey Per Pollen",
+       "op": "add",
+       "value": 6,
+       "percent": true,
+       "stat": "Honey Per Pollen"
+      }
+     ]
+    },
+    {
+     "tier": "Master",
+     "stats": [
+      {
+       "text": "+8% Honey Per Pollen",
+       "op": "add",
+       "value": 8,
+       "percent": true,
+       "stat": "Honey Per Pollen"
+      }
+     ]
+    },
+    {
+     "tier": "Grandmaster",
+     "stats": [
+      {
+       "text": "+10% Honey Per Pollen",
+       "op": "add",
+       "value": 10,
+       "percent": true,
+       "stat": "Honey Per Pollen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "category": "Playtime",
+   "tiers": [
+    {
+     "tier": "Cadet",
+     "stats": [
+      {
+       "text": "+1% Bee Movespeed",
+       "op": "add",
+       "value": 1,
+       "percent": true,
+       "stat": "Bee Movespeed"
+      }
+     ]
+    },
+    {
+     "tier": "Hotshot",
+     "stats": [
+      {
+       "text": "+2% Bee Movespeed",
+       "op": "add",
+       "value": 2,
+       "percent": true,
+       "stat": "Bee Movespeed"
+      }
+     ]
+    },
+    {
+     "tier": "Ace",
+     "stats": [
+      {
+       "text": "+3% Bee Movespeed",
+       "op": "add",
+       "value": 3,
+       "percent": true,
+       "stat": "Bee Movespeed"
+      }
+     ]
+    },
+    {
+     "tier": "Master",
+     "stats": [
+      {
+       "text": "+4% Bee Movespeed",
+       "op": "add",
+       "value": 4,
+       "percent": true,
+       "stat": "Bee Movespeed"
+      }
+     ]
+    },
+    {
+     "tier": "Grandmaster",
+     "stats": [
+      {
+       "text": "+5% Bee Movespeed",
+       "op": "add",
+       "value": 5,
+       "percent": true,
+       "stat": "Bee Movespeed"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "category": "Sticker Stack",
+   "tiers": [
+    {
+     "tier": "Cadet",
+     "stats": [
+      {
+       "text": "+5% Pollen from Bee Gathering",
+       "op": "add",
+       "value": 5,
+       "percent": true,
+       "stat": "Pollen from Bee Gathering"
+      }
+     ]
+    },
+    {
+     "tier": "Hotshot",
+     "stats": [
+      {
+       "text": "+10% Pollen from Bee Gathering",
+       "op": "add",
+       "value": 10,
+       "percent": true,
+       "stat": "Pollen from Bee Gathering"
+      }
+     ]
+    },
+    {
+     "tier": "Ace",
+     "stats": [
+      {
+       "text": "+15% Pollen from Bee Gathering",
+       "op": "add",
+       "value": 15,
+       "percent": true,
+       "stat": "Pollen from Bee Gathering"
+      }
+     ]
+    },
+    {
+     "tier": "Master",
+     "stats": [
+      {
+       "text": "+20% Pollen from Bee Gathering",
+       "op": "add",
+       "value": 20,
+       "percent": true,
+       "stat": "Pollen from Bee Gathering"
+      }
+     ]
+    },
+    {
+     "tier": "Grandmaster",
+     "stats": [
+      {
+       "text": "+25% Pollen from Bee Gathering",
+       "op": "add",
+       "value": 25,
+       "percent": true,
+       "stat": "Pollen from Bee Gathering"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "category": "Sunflower",
+   "tiers": [
+    {
+     "tier": "Cadet",
+     "stats": [
+      {
+       "text": "+10% Capacity",
+       "op": "add",
+       "value": 10,
+       "percent": true,
+       "stat": "Capacity"
+      }
+     ]
+    },
+    {
+     "tier": "Hotshot",
+     "stats": [
+      {
+       "text": "+20% Capacity",
+       "op": "add",
+       "value": 20,
+       "percent": true,
+       "stat": "Capacity"
+      }
+     ]
+    },
+    {
+     "tier": "Ace",
+     "stats": [
+      {
+       "text": "+30% Capacity",
+       "op": "add",
+       "value": 30,
+       "percent": true,
+       "stat": "Capacity"
+      }
+     ]
+    },
+    {
+     "tier": "Master",
+     "stats": [
+      {
+       "text": "+40% Capacity",
+       "op": "add",
+       "value": 40,
+       "percent": true,
+       "stat": "Capacity"
+      }
+     ]
+    },
+    {
+     "tier": "Grandmaster",
+     "stats": [
+      {
+       "text": "+50% Capacity",
+       "op": "add",
+       "value": 50,
+       "percent": true,
+       "stat": "Capacity"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "category": "Dandelion",
+   "tiers": [
+    {
+     "tier": "Cadet",
+     "stats": [
+      {
+       "text": "+3% Honey At Hive",
+       "op": "add",
+       "value": 3,
+       "percent": true,
+       "stat": "Honey At Hive"
+      }
+     ]
+    },
+    {
+     "tier": "Hotshot",
+     "stats": [
+      {
+       "text": "+6% Honey At Hive",
+       "op": "add",
+       "value": 6,
+       "percent": true,
+       "stat": "Honey At Hive"
+      }
+     ]
+    },
+    {
+     "tier": "Ace",
+     "stats": [
+      {
+       "text": "+9% Honey At Hive",
+       "op": "add",
+       "value": 9,
+       "percent": true,
+       "stat": "Honey At Hive"
+      }
+     ]
+    },
+    {
+     "tier": "Master",
+     "stats": [
+      {
+       "text": "+12% Honey At Hive",
+       "op": "add",
+       "value": 12,
+       "percent": true,
+       "stat": "Honey At Hive"
+      }
+     ]
+    },
+    {
+     "tier": "Grandmaster",
+     "stats": [
+      {
+       "text": "+15% Honey At Hive",
+       "op": "add",
+       "value": 15,
+       "percent": true,
+       "stat": "Honey At Hive"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "category": "Mushroom",
+   "tiers": [
+    {
+     "tier": "Cadet",
+     "stats": [
+      {
+       "text": "+3% Instant Red Conversion",
+       "op": "add",
+       "value": 3,
+       "percent": true,
+       "stat": "Instant Red Conversion"
+      }
+     ]
+    },
+    {
+     "tier": "Hotshot",
+     "stats": [
+      {
+       "text": "+6% Instant Red Conversion",
+       "op": "add",
+       "value": 6,
+       "percent": true,
+       "stat": "Instant Red Conversion"
+      }
+     ]
+    },
+    {
+     "tier": "Ace",
+     "stats": [
+      {
+       "text": "+9% Instant Red Conversion",
+       "op": "add",
+       "value": 9,
+       "percent": true,
+       "stat": "Instant Red Conversion"
+      }
+     ]
+    },
+    {
+     "tier": "Master",
+     "stats": [
+      {
+       "text": "+12% Instant Red Conversion",
+       "op": "add",
+       "value": 12,
+       "percent": true,
+       "stat": "Instant Red Conversion"
+      }
+     ]
+    },
+    {
+     "tier": "Grandmaster",
+     "stats": [
+      {
+       "text": "+15% Instant Red Conversion",
+       "op": "add",
+       "value": 15,
+       "percent": true,
+       "stat": "Instant Red Conversion"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "category": "Blue Flower",
+   "tiers": [
+    {
+     "tier": "Cadet",
+     "stats": [
+      {
+       "text": "+3% Instant Blue Conversion",
+       "op": "add",
+       "value": 3,
+       "percent": true,
+       "stat": "Instant Blue Conversion"
+      }
+     ]
+    },
+    {
+     "tier": "Hotshot",
+     "stats": [
+      {
+       "text": "+6% Instant Blue Conversion",
+       "op": "add",
+       "value": 6,
+       "percent": true,
+       "stat": "Instant Blue Conversion"
+      }
+     ]
+    },
+    {
+     "tier": "Ace",
+     "stats": [
+      {
+       "text": "+9% Instant Blue Conversion",
+       "op": "add",
+       "value": 9,
+       "percent": true,
+       "stat": "Instant Blue Conversion"
+      }
+     ]
+    },
+    {
+     "tier": "Master",
+     "stats": [
+      {
+       "text": "+12% Instant Blue Conversion",
+       "op": "add",
+       "value": 12,
+       "percent": true,
+       "stat": "Instant Blue Conversion"
+      }
+     ]
+    },
+    {
+     "tier": "Grandmaster",
+     "stats": [
+      {
+       "text": "+15% Instant Blue Conversion",
+       "op": "add",
+       "value": 15,
+       "percent": true,
+       "stat": "Instant Blue Conversion"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "category": "Clover",
+   "tiers": [
+    {
+     "tier": "Cadet",
+     "stats": [
+      {
+       "text": "+10% Loot Luck",
+       "op": "add",
+       "value": 10,
+       "percent": true,
+       "stat": "Loot Luck"
+      }
+     ]
+    },
+    {
+     "tier": "Hotshot",
+     "stats": [
+      {
+       "text": "+20% Loot Luck",
+       "op": "add",
+       "value": 20,
+       "percent": true,
+       "stat": "Loot Luck"
+      }
+     ]
+    },
+    {
+     "tier": "Ace",
+     "stats": [
+      {
+       "text": "+30% Loot Luck",
+       "op": "add",
+       "value": 30,
+       "percent": true,
+       "stat": "Loot Luck"
+      }
+     ]
+    },
+    {
+     "tier": "Master",
+     "stats": [
+      {
+       "text": "+40% Loot Luck",
+       "op": "add",
+       "value": 40,
+       "percent": true,
+       "stat": "Loot Luck"
+      }
+     ]
+    },
+    {
+     "tier": "Grandmaster",
+     "stats": [
+      {
+       "text": "+50% Loot Luck",
+       "op": "add",
+       "value": 50,
+       "percent": true,
+       "stat": "Loot Luck"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "category": "Spider",
+   "tiers": [
+    {
+     "tier": "Cadet",
+     "stats": [
+      {
+       "text": "+10% White Pollen",
+       "op": "add",
+       "value": 10,
+       "percent": true,
+       "stat": "White Pollen"
+      }
+     ]
+    },
+    {
+     "tier": "Hotshot",
+     "stats": [
+      {
+       "text": "+15% White Pollen",
+       "op": "add",
+       "value": 15,
+       "percent": true,
+       "stat": "White Pollen"
+      }
+     ]
+    },
+    {
+     "tier": "Ace",
+     "stats": [
+      {
+       "text": "+20% White Pollen",
+       "op": "add",
+       "value": 20,
+       "percent": true,
+       "stat": "White Pollen"
+      }
+     ]
+    },
+    {
+     "tier": "Master",
+     "stats": [
+      {
+       "text": "+25% White Pollen",
+       "op": "add",
+       "value": 25,
+       "percent": true,
+       "stat": "White Pollen"
+      }
+     ]
+    },
+    {
+     "tier": "Grandmaster",
+     "stats": [
+      {
+       "text": "+30% White Pollen",
+       "op": "add",
+       "value": 30,
+       "percent": true,
+       "stat": "White Pollen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "category": "Strawberry",
+   "tiers": [
+    {
+     "tier": "Cadet",
+     "stats": [
+      {
+       "text": "+5% Red Pollen",
+       "op": "add",
+       "value": 5,
+       "percent": true,
+       "stat": "Red Pollen"
+      }
+     ]
+    },
+    {
+     "tier": "Hotshot",
+     "stats": [
+      {
+       "text": "+10% Red Pollen",
+       "op": "add",
+       "value": 10,
+       "percent": true,
+       "stat": "Red Pollen"
+      }
+     ]
+    },
+    {
+     "tier": "Ace",
+     "stats": [
+      {
+       "text": "+15% Red Pollen",
+       "op": "add",
+       "value": 15,
+       "percent": true,
+       "stat": "Red Pollen"
+      }
+     ]
+    },
+    {
+     "tier": "Master",
+     "stats": [
+      {
+       "text": "+20% Red Pollen",
+       "op": "add",
+       "value": 20,
+       "percent": true,
+       "stat": "Red Pollen"
+      }
+     ]
+    },
+    {
+     "tier": "Grandmaster",
+     "stats": [
+      {
+       "text": "+25% Red Pollen",
+       "op": "add",
+       "value": 25,
+       "percent": true,
+       "stat": "Red Pollen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "category": "Bamboo",
+   "tiers": [
+    {
+     "tier": "Cadet",
+     "stats": [
+      {
+       "text": "+5% Blue Pollen",
+       "op": "add",
+       "value": 5,
+       "percent": true,
+       "stat": "Blue Pollen"
+      }
+     ]
+    },
+    {
+     "tier": "Hotshot",
+     "stats": [
+      {
+       "text": "+10% Blue Pollen",
+       "op": "add",
+       "value": 10,
+       "percent": true,
+       "stat": "Blue Pollen"
+      }
+     ]
+    },
+    {
+     "tier": "Ace",
+     "stats": [
+      {
+       "text": "+15% Blue Pollen",
+       "op": "add",
+       "value": 15,
+       "percent": true,
+       "stat": "Blue Pollen"
+      }
+     ]
+    },
+    {
+     "tier": "Master",
+     "stats": [
+      {
+       "text": "+20% Blue Pollen",
+       "op": "add",
+       "value": 20,
+       "percent": true,
+       "stat": "Blue Pollen"
+      }
+     ]
+    },
+    {
+     "tier": "Grandmaster",
+     "stats": [
+      {
+       "text": "+25% Blue Pollen",
+       "op": "add",
+       "value": 25,
+       "percent": true,
+       "stat": "Blue Pollen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "category": "Pineapple",
+   "tiers": [
+    {
+     "tier": "Cadet",
+     "stats": [
+      {
+       "text": "+3% Instant White Conversion",
+       "op": "add",
+       "value": 3,
+       "percent": true,
+       "stat": "Instant White Conversion"
+      }
+     ]
+    },
+    {
+     "tier": "Hotshot",
+     "stats": [
+      {
+       "text": "+6% Instant White Conversion",
+       "op": "add",
+       "value": 6,
+       "percent": true,
+       "stat": "Instant White Conversion"
+      }
+     ]
+    },
+    {
+     "tier": "Ace",
+     "stats": [
+      {
+       "text": "+9% Instant White Conversion",
+       "op": "add",
+       "value": 9,
+       "percent": true,
+       "stat": "Instant White Conversion"
+      }
+     ]
+    },
+    {
+     "tier": "Master",
+     "stats": [
+      {
+       "text": "+12% Instant White Conversion",
+       "op": "add",
+       "value": 12,
+       "percent": true,
+       "stat": "Instant White Conversion"
+      }
+     ]
+    },
+    {
+     "tier": "Grandmaster",
+     "stats": [
+      {
+       "text": "+15% Instant White Conversion",
+       "op": "add",
+       "value": 15,
+       "percent": true,
+       "stat": "Instant White Conversion"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "category": "Pumpkin",
+   "tiers": [
+    {
+     "tier": "Cadet",
+     "stats": [
+      {
+       "text": "x1.2 Convert Rate at Hive",
+       "op": "mul",
+       "value": 1.2,
+       "percent": false,
+       "stat": "Convert Rate at Hive"
+      }
+     ]
+    },
+    {
+     "tier": "Hotshot",
+     "stats": [
+      {
+       "text": "x1.4 Convert Rate at Hive",
+       "op": "mul",
+       "value": 1.4,
+       "percent": false,
+       "stat": "Convert Rate at Hive"
+      }
+     ]
+    },
+    {
+     "tier": "Ace",
+     "stats": [
+      {
+       "text": "x1.6 Convert Rate at Hive",
+       "op": "mul",
+       "value": 1.6,
+       "percent": false,
+       "stat": "Convert Rate at Hive"
+      }
+     ]
+    },
+    {
+     "tier": "Master",
+     "stats": [
+      {
+       "text": "x1.8 Convert Rate at Hive",
+       "op": "mul",
+       "value": 1.8,
+       "percent": false,
+       "stat": "Convert Rate at Hive"
+      }
+     ]
+    },
+    {
+     "tier": "Grandmaster",
+     "stats": [
+      {
+       "text": "x2.0 Convert Rate at Hive",
+       "op": "mul",
+       "value": 2,
+       "percent": false,
+       "stat": "Convert Rate at Hive"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "category": "Cactus",
+   "tiers": [
+    {
+     "tier": "Cadet",
+     "stats": [
+      {
+       "text": "+1% Instant Conversion",
+       "op": "add",
+       "value": 1,
+       "percent": true,
+       "stat": "Instant Conversion"
+      }
+     ]
+    },
+    {
+     "tier": "Hotshot",
+     "stats": [
+      {
+       "text": "+2% Instant Conversion",
+       "op": "add",
+       "value": 2,
+       "percent": true,
+       "stat": "Instant Conversion"
+      }
+     ]
+    },
+    {
+     "tier": "Ace",
+     "stats": [
+      {
+       "text": "+3% Instant Conversion",
+       "op": "add",
+       "value": 3,
+       "percent": true,
+       "stat": "Instant Conversion"
+      }
+     ]
+    },
+    {
+     "tier": "Master",
+     "stats": [
+      {
+       "text": "+4% Instant Conversion",
+       "op": "add",
+       "value": 4,
+       "percent": true,
+       "stat": "Instant Conversion"
+      }
+     ]
+    },
+    {
+     "tier": "Grandmaster",
+     "stats": [
+      {
+       "text": "+5% Instant Conversion",
+       "op": "add",
+       "value": 5,
+       "percent": true,
+       "stat": "Instant Conversion"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "category": "Rose",
+   "tiers": [
+    {
+     "tier": "Cadet",
+     "stats": [
+      {
+       "text": "+5% Red Field Capacity",
+       "op": "add",
+       "value": 5,
+       "percent": true,
+       "stat": "Red Field Capacity"
+      }
+     ]
+    },
+    {
+     "tier": "Hotshot",
+     "stats": [
+      {
+       "text": "+10% Red Field Capacity",
+       "op": "add",
+       "value": 10,
+       "percent": true,
+       "stat": "Red Field Capacity"
+      }
+     ]
+    },
+    {
+     "tier": "Ace",
+     "stats": [
+      {
+       "text": "+15% Red Field Capacity",
+       "op": "add",
+       "value": 15,
+       "percent": true,
+       "stat": "Red Field Capacity"
+      }
+     ]
+    },
+    {
+     "tier": "Master",
+     "stats": [
+      {
+       "text": "+20% Red Field Capacity",
+       "op": "add",
+       "value": 20,
+       "percent": true,
+       "stat": "Red Field Capacity"
+      }
+     ]
+    },
+    {
+     "tier": "Grandmaster",
+     "stats": [
+      {
+       "text": "+25% Red Field Capacity",
+       "op": "add",
+       "value": 25,
+       "percent": true,
+       "stat": "Red Field Capacity"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "category": "Pine Tree",
+   "tiers": [
+    {
+     "tier": "Cadet",
+     "stats": [
+      {
+       "text": "+5% Blue Field Capacity",
+       "op": "add",
+       "value": 5,
+       "percent": true,
+       "stat": "Blue Field Capacity"
+      }
+     ]
+    },
+    {
+     "tier": "Hotshot",
+     "stats": [
+      {
+       "text": "+10% Blue Field Capacity",
+       "op": "add",
+       "value": 10,
+       "percent": true,
+       "stat": "Blue Field Capacity"
+      }
+     ]
+    },
+    {
+     "tier": "Ace",
+     "stats": [
+      {
+       "text": "+15% Blue Field Capacity",
+       "op": "add",
+       "value": 15,
+       "percent": true,
+       "stat": "Blue Field Capacity"
+      }
+     ]
+    },
+    {
+     "tier": "Master",
+     "stats": [
+      {
+       "text": "+20% Blue Field Capacity",
+       "op": "add",
+       "value": 20,
+       "percent": true,
+       "stat": "Blue Field Capacity"
+      }
+     ]
+    },
+    {
+     "tier": "Grandmaster",
+     "stats": [
+      {
+       "text": "+25% Blue Field Capacity",
+       "op": "add",
+       "value": 25,
+       "percent": true,
+       "stat": "Blue Field Capacity"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "category": "Stump",
+   "tiers": [
+    {
+     "tier": "Cadet",
+     "stats": [
+      {
+       "text": "+5% Tool Pollen",
+       "op": "add",
+       "value": 5,
+       "percent": true,
+       "stat": "Tool Pollen"
+      }
+     ]
+    },
+    {
+     "tier": "Hotshot",
+     "stats": [
+      {
+       "text": "+10% Tool Pollen",
+       "op": "add",
+       "value": 10,
+       "percent": true,
+       "stat": "Tool Pollen"
+      }
+     ]
+    },
+    {
+     "tier": "Ace",
+     "stats": [
+      {
+       "text": "+15% Tool Pollen",
+       "op": "add",
+       "value": 15,
+       "percent": true,
+       "stat": "Tool Pollen"
+      }
+     ]
+    },
+    {
+     "tier": "Master",
+     "stats": [
+      {
+       "text": "+20% Tool Pollen",
+       "op": "add",
+       "value": 20,
+       "percent": true,
+       "stat": "Tool Pollen"
+      }
+     ]
+    },
+    {
+     "tier": "Grandmaster",
+     "stats": [
+      {
+       "text": "+25% Tool Pollen",
+       "op": "add",
+       "value": 25,
+       "percent": true,
+       "stat": "Tool Pollen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "category": "Coconut",
+   "tiers": [
+    {
+     "tier": "Cadet",
+     "stats": [
+      {
+       "text": "x1.04 White Pollen",
+       "op": "mul",
+       "value": 1.04,
+       "percent": false,
+       "stat": "White Pollen"
+      }
+     ]
+    },
+    {
+     "tier": "Hotshot",
+     "stats": [
+      {
+       "text": "x1.08 White Pollen",
+       "op": "mul",
+       "value": 1.08,
+       "percent": false,
+       "stat": "White Pollen"
+      }
+     ]
+    },
+    {
+     "tier": "Ace",
+     "stats": [
+      {
+       "text": "x1.12 White Pollen",
+       "op": "mul",
+       "value": 1.12,
+       "percent": false,
+       "stat": "White Pollen"
+      }
+     ]
+    },
+    {
+     "tier": "Master",
+     "stats": [
+      {
+       "text": "x1.16 White Pollen",
+       "op": "mul",
+       "value": 1.16,
+       "percent": false,
+       "stat": "White Pollen"
+      }
+     ]
+    },
+    {
+     "tier": "Grandmaster",
+     "stats": [
+      {
+       "text": "x1.20 White Pollen",
+       "op": "mul",
+       "value": 1.2,
+       "percent": false,
+       "stat": "White Pollen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "category": "Pepper",
+   "tiers": [
+    {
+     "tier": "Cadet",
+     "stats": [
+      {
+       "text": "+5% Flame Pollen",
+       "op": "add",
+       "value": 5,
+       "percent": true,
+       "stat": "Flame Pollen"
+      }
+     ]
+    },
+    {
+     "tier": "Hotshot",
+     "stats": [
+      {
+       "text": "+10% Flame Pollen",
+       "op": "add",
+       "value": 10,
+       "percent": true,
+       "stat": "Flame Pollen"
+      }
+     ]
+    },
+    {
+     "tier": "Ace",
+     "stats": [
+      {
+       "text": "+15% Flame Pollen",
+       "op": "add",
+       "value": 15,
+       "percent": true,
+       "stat": "Flame Pollen"
+      }
+     ]
+    },
+    {
+     "tier": "Master",
+     "stats": [
+      {
+       "text": "+20% Flame Pollen",
+       "op": "add",
+       "value": 20,
+       "percent": true,
+       "stat": "Flame Pollen"
+      }
+     ]
+    },
+    {
+     "tier": "Grandmaster",
+     "stats": [
+      {
+       "text": "+25% Flame Pollen",
+       "op": "add",
+       "value": 25,
+       "percent": true,
+       "stat": "Flame Pollen"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "category": "Hive Hub",
+   "tiers": [
+    {
+     "tier": "Cadet",
+     "stats": [
+      {
+       "text": "+2% Instant Gifted Bee Conversion",
+       "op": "add",
+       "value": 2,
+       "percent": true,
+       "stat": "Instant Gifted Bee Conversion"
+      }
+     ]
+    },
+    {
+     "tier": "Hotshot",
+     "stats": [
+      {
+       "text": "+4% Instant Gifted Bee Conversion",
+       "op": "add",
+       "value": 4,
+       "percent": true,
+       "stat": "Instant Gifted Bee Conversion"
+      }
+     ]
+    },
+    {
+     "tier": "Ace",
+     "stats": [
+      {
+       "text": "+6% Instant Gifted Bee Conversion",
+       "op": "add",
+       "value": 6,
+       "percent": true,
+       "stat": "Instant Gifted Bee Conversion"
+      }
+     ]
+    },
+    {
+     "tier": "Master",
+     "stats": [
+      {
+       "text": "+8% Instant Gifted Bee Conversion",
+       "op": "add",
+       "value": 8,
+       "percent": true,
+       "stat": "Instant Gifted Bee Conversion"
+      }
+     ]
+    },
+    {
+     "tier": "Grandmaster",
+     "stats": [
+      {
+       "text": "+10% Instant Gifted Bee Conversion",
+       "op": "add",
+       "value": 10,
+       "percent": true,
+       "stat": "Instant Gifted Bee Conversion"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "category": "Mountain Top",
+   "tiers": [
+    {
+     "tier": "Cadet",
+     "stats": [
+      {
+       "text": "+1% Gifted Bee Pollen",
+       "op": "add",
+       "value": 1,
+       "percent": true,
+       "stat": "Gifted Bee Pollen"
+      }
+     ]
+    },
+    {
+     "tier": "Hotshot",
+     "stats": [
+      {
+       "text": "+2% Gifted Bee Pollen",
+       "op": "add",
+       "value": 2,
+       "percent": true,
+       "stat": "Gifted Bee Pollen"
+      }
+     ]
+    },
+    {
+     "tier": "Ace",
+     "stats": [
+      {
+       "text": "+3% Gifted Bee Pollen",
+       "op": "add",
+       "value": 3,
+       "percent": true,
+       "stat": "Gifted Bee Pollen"
+      }
+     ]
+    },
+    {
+     "tier": "Master",
+     "stats": [
+      {
+       "text": "+4% Gifted Bee Pollen",
+       "op": "add",
+       "value": 4,
+       "percent": true,
+       "stat": "Gifted Bee Pollen"
+      }
+     ]
+    },
+    {
+     "tier": "Grandmaster",
+     "stats": [
+      {
+       "text": "+5% Gifted Bee Pollen",
+       "op": "add",
+       "value": 5,
+       "percent": true,
+       "stat": "Gifted Bee Pollen"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

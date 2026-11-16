@@ -1,0 +1,3464 @@
+{
+ "source": "ReplicatedStorage.Amulets (клиент игры)",
+ "groups": [
+  "Star",
+  "Moon",
+  "Ant",
+  "Shell",
+  "Stick Bug",
+  "King Beetle",
+  "Cog"
+ ],
+ "amulets": [
+  {
+   "name": "Bronze Star Amulet",
+   "group": "Star",
+   "tier": "Bronze",
+   "slots": [
+    {
+     "kind": "fixed",
+     "stat": "Capacity",
+     "op": "mul",
+     "unit": "x",
+     "min": 1.25,
+     "max": 1.25,
+     "step": 0.01
+    },
+    {
+     "kind": "pool",
+     "select": 2,
+     "options": [
+      {
+       "stat": "Convert Rate",
+       "op": "mul",
+       "unit": "x",
+       "min": 1.05,
+       "max": 1.15,
+       "step": 0.01
+      },
+      {
+       "stat": "Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 5,
+       "max": 15,
+       "step": 1
+      },
+      {
+       "stat": "White Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 50,
+       "step": 1
+      },
+      {
+       "stat": "Red Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 50,
+       "step": 1
+      },
+      {
+       "stat": "Blue Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 50,
+       "step": 1
+      },
+      {
+       "stat": "Bee Ability Rate",
+       "op": "add",
+       "unit": "%",
+       "min": 1,
+       "max": 5,
+       "step": 1
+      },
+      {
+       "stat": "Critical Chance",
+       "op": "add",
+       "unit": "%",
+       "min": 1,
+       "max": 5,
+       "step": 1
+      },
+      {
+       "stat": "Bee Gather Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 50,
+       "step": 1
+      },
+      {
+       "stat": "Instant Conversion",
+       "op": "add",
+       "unit": "%",
+       "min": 3,
+       "max": 10,
+       "step": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Silver Star Amulet",
+   "group": "Star",
+   "tier": "Silver",
+   "slots": [
+    {
+     "kind": "fixed",
+     "stat": "Capacity",
+     "op": "mul",
+     "unit": "x",
+     "min": 1.5,
+     "max": 1.5,
+     "step": 0.01
+    },
+    {
+     "kind": "pool",
+     "select": 3,
+     "options": [
+      {
+       "stat": "Convert Rate",
+       "op": "mul",
+       "unit": "x",
+       "min": 1.05,
+       "max": 1.15,
+       "step": 0.01
+      },
+      {
+       "stat": "Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 5,
+       "max": 15,
+       "step": 1
+      },
+      {
+       "stat": "White Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 50,
+       "step": 1
+      },
+      {
+       "stat": "Red Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 50,
+       "step": 1
+      },
+      {
+       "stat": "Blue Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 50,
+       "step": 1
+      },
+      {
+       "stat": "Bee Ability Rate",
+       "op": "add",
+       "unit": "%",
+       "min": 1,
+       "max": 5,
+       "step": 1
+      },
+      {
+       "stat": "Critical Chance",
+       "op": "add",
+       "unit": "%",
+       "min": 1,
+       "max": 5,
+       "step": 1
+      },
+      {
+       "stat": "Bee Gather Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 50,
+       "step": 1
+      },
+      {
+       "stat": "Instant Conversion",
+       "op": "add",
+       "unit": "%",
+       "min": 3,
+       "max": 10,
+       "step": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Gold Star Amulet",
+   "group": "Star",
+   "tier": "Gold",
+   "slots": [
+    {
+     "kind": "fixed",
+     "stat": "Capacity",
+     "op": "mul",
+     "unit": "x",
+     "min": 1.75,
+     "max": 1.75,
+     "step": 0.01
+    },
+    {
+     "kind": "pool",
+     "select": 4,
+     "options": [
+      {
+       "stat": "Convert Rate",
+       "op": "mul",
+       "unit": "x",
+       "min": 1.05,
+       "max": 1.15,
+       "step": 0.01
+      },
+      {
+       "stat": "Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 5,
+       "max": 15,
+       "step": 1
+      },
+      {
+       "stat": "White Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 50,
+       "step": 1
+      },
+      {
+       "stat": "Red Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 50,
+       "step": 1
+      },
+      {
+       "stat": "Blue Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 50,
+       "step": 1
+      },
+      {
+       "stat": "Bee Ability Rate",
+       "op": "add",
+       "unit": "%",
+       "min": 1,
+       "max": 5,
+       "step": 1
+      },
+      {
+       "stat": "Critical Chance",
+       "op": "add",
+       "unit": "%",
+       "min": 1,
+       "max": 5,
+       "step": 1
+      },
+      {
+       "stat": "Bee Gather Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 50,
+       "step": 1
+      },
+      {
+       "stat": "Instant Conversion",
+       "op": "add",
+       "unit": "%",
+       "min": 3,
+       "max": 10,
+       "step": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Diamond Star Amulet",
+   "group": "Star",
+   "tier": "Diamond",
+   "slots": [
+    {
+     "kind": "fixed",
+     "stat": "Capacity",
+     "op": "mul",
+     "unit": "x",
+     "min": 2,
+     "max": 2,
+     "step": 0.01
+    },
+    {
+     "kind": "pool",
+     "select": 5,
+     "options": [
+      {
+       "stat": "Convert Rate",
+       "op": "mul",
+       "unit": "x",
+       "min": 1.05,
+       "max": 1.15,
+       "step": 0.01
+      },
+      {
+       "stat": "Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 5,
+       "max": 15,
+       "step": 1
+      },
+      {
+       "stat": "White Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 50,
+       "step": 1
+      },
+      {
+       "stat": "Red Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 50,
+       "step": 1
+      },
+      {
+       "stat": "Blue Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 50,
+       "step": 1
+      },
+      {
+       "stat": "Bee Ability Rate",
+       "op": "add",
+       "unit": "%",
+       "min": 1,
+       "max": 5,
+       "step": 1
+      },
+      {
+       "stat": "Critical Chance",
+       "op": "add",
+       "unit": "%",
+       "min": 1,
+       "max": 5,
+       "step": 1
+      },
+      {
+       "stat": "Bee Gather Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 50,
+       "step": 1
+      },
+      {
+       "stat": "Instant Conversion",
+       "op": "add",
+       "unit": "%",
+       "min": 3,
+       "max": 10,
+       "step": 1
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "passive": "Guiding Star",
+       "stat": "Passive: Guiding Star",
+       "op": "passive",
+       "unit": "",
+       "min": 1,
+       "max": 1,
+       "step": 1
+      },
+      {
+       "passive": "Star Shower",
+       "stat": "Passive: Star Shower",
+       "op": "passive",
+       "unit": "",
+       "min": 1,
+       "max": 1,
+       "step": 1
+      }
+     ],
+     "chance": 0.01
+    }
+   ]
+  },
+  {
+   "name": "Supreme Star Amulet",
+   "group": "Star",
+   "tier": "Supreme",
+   "slots": [
+    {
+     "kind": "fixed",
+     "stat": "Capacity",
+     "op": "mul",
+     "unit": "x",
+     "min": 2.5,
+     "max": 2.5,
+     "step": 0.01
+    },
+    {
+     "kind": "pool",
+     "select": 5,
+     "options": [
+      {
+       "stat": "Convert Rate",
+       "op": "mul",
+       "unit": "x",
+       "min": 1.05,
+       "max": 1.25,
+       "step": 0.01
+      },
+      {
+       "stat": "Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 5,
+       "max": 20,
+       "step": 1
+      },
+      {
+       "stat": "White Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 70,
+       "step": 1
+      },
+      {
+       "stat": "Red Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 70,
+       "step": 1
+      },
+      {
+       "stat": "Blue Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 70,
+       "step": 1
+      },
+      {
+       "stat": "Bee Ability Rate",
+       "op": "add",
+       "unit": "%",
+       "min": 1,
+       "max": 7,
+       "step": 1
+      },
+      {
+       "stat": "Critical Chance",
+       "op": "add",
+       "unit": "%",
+       "min": 1,
+       "max": 7,
+       "step": 1
+      },
+      {
+       "stat": "Bee Gather Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 70,
+       "step": 1
+      },
+      {
+       "stat": "Instant Conversion",
+       "op": "add",
+       "unit": "%",
+       "min": 3,
+       "max": 12,
+       "step": 1
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "passive": "Guiding Star",
+       "stat": "Passive: Guiding Star",
+       "op": "passive",
+       "unit": "",
+       "min": 1,
+       "max": 1,
+       "step": 1
+      },
+      {
+       "passive": "Pop Star",
+       "stat": "Passive: Pop Star",
+       "op": "passive",
+       "unit": "",
+       "min": 1,
+       "max": 1,
+       "step": 1
+      },
+      {
+       "passive": "Star Shower",
+       "stat": "Passive: Star Shower",
+       "op": "passive",
+       "unit": "",
+       "min": 1,
+       "max": 1,
+       "step": 1
+      },
+      {
+       "passive": "Gummy Star",
+       "stat": "Passive: Gummy Star",
+       "op": "passive",
+       "unit": "",
+       "min": 1,
+       "max": 1,
+       "step": 1
+      },
+      {
+       "passive": "Scorching Star",
+       "stat": "Passive: Scorching Star",
+       "op": "passive",
+       "unit": "",
+       "min": 1,
+       "max": 1,
+       "step": 1
+      },
+      {
+       "passive": "Star Saw",
+       "stat": "Passive: Star Saw",
+       "op": "passive",
+       "unit": "",
+       "min": 1,
+       "max": 1,
+       "step": 1
+      }
+     ],
+     "maybeSelect": 2,
+     "maybeChance": 0.02
+    }
+   ]
+  },
+  {
+   "name": "Moon Amulet",
+   "group": "Moon",
+   "tier": null,
+   "slots": [
+    {
+     "kind": "fixed",
+     "stat": "Capacity",
+     "op": "add",
+     "unit": "",
+     "min": 25000,
+     "max": 250000,
+     "step": 25000
+    },
+    {
+     "kind": "fixed",
+     "stat": "Ticket Chance",
+     "op": "add",
+     "unit": "%",
+     "min": 1,
+     "max": 5,
+     "step": 1,
+     "chance": 0.01
+    },
+    {
+     "kind": "fixed",
+     "stat": "Movement Collection",
+     "op": "add",
+     "unit": "",
+     "min": 1,
+     "max": 3,
+     "step": 1,
+     "chance": 0.02
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Bond From Treats",
+       "op": "add",
+       "unit": "%",
+       "min": 3,
+       "max": 10,
+       "step": 1
+      },
+      {
+       "stat": "White Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 20,
+       "max": 50,
+       "step": 1
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 1,
+       "max": 5,
+       "step": 1
+      },
+      {
+       "stat": "Honey Per Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 2,
+       "max": 8,
+       "step": 1
+      },
+      {
+       "stat": "Instant Conversion",
+       "op": "add",
+       "unit": "%",
+       "min": 1,
+       "max": 5,
+       "step": 1
+      },
+      {
+       "stat": "Bond From Battle",
+       "op": "add",
+       "unit": "%",
+       "min": 5,
+       "max": 12,
+       "step": 1
+      },
+      {
+       "stat": "Tool Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 10,
+       "max": 20,
+       "step": 1
+      },
+      {
+       "stat": "Bee Gather Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 10,
+       "max": 25,
+       "step": 1
+      },
+      {
+       "stat": "Pineapple Patch Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 50,
+       "max": 150,
+       "step": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Bronze Ant Amulet",
+   "group": "Ant",
+   "tier": "Bronze",
+   "slots": [
+    {
+     "kind": "fixed",
+     "stat": "Convert Rate",
+     "op": "add",
+     "unit": "%",
+     "min": 15,
+     "max": 35,
+     "step": 1
+    },
+    {
+     "kind": "pool",
+     "select": 2,
+     "options": [
+      {
+       "stat": "White Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 1,
+       "max": 5,
+       "step": 1
+      },
+      {
+       "stat": "Red Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 1,
+       "max": 5,
+       "step": 1
+      },
+      {
+       "stat": "Blue Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 1,
+       "max": 5,
+       "step": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Silver Ant Amulet",
+   "group": "Ant",
+   "tier": "Silver",
+   "slots": [
+    {
+     "kind": "fixed",
+     "stat": "Convert Rate",
+     "op": "add",
+     "unit": "%",
+     "min": 40,
+     "max": 60,
+     "step": 1
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Player Movespeed",
+       "op": "add",
+       "unit": "",
+       "min": 1,
+       "max": 1,
+       "step": 1
+      },
+      {
+       "stat": "Critical Chance",
+       "op": "add",
+       "unit": "%",
+       "min": 1,
+       "max": 1,
+       "step": 1
+      },
+      {
+       "stat": "Critical Power",
+       "op": "add",
+       "unit": "%",
+       "min": 5,
+       "max": 10,
+       "step": 1
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 2,
+     "options": [
+      {
+       "stat": "White Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 5,
+       "max": 10,
+       "step": 1
+      },
+      {
+       "stat": "Red Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 5,
+       "max": 10,
+       "step": 1
+      },
+      {
+       "stat": "Blue Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 5,
+       "max": 10,
+       "step": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Gold Ant Amulet",
+   "group": "Ant",
+   "tier": "Gold",
+   "slots": [
+    {
+     "kind": "fixed",
+     "stat": "Convert Rate",
+     "op": "add",
+     "unit": "%",
+     "min": 60,
+     "max": 80,
+     "step": 1
+    },
+    {
+     "kind": "fixed",
+     "stat": "Bee Attack",
+     "op": "add",
+     "unit": "",
+     "min": 0,
+     "max": 1,
+     "step": 1,
+     "chance": 0.05
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Player Movespeed",
+       "op": "add",
+       "unit": "",
+       "min": 1,
+       "max": 2,
+       "step": 1
+      },
+      {
+       "stat": "Critical Chance",
+       "op": "add",
+       "unit": "%",
+       "min": 1,
+       "max": 2,
+       "step": 1
+      },
+      {
+       "stat": "Critical Power",
+       "op": "add",
+       "unit": "%",
+       "min": 10,
+       "max": 25,
+       "step": 1
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 2,
+     "options": [
+      {
+       "stat": "White Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 10,
+       "max": 15,
+       "step": 1
+      },
+      {
+       "stat": "Red Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 10,
+       "max": 15,
+       "step": 1
+      },
+      {
+       "stat": "Blue Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 10,
+       "max": 15,
+       "step": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Diamond Ant Amulet",
+   "group": "Ant",
+   "tier": "Diamond",
+   "slots": [
+    {
+     "kind": "fixed",
+     "stat": "Convert Rate",
+     "op": "add",
+     "unit": "%",
+     "min": 80,
+     "max": 90,
+     "step": 1
+    },
+    {
+     "kind": "pool",
+     "select": 2,
+     "options": [
+      {
+       "stat": "Player Movespeed",
+       "op": "add",
+       "unit": "",
+       "min": 2,
+       "max": 2,
+       "step": 1
+      },
+      {
+       "stat": "Critical Chance",
+       "op": "add",
+       "unit": "%",
+       "min": 1,
+       "max": 2,
+       "step": 1
+      },
+      {
+       "stat": "Critical Power",
+       "op": "add",
+       "unit": "%",
+       "min": 25,
+       "max": 40,
+       "step": 1
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 2,
+     "options": [
+      {
+       "stat": "White Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 20,
+       "step": 1
+      },
+      {
+       "stat": "Red Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 20,
+       "step": 1
+      },
+      {
+       "stat": "Blue Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 20,
+       "step": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Supreme Ant Amulet",
+   "group": "Ant",
+   "tier": "Supreme",
+   "slots": [
+    {
+     "kind": "fixed",
+     "stat": "Convert Rate",
+     "op": "add",
+     "unit": "%",
+     "min": 90,
+     "max": 110,
+     "step": 1
+    },
+    {
+     "kind": "pool",
+     "select": 3,
+     "options": [
+      {
+       "stat": "Player Movespeed",
+       "op": "add",
+       "unit": "",
+       "min": 2,
+       "max": 3,
+       "step": 1
+      },
+      {
+       "stat": "Critical Chance",
+       "op": "add",
+       "unit": "%",
+       "min": 2,
+       "max": 3,
+       "step": 1
+      },
+      {
+       "stat": "Critical Power",
+       "op": "add",
+       "unit": "%",
+       "min": 35,
+       "max": 50,
+       "step": 1
+      },
+      {
+       "stat": "Bee Attack",
+       "op": "add",
+       "unit": "",
+       "min": 1,
+       "max": 1,
+       "step": 1
+      },
+      {
+       "stat": "Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 1,
+       "max": 5,
+       "step": 1
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 2,
+     "options": [
+      {
+       "stat": "White Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 20,
+       "max": 30,
+       "step": 1
+      },
+      {
+       "stat": "Red Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 20,
+       "max": 30,
+       "step": 1
+      },
+      {
+       "stat": "Blue Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 20,
+       "max": 30,
+       "step": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Bronze Shell Amulet",
+   "group": "Shell",
+   "tier": "Bronze",
+   "slots": [
+    {
+     "kind": "fixed",
+     "stat": "Goo",
+     "op": "add",
+     "unit": "%",
+     "min": 1,
+     "max": 2,
+     "step": 1
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Honey From Tokens",
+       "op": "add",
+       "unit": "%",
+       "min": 10,
+       "max": 15,
+       "step": 1
+      },
+      {
+       "stat": "Bond From Battle",
+       "op": "add",
+       "unit": "%",
+       "min": 1,
+       "max": 5,
+       "step": 1
+      },
+      {
+       "stat": "Convert Amount",
+       "op": "add",
+       "unit": "",
+       "min": 2,
+       "max": 6,
+       "step": 1
+      },
+      {
+       "stat": "Defense",
+       "op": "add",
+       "unit": "%",
+       "min": 2,
+       "max": 3,
+       "step": 1
+      },
+      {
+       "stat": "Tool Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 1,
+       "max": 3,
+       "step": 1
+      },
+      {
+       "stat": "Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 1,
+       "max": 1,
+       "step": 1
+      },
+      {
+       "stat": "White Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 8,
+       "max": 14,
+       "step": 1
+      },
+      {
+       "stat": "Goo Conversion",
+       "op": "add",
+       "unit": "%",
+       "min": 2,
+       "max": 3,
+       "step": 1
+      }
+     ]
+    },
+    {
+     "kind": "fixed",
+     "stat": "Stump Field Pollen",
+     "op": "add",
+     "unit": "%",
+     "min": 10,
+     "max": 25,
+     "step": 1
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Cactus Field Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 5,
+       "max": 10,
+       "step": 1
+      },
+      {
+       "stat": "Pineapple Patch Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 5,
+       "max": 10,
+       "step": 1
+      },
+      {
+       "stat": "Pumpkin Patch Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 5,
+       "max": 10,
+       "step": 1
+      },
+      {
+       "stat": "Dandelion Field Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 5,
+       "max": 10,
+       "step": 1
+      },
+      {
+       "stat": "Clover Field Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 5,
+       "max": 10,
+       "step": 1
+      },
+      {
+       "stat": "Spider Field Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 5,
+       "max": 10,
+       "step": 1
+      },
+      {
+       "stat": "Sunflower Field Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 5,
+       "max": 10,
+       "step": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Silver Shell Amulet",
+   "group": "Shell",
+   "tier": "Silver",
+   "slots": [
+    {
+     "kind": "fixed",
+     "stat": "Goo",
+     "op": "add",
+     "unit": "%",
+     "min": 2,
+     "max": 4,
+     "step": 1
+    },
+    {
+     "kind": "pool",
+     "select": 2,
+     "options": [
+      {
+       "stat": "Honey From Tokens",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 25,
+       "step": 1
+      },
+      {
+       "stat": "Bond From Battle",
+       "op": "add",
+       "unit": "%",
+       "min": 3,
+       "max": 8,
+       "step": 1
+      },
+      {
+       "stat": "Convert Amount",
+       "op": "add",
+       "unit": "",
+       "min": 6,
+       "max": 10,
+       "step": 1
+      },
+      {
+       "stat": "Defense",
+       "op": "add",
+       "unit": "%",
+       "min": 3,
+       "max": 4,
+       "step": 1
+      },
+      {
+       "stat": "Tool Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 3,
+       "max": 6,
+       "step": 1
+      },
+      {
+       "stat": "Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 1,
+       "max": 2,
+       "step": 1
+      },
+      {
+       "stat": "White Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 20,
+       "step": 1
+      },
+      {
+       "stat": "Goo Conversion",
+       "op": "add",
+       "unit": "%",
+       "min": 3,
+       "max": 4,
+       "step": 1
+      }
+     ]
+    },
+    {
+     "kind": "fixed",
+     "stat": "Stump Field Pollen",
+     "op": "add",
+     "unit": "%",
+     "min": 26,
+     "max": 35,
+     "step": 1
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Cactus Field Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 8,
+       "max": 15,
+       "step": 1
+      },
+      {
+       "stat": "Pineapple Patch Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 8,
+       "max": 15,
+       "step": 1
+      },
+      {
+       "stat": "Pumpkin Patch Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 8,
+       "max": 15,
+       "step": 1
+      },
+      {
+       "stat": "Dandelion Field Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 8,
+       "max": 15,
+       "step": 1
+      },
+      {
+       "stat": "Clover Field Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 8,
+       "max": 15,
+       "step": 1
+      },
+      {
+       "stat": "Spider Field Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 8,
+       "max": 15,
+       "step": 1
+      },
+      {
+       "stat": "Sunflower Field Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 8,
+       "max": 15,
+       "step": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Gold Shell Amulet",
+   "group": "Shell",
+   "tier": "Gold",
+   "slots": [
+    {
+     "kind": "fixed",
+     "stat": "Goo",
+     "op": "add",
+     "unit": "%",
+     "min": 5,
+     "max": 8,
+     "step": 1
+    },
+    {
+     "kind": "pool",
+     "select": 2,
+     "options": [
+      {
+       "stat": "Honey From Tokens",
+       "op": "add",
+       "unit": "%",
+       "min": 25,
+       "max": 35,
+       "step": 1
+      },
+      {
+       "stat": "Bond From Battle",
+       "op": "add",
+       "unit": "%",
+       "min": 8,
+       "max": 12,
+       "step": 1
+      },
+      {
+       "stat": "Convert Amount",
+       "op": "add",
+       "unit": "",
+       "min": 12,
+       "max": 15,
+       "step": 1
+      },
+      {
+       "stat": "Defense",
+       "op": "add",
+       "unit": "%",
+       "min": 4,
+       "max": 5,
+       "step": 1
+      },
+      {
+       "stat": "Tool Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 6,
+       "max": 10,
+       "step": 1
+      },
+      {
+       "stat": "Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 2,
+       "max": 3,
+       "step": 1
+      },
+      {
+       "stat": "White Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 21,
+       "max": 25,
+       "step": 1
+      },
+      {
+       "stat": "Goo Conversion",
+       "op": "add",
+       "unit": "%",
+       "min": 4,
+       "max": 6,
+       "step": 1
+      }
+     ]
+    },
+    {
+     "kind": "fixed",
+     "stat": "Stump Field Pollen",
+     "op": "add",
+     "unit": "%",
+     "min": 36,
+     "max": 45,
+     "step": 1
+    },
+    {
+     "kind": "pool",
+     "select": 2,
+     "options": [
+      {
+       "stat": "Cactus Field Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 20,
+       "step": 1
+      },
+      {
+       "stat": "Pineapple Patch Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 20,
+       "step": 1
+      },
+      {
+       "stat": "Pumpkin Patch Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 20,
+       "step": 1
+      },
+      {
+       "stat": "Dandelion Field Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 20,
+       "step": 1
+      },
+      {
+       "stat": "Clover Field Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 20,
+       "step": 1
+      },
+      {
+       "stat": "Spider Field Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 20,
+       "step": 1
+      },
+      {
+       "stat": "Sunflower Field Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 20,
+       "step": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Diamond Shell Amulet",
+   "group": "Shell",
+   "tier": "Diamond",
+   "slots": [
+    {
+     "kind": "fixed",
+     "stat": "Goo",
+     "op": "add",
+     "unit": "%",
+     "min": 8,
+     "max": 10,
+     "step": 1
+    },
+    {
+     "kind": "pool",
+     "select": 2,
+     "options": [
+      {
+       "stat": "Honey From Tokens",
+       "op": "add",
+       "unit": "%",
+       "min": 35,
+       "max": 40,
+       "step": 1
+      },
+      {
+       "stat": "Bond From Battle",
+       "op": "add",
+       "unit": "%",
+       "min": 12,
+       "max": 15,
+       "step": 1
+      },
+      {
+       "stat": "Convert Amount",
+       "op": "add",
+       "unit": "",
+       "min": 15,
+       "max": 20,
+       "step": 1
+      },
+      {
+       "stat": "Defense",
+       "op": "add",
+       "unit": "%",
+       "min": 5,
+       "max": 5,
+       "step": 1
+      },
+      {
+       "stat": "Tool Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 10,
+       "max": 15,
+       "step": 1
+      },
+      {
+       "stat": "Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 3,
+       "max": 4,
+       "step": 1
+      },
+      {
+       "stat": "White Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 26,
+       "max": 30,
+       "step": 1
+      },
+      {
+       "stat": "Goo Conversion",
+       "op": "add",
+       "unit": "%",
+       "min": 6,
+       "max": 8,
+       "step": 1
+      }
+     ]
+    },
+    {
+     "kind": "fixed",
+     "stat": "Stump Field Pollen",
+     "op": "add",
+     "unit": "%",
+     "min": 46,
+     "max": 55,
+     "step": 1
+    },
+    {
+     "kind": "pool",
+     "select": 2,
+     "options": [
+      {
+       "stat": "Cactus Field Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 20,
+       "max": 25,
+       "step": 1
+      },
+      {
+       "stat": "Pineapple Patch Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 20,
+       "max": 25,
+       "step": 1
+      },
+      {
+       "stat": "Pumpkin Patch Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 20,
+       "max": 25,
+       "step": 1
+      },
+      {
+       "stat": "Dandelion Field Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 20,
+       "max": 25,
+       "step": 1
+      },
+      {
+       "stat": "Clover Field Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 20,
+       "max": 25,
+       "step": 1
+      },
+      {
+       "stat": "Spider Field Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 20,
+       "max": 25,
+       "step": 1
+      },
+      {
+       "stat": "Sunflower Field Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 20,
+       "max": 25,
+       "step": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Supreme Shell Amulet",
+   "group": "Shell",
+   "tier": "Supreme",
+   "slots": [
+    {
+     "kind": "fixed",
+     "stat": "Goo",
+     "op": "add",
+     "unit": "%",
+     "min": 11,
+     "max": 15,
+     "step": 1
+    },
+    {
+     "kind": "pool",
+     "select": 2,
+     "options": [
+      {
+       "stat": "Honey From Tokens",
+       "op": "add",
+       "unit": "%",
+       "min": 41,
+       "max": 50,
+       "step": 1
+      },
+      {
+       "stat": "Bond From Battle",
+       "op": "add",
+       "unit": "%",
+       "min": 16,
+       "max": 20,
+       "step": 1
+      },
+      {
+       "stat": "Convert Amount",
+       "op": "add",
+       "unit": "",
+       "min": 21,
+       "max": 25,
+       "step": 1
+      },
+      {
+       "stat": "Defense",
+       "op": "add",
+       "unit": "%",
+       "min": 5,
+       "max": 5,
+       "step": 1
+      },
+      {
+       "stat": "Tool Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 16,
+       "max": 20,
+       "step": 1
+      },
+      {
+       "stat": "Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 4,
+       "max": 5,
+       "step": 1
+      },
+      {
+       "stat": "White Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 32,
+       "max": 40,
+       "step": 1
+      },
+      {
+       "stat": "Goo Conversion",
+       "op": "add",
+       "unit": "%",
+       "min": 8,
+       "max": 10,
+       "step": 1
+      }
+     ]
+    },
+    {
+     "kind": "fixed",
+     "stat": "Stump Field Pollen",
+     "op": "add",
+     "unit": "%",
+     "min": 56,
+     "max": 65,
+     "step": 1
+    },
+    {
+     "kind": "pool",
+     "select": 3,
+     "options": [
+      {
+       "stat": "Cactus Field Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 26,
+       "max": 30,
+       "step": 1
+      },
+      {
+       "stat": "Pineapple Patch Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 26,
+       "max": 30,
+       "step": 1
+      },
+      {
+       "stat": "Pumpkin Patch Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 26,
+       "max": 30,
+       "step": 1
+      },
+      {
+       "stat": "Dandelion Field Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 26,
+       "max": 30,
+       "step": 1
+      },
+      {
+       "stat": "Clover Field Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 26,
+       "max": 30,
+       "step": 1
+      },
+      {
+       "stat": "Spider Field Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 26,
+       "max": 30,
+       "step": 1
+      },
+      {
+       "stat": "Sunflower Field Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 26,
+       "max": 30,
+       "step": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Bronze Stick Bug Amulet",
+   "group": "Stick Bug",
+   "tier": "Bronze",
+   "slots": [
+    {
+     "kind": "fixed",
+     "stat": "Capacity",
+     "op": "add",
+     "unit": "",
+     "min": 25000,
+     "max": 100000,
+     "step": 25000
+    },
+    {
+     "kind": "fixed",
+     "stat": "Convert Rate",
+     "op": "mul",
+     "unit": "x",
+     "min": 1.05,
+     "max": 1.1,
+     "step": 0.01
+    },
+    {
+     "kind": "fixed",
+     "stat": "Tool Pollen",
+     "op": "add",
+     "unit": "%",
+     "min": 1,
+     "max": 4,
+     "step": 1,
+     "chance": 0.01
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Red Bee Attack",
+       "op": "add",
+       "unit": "",
+       "min": 1,
+       "max": 1,
+       "step": 1,
+       "chance": 0.02
+      },
+      {
+       "stat": "Blue Bee Attack",
+       "op": "add",
+       "unit": "",
+       "min": 1,
+       "max": 1,
+       "step": 1,
+       "chance": 0.02
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "White Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 10,
+       "max": 15,
+       "step": 1
+      },
+      {
+       "stat": "Red Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 10,
+       "max": 15,
+       "step": 1
+      },
+      {
+       "stat": "Blue Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 10,
+       "max": 15,
+       "step": 1
+      },
+      {
+       "stat": "Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 1,
+       "max": 3,
+       "step": 1
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Honey From Tokens",
+       "op": "add",
+       "unit": "%",
+       "min": 20,
+       "max": 40,
+       "step": 1
+      },
+      {
+       "stat": "Bee Attack",
+       "op": "add",
+       "unit": "%",
+       "min": 3,
+       "max": 5,
+       "step": 1
+      },
+      {
+       "stat": "Blue Bomb Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 10,
+       "max": 15,
+       "step": 1
+      },
+      {
+       "stat": "Red Bomb Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 10,
+       "max": 15,
+       "step": 1
+      },
+      {
+       "stat": "Buzz Bomb Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 10,
+       "max": 15,
+       "step": 1
+      },
+      {
+       "stat": "Bomb Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 5,
+       "max": 8,
+       "step": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Silver Stick Bug Amulet",
+   "group": "Stick Bug",
+   "tier": "Silver",
+   "slots": [
+    {
+     "kind": "fixed",
+     "stat": "Capacity",
+     "op": "add",
+     "unit": "",
+     "min": 100000,
+     "max": 150000,
+     "step": 25000
+    },
+    {
+     "kind": "fixed",
+     "stat": "Convert Rate",
+     "op": "mul",
+     "unit": "x",
+     "min": 1.1,
+     "max": 1.15,
+     "step": 0.01
+    },
+    {
+     "kind": "fixed",
+     "stat": "Tool Pollen",
+     "op": "add",
+     "unit": "%",
+     "min": 5,
+     "max": 10,
+     "step": 1,
+     "chance": 0.01
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Monster Respawn Time",
+       "op": "add",
+       "unit": "%",
+       "min": 1,
+       "max": 3,
+       "step": 1,
+       "chance": 0.3333333333333333
+      },
+      {
+       "stat": "Bond From Battle",
+       "op": "add",
+       "unit": "%",
+       "min": 2,
+       "max": 3,
+       "step": 1,
+       "chance": 0.3333333333333333
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Red Bee Attack",
+       "op": "add",
+       "unit": "",
+       "min": 1,
+       "max": 1,
+       "step": 1,
+       "chance": 0.1
+      },
+      {
+       "stat": "Blue Bee Attack",
+       "op": "add",
+       "unit": "",
+       "min": 1,
+       "max": 1,
+       "step": 1,
+       "chance": 0.1
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "White Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 20,
+       "step": 1
+      },
+      {
+       "stat": "Red Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 20,
+       "step": 1
+      },
+      {
+       "stat": "Blue Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 20,
+       "step": 1
+      },
+      {
+       "stat": "Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 3,
+       "max": 5,
+       "step": 1
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Honey From Tokens",
+       "op": "add",
+       "unit": "%",
+       "min": 41,
+       "max": 60,
+       "step": 1
+      },
+      {
+       "stat": "Bee Attack",
+       "op": "add",
+       "unit": "%",
+       "min": 5,
+       "max": 7,
+       "step": 1
+      },
+      {
+       "stat": "Blue Bomb Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 20,
+       "step": 1
+      },
+      {
+       "stat": "Red Bomb Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 20,
+       "step": 1
+      },
+      {
+       "stat": "Buzz Bomb Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 20,
+       "step": 1
+      },
+      {
+       "stat": "Bomb Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 8,
+       "max": 12,
+       "step": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Gold Stick Bug Amulet",
+   "group": "Stick Bug",
+   "tier": "Gold",
+   "slots": [
+    {
+     "kind": "fixed",
+     "stat": "Capacity",
+     "op": "add",
+     "unit": "",
+     "min": 150000,
+     "max": 200000,
+     "step": 25000
+    },
+    {
+     "kind": "fixed",
+     "stat": "Convert Rate",
+     "op": "mul",
+     "unit": "x",
+     "min": 1.15,
+     "max": 1.2,
+     "step": 0.01
+    },
+    {
+     "kind": "fixed",
+     "stat": "Tool Pollen",
+     "op": "add",
+     "unit": "%",
+     "min": 10,
+     "max": 15,
+     "step": 1,
+     "chance": 0.01
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Monster Respawn Time",
+       "op": "add",
+       "unit": "%",
+       "min": 3,
+       "max": 4,
+       "step": 1
+      },
+      {
+       "stat": "Bond From Battle",
+       "op": "add",
+       "unit": "%",
+       "min": 4,
+       "max": 6,
+       "step": 1
+      },
+      {
+       "stat": "Bee Attack",
+       "op": "add",
+       "unit": "",
+       "min": 1,
+       "max": 1,
+       "step": 1,
+       "chance": 0.25
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Red Bee Attack",
+       "op": "add",
+       "unit": "",
+       "min": 1,
+       "max": 1,
+       "step": 1,
+       "chance": 0.3333333333333333
+      },
+      {
+       "stat": "Blue Bee Attack",
+       "op": "add",
+       "unit": "",
+       "min": 1,
+       "max": 1,
+       "step": 1,
+       "chance": 0.3333333333333333
+      },
+      {
+       "stat": "Red Bee Attack",
+       "op": "add",
+       "unit": "",
+       "min": 1,
+       "max": 2,
+       "step": 1,
+       "chance": 0.1
+      },
+      {
+       "stat": "Blue Bee Attack",
+       "op": "add",
+       "unit": "",
+       "min": 1,
+       "max": 2,
+       "step": 1,
+       "chance": 0.1
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "White Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 20,
+       "max": 25,
+       "step": 1
+      },
+      {
+       "stat": "Red Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 20,
+       "max": 25,
+       "step": 1
+      },
+      {
+       "stat": "Blue Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 20,
+       "max": 25,
+       "step": 1
+      },
+      {
+       "stat": "Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 5,
+       "max": 8,
+       "step": 1
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Honey From Tokens",
+       "op": "add",
+       "unit": "%",
+       "min": 61,
+       "max": 80,
+       "step": 1
+      },
+      {
+       "stat": "Bee Attack",
+       "op": "add",
+       "unit": "%",
+       "min": 7,
+       "max": 9,
+       "step": 1
+      },
+      {
+       "stat": "Blue Bomb Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 20,
+       "max": 25,
+       "step": 1
+      },
+      {
+       "stat": "Red Bomb Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 20,
+       "max": 25,
+       "step": 1
+      },
+      {
+       "stat": "Buzz Bomb Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 20,
+       "max": 25,
+       "step": 1
+      },
+      {
+       "stat": "Bomb Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 12,
+       "max": 15,
+       "step": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Diamond Stick Bug Amulet",
+   "group": "Stick Bug",
+   "tier": "Diamond",
+   "slots": [
+    {
+     "kind": "fixed",
+     "stat": "Capacity",
+     "op": "add",
+     "unit": "",
+     "min": 200000,
+     "max": 300000,
+     "step": 25000
+    },
+    {
+     "kind": "fixed",
+     "stat": "Convert Rate",
+     "op": "mul",
+     "unit": "x",
+     "min": 1.2,
+     "max": 1.25,
+     "step": 0.01
+    },
+    {
+     "kind": "fixed",
+     "stat": "Tool Pollen",
+     "op": "add",
+     "unit": "%",
+     "min": 15,
+     "max": 20,
+     "step": 1,
+     "chance": 0.01
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Monster Respawn Time",
+       "op": "add",
+       "unit": "%",
+       "min": 5,
+       "max": 10,
+       "step": 1
+      },
+      {
+       "stat": "Bond From Battle",
+       "op": "add",
+       "unit": "%",
+       "min": 8,
+       "max": 15,
+       "step": 1
+      },
+      {
+       "stat": "Bee Attack",
+       "op": "add",
+       "unit": "",
+       "min": 1,
+       "max": 1,
+       "step": 1
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Red Bee Attack",
+       "op": "add",
+       "unit": "",
+       "min": 1,
+       "max": 1,
+       "step": 1
+      },
+      {
+       "stat": "Blue Bee Attack",
+       "op": "add",
+       "unit": "",
+       "min": 1,
+       "max": 1,
+       "step": 1
+      },
+      {
+       "stat": "Red Bee Attack",
+       "op": "add",
+       "unit": "",
+       "min": 2,
+       "max": 2,
+       "step": 1
+      },
+      {
+       "stat": "Blue Bee Attack",
+       "op": "add",
+       "unit": "",
+       "min": 2,
+       "max": 2,
+       "step": 1
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "White Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 25,
+       "max": 30,
+       "step": 1
+      },
+      {
+       "stat": "Red Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 25,
+       "max": 30,
+       "step": 1
+      },
+      {
+       "stat": "Blue Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 25,
+       "max": 30,
+       "step": 1
+      },
+      {
+       "stat": "Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 8,
+       "max": 10,
+       "step": 1
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Honey From Tokens",
+       "op": "add",
+       "unit": "%",
+       "min": 81,
+       "max": 100,
+       "step": 1
+      },
+      {
+       "stat": "Bee Attack",
+       "op": "add",
+       "unit": "%",
+       "min": 9,
+       "max": 10,
+       "step": 1
+      },
+      {
+       "stat": "Blue Bomb Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 25,
+       "max": 30,
+       "step": 1
+      },
+      {
+       "stat": "Red Bomb Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 25,
+       "max": 30,
+       "step": 1
+      },
+      {
+       "stat": "Buzz Bomb Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 25,
+       "max": 30,
+       "step": 1
+      },
+      {
+       "stat": "Bomb Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 15,
+       "step": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "King Beetle Amulet",
+   "group": "King Beetle",
+   "tier": null,
+   "slots": [
+    {
+     "kind": "fixed",
+     "stat": "Convert Rate",
+     "op": "add",
+     "unit": "%",
+     "min": 25,
+     "max": 100,
+     "step": 1
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Red Bee Attack",
+       "op": "add",
+       "unit": "",
+       "min": 0,
+       "max": 1,
+       "step": 1
+      },
+      {
+       "stat": "Blue Bee Attack",
+       "op": "add",
+       "unit": "",
+       "min": 0,
+       "max": 1,
+       "step": 1
+      },
+      {
+       "stat": "Bee Attack",
+       "op": "add",
+       "unit": "",
+       "min": 0,
+       "max": 1,
+       "step": 1
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 2,
+     "options": [
+      {
+       "stat": "Mushroom Field Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 20,
+       "max": 100,
+       "step": 1
+      },
+      {
+       "stat": "Blue Flower Field Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 20,
+       "max": 100,
+       "step": 1
+      },
+      {
+       "stat": "Clover Field Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 20,
+       "max": 100,
+       "step": 1
+      },
+      {
+       "stat": "Strawberry Field Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 20,
+       "max": 100,
+       "step": 1
+      },
+      {
+       "stat": "Bamboo Field Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 20,
+       "max": 100,
+       "step": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Bronze Cog Amulet",
+   "group": "Cog",
+   "tier": "Bronze",
+   "slots": [
+    {
+     "kind": "fixed",
+     "stat": "Capacity",
+     "op": "add",
+     "unit": "",
+     "min": 22500,
+     "max": 27500,
+     "step": 500
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Bee Attack",
+       "op": "add",
+       "unit": "%",
+       "min": 3,
+       "max": 6,
+       "step": 1
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "White Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 5,
+       "max": 10,
+       "step": 1
+      },
+      {
+       "stat": "Red Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 5,
+       "max": 10,
+       "step": 1
+      },
+      {
+       "stat": "Blue Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 5,
+       "max": 10,
+       "step": 1
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Bubble Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 4,
+       "max": 8,
+       "step": 1
+      },
+      {
+       "stat": "Flame Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 4,
+       "max": 8,
+       "step": 1
+      },
+      {
+       "stat": "Bee Gather Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 4,
+       "max": 8,
+       "step": 1
+      },
+      {
+       "stat": "Event Bee Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 3,
+       "max": 5,
+       "step": 1
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Instant White Conversion",
+       "op": "add",
+       "unit": "%",
+       "min": 1,
+       "max": 2,
+       "step": 1
+      },
+      {
+       "stat": "Instant Red Conversion",
+       "op": "add",
+       "unit": "%",
+       "min": 1,
+       "max": 2,
+       "step": 1
+      },
+      {
+       "stat": "Instant Blue Conversion",
+       "op": "add",
+       "unit": "%",
+       "min": 1,
+       "max": 2,
+       "step": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Silver Cog Amulet",
+   "group": "Cog",
+   "tier": "Silver",
+   "slots": [
+    {
+     "kind": "fixed",
+     "stat": "Capacity",
+     "op": "add",
+     "unit": "",
+     "min": 45000,
+     "max": 55000,
+     "step": 500
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Bee Attack",
+       "op": "add",
+       "unit": "%",
+       "min": 5,
+       "max": 8,
+       "step": 1
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "White Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 10,
+       "max": 15,
+       "step": 1
+      },
+      {
+       "stat": "Red Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 10,
+       "max": 15,
+       "step": 1
+      },
+      {
+       "stat": "Blue Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 10,
+       "max": 15,
+       "step": 1
+      },
+      {
+       "stat": "Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 1,
+       "max": 2,
+       "step": 1
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Bubble Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 10,
+       "max": 15,
+       "step": 1
+      },
+      {
+       "stat": "Flame Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 10,
+       "max": 15,
+       "step": 1
+      },
+      {
+       "stat": "Bee Gather Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 10,
+       "max": 15,
+       "step": 1
+      },
+      {
+       "stat": "Event Bee Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 6,
+       "max": 10,
+       "step": 1
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Instant White Conversion",
+       "op": "add",
+       "unit": "%",
+       "min": 2,
+       "max": 3,
+       "step": 1
+      },
+      {
+       "stat": "Instant Red Conversion",
+       "op": "add",
+       "unit": "%",
+       "min": 2,
+       "max": 3,
+       "step": 1
+      },
+      {
+       "stat": "Instant Blue Conversion",
+       "op": "add",
+       "unit": "%",
+       "min": 2,
+       "max": 3,
+       "step": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Gold Cog Amulet",
+   "group": "Cog",
+   "tier": "Gold",
+   "slots": [
+    {
+     "kind": "fixed",
+     "stat": "Capacity",
+     "op": "add",
+     "unit": "",
+     "min": 90000,
+     "max": 110000,
+     "step": 1000
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Bee Attack",
+       "op": "add",
+       "unit": "%",
+       "min": 8,
+       "max": 10,
+       "step": 1
+      },
+      {
+       "stat": "Bee Attack",
+       "op": "add",
+       "unit": "",
+       "min": 1,
+       "max": 1,
+       "step": 1,
+       "note": "цвет случайный: Red / Colorless / Blue"
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "White Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 20,
+       "step": 1
+      },
+      {
+       "stat": "Red Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 20,
+       "step": 1
+      },
+      {
+       "stat": "Blue Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 20,
+       "step": 1
+      },
+      {
+       "stat": "Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 2,
+       "max": 3,
+       "step": 1
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Bubble Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 20,
+       "step": 1
+      },
+      {
+       "stat": "Flame Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 20,
+       "step": 1
+      },
+      {
+       "stat": "Bee Gather Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 20,
+       "step": 1
+      },
+      {
+       "stat": "Mark Ability Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 8,
+       "max": 10,
+       "step": 1
+      },
+      {
+       "stat": "Event Bee Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 8,
+       "max": 10,
+       "step": 1
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Instant White Conversion",
+       "op": "add",
+       "unit": "%",
+       "min": 3,
+       "max": 4,
+       "step": 1
+      },
+      {
+       "stat": "Instant Red Conversion",
+       "op": "add",
+       "unit": "%",
+       "min": 3,
+       "max": 4,
+       "step": 1
+      },
+      {
+       "stat": "Instant Blue Conversion",
+       "op": "add",
+       "unit": "%",
+       "min": 3,
+       "max": 4,
+       "step": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Diamond Cog Amulet",
+   "group": "Cog",
+   "tier": "Diamond",
+   "slots": [
+    {
+     "kind": "fixed",
+     "stat": "Capacity",
+     "op": "add",
+     "unit": "",
+     "min": 125000,
+     "max": 175000,
+     "step": 2500
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Bee Attack",
+       "op": "add",
+       "unit": "%",
+       "min": 9,
+       "max": 12,
+       "step": 1
+      },
+      {
+       "stat": "Bee Attack",
+       "op": "add",
+       "unit": "",
+       "min": 1,
+       "max": 1,
+       "step": 1,
+       "note": "цвет случайный: Red / Colorless / Blue"
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "White Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 20,
+       "max": 25,
+       "step": 1
+      },
+      {
+       "stat": "Red Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 20,
+       "max": 25,
+       "step": 1
+      },
+      {
+       "stat": "Blue Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 20,
+       "max": 25,
+       "step": 1
+      },
+      {
+       "stat": "Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 3,
+       "max": 5,
+       "step": 1
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Bubble Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 20,
+       "max": 25,
+       "step": 1
+      },
+      {
+       "stat": "Flame Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 20,
+       "max": 25,
+       "step": 1
+      },
+      {
+       "stat": "Bee Gather Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 20,
+       "max": 25,
+       "step": 1
+      },
+      {
+       "stat": "Mark Ability Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 10,
+       "max": 15,
+       "step": 1
+      },
+      {
+       "stat": "Event Bee Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 10,
+       "max": 15,
+       "step": 1
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Super-Crit Power",
+       "op": "add",
+       "unit": "%",
+       "min": 10,
+       "max": 15,
+       "step": 1
+      },
+      {
+       "stat": "Honey From Tokens",
+       "op": "add",
+       "unit": "%",
+       "min": 25,
+       "max": 50,
+       "step": 1
+      },
+      {
+       "stat": "Nectar",
+       "op": "add",
+       "unit": "%",
+       "min": 5,
+       "max": 5,
+       "step": 1
+      },
+      {
+       "stat": "Ability Token Lifespan",
+       "op": "add",
+       "unit": "%",
+       "min": 5,
+       "max": 5,
+       "step": 1
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Instant White Conversion",
+       "op": "add",
+       "unit": "%",
+       "min": 4,
+       "max": 5,
+       "step": 1
+      },
+      {
+       "stat": "Instant Red Conversion",
+       "op": "add",
+       "unit": "%",
+       "min": 4,
+       "max": 5,
+       "step": 1
+      },
+      {
+       "stat": "Instant Blue Conversion",
+       "op": "add",
+       "unit": "%",
+       "min": 4,
+       "max": 5,
+       "step": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Supreme Cog Amulet",
+   "group": "Cog",
+   "tier": "Supreme",
+   "slots": [
+    {
+     "kind": "fixed",
+     "stat": "Capacity",
+     "op": "add",
+     "unit": "",
+     "min": 200000,
+     "max": 250000,
+     "step": 5000
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Bee Attack",
+       "op": "add",
+       "unit": "%",
+       "min": 10,
+       "max": 15,
+       "step": 1
+      },
+      {
+       "stat": "Bee Attack",
+       "op": "add",
+       "unit": "",
+       "min": 1,
+       "max": 2,
+       "step": 1,
+       "note": "цвет случайный: Red / Colorless / Blue"
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "White Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 25,
+       "max": 30,
+       "step": 1
+      },
+      {
+       "stat": "Red Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 25,
+       "max": 30,
+       "step": 1
+      },
+      {
+       "stat": "Blue Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 25,
+       "max": 30,
+       "step": 1
+      },
+      {
+       "stat": "Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 6,
+       "max": 10,
+       "step": 1
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Bubble Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 25,
+       "max": 30,
+       "step": 1
+      },
+      {
+       "stat": "Flame Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 25,
+       "max": 30,
+       "step": 1
+      },
+      {
+       "stat": "Bee Gather Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 25,
+       "max": 30,
+       "step": 1
+      },
+      {
+       "stat": "Mark Ability Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 20,
+       "step": 1
+      },
+      {
+       "stat": "Event Bee Pollen",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 20,
+       "step": 1
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Super-Crit Power",
+       "op": "add",
+       "unit": "%",
+       "min": 15,
+       "max": 25,
+       "step": 1
+      },
+      {
+       "stat": "Honey From Tokens",
+       "op": "add",
+       "unit": "%",
+       "min": 50,
+       "max": 75,
+       "step": 1
+      },
+      {
+       "stat": "Nectar",
+       "op": "add",
+       "unit": "%",
+       "min": 5,
+       "max": 5,
+       "step": 1
+      },
+      {
+       "stat": "Ability Token Lifespan",
+       "op": "add",
+       "unit": "%",
+       "min": 5,
+       "max": 10,
+       "step": 1
+      }
+     ]
+    },
+    {
+     "kind": "pool",
+     "select": 1,
+     "options": [
+      {
+       "stat": "Instant White Conversion",
+       "op": "add",
+       "unit": "%",
+       "min": 4,
+       "max": 5,
+       "step": 1
+      },
+      {
+       "stat": "Instant Red Conversion",
+       "op": "add",
+       "unit": "%",
+       "min": 4,
+       "max": 5,
+       "step": 1
+      },
+      {
+       "stat": "Instant Blue Conversion",
+       "op": "add",
+       "unit": "%",
+       "min": 4,
+       "max": 5,
+       "step": 1
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

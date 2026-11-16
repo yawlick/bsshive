@@ -1,0 +1,2934 @@
+{
+ "source": "ReplicatedStorage.Buffs.Init.* / NectarTypes / JellyBeanTypes (клиент игры)",
+ "groups": {
+  "model": "От пчёл и снаряжения (модель считает сама — включи, если держишь всегда)",
+  "ability": "Прочие от способностей",
+  "items": "Предметы и коды",
+  "vouchers": "Ваучеры",
+  "chicks": "Благословения цыплят",
+  "nectars": "Нектары",
+  "beans": "Желейные бобы"
+ },
+ "buffs": [
+  {
+   "name": "Ant Challenge",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#fff180",
+    "icon": "2060626811",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Instant Ant Field Conversion",
+     "op": "add",
+     "unit": "%",
+     "value": 100
+    }
+   ]
+  },
+  {
+   "name": "Aphid Boost",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#125d22",
+    "icon": "65867881",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.5
+    }
+   ]
+  },
+  {
+   "name": "APM Bonus",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#555555",
+    "icon": "1629649299",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 10,
+   "mods": [
+    {
+     "stat": "Tool Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.03
+    }
+   ]
+  },
+  {
+   "name": "Balloon Aura",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#fafd38",
+    "icon": "8083447646",
+    "iconColor": "#234bff",
+    "img": true
+   },
+   "maxStacks": 10,
+   "mods": [
+    {
+     "stat": "Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.02
+    },
+    {
+     "stat": "Honey From Tokens",
+     "op": "add",
+     "unit": "%",
+     "value": 2
+    }
+   ]
+  },
+  {
+   "name": "Balloon Blessing",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#fafd38",
+    "icon": "8083443467",
+    "iconColor": "#234bff",
+    "img": true
+   },
+   "maxStacks": 100,
+   "mods": [
+    {
+     "stat": "Capacity",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.03
+    },
+    {
+     "stat": "Honey At Hive",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.015
+    }
+   ]
+  },
+  {
+   "name": "Beesmas Cheer",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#17b52d",
+    "icon": "2652364563",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Bee Movespeed",
+     "op": "mul",
+     "unit": "x",
+     "value": 2
+    },
+    {
+     "stat": "Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.5
+    }
+   ]
+  },
+  {
+   "name": "Beesmas Repentance",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#47ac53",
+    "icon": "6126057730",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Capacity",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.05
+    },
+    {
+     "stat": "Bubble Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 1
+    },
+    {
+     "stat": "Blue Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 1
+    },
+    {
+     "stat": "Blue Flower Field Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 1
+    },
+    {
+     "stat": "Pine Tree Forest Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 1
+    },
+    {
+     "stat": "Stump Field Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 1
+    },
+    {
+     "stat": "Movement Collection Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 1
+    },
+    {
+     "stat": "Bee Attack",
+     "op": "add",
+     "unit": "%",
+     "value": 1
+    },
+    {
+     "stat": "Loot Luck",
+     "op": "add",
+     "unit": "%",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "name": "Blue Balloon",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#323cff",
+    "icon": "65867881",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 100,
+   "mods": [
+    {
+     "stat": "Capacity",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.1
+    }
+   ]
+  },
+  {
+   "name": "Blue Extract",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#fec650",
+    "icon": "2495936060",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Blue Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.25
+    }
+   ]
+  },
+  {
+   "name": "Blue Screen Bonus",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#1f1f1f",
+    "icon": "1442863423",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 10,
+   "mods": [
+    {
+     "stat": "Bee Attack",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.03
+    },
+    {
+     "stat": "Bee Attack",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.03
+    }
+   ]
+  },
+  {
+   "name": "Bomb Combo",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#272727",
+    "icon": "1442725244",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 10,
+   "mods": [
+    {
+     "stat": "Bomb Power",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.25
+    }
+   ]
+  },
+  {
+   "name": "Bubble Bloat",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#4880cc",
+    "icon": "5144723635",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Blue Field Capacity",
+     "op": "mul",
+     "unit": "x",
+     "value": 6
+    },
+    {
+     "stat": "Convert Rate At Hive",
+     "op": "mul",
+     "unit": "x",
+     "value": 6
+    }
+   ]
+  },
+  {
+   "name": "Bug Blessing",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#125d22",
+    "icon": "65867881",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.5
+    }
+   ]
+  },
+  {
+   "name": "Capacity Boost",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#ffe362",
+    "icon": "2766180433",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Capacity",
+     "op": "mul",
+     "unit": "x",
+     "value": 2
+    }
+   ]
+  },
+  {
+   "name": "Capacity Code",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#ffe362",
+    "icon": "2766180433",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Capacity",
+     "op": "mul",
+     "unit": "x",
+     "value": 2
+    },
+    {
+     "stat": "Convert Rate At Hive",
+     "op": "mul",
+     "unit": "x",
+     "value": 2
+    }
+   ]
+  },
+  {
+   "name": "Cloud Boost",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#9fb1c5",
+    "icon": "3582501342",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 25
+    }
+   ]
+  },
+  {
+   "name": "Cloud Boost+",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#9fb1c5",
+    "icon": "3809516302",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 50
+    }
+   ]
+  },
+  {
+   "name": "Coconut Combo",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#88633e",
+    "icon": "17362698291",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 100,
+   "mods": [
+    {
+     "stat": "Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 2
+    },
+    {
+     "stat": "Red Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 50
+    },
+    {
+     "stat": "White Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 50
+    },
+    {
+     "stat": "Blue Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 50
+    },
+    {
+     "stat": "Bee Attack",
+     "op": "add",
+     "unit": "%",
+     "value": 50
+    },
+    {
+     "stat": "Honey From Tokens",
+     "op": "add",
+     "unit": "%",
+     "value": 50
+    }
+   ]
+  },
+  {
+   "name": "Coconut Haste Surge",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#f0f0f0",
+    "icon": "65867881",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Bee Movespeed",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.5
+    },
+    {
+     "stat": "Player Movespeed",
+     "op": "add",
+     "unit": "",
+     "value": 10
+    }
+   ]
+  },
+  {
+   "name": "Coconut Shield",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#ffffff",
+    "icon": "3030407727",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Defense",
+     "op": "add",
+     "unit": "%",
+     "value": 100
+    },
+    {
+     "stat": "Bee Attack",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.25
+    }
+   ]
+  },
+  {
+   "name": "Console Launch Boost",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#262626",
+    "icon": "12689980465",
+    "iconColor": "#e3e3e3",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Tool Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.25
+    },
+    {
+     "stat": "Bee Gather Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.25
+    },
+    {
+     "stat": "Event Bee Ability Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.25
+    },
+    {
+     "stat": "Convert Amount",
+     "op": "add",
+     "unit": "",
+     "value": 100
+    },
+    {
+     "stat": "Capacity",
+     "op": "add",
+     "unit": "%",
+     "value": 50
+    },
+    {
+     "stat": "Nectar",
+     "op": "add",
+     "unit": "%",
+     "value": 10
+    },
+    {
+     "stat": "Critical Chance",
+     "op": "add",
+     "unit": "%",
+     "value": 1
+    },
+    {
+     "stat": "Super-Crit Chance",
+     "op": "add",
+     "unit": "%",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "name": "Conversion Boost",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#ffe362",
+    "icon": "1472135114",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Convert Rate",
+     "op": "mul",
+     "unit": "x",
+     "value": 2
+    }
+   ]
+  },
+  {
+   "name": "Cool Breeze",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#ededed",
+    "icon": "6087969886",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Convert Rate At Hive",
+     "op": "add",
+     "unit": "%",
+     "value": 25
+    },
+    {
+     "stat": "Tool Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 25
+    },
+    {
+     "stat": "Bee Gather Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 25
+    },
+    {
+     "stat": "Honey Per Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 5
+    },
+    {
+     "stat": "Loot Luck",
+     "op": "add",
+     "unit": "%",
+     "value": 10
+    },
+    {
+     "stat": "Capacity",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.25
+    }
+   ]
+  },
+  {
+   "name": "Crit Chance Market Boost",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#125d22",
+    "icon": "65867881",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Critical Chance",
+     "op": "add",
+     "unit": "%",
+     "value": 25
+    }
+   ]
+  },
+  {
+   "name": "Dark Heat",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#8f4eb4",
+    "icon": "4097473201",
+    "iconColor": "#e30000",
+    "img": true
+   },
+   "maxStacks": 100,
+   "mods": [
+    {
+     "stat": "Super-Crit Power",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.05
+    }
+   ]
+  },
+  {
+   "name": "Demarcate Bonus",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#1f1f1f",
+    "icon": "2499540966",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 10,
+   "mods": [
+    {
+     "stat": "Critical Power",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.03
+    }
+   ]
+  },
+  {
+   "name": "Enzymes",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#fec650",
+    "icon": "2584584968",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Instant Conversion",
+     "op": "add",
+     "unit": "%",
+     "value": 10
+    },
+    {
+     "stat": "Convert Rate",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.25
+    }
+   ]
+  },
+  {
+   "name": "Extreme Undying Rage",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#fc000a",
+    "icon": "1442700745",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Bee Attack",
+     "op": "mul",
+     "unit": "x",
+     "value": 10
+    },
+    {
+     "stat": "Bee Attack",
+     "op": "add",
+     "unit": "",
+     "value": 3
+    }
+   ]
+  },
+  {
+   "name": "Festive Blessing",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#17b52d",
+    "icon": "2652424740",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Instant Conversion",
+     "op": "add",
+     "unit": "%",
+     "value": 100
+    },
+    {
+     "stat": "Convert Rate",
+     "op": "mul",
+     "unit": "x",
+     "value": 2
+    }
+   ]
+  },
+  {
+   "name": "Festive Mark",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#3d713b",
+    "icon": "6077288982",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Honey Per Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 10
+    },
+    {
+     "stat": "Bomb Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.4
+    },
+    {
+     "stat": "Red Bomb Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.4
+    },
+    {
+     "stat": "Instant Bomb Conversion",
+     "op": "add",
+     "unit": "%",
+     "value": 100
+    }
+   ]
+  },
+  {
+   "name": "Festive Nymph Blessing",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#47ac53",
+    "icon": "6299503651",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 250,
+   "mods": [
+    {
+     "stat": "Capacity",
+     "op": "add",
+     "unit": "",
+     "value": 1000
+    }
+   ]
+  },
+  {
+   "name": "Galentine's Blessing",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#ffeffe",
+    "icon": "243089383",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Capacity",
+     "op": "add",
+     "unit": "%",
+     "value": 50
+    },
+    {
+     "stat": "Instant Bee Ability Conversion",
+     "op": "add",
+     "unit": "%",
+     "value": 15
+    },
+    {
+     "stat": "Rose Field Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 50
+    },
+    {
+     "stat": "Blue Flower Field Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 50
+    },
+    {
+     "stat": "Sunflower Field Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 50
+    },
+    {
+     "stat": "Ticket Chance",
+     "op": "add",
+     "unit": "%",
+     "value": 5
+    },
+    {
+     "stat": "Loot Luck",
+     "op": "add",
+     "unit": "%",
+     "value": 5
+    },
+    {
+     "stat": "Super-Crit Chance",
+     "op": "add",
+     "unit": "%",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "name": "Glue",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#fec650",
+    "icon": "2504978518",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Bee Gather Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.25
+    },
+    {
+     "stat": "Tool Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.25
+    }
+   ]
+  },
+  {
+   "name": "Guiding Star Aura",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#ffffff",
+    "icon": "5101691186",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Capacity",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.25
+    },
+    {
+     "stat": "Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.25
+    }
+   ]
+  },
+  {
+   "name": "Guiding Star Aura+",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#ffffff",
+    "icon": "5101691186",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Capacity",
+     "op": "mul",
+     "unit": "x",
+     "value": 2.5
+    },
+    {
+     "stat": "Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 2.5
+    }
+   ]
+  },
+  {
+   "name": "Gummy Bear Morph",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#f281ff",
+    "icon": "1837410537",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Goo",
+     "op": "add",
+     "unit": "%",
+     "value": 75
+    },
+    {
+     "stat": "Goo Conversion",
+     "op": "add",
+     "unit": "%",
+     "value": 200
+    }
+   ]
+  },
+  {
+   "name": "Gummyball Combo",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#5effca",
+    "icon": "8243060176",
+    "iconColor": "#ff74fd",
+    "img": true
+   },
+   "maxStacks": 1000,
+   "mods": [
+    {
+     "stat": "White Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.1
+    },
+    {
+     "stat": "Goo",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.01
+    }
+   ]
+  },
+  {
+   "name": "Haste+",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#eddb4c",
+    "icon": "65867881",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Player Movespeed",
+     "op": "mul",
+     "unit": "x",
+     "value": 2
+    }
+   ]
+  },
+  {
+   "name": "Hive Conversion Boost",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#eddb4c",
+    "icon": "65867881",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Convert Rate At Hive",
+     "op": "mul",
+     "unit": "x",
+     "value": 2
+    }
+   ]
+  },
+  {
+   "name": "Hive Hub Conversion",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#1b1b1b",
+    "icon": "65867881",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Instant Hub Field Conversion",
+     "op": "add",
+     "unit": "%",
+     "value": 100
+    }
+   ]
+  },
+  {
+   "name": "Honeycomb",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#eddb4c",
+    "icon": "65867881",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 100,
+   "mods": [
+    {
+     "stat": "Honey Per Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.05
+    }
+   ]
+  },
+  {
+   "name": "Honeyday Event",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#17b52d",
+    "icon": "2659216738",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 2
+    },
+    {
+     "stat": "Convert Rate",
+     "op": "mul",
+     "unit": "x",
+     "value": 2
+    }
+   ]
+  },
+  {
+   "name": "Jelly Bean Sharing Bonus",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#f9ccff",
+    "icon": "3080919019",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Convert Rate",
+     "op": "add",
+     "unit": "%",
+     "value": 100
+    },
+    {
+     "stat": "White Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 10
+    },
+    {
+     "stat": "Red Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 10
+    },
+    {
+     "stat": "Blue Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 10
+    }
+   ]
+  },
+  {
+   "name": "Market Megaboost",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#125d22",
+    "icon": "65867881",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 4
+    },
+    {
+     "stat": "Convert Rate",
+     "op": "mul",
+     "unit": "x",
+     "value": 3
+    },
+    {
+     "stat": "Capacity",
+     "op": "mul",
+     "unit": "x",
+     "value": 2
+    },
+    {
+     "stat": "Player Movespeed",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.25
+    },
+    {
+     "stat": "Bee Movespeed",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.25
+    }
+   ]
+  },
+  {
+   "name": "Marshmallow Bee",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#fec650",
+    "icon": "3027672238",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "White Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 50
+    },
+    {
+     "stat": "Capacity",
+     "op": "add",
+     "unit": "%",
+     "value": 50
+    },
+    {
+     "stat": "Convert Rate",
+     "op": "add",
+     "unit": "%",
+     "value": 250
+    }
+   ]
+  },
+  {
+   "name": "Monster Fast Spawn",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#125d22",
+    "icon": "65867881",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Monster Respawn Time",
+     "op": "add",
+     "unit": "%",
+     "value": 70
+    }
+   ]
+  },
+  {
+   "name": "Mother Bear Morph",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#f8f6ff",
+    "icon": "2032949183",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 2.5
+    },
+    {
+     "stat": "Bee Gather Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.5
+    }
+   ]
+  },
+  {
+   "name": "New Golfer's Luck",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#17b52d",
+    "icon": "18742562354",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Capacity",
+     "op": "add",
+     "unit": "",
+     "value": 300
+    },
+    {
+     "stat": "Convert Rate",
+     "op": "add",
+     "unit": "%",
+     "value": 25
+    },
+    {
+     "stat": "Player Movespeed",
+     "op": "add",
+     "unit": "",
+     "value": 2
+    }
+   ]
+  },
+  {
+   "name": "Oil",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#fec650",
+    "icon": "2545746569",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Bee Movespeed",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.2
+    },
+    {
+     "stat": "Player Movespeed",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.2
+    }
+   ]
+  },
+  {
+   "name": "Pollen Boost",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#eddb4c",
+    "icon": "65867881",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 2
+    }
+   ]
+  },
+  {
+   "name": "Puffshroom Blessing",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#be9a68",
+    "icon": "15460474729",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 100,
+   "mods": [
+    {
+     "stat": "Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 10
+    },
+    {
+     "stat": "Capacity",
+     "op": "add",
+     "unit": "%",
+     "value": 10
+    },
+    {
+     "stat": "Honey From Tokens",
+     "op": "add",
+     "unit": "%",
+     "value": 10
+    }
+   ]
+  },
+  {
+   "name": "Purple Potion",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#fec650",
+    "icon": "4935580111",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Capacity",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.25
+    },
+    {
+     "stat": "Convert Rate At Hive",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.25
+    },
+    {
+     "stat": "Red Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.5
+    },
+    {
+     "stat": "Blue Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.5
+    },
+    {
+     "stat": "Bee Gather Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.3
+    },
+    {
+     "stat": "Tool Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.3
+    }
+   ]
+  },
+  {
+   "name": "Rage+",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#e40a05",
+    "icon": "65867881",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Bee Attack",
+     "op": "add",
+     "unit": "",
+     "value": 2
+    }
+   ]
+  },
+  {
+   "name": "Red Extract",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#fec650",
+    "icon": "2495935291",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Red Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.25
+    }
+   ]
+  },
+  {
+   "name": "Reindeer Guidance",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#cc2c2c",
+    "icon": "6077286858",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 10,
+   "mods": [
+    {
+     "stat": "Capacity",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.01
+    }
+   ]
+  },
+  {
+   "name": "Robo Party Blessing",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#3da341",
+    "icon": "12922462485",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 100,
+   "mods": [
+    {
+     "stat": "Capacity",
+     "op": "add",
+     "unit": "",
+     "value": 100000
+    },
+    {
+     "stat": "Critical Power",
+     "op": "add",
+     "unit": "%",
+     "value": 50
+    },
+    {
+     "stat": "White Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 50
+    },
+    {
+     "stat": "Red Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 50
+    },
+    {
+     "stat": "Blue Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 50
+    }
+   ]
+  },
+  {
+   "name": "Science Bear Morph",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#f8f6ff",
+    "icon": "1489734171",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 2
+    }
+   ]
+  },
+  {
+   "name": "Stinger",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#ea2223",
+    "icon": "2314214749",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Bee Attack",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.5
+    }
+   ]
+  },
+  {
+   "name": "Super Smoothie",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#fec650",
+    "icon": "5144657109",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Capacity",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.5
+    },
+    {
+     "stat": "Red Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.6
+    },
+    {
+     "stat": "Blue Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.6
+    },
+    {
+     "stat": "White Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.6
+    },
+    {
+     "stat": "Bee Gather Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.4
+    },
+    {
+     "stat": "Tool Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.4
+    },
+    {
+     "stat": "Convert Rate",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.5
+    },
+    {
+     "stat": "Convert Rate At Hive",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.5
+    },
+    {
+     "stat": "Instant Conversion",
+     "op": "add",
+     "unit": "%",
+     "value": 20
+    },
+    {
+     "stat": "Super-Crit Chance",
+     "op": "add",
+     "unit": "%",
+     "value": 1
+    },
+    {
+     "stat": "Critical Chance",
+     "op": "add",
+     "unit": "%",
+     "value": 6
+    },
+    {
+     "stat": "Bee Movespeed",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.25
+    },
+    {
+     "stat": "Player Movespeed",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.25
+    }
+   ]
+  },
+  {
+   "name": "Tabby Blessing+",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#f99d27",
+    "icon": "1753904608",
+    "iconColor": "#000000",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Critical Chance",
+     "op": "add",
+     "unit": "%",
+     "value": 1
+    },
+    {
+     "stat": "Super-Crit Chance",
+     "op": "add",
+     "unit": "%",
+     "value": 1
+    },
+    {
+     "stat": "Critical Power",
+     "op": "add",
+     "unit": "%",
+     "value": 25
+    }
+   ]
+  },
+  {
+   "name": "Test Realm Boost",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#125d22",
+    "icon": "65867881",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 3
+    },
+    {
+     "stat": "Convert Rate",
+     "op": "mul",
+     "unit": "x",
+     "value": 3
+    },
+    {
+     "stat": "Ticket Chance",
+     "op": "mul",
+     "unit": "x",
+     "value": 5
+    },
+    {
+     "stat": "Loot Luck",
+     "op": "add",
+     "unit": "%",
+     "value": 1000
+    },
+    {
+     "stat": "Bee Attack",
+     "op": "mul",
+     "unit": "x",
+     "value": 3
+    },
+    {
+     "stat": "Instant White Conversion",
+     "op": "add",
+     "unit": "%",
+     "value": 40
+    },
+    {
+     "stat": "Instant Red Conversion",
+     "op": "add",
+     "unit": "%",
+     "value": 40
+    },
+    {
+     "stat": "Instant Blue Conversion",
+     "op": "add",
+     "unit": "%",
+     "value": 40
+    }
+   ]
+  },
+  {
+   "name": "Test Realm Megaboost",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#17b52d",
+    "icon": "2659216738",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 5
+    },
+    {
+     "stat": "Convert Rate",
+     "op": "mul",
+     "unit": "x",
+     "value": 5
+    },
+    {
+     "stat": "Capacity",
+     "op": "mul",
+     "unit": "x",
+     "value": 10
+    },
+    {
+     "stat": "Loot Luck",
+     "op": "mul",
+     "unit": "x",
+     "value": 5
+    },
+    {
+     "stat": "Ticket Chance",
+     "op": "mul",
+     "unit": "x",
+     "value": 10
+    },
+    {
+     "stat": "Monster Respawn Time",
+     "op": "add",
+     "unit": "%",
+     "value": 65
+    },
+    {
+     "stat": "Bee Attack",
+     "op": "mul",
+     "unit": "x",
+     "value": 10
+    },
+    {
+     "stat": "Instant Hub Field Conversion",
+     "op": "add",
+     "unit": "%",
+     "value": 100
+    }
+   ]
+  },
+  {
+   "name": "Test Realm Megaboost 2",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#125d22",
+    "icon": "65867881",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 3
+    },
+    {
+     "stat": "Convert Rate",
+     "op": "mul",
+     "unit": "x",
+     "value": 3
+    },
+    {
+     "stat": "Ticket Chance",
+     "op": "mul",
+     "unit": "x",
+     "value": 5
+    },
+    {
+     "stat": "Loot Luck",
+     "op": "mul",
+     "unit": "x",
+     "value": 1000000
+    },
+    {
+     "stat": "Bee Attack",
+     "op": "mul",
+     "unit": "x",
+     "value": 10
+    },
+    {
+     "stat": "Bee Attack",
+     "op": "add",
+     "unit": "",
+     "value": 3
+    },
+    {
+     "stat": "Bee Movespeed",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.2
+    },
+    {
+     "stat": "Player Movespeed",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.2
+    },
+    {
+     "stat": "Instant White Conversion",
+     "op": "add",
+     "unit": "%",
+     "value": 40
+    },
+    {
+     "stat": "Instant Red Conversion",
+     "op": "add",
+     "unit": "%",
+     "value": 40
+    },
+    {
+     "stat": "Instant Blue Conversion",
+     "op": "add",
+     "unit": "%",
+     "value": 40
+    }
+   ]
+  },
+  {
+   "name": "Tide Blessing",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#91c2fd",
+    "icon": "7052520309",
+    "iconColor": "#f9f9f9",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Blue Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.2
+    },
+    {
+     "stat": "Honey From Tokens",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.2
+    },
+    {
+     "stat": "Convert Rate At Hive",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.2
+    },
+    {
+     "stat": "Bee Gather Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.2
+    },
+    {
+     "stat": "Tool Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.2
+    }
+   ]
+  },
+  {
+   "name": "Triangulate Boost",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#125d22",
+    "icon": "65867881",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.5
+    }
+   ]
+  },
+  {
+   "name": "Tropical Drink",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#fec650",
+    "icon": "3835877932",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "White Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.25
+    },
+    {
+     "stat": "Instant Conversion",
+     "op": "add",
+     "unit": "%",
+     "value": 10
+    },
+    {
+     "stat": "Critical Chance",
+     "op": "add",
+     "unit": "%",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Wealth Clock",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#e2ac35",
+    "icon": "247421299",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 5,
+   "mods": [
+    {
+     "stat": "Honey Per Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.01
+    }
+   ]
+  },
+  {
+   "name": "Whirligig Boost",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#b89063",
+    "icon": "8277898895",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Convert Rate At Hive",
+     "op": "add",
+     "unit": "%",
+     "value": 100
+    }
+   ]
+  },
+  {
+   "name": "x2 Bee Pollen",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#3d713b",
+    "icon": "1537260771",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Bee Gather Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 2
+    }
+   ]
+  },
+  {
+   "name": "x2 Honey Speed",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#3d713b",
+    "icon": "1537235536",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Convert Rate At Hive",
+     "op": "mul",
+     "unit": "x",
+     "value": 2
+    }
+   ]
+  },
+  {
+   "name": "x2 Ticket Chance",
+   "group": "items",
+   "groupRu": "Предметы и коды",
+   "look": {
+    "bg": "#3d713b",
+    "icon": "1755825914",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Ticket Chance",
+     "op": "mul",
+     "unit": "x",
+     "value": 2
+    }
+   ]
+  },
+  {
+   "name": "x2 Bee Gather Voucher",
+   "group": "vouchers",
+   "groupRu": "Ваучеры",
+   "look": {
+    "bg": "#fff180",
+    "icon": "1537260771",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Bee Gather Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 2
+    }
+   ]
+  },
+  {
+   "name": "x2 Convert Speed Voucher",
+   "group": "vouchers",
+   "groupRu": "Ваучеры",
+   "look": {
+    "bg": "#fff180",
+    "icon": "1537235536",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Convert Rate At Hive",
+     "op": "mul",
+     "unit": "x",
+     "value": 2
+    }
+   ]
+  },
+  {
+   "name": "Blue Chick Blessing",
+   "group": "chicks",
+   "groupRu": "Благословения цыплят",
+   "look": {
+    "bg": "#e7f8ff",
+    "icon": "65867881",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Capacity",
+     "op": "add",
+     "unit": "%",
+     "value": 25
+    },
+    {
+     "stat": "Convert Rate At Hive",
+     "op": "add",
+     "unit": "%",
+     "value": 50
+    },
+    {
+     "stat": "Blue Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 25
+    }
+   ]
+  },
+  {
+   "name": "Commando Chick Blessing",
+   "group": "chicks",
+   "groupRu": "Благословения цыплят",
+   "look": {
+    "bg": "#e7f8ff",
+    "icon": "65867881",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Capacity",
+     "op": "add",
+     "unit": "%",
+     "value": 25
+    },
+    {
+     "stat": "Convert Rate At Hive",
+     "op": "add",
+     "unit": "%",
+     "value": 50
+    },
+    {
+     "stat": "Critical Power",
+     "op": "add",
+     "unit": "%",
+     "value": 25
+    }
+   ]
+  },
+  {
+   "name": "Hostage Chick Blessing",
+   "group": "chicks",
+   "groupRu": "Благословения цыплят",
+   "look": {
+    "bg": "#e7f8ff",
+    "icon": "65867881",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Capacity",
+     "op": "add",
+     "unit": "%",
+     "value": 25
+    },
+    {
+     "stat": "Convert Rate At Hive",
+     "op": "add",
+     "unit": "%",
+     "value": 50
+    },
+    {
+     "stat": "Honey From Tokens",
+     "op": "add",
+     "unit": "%",
+     "value": 25
+    }
+   ]
+  },
+  {
+   "name": "Mondo Chick Blessing",
+   "group": "chicks",
+   "groupRu": "Благословения цыплят",
+   "look": {
+    "bg": "#ecc6d4",
+    "icon": "4866023853",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 10,
+   "mods": [
+    {
+     "stat": "Capacity",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.02
+    },
+    {
+     "stat": "Convert Rate At Hive",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.02
+    },
+    {
+     "stat": "Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 10
+    }
+   ]
+  },
+  {
+   "name": "Red Chick Blessing",
+   "group": "chicks",
+   "groupRu": "Благословения цыплят",
+   "look": {
+    "bg": "#e7f8ff",
+    "icon": "65867881",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Capacity",
+     "op": "add",
+     "unit": "%",
+     "value": 25
+    },
+    {
+     "stat": "Convert Rate At Hive",
+     "op": "add",
+     "unit": "%",
+     "value": 50
+    },
+    {
+     "stat": "Red Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 25
+    }
+   ]
+  },
+  {
+   "name": "Spirit Chick Blessing",
+   "group": "chicks",
+   "groupRu": "Благословения цыплят",
+   "look": {
+    "bg": "#e7f8ff",
+    "icon": "65867881",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Capacity",
+     "op": "add",
+     "unit": "%",
+     "value": 75
+    },
+    {
+     "stat": "Convert Rate At Hive",
+     "op": "add",
+     "unit": "%",
+     "value": 125
+    },
+    {
+     "stat": "White Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 50
+    }
+   ]
+  },
+  {
+   "name": "Swarming Egg of the Hive",
+   "group": "chicks",
+   "groupRu": "Благословения цыплят",
+   "look": {
+    "bg": "#e7f8ff",
+    "icon": "65867881",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Capacity",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.05
+    },
+    {
+     "stat": "Convert Rate",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.05
+    },
+    {
+     "stat": "Convert Rate At Hive",
+     "op": "add",
+     "unit": "%",
+     "value": 105
+    }
+   ]
+  },
+  {
+   "name": "Ultimate Mondo Chick Blessing",
+   "group": "chicks",
+   "groupRu": "Благословения цыплят",
+   "look": {
+    "bg": "#e7f8ff",
+    "icon": "65867881",
+    "iconColor": "#ffffff",
+    "img": true
+   },
+   "maxStacks": 10,
+   "mods": [
+    {
+     "stat": "Capacity",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.15
+    },
+    {
+     "stat": "Convert Rate At Hive",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.5
+    },
+    {
+     "stat": "Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 25
+    },
+    {
+     "stat": "Critical Chance",
+     "op": "add",
+     "unit": "%",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Comforting Nectar",
+   "group": "nectars",
+   "groupRu": "Нектары",
+   "look": {
+    "bg": "#7e9eb3",
+    "icon": "65867881",
+    "iconColor": "#b4e1ff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Honey Per Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.05
+    },
+    {
+     "stat": "White Bee Convert Rate",
+     "op": "mul",
+     "unit": "x",
+     "value": 2
+    },
+    {
+     "stat": "Blue Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.5
+    },
+    {
+     "stat": "Convert Rate At Hive",
+     "op": "mul",
+     "unit": "x",
+     "value": 2
+    }
+   ]
+  },
+  {
+   "name": "Invigorating Nectar",
+   "group": "nectars",
+   "groupRu": "Нектары",
+   "look": {
+    "bg": "#b35a51",
+    "icon": "65867881",
+    "iconColor": "#ff8074",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Honey Per Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.05
+    },
+    {
+     "stat": "Convert Rate",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.5
+    },
+    {
+     "stat": "Red Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.5
+    },
+    {
+     "stat": "Bee Attack",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.1
+    }
+   ]
+  },
+  {
+   "name": "Motivating Nectar",
+   "group": "nectars",
+   "groupRu": "Нектары",
+   "look": {
+    "bg": "#937db3",
+    "icon": "65867881",
+    "iconColor": "#d2b2ff",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Honey Per Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.05
+    },
+    {
+     "stat": "Convert Rate",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.5
+    },
+    {
+     "stat": "Blue Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.5
+    },
+    {
+     "stat": "Bee Ability Rate",
+     "op": "add",
+     "unit": "%",
+     "value": 5
+    }
+   ]
+  },
+  {
+   "name": "Refreshing Nectar",
+   "group": "nectars",
+   "groupRu": "Нектары",
+   "look": {
+    "bg": "#78b375",
+    "icon": "65867881",
+    "iconColor": "#acffa7",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Honey Per Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.05
+    },
+    {
+     "stat": "Blue Bee Convert Rate",
+     "op": "mul",
+     "unit": "x",
+     "value": 2
+    },
+    {
+     "stat": "Red Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.5
+    }
+   ]
+  },
+  {
+   "name": "Satisfying Nectar",
+   "group": "nectars",
+   "groupRu": "Нектары",
+   "look": {
+    "bg": "#b398a7",
+    "icon": "65867881",
+    "iconColor": "#ffd9ee",
+    "img": true
+   },
+   "maxStacks": 1,
+   "mods": [
+    {
+     "stat": "Honey Per Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.05
+    },
+    {
+     "stat": "Red Bee Convert Rate",
+     "op": "mul",
+     "unit": "x",
+     "value": 2
+    },
+    {
+     "stat": "White Pollen",
+     "op": "mul",
+     "unit": "x",
+     "value": 2
+    },
+    {
+     "stat": "Honey At Hive",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.5
+    }
+   ]
+  },
+  {
+   "name": "Black Jelly Bean",
+   "group": "beans",
+   "groupRu": "Желейные бобы",
+   "look": {
+    "bg": "#999999",
+    "icon": "3080529618",
+    "iconColor": "#323232",
+    "img": true
+   },
+   "maxStacks": 3,
+   "mods": [
+    {
+     "stat": "Bomb Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 25,
+     "perStack": 12.5
+    }
+   ]
+  },
+  {
+   "name": "Blue Jelly Bean",
+   "group": "beans",
+   "groupRu": "Желейные бобы",
+   "look": {
+    "bg": "#bcdaf8",
+    "icon": "3080529618",
+    "iconColor": "#79b4f0",
+    "img": true
+   },
+   "maxStacks": 3,
+   "mods": [
+    {
+     "stat": "Blue Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 25,
+     "perStack": 12.5
+    }
+   ]
+  },
+  {
+   "name": "Brown Jelly Bean",
+   "group": "beans",
+   "groupRu": "Желейные бобы",
+   "look": {
+    "bg": "#c9ab9a",
+    "icon": "3080529618",
+    "iconColor": "#935635",
+    "img": true
+   },
+   "maxStacks": 3,
+   "mods": [
+    {
+     "stat": "Instant Bomb Conversion",
+     "op": "add",
+     "unit": "%",
+     "value": 25,
+     "perStack": 5
+    }
+   ]
+  },
+  {
+   "name": "Green Jelly Bean",
+   "group": "beans",
+   "groupRu": "Желейные бобы",
+   "look": {
+    "bg": "#8de58b",
+    "icon": "3080529618",
+    "iconColor": "#1acb17",
+    "img": true
+   },
+   "maxStacks": 3,
+   "mods": [
+    {
+     "stat": "Critical Chance",
+     "op": "add",
+     "unit": "%",
+     "value": 3,
+     "perStack": 1
+    }
+   ]
+  },
+  {
+   "name": "Maroon Jelly Bean",
+   "group": "beans",
+   "groupRu": "Желейные бобы",
+   "look": {
+    "bg": "#ce919b",
+    "icon": "3080529618",
+    "iconColor": "#9d2236",
+    "img": true
+   },
+   "maxStacks": 3,
+   "mods": [
+    {
+     "stat": "Instant Red Conversion",
+     "op": "add",
+     "unit": "%",
+     "value": 10,
+     "perStack": 2.5
+    }
+   ]
+  },
+  {
+   "name": "Merigold Jelly Bean",
+   "group": "beans",
+   "groupRu": "Желейные бобы",
+   "look": {
+    "bg": "#edd48e",
+    "icon": "3080529618",
+    "iconColor": "#daa81c",
+    "img": true
+   },
+   "maxStacks": 3,
+   "mods": [
+    {
+     "stat": "Instant Conversion",
+     "op": "add",
+     "unit": "%",
+     "value": 10,
+     "perStack": 2.5
+    }
+   ]
+  },
+  {
+   "name": "Navy Jelly Bean",
+   "group": "beans",
+   "groupRu": "Желейные бобы",
+   "look": {
+    "bg": "#9697c8",
+    "icon": "3080529618",
+    "iconColor": "#2d2e91",
+    "img": true
+   },
+   "maxStacks": 3,
+   "mods": [
+    {
+     "stat": "Instant Blue Conversion",
+     "op": "add",
+     "unit": "%",
+     "value": 10,
+     "perStack": 2.5
+    }
+   ]
+  },
+  {
+   "name": "Periwinkle Jelly Bean",
+   "group": "beans",
+   "groupRu": "Желейные бобы",
+   "look": {
+    "bg": "#dbd1ed",
+    "icon": "3080529618",
+    "iconColor": "#b7a2db",
+    "img": true
+   },
+   "maxStacks": 3,
+   "mods": [
+    {
+     "stat": "Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 25,
+     "perStack": 12.5
+    }
+   ]
+  },
+  {
+   "name": "Pink Jelly Bean",
+   "group": "beans",
+   "groupRu": "Желейные бобы",
+   "look": {
+    "bg": "#fab9f4",
+    "icon": "3080529618",
+    "iconColor": "#f473e9",
+    "img": true
+   },
+   "maxStacks": 3,
+   "mods": [
+    {
+     "stat": "Instant Bee Gather Conversion",
+     "op": "add",
+     "unit": "%",
+     "value": 25,
+     "perStack": 5
+    }
+   ]
+  },
+  {
+   "name": "Red Jelly Bean",
+   "group": "beans",
+   "groupRu": "Желейные бобы",
+   "look": {
+    "bg": "#f6988b",
+    "icon": "3080529618",
+    "iconColor": "#ed3116",
+    "img": true
+   },
+   "maxStacks": 3,
+   "mods": [
+    {
+     "stat": "Red Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 25,
+     "perStack": 12.5
+    }
+   ]
+  },
+  {
+   "name": "Slate Jelly Bean",
+   "group": "beans",
+   "groupRu": "Желейные бобы",
+   "look": {
+    "bg": "#d1dde5",
+    "icon": "3080529618",
+    "iconColor": "#a3baca",
+    "img": true
+   },
+   "maxStacks": 3,
+   "mods": [
+    {
+     "stat": "Instant White Conversion",
+     "op": "add",
+     "unit": "%",
+     "value": 10,
+     "perStack": 2.5
+    }
+   ]
+  },
+  {
+   "name": "Teal Jelly Bean",
+   "group": "beans",
+   "groupRu": "Желейные бобы",
+   "look": {
+    "bg": "#a5fbdd",
+    "icon": "3080529618",
+    "iconColor": "#4af7ba",
+    "img": true
+   },
+   "maxStacks": 3,
+   "mods": [
+    {
+     "stat": "Instant Tool Conversion",
+     "op": "add",
+     "unit": "%",
+     "value": 25,
+     "perStack": 5
+    }
+   ]
+  },
+  {
+   "name": "White Jelly Bean",
+   "group": "beans",
+   "groupRu": "Желейные бобы",
+   "look": {
+    "bg": "#faf7fa",
+    "icon": "3080529618",
+    "iconColor": "#f5eff5",
+    "img": true
+   },
+   "maxStacks": 3,
+   "mods": [
+    {
+     "stat": "White Pollen",
+     "op": "add",
+     "unit": "%",
+     "value": 25,
+     "perStack": 12.5
+    }
+   ]
+  },
+  {
+   "name": "Yellow Jelly Bean",
+   "group": "beans",
+   "groupRu": "Желейные бобы",
+   "look": {
+    "bg": "#fbfaa2",
+    "icon": "3080529618",
+    "iconColor": "#f6f445",
+    "img": true
+   },
+   "maxStacks": 3,
+   "mods": [
+    {
+     "stat": "Convert Rate",
+     "op": "mul",
+     "unit": "x",
+     "value": 1.1,
+     "perStack": 0.05
+    }
+   ]
+  }
+ ]
+}

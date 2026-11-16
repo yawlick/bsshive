@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BSS Hive</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐝</text></svg>">
+<link rel="stylesheet" href="/style.css">
+<script>/* тест: ?auto=…&wait=мс задерживает load, чтобы headless-скриншот поймал результат */
+if (/[?&]auto=/.test(location.search)) document.write('<img hidden alt="" src="/__wait?ms=' + (new URLSearchParams(location.search).get('wait') || 4000) + '">');</script>
+</head>
+<body>
+<header class="top">
+  <h1>🐝 BSS Hive <span class="sub">калькулятор улья для Bee Swarm Simulator</span></h1>
+  <span id="dataInfo" class="muted"></span>
+</header>
+
+<nav class="topnav" role="tablist">
+  <div class="topnav-inner">
+    <div class="tabs-top" id="sideTabs">
+      <button data-side="hive" role="tab">Улей <span id="hiveTabCount" class="muted"></span></button>
+      <button data-side="stats" role="tab">Статы</button>
+      <button data-side="goal" role="tab">Цель</button>
+      <button data-side="cal" role="tab">Калибровка</button>
+      <button data-side="result" role="tab">Результат</button>
+    </div>
+    <div class="nav-actions">
+      <button id="runEval" class="btn">Посчитать мой улей</button>
+      <button id="runOpt" class="btn primary">Подобрать лучший</button>
+    </div>
+  </div>
+</nav>
+
+<div class="shell">
+<aside class="loadouts" id="loadouts" aria-label="Лодауты">
+  <div class="lo-head"><h2>Лодауты</h2><button class="btn small" id="loNew" title="Новый пустой лодаут">+ новый</button></div>
+  <ol class="lo-list" id="loList"></ol>
+  <p class="muted small lo-hint">Лодаут — улей, статы и настройки подбора (например, для каждого аккаунта). Перетаскивай, чтобы поменять порядок; двойной клик — переименовать.</p>
+</aside>
+<main class="page">
+    <div class="ro-banner" id="roBanner" hidden>
+      <span>🔒 <b>Лучшее</b> — встроенный лодаут: лучшее снаряжение, все бейджи Grandmaster и лучшие амулеты (максимальные значения из кода игры). Улей и статы в нём менять нельзя.</span>
+      <button class="btn small" data-ro="copy">Скопировать и редактировать</button>
+    </div>
+    <div data-side-pane="hive">
+    <div class="card hive-card">
+      <div class="hive-head">
+        <h2>Мой улей <span id="hiveCount" class="muted"></span></h2>
+        <div class="hive-meta" id="hiveMeta"></div>
+      </div>
+      <div class="hive-grid" id="hiveGrid"></div>
+      <details class="text-io">
+        <summary>Текстом / ссылкой</summary>
+        <textarea id="hiveText" rows="4" placeholder="Gifted Rad Bee x5 L10, Basic Bee x10 L8, Gifted Tabby Bee L12"></textarea>
+        <div class="row"><button id="parseText" class="btn small">Заменить улей этим текстом</button><button id="shareHive" class="btn small ghost">Ссылка на улей</button><button id="clearHive" class="btn small ghost">Очистить</button></div>
+      </details>
+    </div>
+
+    </div>
+    <div data-side-pane="goal">
+    <div class="card" id="goalCard">
+      <h2>Цель</h2>
+      <div class="seg" id="goalSeg">
+        <label><input type="radio" name="goal" value="honey" checked>Мёд</label>
+        <label><input type="radio" name="goal" value="pollen">Пыльца</label>
+        <label><input type="radio" name="goal" value="red">🔴 Красная</label>
+        <label><input type="radio" name="goal" value="blue">🔵 Синяя</label>
+        <label><input type="radio" name="goal" value="white">⚪ Белая</label>
+        <label><input type="radio" name="goal" value="quest">Квесты</label>
+      </div>
+      <div id="questBox" class="quest-box" hidden>
+        <div class="row">
+          <select id="questGiver" aria-label="Кто даёт"></select>
+          <input id="questSearch" type="search" placeholder="название квеста">
+        </div>
+        <div class="row quest-tools">
+          <span>Последние</span><input id="questLastN" type="number" min="1" max="100" value="15"><button class="btn small" id="questPickLast">выбрать</button>
+          <button class="btn small ghost" id="questClear">снять все</button>
+          <label class="chk small"><input type="checkbox" id="questOnlySel">только выбранные</label>
+          <span class="muted small" id="questCount"></span>
+        </div>
+        <div class="quest-list" id="questList"></div>
+      </div>
+      <label class="field-row" id="fieldRow">Поле
+        <select id="fieldSelect"></select>
+      </label>
+      <label class="field-row" title="Стаки Field Boost выбранного поля (Field Booster, кубики): каждый +100% пыльцы поля, до 4. Ещё от них растут Target Practice (до x3), Star Shower, кокосы и Flame Fuel. Глиттер и прочие проценты — строками в «Прочее» («+50% Pepper Patch Pollen»)">Буст поля, стаков (0–4)
+        <input id="fieldBoost" type="number" min="0" max="4" step="1" placeholder="0">
+      </label>
+    </div>
+
+    </div>
+    <div data-side-pane="stats">
+    <div class="card" id="statsCard">
+      <h2>Мои статы</h2>
+      <div class="seg mode" id="statsMode">
+        <button class="btn small" data-mode="gear">Из снаряжения</button>
+        <button class="btn small" data-mode="manual">Вручную из ⚙️</button>
+      </div>
+      <div class="stats common">
+        <label>До улья и обратно, с <span><input id="walkSeconds" type="number" min="0" step="1"></span></label>
+        <label title="Сколько Tabby Love у Tabby Bee (иконка кота в баффах). Пусто = 1000 (максимум)">Tabby Love, стаков <span><input id="tabbyStacks" type="number" min="0" max="1000" placeholder="1000"></span></label>
+        <label title="Polar Power (иконка вилки в баффах): каждый стак — +5% энергии пчёл">Polar Power, стаков <span><input id="polarPower" type="number" min="0" placeholder="0"></span></label>
+        <label title="Science Enhancement (колба в баффах, квесты Science Bear): каждый стак — +25% Convert Rate, до 31">Science, стаков <span><input id="scienceStacks" type="number" min="0" max="31" placeholder="0"></span></label>
+        <label class="wide" title="Драйвы Digital Bee, до 500 каждого: White +0.25 сбора, Blue +2 Convert Amount, Red +0.03 атаки, Glitched +0.05% Ability Rate; все 2000 — +10 скорости">Digital Bee, драйвов (W / B / R / G) <span class="drives"><input data-drive="white" type="number" min="0" max="500" placeholder="500"><input data-drive="blue" type="number" min="0" max="500" placeholder="500"><input data-drive="red" type="number" min="0" max="500" placeholder="500"><input data-drive="glitched" type="number" min="0" max="500" placeholder="500"></span></label>
+      </div>
+
+      <div id="gearTabs">
+        <div class="tabs" role="tablist"></div>
+        <div data-pane="gear">
+          <div class="gear-slots" id="gearSlots"></div>
+          <label class="field-row" id="customToolRow">Свой инструмент, пыльцы/с <input id="customTool" type="number" min="0" placeholder="если его нет в списке"></label>
+        </div>
+        <div data-pane="badges">
+          <label class="field-row">Все бейджи сразу
+            <select id="allBadges"><option value="">…</option><option value="none">сбросить</option><option>Cadet</option><option>Hotshot</option><option>Ace</option><option>Master</option><option>Grandmaster</option></select>
+          </label>
+          <p class="muted small">В каждой категории действует только высший полученный бейдж — выбери его.</p>
+          <div id="badgeGrid"></div>
+        </div>
+        <div data-pane="amulets">
+          <p class="muted small">Выбери амулет и отметь строки, которые у тебя выпали, — значения ползунком или числом. Какие строки и сколько их бывает у каждого амулета и в каких пределах — из кода игры. «Строками» — вписать вручную.</p>
+          <div id="amuletList"></div>
+          <button id="addAmulet" class="btn small">+ амулет</button>
+          <h3>Прочее</h3>
+          <p class="muted small">Бонусы бикипов, стикеры, постоянные баффы — тоже строками.</p>
+          <textarea id="extraLines" rows="3" placeholder="+5% Instant Conversion"></textarea>
+        </div>
+        <div data-pane="buffs" id="buffPane">
+          <p class="muted small">Баффы, которые держишь всё время, пока фармишь: предметы и коды, нектары, желейные бобы, благословения цыплят (всё — из кода игры). Нажми на бафф — включить; у стаковых «−/+» — сколько стаков. Баффы от способностей пчёл (Red Boost, Inspire, Focus…) калькулятор считает сам.</p>
+          <div class="row buff-tools"><input id="buffSearch" type="search" placeholder="поиск"><select id="buffGroup" aria-label="Вид баффов"></select><label class="chk small"><input type="checkbox" id="buffOnly">только включённые</label></div>
+          <p class="small buff-summary" id="buffSummary"></p>
+          <div id="buffGrid"></div>
+        </div>
+        <div data-pane="total"><div id="statsTotal"></div></div>
+      </div>
+
+      <div id="manualPane" hidden>
+        <p class="muted small">Перепиши значения из меню ⚙️ в игре (100% = ничего нет).</p>
+        <label class="chk small"><input id="statsFromGame" type="checkbox" checked>в них уже есть бонусы Gifted моего улья (калькулятор их вычтет, чтобы честно считать другие ульи)</label>
+        <div class="stats" id="stats"></div>
+        <h3>Пассивки снаряжения и амулетов</h3>
+        <p class="muted small">Отметь те, что у тебя есть (их постоянные бонусы уже в цифрах из ⚙️, считаются только срабатывания).</p>
+        <div class="passive-list" id="manualPassives"></div>
+      </div>
+    </div>
+
+    </div>
+    <div data-side-pane="cal">
+    <div class="card" id="calCard">
+      <h2>Калибровка по замеру из игры</h2>
+      <p class="muted small">Подгоняет модель под настоящую игру. Улей, поле и статы выше должны быть как в игре. Пыльцу смотри на полоске рюкзака; рюкзак не должен заполниться до конца замера. Чем дольше замер (5–10 минут), тем точнее.</p>
+      <div id="calNow" class="small"></div>
+      <ol class="cal-steps small">
+        <li>Пустой рюкзак, встань на выбранное поле и <b>ничего не делай</b>: токены не собирай, инструментом не кликай.
+          <div class="row"><input id="calStillMin" type="number" min="1" value="5"> мин → <input id="calStillPollen" type="number" min="0" placeholder="пыльцы"></div></li>
+        <li>Снова пустой рюкзак, то же поле, но <b>собирай токены и лопай пузыри</b> (инструментом не кликай).
+          <div class="row"><input id="calTokMin" type="number" min="1" value="5"> мин → <input id="calTokPollen" type="number" min="0" placeholder="пыльцы"></div></li>
+        <li>Необязательно: в улье
+          <div class="row"><input id="calConvPollen" type="number" min="0" placeholder="пыльцы"> сконвертировалось за <input id="calConvSec" type="number" min="0" placeholder="секунд"> с</div></li>
+      </ol>
+      <div class="row"><button id="calFit" class="btn small">Подогнать и сохранить</button><button id="calReset" class="btn small ghost">Сбросить</button></div>
+      <ul id="calReport" class="notes"></ul>
+    </div>
+
+    </div>
+    <div data-side-pane="goal" data-side-extra>
+    <div class="card" id="optCard">
+      <h2>Подбор улья</h2>
+      <div class="stats">
+        <label>Слотов <input id="optSlots" type="number" min="1" max="50"></label>
+        <label title="Уровень пчёл, которых у тебя ещё нет (у своих — их уровень)">Уровень новых пчёл <input id="optLevel" type="number" min="1" max="25"></label>
+        <p class="wide warn small" id="slotsHint" hidden><span></span> <button class="btn small ghost" title="Поставить столько слотов, сколько пчёл в твоём улье">поставить</button></p>
+        <label class="chk wide"><input id="optKeep" type="checkbox">оставить мой улей как есть и добить до N слотов</label>
+      </div>
+      <h3>Какие пчёлы можно</h3>
+      <div class="row presets">
+        <button class="btn small" data-preset="real" title="Редкие и эпические — сколько угодно, легендарных — не больше +2 к своим, ивентовые и мифические — только свои (каждой ивентовой — одна)">Реалистично</button>
+        <button class="btn small" data-preset="mine+">Мои + любые обычные…легендарные</button>
+        <button class="btn small" data-preset="mine">Только мои пчёлы</button>
+        <button class="btn small" data-preset="all">Все пчёлы</button>
+      </div>
+      <div class="row presets">
+        <span class="muted small">Gifted:</span>
+        <button class="btn small ghost" data-gpreset="mine">как у меня</button>
+        <button class="btn small ghost" data-gpreset="all">все могут быть Gifted</button>
+        <button class="btn small ghost" data-gpreset="none">без Gifted</button>
+      </div>
+      <p class="muted small">Нажми на лицо — запретить/разрешить пчелу. «до» — максимум штук (пусто = сколько угодно), 🌟 — максимум Gifted. Ивентовых каждого вида — не больше одной, как в игре.</p>
+      <div id="limitsGrid"></div>
+    </div>
+
+    </div>
+    <div data-side-pane="result" id="results">
+    <div class="card empty" id="emptyState">
+      <h2>Как пользоваться</h2>
+      <ol>
+        <li><b>Улей</b> — твои пчёлы (можно вставить списком в «Текстом»).</li>
+        <li><b>Статы</b> — выбери снаряжение, бейджи и впиши амулеты: статы посчитаются сами (вкладка «Итог»). Или введи цифры из ⚙️ вручную.</li>
+        <li><b>Цель</b> — мёд, пыльца нужного цвета или квест, поле и настройки подбора.</li>
+        <li>«Посчитать мой улей» — сколько он даёт и где лучше фармить. «Подобрать лучший» — какой улей был бы лучше всего.</li>
+      </ol>
+      <p class="muted small">Модель считает средние значения по формулам и данным игры с вики. Часть способностей пока не учитывается — список будет под результатом.</p>
+    </div>
+    <div id="out"></div>
+    </div>
+</main>
+</div>
+<!-- подсказка при наведении, редактор пчелы (ЛКМ), окно «добавить пчёл» -->
+<div class="bee-tip" id="beeTip" hidden></div>
+<div class="bee-pop" id="beePop" hidden></div>
+<div class="picker" id="picker" hidden>
+  <div class="picker-card" role="dialog" aria-label="Добавить пчёл">
+    <div class="picker-head">
+      <h2>Добавить пчёл</h2>
+      <input id="pickSearch" type="search" placeholder="поиск">
+      <div class="stepper" title="Уровень новых пчёл"><button data-pick="lvl-">−</button><b>L<span id="pickLevel">10</span></b><button data-pick="lvl+">+</button></div>
+      <button class="toggle-label" data-pick="gift"><span class="toggle" id="pickGifted"><i></i></span> Gifted</button>
+      <button class="x" data-pick="close" title="Закрыть">×</button>
+    </div>
+    <p class="muted small">Нажимай на пчёл — каждая добавляется в улей. Цифра — сколько таких уже есть.</p>
+    <div id="pickList"></div>
+  </div>
+</div>
+<div class="modal" id="roDialog" hidden>
+  <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="roTitle">
+    <h2 id="roTitle">«Лучшее» менять нельзя</h2>
+    <p>Это встроенный лодаут: лучшие вещи, бейджи и амулеты. Его можно только скопировать — твоё изменение попадёт в копию, а «Лучшее» останется как есть.</p>
+    <div class="row"><button class="btn primary" data-ro="copy">Скопировать и изменить копию</button><button class="btn ghost" data-ro="cancel">Отмена</button></div>
+  </div>
+</div>
+<script type="module" src="/app.js"></script>
+</body>
+</html>

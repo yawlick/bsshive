@@ -1,0 +1,2895 @@
+[
+ {
+  "name": "Baby Bee",
+  "color": "white",
+  "rarity": "legendary",
+  "energy": 15,
+  "speed": 10.5,
+  "attack": 0,
+  "gather": {
+   "amount": 10,
+   "time": 5
+  },
+  "convert": {
+   "amount": 80,
+   "time": 5
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "-25% Movespeed, Energy, gather speed and convert speed. Can't attack.",
+   "[Baby Love] Grants x2 Pollen and +50% Loot Luck for 30 seconds. Loot Luck increases your chance of obtaining prizes from defeating enemies."
+  ],
+  "giftedBonus": {
+   "text": "+25% Loot Luck.",
+   "effects": [
+    {
+     "stat": "loot luck",
+     "op": "add",
+     "value": 0.25,
+     "percent": true
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Baby Love",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Grants x2 Pollen and +50% Loot Luck for 30 seconds. Loot Luck increases your chance of obtaining prizes from defeating enemies."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#f1f1f1",
+  "stripeColor": "#88dce8",
+  "imageKey": "Baby",
+  "source": "game"
+ },
+ {
+  "name": "Basic Bee",
+  "color": "white",
+  "rarity": "common",
+  "energy": 20,
+  "speed": 14,
+  "attack": 1,
+  "gather": {
+   "amount": 10,
+   "time": 4
+  },
+  "convert": {
+   "amount": 80,
+   "time": 4
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [],
+  "giftedBonus": {
+   "text": "x1.2 Pollen.",
+   "effects": [
+    {
+     "stat": "pollen",
+     "op": "mul",
+     "value": 1.2
+    }
+   ]
+  },
+  "abilities": [],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#f1f1f1",
+  "stripeColor": "#e5cf38",
+  "imageKey": "Basic",
+  "source": "game"
+ },
+ {
+  "name": "Bear Bee",
+  "color": "white",
+  "rarity": "event",
+  "energy": 35,
+  "speed": 14,
+  "attack": 5,
+  "gather": {
+   "amount": 15,
+   "time": 2
+  },
+  "convert": {
+   "amount": 200,
+   "time": 2
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+75% Energy, +50% gather and convert speed, +5 Gather Amount, +120 Convert Amount, +4 Attack.",
+   "[Bear Morph] Transforms you into a random bear! Grants ×2 Pollen and boosts Speed and Jump Power. If Gifted, has a 20% chance to transform the player into a rare bear that gives special boosts (either Mother Bear, which gives x2.5 Pollen and an additional x1.5 Pollen from Bee Gathering or Science Bear, which adds +1 Conversion Link)."
+  ],
+  "giftedBonus": {
+   "text": "+10% Pollen.",
+   "effects": [
+    {
+     "stat": "pollen",
+     "op": "add",
+     "value": 0.1,
+     "percent": true
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Bear Morph",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Transforms you into a random bear! Grants ×2 Pollen and boosts Speed and Jump Power. If Gifted, has a 20% chance to transform the player into a rare bear that gives special boosts (either Mother Bear, which gives x2.5 Pollen and an additional x1.5 Pollen from Bee Gathering or Science Bear, which adds +1 Conversion Link)."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#1b2a35",
+  "stripeColor": "#1b2a35",
+  "imageKey": "Bear",
+  "source": "game"
+ },
+ {
+  "name": "Bomber Bee",
+  "color": "white",
+  "rarity": "rare",
+  "energy": 20,
+  "speed": 15.4,
+  "attack": 2,
+  "gather": {
+   "amount": 10,
+   "time": 4
+  },
+  "convert": {
+   "amount": 120,
+   "time": 4
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+10% Movespeed, +40 convert amount, +1 attack.",
+   "[Buzz Bomb] Collects 7 pollen from 13 surrounding flowers (+10% pollen per level). Combo with other bombs to increase power and stacks up to 10 times."
+  ],
+  "giftedBonus": {
+   "text": "x1.1 Bomb Pollen.",
+   "effects": [
+    {
+     "stat": "bomb pollen",
+     "op": "mul",
+     "value": 1.1
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Buzz Bomb",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Collects 7 pollen from 13 surrounding flowers (+10% pollen per level). Combo with other bombs to increase power and stacks up to 10 times."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#f1f1f1",
+  "stripeColor": "#1b2a35",
+  "imageKey": "Bomber",
+  "source": "game"
+ },
+ {
+  "name": "Brave Bee",
+  "color": "white",
+  "rarity": "rare",
+  "energy": 30,
+  "speed": 16.8,
+  "attack": 6,
+  "gather": {
+   "amount": 10,
+   "time": 4
+  },
+  "convert": {
+   "amount": 200,
+   "time": 4
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+20% movespeed, +50% energy, +120 convert amount, +5 attack.",
+   "None."
+  ],
+  "giftedBonus": {
+   "text": "+1 Bee Attack.",
+   "effects": [
+    {
+     "stat": "bee attack",
+     "op": "add",
+     "value": 1,
+     "percent": false
+    }
+   ]
+  },
+  "abilities": [],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#1b2a35",
+  "stripeColor": "#f1f1f1",
+  "imageKey": "Brave",
+  "source": "game"
+ },
+ {
+  "name": "Bubble Bee",
+  "color": "blue",
+  "rarity": "epic",
+  "energy": 20,
+  "speed": 16.1,
+  "attack": 3,
+  "gather": {
+   "amount": 10,
+   "time": 4
+  },
+  "convert": {
+   "amount": 160,
+   "time": 4
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+15% Movespeed, +80 Convert Amount, +2 Attack.",
+   "[Blue Bomb] Collects 10 pollen from 13 surrounding blue Flowers (+10% pollen per level). Combo with other Bombs to increase power.",
+   "[Passive: [[Bubble#Gathering Bubbles|Gathering Bubbles]]] 35% chance (50% if Gifted) to spawn a bubble when gathering. If any Player touches it, it pops, collecting 4 red/6 white/8 blue pollen (+15% per gifted blue bee type, +5% per bee level) from 29 nearby Flowers and causing them to grow."
+  ],
+  "giftedBonus": {
+   "text": "x1.25 Bubble Pollen.",
+   "effects": [
+    {
+     "stat": "bubble pollen",
+     "op": "mul",
+     "value": 1.25
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Blue Bomb",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Collects 10 pollen from 13 surrounding blue Flowers (+10% pollen per level). Combo with other Bombs to increase power."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0.35,
+   0.35
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#3b8ed1",
+  "stripeColor": "#3b8ed1",
+  "imageKey": "Bubble",
+  "source": "game"
+ },
+ {
+  "name": "Bucko Bee",
+  "color": "blue",
+  "rarity": "epic",
+  "energy": 30,
+  "speed": 15.4,
+  "attack": 6,
+  "gather": {
+   "amount": 17,
+   "time": 4
+  },
+  "convert": {
+   "amount": 80,
+   "time": 3
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+10% Movespeed, +50% Energy, +4 Attack, +7 Gather Amount, +25% convert speed.",
+   "[Blue Boost] Grants x1.2 pollen from blue Flowers for 15s. Stacks up to 10 times."
+  ],
+  "giftedBonus": {
+   "text": "+20% Blue Field Capacity.",
+   "effects": [
+    {
+     "stat": "blue field capacity",
+     "op": "add",
+     "value": 0.2,
+     "percent": true
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Blue Boost",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Grants x1.2 pollen from blue Flowers for 15s. Stacks up to 10 times."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#3b8ed1",
+  "stripeColor": "#3b8ed1",
+  "imageKey": "Bucko",
+  "source": "game"
+ },
+ {
+  "name": "Bumble Bee",
+  "color": "blue",
+  "rarity": "rare",
+  "energy": 40,
+  "speed": 10.5,
+  "attack": 1,
+  "gather": {
+   "amount": 18,
+   "time": 4
+  },
+  "convert": {
+   "amount": 80,
+   "time": 4
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+100% energy, +8 gather amount, -25% movespeed.",
+   "[Blue Bomb] Collects 10 pollen from 13 surrounding blue Flowers (+10% pollen per lvl). Combine with other bombs to increase power."
+  ],
+  "giftedBonus": {
+   "text": "x1.1 Capacity.",
+   "effects": [
+    {
+     "stat": "capacity",
+     "op": "mul",
+     "value": 1.1
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Blue Bomb",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Collects 10 pollen from 13 surrounding blue Flowers (+10% pollen per lvl). Combine with other bombs to increase power."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#3b8ed1",
+  "stripeColor": "#3b8ed1",
+  "imageKey": "Bumble",
+  "source": "game"
+ },
+ {
+  "name": "Buoyant Bee",
+  "color": "blue",
+  "rarity": "mythic",
+  "energy": 60,
+  "speed": 14,
+  "attack": 4,
+  "gather": {
+   "amount": 15,
+   "time": 5
+  },
+  "convert": {
+   "amount": 150,
+   "time": 3
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+3 Attack, -25% Gather Speed, +5 Gather Amount, +25% Convert Speed, +70 Convert Amount, +200% Energy.",
+   "[Blue Bomb] Collects 10 pollen from 13 surrounding Blue Flowers (+10% pollen per Level). Combo with other bombs to increase power.",
+   "[Inflate Balloons] Increases the pollen in Balloons on your field by 5% (+0.01% per Level), then spawns a Blue Balloon for 20s (+2s per level) with capacity that scales with bee level and your capacity.",
+   "Pollen collected from flowers near (the shaded ones) the balloon is increased by 10% (20% if blue) and added to the balloon instead of your Container. Upon filling up or timing out, the balloon floats back to your Hive. Converting from a balloon at your hive grants bonus Capacity and Honey at Hive for 1 hour.",
+   "Standing near a balloon grants a small bonus to Pollen, Blue Pollen, and Honey from Tokens which stacks up to 10 times.",
+   "If Gifted, this has a 5% (+0.5% per level, doubled when the field is boosted) chance to summon a Gold Balloon instead, which has x2 Capacity and an additional x1.25 Pollen instead.",
+   "[🌟Gifted Ability: Surprise Party] Summons a Gold Balloon (+1 every 5 levels) for all players, then causes all Balloons to spawn random ability tokens for a few seconds. Gold Balloons gain bonus pollen (increases with bee level) and transform nearby Bubbles into Gold Bubbles, which collect 50% more pollen and have a chance to spawn Honey Tokens. If you have triggered a Surprise Party within the last 8 minutes, performs \"Inflate Balloons\" instead (always spawns a Gold Balloon). When a Surprise Party is activated, a server wide message will say \"🎉Surprise Balloons from [Player's Display Name].\"",
+   "[Passive: Balloon Enthusiast] When converting from Balloons, this bee has x3 convert amount. Additionally, this bee's base attack scales up to x3 with Balloon Blessing."
+  ],
+  "giftedBonus": {
+   "text": "x1.2 Capacity.",
+   "effects": [
+    {
+     "stat": "capacity",
+     "op": "mul",
+     "value": 1.2
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Blue Bomb",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Collects 10 pollen from 13 surrounding Blue Flowers (+10% pollen per Level). Combo with other bombs to increase power."
+   },
+   {
+    "name": "Inflate Balloons",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Increases the pollen in Balloons on your field by 5% (+0.01% per Level), then spawns a Blue Balloon for 20s (+2s per level) with capacity that scales with bee level and your capacity."
+   },
+   {
+    "name": "Surprise Party",
+    "giftedOnly": true,
+    "passive": false,
+    "known": true,
+    "description": "Summons a Gold Balloon (+1 every 5 levels) for all players, then causes all Balloons to spawn random ability tokens for a few seconds. Gold Balloons gain bonus pollen (increases with bee level) and transform nearby Bubbles into Gold Bubbles, which collect 50% more pollen and have a chance to spawn Honey Tokens. If you have triggered a Surprise Party within the last 8 minutes, performs \"Inflate Balloons\" instead (always spawns a Gold Balloon). When a Surprise Party is activated, a server wide message will say \"🎉Surprise Balloons from [Player's Display Name].\""
+   },
+   {
+    "name": "Balloon Enthusiast",
+    "giftedOnly": false,
+    "passive": true,
+    "known": true,
+    "description": "When converting from Balloons, this bee has x3 convert amount. Additionally, this bee's base attack scales up to x3 with Balloon Blessing."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#f1f1f1",
+  "imageKey": "Buoyant",
+  "source": "game"
+ },
+ {
+  "name": "Carpenter Bee",
+  "color": "white",
+  "rarity": "legendary",
+  "energy": 25,
+  "speed": 11.2,
+  "attack": 5,
+  "gather": {
+   "amount": 10,
+   "time": 3
+  },
+  "convert": {
+   "amount": 120,
+   "time": 4
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "-20% Movespeed, +25% Energy, +25% gather speed, +40 Convert Amount, +4 Attack."
+  ],
+  "giftedBonus": {
+   "text": "x1.25 Tool Pollen.",
+   "effects": [
+    {
+     "stat": "tool pollen",
+     "op": "mul",
+     "value": 1.25
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Honey Mark+",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Marks a large random area on the Field for 8 seconds (+0.25s per level) that grants 2 Conversion Links and x1.25 Convert Rate while you stand on it. Stacks up to 3 times."
+   },
+   {
+    "name": "Pollen Mark",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Marks a random area on the field for 7 seconds (+0.2s per level) that increases all pollen up to 50% while you stand in it. Stacks up to 3 times."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#f1f1f1",
+  "imageKey": "Carpenter",
+  "source": "game"
+ },
+ {
+  "name": "Cobalt Bee",
+  "color": "blue",
+  "rarity": "event",
+  "energy": 35,
+  "speed": 18.2,
+  "attack": 7,
+  "gather": {
+   "amount": 10,
+   "time": 4
+  },
+  "convert": {
+   "amount": 140,
+   "time": 3
+  },
+  "instantConversion": 0.1,
+  "noSleep": false,
+  "extras": [
+   "+75% Energy, +30% Movespeed, +25% Convert Speed, +60 Convert Amount, 10% Instant Conversion, +6 Attack, 5% Critical Chance.",
+   "[Blue Pulse] Fires a pulse that hops between your blue bees, collecting pollen around them (+10% per Level). Power increases with each hop. If you own a Crimson Bee, fires a Red Pulse as well.",
+   "If Gifted, the pulse also causes bees to instantly convert pollen equal to 25% of the bee's Convert Amount (+25% per Field Boost stack).",
+   "[Blue Bomb Sync] Grants 10% Blue Pollen and Instant Blue Conversion allows Blue Bombs to collect from white Flowers for 30 sec. If red bomb sync is active, this applies to red flowers as well."
+  ],
+  "giftedBonus": {
+   "text": "+15% Instant Blue Conversion.",
+   "effects": [
+    {
+     "stat": "instant blue conversion",
+     "op": "add",
+     "value": 0.15,
+     "percent": true
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Blue Pulse",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Fires a pulse that hops between your blue bees, collecting pollen around them (+10% per Level). Power increases with each hop. If you own a Crimson Bee, fires a Red Pulse as well."
+   },
+   {
+    "name": "Blue Bomb Sync",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Grants 10% Blue Pollen and Instant Blue Conversion allows Blue Bombs to collect from white Flowers for 30 sec. If red bomb sync is active, this applies to red flowers as well."
+   }
+  ],
+  "giftedInstantConversion": 0.1,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#f1f1f1",
+  "stripeColor": "#f1f1f1",
+  "imageKey": "Cobalt",
+  "source": "game"
+ },
+ {
+  "name": "Commander Bee",
+  "color": "white",
+  "rarity": "epic",
+  "energy": 30,
+  "speed": 14,
+  "attack": 4,
+  "gather": {
+   "amount": 15,
+   "time": 4
+  },
+  "convert": {
+   "amount": 80,
+   "time": 4
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+50% Energy, +5 Gather Amount, +5% Critical Chance, +3 Attack.",
+   "[Focus] Grants +3% Critical Chance for 20 seconds. Stacks up to 10 times. Critical hits increase pollen and damage by 100%.",
+   "[Buzz Bomb] Collects 7 pollen from 13 surrounding Flowers (+10% pollen per Level). Combo with other bombs to increase power."
+  ],
+  "giftedBonus": {
+   "text": "+3% Critical Chance.",
+   "effects": [
+    {
+     "stat": "critical chance",
+     "op": "add",
+     "value": 0.03,
+     "percent": true
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Focus",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Grants +3% Critical Chance for 20 seconds. Stacks up to 10 times. Critical hits increase pollen and damage by 100%."
+   },
+   {
+    "name": "Buzz Bomb",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Collects 7 pollen from 13 surrounding Flowers (+10% pollen per Level). Combo with other bombs to increase power."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#1b2a35",
+  "stripeColor": "#1b2a35",
+  "imageKey": "Commander",
+  "source": "game"
+ },
+ {
+  "name": "Cool Bee",
+  "color": "blue",
+  "rarity": "rare",
+  "energy": 20,
+  "speed": 14,
+  "attack": 2,
+  "gather": {
+   "amount": 10,
+   "time": 3
+  },
+  "convert": {
+   "amount": 120,
+   "time": 4
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+25% gather speed, +40 convert amount, +1 attack.",
+   "[Blue Boost] Grants x1.2 pollen from blue flowers for 15 seconds. Stacks up to 10 times."
+  ],
+  "giftedBonus": {
+   "text": "x1.1 Blue Pollen.",
+   "effects": [
+    {
+     "stat": "blue pollen",
+     "op": "mul",
+     "value": 1.1
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Blue Boost",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Grants x1.2 pollen from blue flowers for 15 seconds. Stacks up to 10 times."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#afd7f6",
+  "stripeColor": "#3b8ed1",
+  "imageKey": "Cool",
+  "source": "game"
+ },
+ {
+  "name": "Crimson Bee",
+  "color": "red",
+  "rarity": "event",
+  "energy": 35,
+  "speed": 18.2,
+  "attack": 7,
+  "gather": {
+   "amount": 10,
+   "time": 4
+  },
+  "convert": {
+   "amount": 140,
+   "time": 3
+  },
+  "instantConversion": 0.1,
+  "noSleep": false,
+  "extras": [
+   "+75% Energy, +30% Movespeed, +25% Convert Speed, +60 Convert Amount, 10% Instant Conversion, +6 Attack, 5% Critical Chance.",
+   "[Red Pulse] Fires a pulse that hops between your red bees, collecting pollen around them (+10% per level). Power increases with each hop. If you own Cobalt Bee, fires a Blue Pulse as well.",
+   "If Gifted, the pulse also causes bees to instantly convert pollen equal to 25% of the bee's Convert Amount (+25% per Field Boost stack).",
+   "[Red Bomb Sync] Grants 10% Red Pollen and Instant Red Conversion and allows Red Bombs to collect from white Flowers for 30 sec. If Blue Bomb Sync is active, applies to blue flowers as well."
+  ],
+  "giftedBonus": {
+   "text": "+15% Instant Red Conversion.",
+   "effects": [
+    {
+     "stat": "instant red conversion",
+     "op": "add",
+     "value": 0.15,
+     "percent": true
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Red Pulse",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Fires a pulse that hops between your red bees, collecting pollen around them (+10% per level). Power increases with each hop. If you own Cobalt Bee, fires a Blue Pulse as well."
+   },
+   {
+    "name": "Red Bomb Sync",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Grants 10% Red Pollen and Instant Red Conversion and allows Red Bombs to collect from white Flowers for 30 sec. If Blue Bomb Sync is active, applies to blue flowers as well."
+   }
+  ],
+  "giftedInstantConversion": 0.1,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#f1f1f1",
+  "stripeColor": "#f1f1f1",
+  "imageKey": "Crimson",
+  "source": "game"
+ },
+ {
+  "name": "Demo Bee",
+  "color": "white",
+  "rarity": "epic",
+  "energy": 20,
+  "speed": 16.8,
+  "attack": 3,
+  "gather": {
+   "amount": 10,
+   "time": 4
+  },
+  "convert": {
+   "amount": 330,
+   "time": 4
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+20% Movespeed, +250 Convert Amount, +2 Attack.",
+   "[Buzz Bomb+] Collects 7 pollen from 29 surrounding Flowers (+10% pollen per Level). Combo with other bombs to increase power."
+  ],
+  "giftedBonus": {
+   "text": "x1.25 Buzz Bomb Pollen.",
+   "effects": [
+    {
+     "stat": "buzz bomb pollen",
+     "op": "mul",
+     "value": 1.25
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Buzz Bomb+",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Collects 7 pollen from 29 surrounding Flowers (+10% pollen per Level). Combo with other bombs to increase power."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#e5cf38",
+  "stripeColor": "#e5cf38",
+  "imageKey": "Demo",
+  "source": "game"
+ },
+ {
+  "name": "Demon Bee",
+  "color": "red",
+  "rarity": "legendary",
+  "energy": 20,
+  "speed": 10.5,
+  "attack": 8,
+  "gather": {
+   "amount": 35,
+   "time": 4
+  },
+  "convert": {
+   "amount": 60,
+   "time": 4
+  },
+  "instantConversion": 0.2,
+  "noSleep": false,
+  "extras": [
+   "-25% Movespeed, +25 Gather amount, -20 convert amount, +10% Instant Conversion (+20% if Gifted), +7 Attack.",
+   "[Red Bomb] Collects 10 pollen from 13 surrounding red flowers (+10% pollen per lvl). Combo with other bombs to increase power.",
+   "[Red Bomb+] Collects 10 pollen from 29 surrounding red flowers (+10% pollen per lvl). Combo with other bombs to increase power.",
+   "[Passive: [[Flame#Gathering Flames|Gathering Flames]]] 65% chance (85% if Gifted) to spawn a Flame when gathering. Flames last 4 seconds. Each second they deal 10 damage (+25% of the bee's base attack) to nearby enemies and collect [5 Red / 3 White / 2 Blue] pollen (+10% per bee level) from 9 flowers. Standing near a flame grants Flame Heat, which increases Red Pollen (between x1.2 and x2) and Bee Attack (between +5% to +25%)."
+  ],
+  "giftedBonus": {
+   "text": "+20% Instant Bomb Conversion.",
+   "effects": [
+    {
+     "stat": "instant bomb conversion",
+     "op": "add",
+     "value": 0.2,
+     "percent": true
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Red Bomb",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Collects 10 pollen from 13 surrounding red flowers (+10% pollen per lvl). Combo with other bombs to increase power."
+   }
+  ],
+  "giftedInstantConversion": 0.30000000000000004,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0.65,
+   0.8500000000000001
+  ],
+  "faceColor": "#f3492d",
+  "stripeColor": "#f3492d",
+  "imageKey": "Demon",
+  "source": "game"
+ },
+ {
+  "name": "Diamond Bee",
+  "color": "blue",
+  "rarity": "legendary",
+  "energy": 20,
+  "speed": 14,
+  "attack": 1,
+  "gather": {
+   "amount": 10,
+   "time": 4
+  },
+  "convert": {
+   "amount": 1000,
+   "time": 4
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+920 Convert Amount.",
+   "[Blue Boost] Grants x1.2 pollen from Blue flowers for 15 seconds. Stacks up to 10 times.",
+   "[Honey Gift+] Sometimes spawns a Honey Token. The amount of honey is equal to 250 * bee level * bee level. (250 times the bee's level squared)",
+   "[Passive: Shimmering Honey] When converting at the hive, this bee grants 25% bonus honey (+2.5% per level). This bonus is doubled if Gifted. This is noticeable by the light blue conversion link when converting."
+  ],
+  "giftedBonus": {
+   "text": "x1.2 Convert Rate.",
+   "effects": [
+    {
+     "stat": "convert rate",
+     "op": "mul",
+     "value": 1.2
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Blue Boost",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Grants x1.2 pollen from Blue flowers for 15 seconds. Stacks up to 10 times."
+   },
+   {
+    "name": "Honey Gift+",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Sometimes spawns a Honey Token. The amount of honey is equal to 250 * bee level * bee level. (250 times the bee's level squared)"
+   },
+   {
+    "name": "Shimmering Honey",
+    "giftedOnly": false,
+    "passive": true,
+    "known": true,
+    "description": "When converting at the hive, this bee grants 25% bonus honey (+2.5% per level). This bonus is doubled if Gifted. This is noticeable by the light blue conversion link when converting."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#f1f1f1",
+  "stripeColor": "#f1f1f1",
+  "imageKey": "Diamond",
+  "source": "game"
+ },
+ {
+  "name": "Digital Bee",
+  "color": "white",
+  "rarity": "event",
+  "energy": 20,
+  "speed": 11.9,
+  "attack": 1,
+  "gather": {
+   "amount": 10,
+   "time": 4
+  },
+  "convert": {
+   "amount": 80,
+   "time": 4
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "-15% Movespeed, +10% Critical Chance, up to +1000 Convert Amount, up to +125 Gather Amount, up to +15 Attack, up to +25% Ability Rate",
+   "[Glitch] Corrupts the Field you're in for 20s (+1s per Level), granting collected Ability Tokens a chance to be duplicated (or \"Duped\").",
+   "Duped Tokens hover over the field for a duration equal to the lifespan of the original Ability Token x2 (+5% per Digital Bee Level). Standing beneath a Duped Token for 1s causes it to activate.",
+   "Increasing a field's Corruption increases the chance for abilities to be duplicated (8%-20%) and boosts the pollen collection and Instant Conversion of Duped Abilities (x1.1 - x3 Pollen from Duped Abilities, 20%-90% IC from Duped Abilities). Enhancing Digital Bee with Drives causes this ability to grant more Corruption: Colored Drives increase the Corruption of fields with matching flowers while Glitched Drive increase the Corruption of all fields.",
+   "While this is active, Digital Bee will occasionally spawn ☺︎ Tokens. Activating a ☺︎ token temporarily increases the field's Corruption, causes all Duped Tokens to be activated, and collects pollen equal to +50% of Digital Bee's gather amount from a random arrangement of flowers, then multiplies the Pollen collected by +50% per Duped Token collected with 50% being instantly converted. The flowers are stamped for 10s, granting them a x2 pollen multiplier. The stamped flowers also come in a \"☺\", \"&\", \"?\", \"*\", or \"~\" shape. The frequency of ☺︎ tokens increases with the number of Glitched Drive Digital Bee has been enhanced with.",
+   "[Mind Hack] Hacks the minds of up to 3 nearby enemies (+1 per every 3 lvls), stunning them for 3s (+0.1s per lvl). While hacked, the enemies take 25% more damage (+0.1% per Glitched Drive Digital Bee has been enhanced with). Hacking is only half as effective against bosses.",
+   "If in a field, this also spawns a ☺︎ token.",
+   "[🌟Gifted Ability: Map Corruption] Digital Bee corrupts a random field by a small amount for all players for 3 minutes (+15s per lvl). The amount of Corruption is increased by the number of Drives Digital Bee has been enhanced with up to 300 corruption (other players receive 1/3 of the corruption).",
+   "Fields with more flowers matching the color of the most recent colored Drive you've used are more likely to be selected. If your most recent Drive is a Glitched Drive, the field is completely random but gains 25% more Corruption.",
+   "[Passive: Drive Expansion] Using a Drive while this bee is active in Robo Bear's Challenge corrupts the field you're standing in by an amount proportional to the number of flowers that match the Drive's color (Glitched Drives corrupt all fields equally). Additionally, it permanently enhances this bee, increasing the Corruption of its abilities and granting it the following stats:",
+   "Every 10 Glitched Drive Enhancements also grants a Hive Bonus of +0.03% Ability Duplication Chance.",
+   "Digital Bee can be enhanced with up to 500 of each type of Drive. You can view the number of enhancements by clicking on Digital Bee's hive slot.",
+   "Upon maxing out with all 2000 Drives, Digital Bee gains +10 Movespeed and grants a Hive Bonus of +0.5% Ability Duplication Chance."
+  ],
+  "giftedBonus": {
+   "text": "+1% Ability Duplication Chance",
+   "effects": [
+    {
+     "stat": "ability duplication chance",
+     "op": "add",
+     "value": 0.01,
+     "percent": true
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Glitch",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Corrupts the Field you're in for 20s (+1s per Level), granting collected Ability Tokens a chance to be duplicated (or \"Duped\")."
+   },
+   {
+    "name": "Mind Hack",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Hacks the minds of up to 3 nearby enemies (+1 per every 3 lvls), stunning them for 3s (+0.1s per lvl). While hacked, the enemies take 25% more damage (+0.1% per Glitched Drive Digital Bee has been enhanced with). Hacking is only half as effective against bosses."
+   },
+   {
+    "name": "Map Corruption",
+    "giftedOnly": true,
+    "passive": false,
+    "known": true,
+    "description": "Digital Bee corrupts a random field by a small amount for all players for 3 minutes (+15s per lvl). The amount of Corruption is increased by the number of Drives Digital Bee has been enhanced with up to 300 corruption (other players receive 1/3 of the corruption)."
+   },
+   {
+    "name": "Drive Expansion",
+    "giftedOnly": false,
+    "passive": true,
+    "known": true,
+    "description": "Using a Drive while this bee is active in Robo Bear's Challenge corrupts the field you're standing in by an amount proportional to the number of flowers that match the Drive's color (Glitched Drives corrupt all fields equally). Additionally, it permanently enhances this bee, increasing the Corruption of its abilities and granting it the following stats:"
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#f1f1f1",
+  "imageKey": "Digital",
+  "source": "game"
+ },
+ {
+  "name": "Exhausted Bee",
+  "color": "white",
+  "rarity": "epic",
+  "energy": null,
+  "speed": 10.5,
+  "attack": 2,
+  "gather": {
+   "amount": 10,
+   "time": 4.6
+  },
+  "convert": {
+   "amount": 240,
+   "time": 4
+  },
+  "instantConversion": 0,
+  "noSleep": true,
+  "extras": [
+   "-25% Move Speed and gather speed. +160 Convert Amount. Doesn't require Sleep.",
+   "[Buzz Bomb] Collects 7 pollen from 13 surrounding Flowers (+10% pollen per Level). Combo with other bombs to increase power.",
+   "[Token Link] Collects all other ability tokens, granting 25 Honey (+10 per Level) per token collected."
+  ],
+  "giftedBonus": {
+   "text": "+20% White Field Capacity.",
+   "effects": [
+    {
+     "stat": "white field capacity",
+     "op": "add",
+     "value": 0.2,
+     "percent": true
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Buzz Bomb",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Collects 7 pollen from 13 surrounding Flowers (+10% pollen per Level). Combo with other bombs to increase power."
+   },
+   {
+    "name": "Token Link",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Collects all other ability tokens, granting 25 Honey (+10 per Level) per token collected."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#f1f1f1",
+  "stripeColor": "#9f9f9f",
+  "imageKey": "Exhausted",
+  "source": "game"
+ },
+ {
+  "name": "Festive Bee",
+  "color": "red",
+  "rarity": "event",
+  "energy": 20,
+  "speed": 16.1,
+  "attack": 1,
+  "gather": {
+   "amount": 40,
+   "time": 4
+  },
+  "convert": {
+   "amount": 150,
+   "time": 1
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+20% Movespeed, +30 Gather Amount, +70 Convert Amount, +75% Convert Speed.",
+   "[Festive Gift]: Grants random gifts including Treats, honey, and \"Festive Blessing\" to all players on the server. Gifts are improved with Level. A message will appear saying \"🎁 Festive Gifts from [Player's Display Name]! 🎁\". If Gifted, can grant rarer gifts and \"Beesmas Cheer\".",
+   "[Honey Mark] : Marks a random area on the field for 7 seconds (+0.2s per level) that grants 2 Conversion Links and x1.25 Convert Rate while you stand in it. Stacks up to 3 times.",
+   "[Red Bomb+]: Collects 10 pollen from 29 surrounding red Flowers (+10% pollen per level). You can combo with other bombs to increase power."
+  ],
+  "giftedBonus": {
+   "text": "x1.25 Convert Rate at Hive",
+   "effects": [
+    {
+     "stat": "convert rate at hive",
+     "op": "mul",
+     "value": 1.25
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Festive Gift",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Grants random gifts including Treats, honey, and \"Festive Blessing\" to all players on the server. Gifts are improved with Level. A message will appear saying \"🎁 Festive Gifts from [Player's Display Name]! 🎁\". If Gifted, can grant rarer gifts and \"Beesmas Cheer\"."
+   },
+   {
+    "name": "Honey Mark",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": ": Marks a random area on the field for 7 seconds (+0.2s per level) that grants 2 Conversion Links and x1.25 Convert Rate while you stand in it. Stacks up to 3 times."
+   },
+   {
+    "name": "Red Bomb+",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Collects 10 pollen from 29 surrounding red Flowers (+10% pollen per level). You can combo with other bombs to increase power."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#f1f1f1",
+  "imageKey": "Festive",
+  "source": "game"
+ },
+ {
+  "name": "Fire Bee",
+  "color": "red",
+  "rarity": "epic",
+  "energy": 25,
+  "speed": 11.2,
+  "attack": 4,
+  "gather": {
+   "amount": 10,
+   "time": 4
+  },
+  "convert": {
+   "amount": 80,
+   "time": 4
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "-20% Movespeed, +25% Energy, +3 Attack.",
+   "[Red Bomb+] Collects 10 pollen from 29 surrounding red Flowers (+10% pollen per Level). Combo with other bombs to increase power.",
+   "[Passive: [[Flame#Gathering Flames|Gathering Flames]]] 35% chance (50% if Gifted) to spawn a Flame when gathering. Flames last 4 seconds. Each second they deal 10 damage (+25% of the bee's base attack) to nearby enemies and collect [5 Red / 3 White / 2 Blue] pollen (+10% per bee level) from 9 flowers. Standing near a flame grants Flame Heat, which increases Red Pollen (between x1.2 and x2) and Bee Attack (between +5% to +25%)."
+  ],
+  "giftedBonus": {
+   "text": "x1.25 Flame Pollen.",
+   "effects": [
+    {
+     "stat": "flame pollen",
+     "op": "mul",
+     "value": 1.25
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Red Bomb+",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Collects 10 pollen from 29 surrounding red Flowers (+10% pollen per Level). Combo with other bombs to increase power."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0.35,
+   0.5
+  ],
+  "faceColor": "#e5cf38",
+  "stripeColor": "#f3492d",
+  "imageKey": "Fire",
+  "source": "game"
+ },
+ {
+  "name": "Frosty Bee",
+  "color": "blue",
+  "rarity": "epic",
+  "energy": 25,
+  "speed": 11.2,
+  "attack": 2,
+  "gather": {
+   "amount": 10,
+   "time": 4
+  },
+  "convert": {
+   "amount": 80,
+   "time": 4
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+25% Energy, -20% Movespeed.",
+   "[Blue Boost] Grants x1.2 pollen from blue Flowers for 15s. Stacks up to 10 times.",
+   "[Blue Bomb+] Collects 10 pollen from 29 surrounding blue flowers (+10% pollen per Level). Combo with other bombs to increase power."
+  ],
+  "giftedBonus": {
+   "text": "x1.25 Blue Bomb Pollen.",
+   "effects": [
+    {
+     "stat": "blue bomb pollen",
+     "op": "mul",
+     "value": 1.25
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Blue Boost",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Grants x1.2 pollen from blue Flowers for 15s. Stacks up to 10 times."
+   },
+   {
+    "name": "Blue Bomb+",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Collects 10 pollen from 29 surrounding blue flowers (+10% pollen per Level). Combo with other bombs to increase power."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#3b8ed1",
+  "stripeColor": "#3b8ed1",
+  "imageKey": "Frosty",
+  "source": "game"
+ },
+ {
+  "name": "Fuzzy Bee",
+  "color": "white",
+  "rarity": "mythic",
+  "energy": 50,
+  "speed": 11.9,
+  "attack": 3,
+  "gather": {
+   "amount": 100,
+   "time": 6
+  },
+  "convert": {
+   "amount": 40,
+   "time": 6
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+150% Energy, -15% Movespeed, -50% gather and convert speed, -40 Convert Amount, +90 Gather Amount, +2 Attack.",
+   "[Fuzz Bombs] Spawns 2 (+1 every 5 bee lvls) fuzz bombs that wander the Field for 8 seconds. Catching them collects pollen and Pollinates nearby Flowers. The amount of pollen collected scales with buzz bomb multipliers and bee Level.",
+   "[Buzz Bomb+] Collects 7 pollen from 29 surrounding flowers (+10% pollen per Level). This combined with other bombs will increase power.",
+   "[🌟Gifted Ability: Pollen Haze] Summons a yellow haze over the field for 30s that pollinates up to 30 random flowers every second and improves flower growth rate. Bomb Tokens within the haze are automatically collected and pollinate flowers. If there has been a Pollen Haze over the field within the last 3 minutes, this summons fuzz bombs instead.",
+   "[Passive: Fuzzy Coat] This bee may pollinate up to 5 nearby flowers (9 if gifted) every time it gathers. Pollinated flowers are temporarily upgraded to grant and store more pollen and grow faster. Lower tier flowers have a higher chance of being pollinated."
+  ],
+  "giftedBonus": {
+   "text": "x1.1 Bomb Power.",
+   "effects": [
+    {
+     "stat": "bomb power",
+     "op": "mul",
+     "value": 1.1
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Fuzz Bombs",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Spawns 2 (+1 every 5 bee lvls) fuzz bombs that wander the Field for 8 seconds. Catching them collects pollen and Pollinates nearby Flowers. The amount of pollen collected scales with buzz bomb multipliers and bee Level."
+   },
+   {
+    "name": "Buzz Bomb+",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Collects 7 pollen from 29 surrounding flowers (+10% pollen per Level). This combined with other bombs will increase power."
+   },
+   {
+    "name": "Pollen Haze",
+    "giftedOnly": true,
+    "passive": false,
+    "known": true,
+    "description": "Summons a yellow haze over the field for 30s that pollinates up to 30 random flowers every second and improves flower growth rate. Bomb Tokens within the haze are automatically collected and pollinate flowers. If there has been a Pollen Haze over the field within the last 3 minutes, this summons fuzz bombs instead."
+   },
+   {
+    "name": "Fuzzy Coat",
+    "giftedOnly": false,
+    "passive": true,
+    "known": true,
+    "description": "This bee may pollinate up to 5 nearby flowers (9 if gifted) every time it gathers. Pollinated flowers are temporarily upgraded to grant and store more pollen and grow faster. Lower tier flowers have a higher chance of being pollinated."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#f1f1f1",
+  "imageKey": "Fuzzy",
+  "source": "game"
+ },
+ {
+  "name": "Gummy Bee",
+  "color": "white",
+  "rarity": "event",
+  "energy": 50,
+  "speed": 14,
+  "attack": 4,
+  "gather": {
+   "amount": 10,
+   "time": 4
+  },
+  "convert": {
+   "amount": 700,
+   "time": 4
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+150% Energy, +620 Convert Amount, +2 Attack.",
+   "[Gumdrop Barrage] Launches Gumdrops in a large area, covering the field in goo. Flowers covered in goo grant bonus Honey that increases with the size of the Goo puddle.",
+   "[Glob] Covers 49 surrounding flowers in goo. If gifted, covers 81 Flowers instead."
+  ],
+  "giftedBonus": {
+   "text": "+5% Honey Per Pollen.",
+   "effects": [
+    {
+     "stat": "honey per pollen",
+     "op": "add",
+     "value": 0.05,
+     "percent": true
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Gumdrop Barrage",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Launches Gumdrops in a large area, covering the field in goo. Flowers covered in goo grant bonus Honey that increases with the size of the Goo puddle."
+   },
+   {
+    "name": "Glob",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Covers 49 surrounding flowers in goo. If gifted, covers 81 Flowers instead."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#21ffac",
+  "stripeColor": "#21ffac",
+  "imageKey": "Gummy",
+  "source": "game"
+ },
+ {
+  "name": "Hasty Bee",
+  "color": "white",
+  "rarity": "rare",
+  "energy": 20,
+  "speed": 19.6,
+  "attack": 1,
+  "gather": {
+   "amount": 10,
+   "time": 3
+  },
+  "convert": {
+   "amount": 80,
+   "time": 3
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+40% movespeed, +25% gather and convert speed.",
+   "[Haste] Grants +10% Player Movespeed for 20 seconds. Stacks up to 10 times (i.e. x5 haste means +50% Movespeed)."
+  ],
+  "giftedBonus": {
+   "text": "+15% Player Movespeed.",
+   "effects": [
+    {
+     "stat": "player movespeed",
+     "op": "add",
+     "value": 0.15,
+     "percent": true
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Haste",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Grants +10% Player Movespeed for 20 seconds. Stacks up to 10 times (i.e. x5 haste means +50% Movespeed)."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#1b2a35",
+  "stripeColor": "#e5cf38",
+  "imageKey": "Hasty",
+  "source": "game"
+ },
+ {
+  "name": "Honey Bee",
+  "color": "white",
+  "rarity": "epic",
+  "energy": 20,
+  "speed": 14,
+  "attack": 2,
+  "gather": {
+   "amount": 10,
+   "time": 4
+  },
+  "convert": {
+   "amount": 360,
+   "time": 2
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+280 Convert Amount, +50% convert speed.",
+   "[Honey Gift] Sometimes spawns a honey token. The amount of honey is equal to 100x (x being the bee's level).",
+   "[Honey Mark] Marks a random area on the Field for 7 seconds (+0.2s per Level) that grants 2 Conversion Links and x1.25 Convert Rate when you stand in it. Stacks up to 3 times."
+  ],
+  "giftedBonus": {
+   "text": "x1.5 Honey From Tokens.",
+   "effects": [
+    {
+     "stat": "honey from tokens",
+     "op": "mul",
+     "value": 1.5
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Honey Gift",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Sometimes spawns a honey token. The amount of honey is equal to 100x (x being the bee's level)."
+   },
+   {
+    "name": "Honey Mark",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Marks a random area on the Field for 7 seconds (+0.2s per Level) that grants 2 Conversion Links and x1.25 Convert Rate when you stand in it. Stacks up to 3 times."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#1b2a35",
+  "stripeColor": "#1b2a35",
+  "imageKey": "Honey",
+  "source": "game"
+ },
+ {
+  "name": "Lion Bee",
+  "color": "white",
+  "rarity": "legendary",
+  "energy": 60,
+  "speed": 19.6,
+  "attack": 10,
+  "gather": {
+   "amount": 20,
+   "time": 4
+  },
+  "convert": {
+   "amount": 180,
+   "time": 2
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+200% Energy, +40% Movespeed, +50% convert speed, +100 Convert Amount, +10 Gather Amount, +9 Attack.",
+   "[Buzz Bomb+] Collects 7 pollen from 29 surrounding Flowers (+10% pollen per level). Combo with other bombs to increase power."
+  ],
+  "giftedBonus": {
+   "text": "+5% Gifted Bee Pollen",
+   "effects": [
+    {
+     "stat": "gifted bee pollen",
+     "op": "add",
+     "value": 0.05,
+     "percent": true
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Buzz Bomb+",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Collects 7 pollen from 29 surrounding Flowers (+10% pollen per level). Combo with other bombs to increase power."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#1b2a35",
+  "stripeColor": "#e5cf38",
+  "imageKey": "Lion",
+  "source": "game"
+ },
+ {
+  "name": "Looker Bee",
+  "color": "white",
+  "rarity": "rare",
+  "energy": 20,
+  "speed": 14,
+  "attack": 1,
+  "gather": {
+   "amount": 13,
+   "time": 4
+  },
+  "convert": {
+   "amount": 160,
+   "time": 4
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+80 convert amount, +3 gather amount, +5% Critical Chance.",
+   "[Focus] Grants +3% Critical Chance for 20 seconds. Stacks up to 10 times. Critical Hits increase pollen and damage by 100%."
+  ],
+  "giftedBonus": {
+   "text": "+25% Critical Power.",
+   "effects": [
+    {
+     "stat": "critical power",
+     "op": "add",
+     "value": 0.25,
+     "percent": true
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Focus",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Grants +3% Critical Chance for 20 seconds. Stacks up to 10 times. Critical Hits increase pollen and damage by 100%."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#f1f1f1",
+  "stripeColor": "#1b2a35",
+  "imageKey": "Looker",
+  "source": "game"
+ },
+ {
+  "name": "Music Bee",
+  "color": "white",
+  "rarity": "legendary",
+  "energy": 20,
+  "speed": 16.1,
+  "attack": 1,
+  "gather": {
+   "amount": 16,
+   "time": 4
+  },
+  "convert": {
+   "amount": 240,
+   "time": 4
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+15% Movespeed, +6 Gather Amount, +160 Convert Amount.",
+   "[Melody] Grants +100% Critical Power for 30 seconds. Critical Power increases the pollen and damage of critical hits.",
+   "[Focus] Grants +3% Critical Chance for 20 seconds. Stacks up to 10 times. Critical hits increase pollen and damage by 100%.",
+   "[Token Link] Collects all other Ability Tokens, granting 25 Honey (+10 per Level) per token collected."
+  ],
+  "giftedBonus": {
+   "text": "+25% Pollen From Bee Gathering.",
+   "effects": [
+    {
+     "stat": "pollen from bee gathering",
+     "op": "add",
+     "value": 0.25,
+     "percent": true
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Melody",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Grants +100% Critical Power for 30 seconds. Critical Power increases the pollen and damage of critical hits."
+   },
+   {
+    "name": "Focus",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Grants +3% Critical Chance for 20 seconds. Stacks up to 10 times. Critical hits increase pollen and damage by 100%."
+   },
+   {
+    "name": "Token Link",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Collects all other Ability Tokens, granting 25 Honey (+10 per Level) per token collected."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#f1f1f1",
+  "stripeColor": "#f1f1f1",
+  "imageKey": "Music",
+  "source": "game"
+ },
+ {
+  "name": "Ninja Bee",
+  "color": "blue",
+  "rarity": "legendary",
+  "energy": 20,
+  "speed": 21,
+  "attack": 4,
+  "gather": {
+   "amount": 10,
+   "time": 2
+  },
+  "convert": {
+   "amount": 80,
+   "time": 2
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+50% Movespeed, Gather Speed, and Convert Speed, +3 Attack, +10% Critical Chance",
+   "[Haste] Grants +10% Player Movespeed for 20 seconds. Stacks up to 10 times.",
+   "[Blue Bomb+] Collects 10 pollen from 29 surrounding Blue Flowers (+10% pollen per Level). Combo with other bombs to increase power."
+  ],
+  "giftedBonus": {
+   "text": "+5% Bee Movespeed.",
+   "effects": [
+    {
+     "stat": "bee movespeed",
+     "op": "add",
+     "value": 0.05,
+     "percent": true
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Haste",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Grants +10% Player Movespeed for 20 seconds. Stacks up to 10 times."
+   },
+   {
+    "name": "Blue Bomb+",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Collects 10 pollen from 29 surrounding Blue Flowers (+10% pollen per Level). Combo with other bombs to increase power."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#3b8ed1",
+  "stripeColor": "#3b8ed1",
+  "imageKey": "Ninja",
+  "source": "game"
+ },
+ {
+  "name": "Photon Bee",
+  "color": "white",
+  "rarity": "event",
+  "energy": null,
+  "speed": 21,
+  "attack": 4,
+  "gather": {
+   "amount": 20,
+   "time": 2
+  },
+  "convert": {
+   "amount": 240,
+   "time": 2
+  },
+  "instantConversion": 0,
+  "noSleep": true,
+  "extras": [
+   "+50% Movespeed, +50% gather and convert speed, +10 Gather Amount, +160 Convert Amount, +20% Instant Conversion, +3 Attack. Doesn't require Sleep."
+  ],
+  "giftedBonus": {
+   "text": "+5% Instant Conversion.",
+   "effects": [
+    {
+     "stat": "instant conversion",
+     "op": "add",
+     "value": 0.05,
+     "percent": true
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Beamstorm",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Fires 25 (+2 per lvl) yellow (white if gifted) beams from the sky which collect and double ALL pollen from Flowers they hit. If Gifted, Beamstorm collects x1.5 more white pollen for a total of x3 white pollen and ALL pollen is instantly converted."
+   },
+   {
+    "name": "Haste",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Grants +10% Player Movespeed for 20 seconds. Stacks up to 10 times."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#1b2a35",
+  "stripeColor": "#f1f1f1",
+  "imageKey": "Photon",
+  "source": "game"
+ },
+ {
+  "name": "Precise Bee",
+  "color": "red",
+  "rarity": "mythic",
+  "energy": 40,
+  "speed": 11.2,
+  "attack": 8,
+  "gather": {
+   "amount": 20,
+   "time": 4
+  },
+  "convert": {
+   "amount": 80,
+   "time": 4
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+7 Attack, -20% Movespeed, +10 Gather Amount, +100% Energy, +5% Critical Chance, +3% Super-Crit Chance.",
+   "[Target Practice] Causes the bee to fly into the air and project 3 targets on the field for a few seconds. Running on a target activates it.",
+   "When all 3 targets are activated, this collects all ability tokens and grants a stack of Precision, which grants +2% Super-Crit Chance for 60s and stacks up to 10 times. Super-Crits can only occur for Critical hits and gain x2 power and 100% Instant Conversion.",
+   "After a few seconds, any target activated will generate a Focus token and be shot, collecting pollen equal to double this bee's attack (+10% per Level) from 29 Flowers. With Flame Heat, the shots gain up to x4 Pollen and up to 50% instant conversion. Any unactivated target spawns a Red Boost token instead.",
+   "If the player is shot while standing on a target, this collects all ability tokens and consumes your [https://bee-swarm-simulator.fandom.com/wiki/Flame?so=search#Flame_Heat Flame Heat] to instantly convert Pollen in your bag, with half turning into Honey Tokens. The amount converted is equal to 50% of your Convert Total + 10x this bee's convert amount and scales up to x10 with the Flame Heat consumed and up to x3 with your current field's boost stacks.",
+   "If Gifted: When only the farthest target is activated, it will summon a Precise Mark which grants +7% Critical Chance and Super-Crit Chance and stacks up to 3 times.",
+   "If the player collects a Target Practice token that is outside the field, they will immediately be granted either the Precision or the Focus buff. The chances of getting Precision buff are 20%, and 80% for Focus buff.",
+   "[Passive: Sniper] When fighting mobs, this bee uses slow, long ranged shots that are more accurate and deal x2 damage. The accuracy is calculated as if the bee was 1 level higher (2 if gifted), and it can never be below 5%. If the shot is a Critical Hit, the reload time after shots is reduced by 50%. If it's a Super-Crit, it's reduced by 75%."
+  ],
+  "giftedBonus": {
+   "text": "+3% Super-Crit Chance.",
+   "effects": [
+    {
+     "stat": "super-crit chance",
+     "op": "add",
+     "value": 0.03,
+     "percent": true
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Target Practice",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Causes the bee to fly into the air and project 3 targets on the field for a few seconds. Running on a target activates it."
+   },
+   {
+    "name": "Sniper",
+    "giftedOnly": false,
+    "passive": true,
+    "known": true,
+    "description": "When fighting mobs, this bee uses slow, long ranged shots that are more accurate and deal x2 damage. The accuracy is calculated as if the bee was 1 level higher (2 if gifted), and it can never be below 5%. If the shot is a Critical Hit, the reload time after shots is reduced by 50%. If it's a Super-Crit, it's reduced by 75%."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#f1f1f1",
+  "imageKey": "Precise",
+  "source": "game"
+ },
+ {
+  "name": "Puppy Bee",
+  "color": "white",
+  "rarity": "event",
+  "energy": 40,
+  "speed": 16.1,
+  "attack": 2,
+  "gather": {
+   "amount": 25,
+   "time": 4
+  },
+  "convert": {
+   "amount": 280,
+   "time": 4
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+100% Energy, +15% Movespeed, +15 Gather Amount, +200 Convert Amount, +1 Attack.",
+   "[Fetch] Creates a ball that collects tokens and increases pollen by 100% (+15% per Level) as you and Puppy Bee kick it to each other. Collection increases per kick. Combo hits to win Treats.",
+   "[Puppy Love] Increases your bond with up to 10 nearby bees by 60 (+20 per lvl). Grants +10% Bee Movespeed and +50% Bee Gather Amount for 10 seconds (+1s per lvl)."
+  ],
+  "giftedBonus": {
+   "text": "+20% Bond from Treats.",
+   "effects": [
+    {
+     "stat": "bond from treats",
+     "op": "add",
+     "value": 0.2,
+     "percent": true
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Fetch",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Creates a ball that collects tokens and increases pollen by 100% (+15% per Level) as you and Puppy Bee kick it to each other. Collection increases per kick. Combo hits to win Treats."
+   },
+   {
+    "name": "Puppy Love",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Increases your bond with up to 10 nearby bees by 60 (+20 per lvl). Grants +10% Bee Movespeed and +50% Bee Gather Amount for 10 seconds (+1s per lvl)."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#f1f1f1",
+  "imageKey": "Puppy",
+  "source": "game"
+ },
+ {
+  "name": "Rad Bee",
+  "color": "red",
+  "rarity": "rare",
+  "energy": 20,
+  "speed": 14,
+  "attack": 1,
+  "gather": {
+   "amount": 13,
+   "time": 4
+  },
+  "convert": {
+   "amount": 80,
+   "time": 3
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+25% convert speed, +3 gather amount.",
+   "[Red Boost] Grants x1.2 pollen from red flowers for 15s. Stacks up to 10 times."
+  ],
+  "giftedBonus": {
+   "text": "x1.1 Red Pollen.",
+   "effects": [
+    {
+     "stat": "red pollen",
+     "op": "mul",
+     "value": 1.1
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Red Boost",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Grants x1.2 pollen from red flowers for 15s. Stacks up to 10 times."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#9d2916",
+  "stripeColor": "#9d2916",
+  "imageKey": "Rad",
+  "source": "game"
+ },
+ {
+  "name": "Rage Bee",
+  "color": "red",
+  "rarity": "epic",
+  "energy": 20,
+  "speed": 15.4,
+  "attack": 5,
+  "gather": {
+   "amount": 10,
+   "time": 4
+  },
+  "convert": {
+   "amount": 80,
+   "time": 4
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+4 Attack, +10% Movespeed.",
+   "[Rage] Grants your Bees +1 attack for 45s. Stacks up to 4 times.",
+   "[Token Link] Collects all other Ability Tokens (except for other token links), granting 25 honey (+10 per Level) per token collected."
+  ],
+  "giftedBonus": {
+   "text": "+10% Bee Attack.",
+   "effects": [
+    {
+     "stat": "bee attack",
+     "op": "add",
+     "value": 0.1,
+     "percent": true
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Rage",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Grants your Bees +1 attack for 45s. Stacks up to 4 times."
+   },
+   {
+    "name": "Token Link",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Collects all other Ability Tokens (except for other token links), granting 25 honey (+10 per Level) per token collected."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#f3492d",
+  "stripeColor": "#f3492d",
+  "imageKey": "Rage",
+  "source": "game"
+ },
+ {
+  "name": "Rascal Bee",
+  "color": "red",
+  "rarity": "rare",
+  "energy": 20,
+  "speed": 16.1,
+  "attack": 3,
+  "gather": {
+   "amount": 10,
+   "time": 4
+  },
+  "convert": {
+   "amount": 80,
+   "time": 4
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+15% movespeed, +2 attack.",
+   "[Red Bomb] Collects 10 pollen from 13 surrounding red flowers (+10% pollen per level). Combo with other bombs to increase power."
+  ],
+  "giftedBonus": {
+   "text": "x1.25 Red Bomb Pollen.",
+   "effects": [
+    {
+     "stat": "red bomb pollen",
+     "op": "mul",
+     "value": 1.25
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Red Bomb",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Collects 10 pollen from 13 surrounding red flowers (+10% pollen per level). Combo with other bombs to increase power."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#f3492d",
+  "stripeColor": "#f3492d",
+  "imageKey": "Rascal",
+  "source": "game"
+ },
+ {
+  "name": "Riley Bee",
+  "color": "red",
+  "rarity": "epic",
+  "energy": 25,
+  "speed": 15.4,
+  "attack": 6,
+  "gather": {
+   "amount": 10,
+   "time": 2
+  },
+  "convert": {
+   "amount": 140,
+   "time": 4
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+10% Movespeed, +25% Energy, +4 Attack, +50% gather speed, +60 Convert Amount.",
+   "[Red Boost] Grants x1.2 pollen from red Flowers for 15 seconds. Stacks up to 10 times."
+  ],
+  "giftedBonus": {
+   "text": "+20% Red Field Capacity.",
+   "effects": [
+    {
+     "stat": "red field capacity",
+     "op": "add",
+     "value": 0.2,
+     "percent": true
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Red Boost",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Grants x1.2 pollen from red Flowers for 15 seconds. Stacks up to 10 times."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#f3492d",
+  "stripeColor": "#f3492d",
+  "imageKey": "Riley",
+  "source": "game"
+ },
+ {
+  "name": "Shocked Bee",
+  "color": "white",
+  "rarity": "epic",
+  "energy": 20,
+  "speed": 19.6,
+  "attack": 2,
+  "gather": {
+   "amount": 10,
+   "time": 4
+  },
+  "convert": {
+   "amount": 80,
+   "time": 2
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+40% Movespeed, +50% Convert Speed, +1 Attack, -50% Sleep Time.",
+   "[Haste] Grants +10% Player Movespeed for 20 seconds. Stacks up to 10 times.",
+   "[Token Link] Collects all other Ability Tokens, granting 25 Honey (+10 per lvl) per token collected."
+  ],
+  "giftedBonus": {
+   "text": "x1.1 White Pollen.",
+   "effects": [
+    {
+     "stat": "white pollen",
+     "op": "mul",
+     "value": 1.1
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Haste",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Grants +10% Player Movespeed for 20 seconds. Stacks up to 10 times."
+   },
+   {
+    "name": "Token Link",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Collects all other Ability Tokens, granting 25 Honey (+10 per lvl) per token collected."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 7.5,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#f1f1f1",
+  "stripeColor": "#f1f1f1",
+  "imageKey": "Shocked",
+  "source": "game"
+ },
+ {
+  "name": "Shy Bee",
+  "color": "red",
+  "rarity": "legendary",
+  "energy": 40,
+  "speed": 18.2,
+  "attack": 2,
+  "gather": {
+   "amount": 10,
+   "time": 2
+  },
+  "convert": {
+   "amount": 320,
+   "time": 4
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+100% Energy, +30% Movespeed, +50% Gather Speed, +240 Convert Amount, +1 Attack.",
+   "[Red Boost] Grants x1.2 pollen from red Flowers for 15s. Stacks up to 10 times.",
+   "[Red Bomb] Collects 10 pollen from 13 surrounding red flowers (+10% pollen per Level). Combo with other bombs to increase power.",
+   "[Passive: Nectar Lover] This bee is twice as likely to sip Nectar from Planters. When it does, it gathers twice as much Nectar and contributes twice as much growth to the Planter."
+  ],
+  "giftedBonus": {
+   "text": "+5% Bee Ability Pollen.",
+   "effects": [
+    {
+     "stat": "bee ability pollen",
+     "op": "add",
+     "value": 0.05,
+     "percent": true
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Red Boost",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Grants x1.2 pollen from red Flowers for 15s. Stacks up to 10 times."
+   },
+   {
+    "name": "Red Bomb",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Collects 10 pollen from 13 surrounding red flowers (+10% pollen per Level). Combo with other bombs to increase power."
+   },
+   {
+    "name": "Nectar Lover",
+    "giftedOnly": false,
+    "passive": true,
+    "known": true,
+    "description": "This bee is twice as likely to sip Nectar from Planters. When it does, it gathers twice as much Nectar and contributes twice as much growth to the Planter."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#f1f1f1",
+  "stripeColor": "#f3492d",
+  "imageKey": "Shy",
+  "source": "game"
+ },
+ {
+  "name": "Spicy Bee",
+  "color": "red",
+  "rarity": "mythic",
+  "energy": 20,
+  "speed": 14,
+  "attack": 5,
+  "gather": {
+   "amount": 14,
+   "time": 4
+  },
+  "convert": {
+   "amount": 300,
+   "time": 2
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+220 Convert Amount, +50% Convert Speed, +4 Gather Amount, +4 Attack.",
+   "[Inferno] Summons a ring of 6 flames, then summons 2 Fire Bees that last for 15s (+1s per Level) with levels equal to 2 less than this bee's level. If Gifted, each Fire Bee has a 10% (+1% per Level) chance of being Gifted as well. However, the gifted Fire Bees from inferno DO NOT grant their gifted hive bonus.",
+   "[Rage] Grants your bees +1 attack for 45s. Stacks up to 4 times.",
+   "[[Ability Tokens#Flame Fuel|[🌟Gifted Ability: Flame Fuel]]] For 15 seconds, Spicy Bee tosses oil into any flames that spawn, causing them to last 50% longer and instantly convert 50k pollen and (10 + 5 per Field Boost stack)% of your Hive's Convert Amount. Unless converted to a dark flame, Spicy Bee won't throw oil into flames currently on the field.",
+   "[Passive: Steam Engine] This bee's Movespeed and gather speed drastically increases up to 100% with Flame Heat."
+  ],
+  "giftedBonus": {
+   "text": "+25% Flame Duration.",
+   "effects": [
+    {
+     "stat": "flame duration",
+     "op": "add",
+     "value": 0.25,
+     "percent": true
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Inferno",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Summons a ring of 6 flames, then summons 2 Fire Bees that last for 15s (+1s per Level) with levels equal to 2 less than this bee's level. If Gifted, each Fire Bee has a 10% (+1% per Level) chance of being Gifted as well. However, the gifted Fire Bees from inferno DO NOT grant their gifted hive bonus."
+   },
+   {
+    "name": "Rage",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Grants your bees +1 attack for 45s. Stacks up to 4 times."
+   },
+   {
+    "name": "Flame Fuel",
+    "giftedOnly": true,
+    "passive": false,
+    "known": true,
+    "description": "For 15 seconds, Spicy Bee tosses oil into any flames that spawn, causing them to last 50% longer and instantly convert 50k pollen and (10 + 5 per Field Boost stack)% of your Hive's Convert Amount. Unless converted to a dark flame, Spicy Bee won't throw oil into flames currently on the field."
+   },
+   {
+    "name": "Steam Engine",
+    "giftedOnly": false,
+    "passive": true,
+    "known": true,
+    "description": "This bee's Movespeed and gather speed drastically increases up to 100% with Flame Heat."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#f1f1f1",
+  "imageKey": "Spicy",
+  "source": "game"
+ },
+ {
+  "name": "Stubborn Bee",
+  "color": "white",
+  "rarity": "rare",
+  "energy": 20,
+  "speed": 11.9,
+  "attack": 2,
+  "gather": {
+   "amount": 10,
+   "time": 4
+  },
+  "convert": {
+   "amount": 80,
+   "time": 3
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "-15% movespeed, +25% convert speed, +1 attack."
+  ],
+  "giftedBonus": {
+   "text": "+15% Ability Token Lifespan.",
+   "effects": [
+    {
+     "stat": "ability token lifespan",
+     "op": "add",
+     "value": 0.15,
+     "percent": true
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Pollen Mark",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Marks a random area on the field for 7 seconds (+0.25s per level) that increases all pollen up to 50% while you stand in it. Stacks up to 3 times."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#f1f1f1",
+  "imageKey": "Stubborn",
+  "source": "game"
+ },
+ {
+  "name": "Tabby Bee",
+  "color": "white",
+  "rarity": "event",
+  "energy": 28,
+  "speed": 16.1,
+  "attack": 4,
+  "gather": {
+   "amount": 10,
+   "time": 4
+  },
+  "convert": {
+   "amount": 160,
+   "time": 3
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+40% Energy, +15% Movespeed, +25% Convert Speed, +3 Attack, up to +1680 Convert Amount, up to +100 Gather Amount.",
+   "[Scratch] Collects 7 (+1 per lvl) Pollen from 3 lines of 4 Flowers. If Gifted, Scratch always does Critical hits.",
+   "[Tabby Love] Permanently grants Tabby Bee +1% Gather Amount, Convert Amount, and pollen from Scratch. Stacks up to 1,000 times.",
+   "If at max stacks, Tabby Love grants Tabby Blessing, giving +1% Critical Chance and +25% Critical Power for 20 seconds (+2s per level). If Gifted, it grants Tabby Blessing+, which adds +1% Super-Crit Chance as well."
+  ],
+  "giftedBonus": {
+   "text": "+50% Critical Power.",
+   "effects": [
+    {
+     "stat": "critical power",
+     "op": "add",
+     "value": 0.5,
+     "percent": true
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Scratch",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Collects 7 (+1 per lvl) Pollen from 3 lines of 4 Flowers. If Gifted, Scratch always does Critical hits."
+   },
+   {
+    "name": "Tabby Love",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Permanently grants Tabby Bee +1% Gather Amount, Convert Amount, and pollen from Scratch. Stacks up to 1,000 times."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#1b2a35",
+  "stripeColor": "#644926",
+  "imageKey": "Tabby",
+  "source": "game"
+ },
+ {
+  "name": "Tadpole Bee",
+  "color": "blue",
+  "rarity": "mythic",
+  "energy": 10,
+  "speed": 11.2,
+  "attack": 1,
+  "gather": {
+   "amount": 10,
+   "time": 6
+  },
+  "convert": {
+   "amount": 120,
+   "time": 4
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+40 Convert Amount, -20% Movespeed, -50% Gather Speed, and Energy.",
+   "[Blue Boost] Grants x1.2 pollen from Blue Flowers for 15 seconds. Stacks up to 10 times.",
+   "[Summon Frog] Summons a frog that lasts for 20s (+2s per Level). Frogs can make bubbles after every few hops, or after collecting a token with their tongue. They also attack nearby enemies with attack equal to 5x this bee's attack.",
+   "If Gifted, this has a 10% (+2% per Level) chance to summon a Gifted Frog instead, which has increased tongue range, Token gathering and attack speed, 50% more attack, has a chance to summon golden bubbles, and can hit balloons with its tongue to convert pollen to Honey Tokens.",
+   "[🌟Gifted Ability: Baby Love] Grants x2 pollen and +50% Loot Luck for 30 seconds. Loot Luck increases your chance of obtaining prizes from defeating enemies.",
+   "[Passive: [[Bubble#Gathering Bubbles|Gathering Bubbles+]]] 65% chance (85% if Gifted) to spawn a Bubble when gathering. If any player touches it, it pops, collecting 4 Red/6 White/8 Blue pollen (+15% per Gifted blue bee type, +5% per bee level) from 29 nearby flowers and causing them to replenish."
+  ],
+  "giftedBonus": {
+   "text": "+25% Bubble Duration",
+   "effects": [
+    {
+     "stat": "bubble duration",
+     "op": "add",
+     "value": 0.25,
+     "percent": true
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Blue Boost",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Grants x1.2 pollen from Blue Flowers for 15 seconds. Stacks up to 10 times."
+   },
+   {
+    "name": "Summon Frog",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Summons a frog that lasts for 20s (+2s per Level). Frogs can make bubbles after every few hops, or after collecting a token with their tongue. They also attack nearby enemies with attack equal to 5x this bee's attack."
+   },
+   {
+    "name": "Baby Love",
+    "giftedOnly": true,
+    "passive": false,
+    "known": true,
+    "description": "Grants x2 pollen and +50% Loot Luck for 30 seconds. Loot Luck increases your chance of obtaining prizes from defeating enemies."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0.65,
+   0.65
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#f1f1f1",
+  "imageKey": "Tadpole",
+  "source": "game"
+ },
+ {
+  "name": "Vector Bee",
+  "color": "white",
+  "rarity": "mythic",
+  "energy": 45.6,
+  "speed": 16.24,
+  "attack": 5,
+  "gather": {
+   "amount": 18,
+   "time": 4
+  },
+  "convert": {
+   "amount": 144,
+   "time": 2.72
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+4 Attack, +8 Gather Amount, +16% Movespeed, +32% Convert Speed, +64 Convert Amount, +128% Energy.",
+   "[Pollen Mark+] Marks a large random area on the Field for 8 seconds (+0.25s per Level) that increases all pollen by 50% while that player stands in it. Stacks up to 3 times.",
+   "[Triangulate] Draws a triangle between the player, the bee, and the token. After 3s, it collects Ability tokens and 10 pollen (+2 per Level) from all Flowers inside. All Marks within the triangle increase the pollen by 50%.",
+   "If the triangle contains a Pollen Mark, it gains x2 White pollen.",
+   "If the triangle contains a Honey Mark or Festive Mark, it gains 50% instant conversion.",
+   "If the triangle contains a Precise Mark, it always deals critical hits.",
+   "[🌟Gifted Ability: Mark Surge] Causes all of the player's active Marks to collect 7 Pollen (+10% per Level) from all flowers in their radius. Extends the duration of the Marks by 1s (+0.1s per Level). Each mark can perform up to 5 surges.",
+   "When a Honey Mark or Festive Mark surges, the Pollen is Instantly Converted.",
+   "When a Precise Mark surges, it always does Critical Hits."
+  ],
+  "giftedBonus": {
+   "text": "+15% Mark Duration.",
+   "effects": [
+    {
+     "stat": "mark duration",
+     "op": "add",
+     "value": 0.15,
+     "percent": true
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Pollen Mark+",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Marks a large random area on the Field for 8 seconds (+0.25s per Level) that increases all pollen by 50% while that player stands in it. Stacks up to 3 times."
+   },
+   {
+    "name": "Triangulate",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Draws a triangle between the player, the bee, and the token. After 3s, it collects Ability tokens and 10 pollen (+2 per Level) from all Flowers inside. All Marks within the triangle increase the pollen by 50%."
+   },
+   {
+    "name": "Mark Surge",
+    "giftedOnly": true,
+    "passive": false,
+    "known": true,
+    "description": "Causes all of the player's active Marks to collect 7 Pollen (+10% per Level) from all flowers in their radius. Extends the duration of the Marks by 1s (+0.1s per Level). Each mark can perform up to 5 surges."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#f1f1f1",
+  "imageKey": "Vector",
+  "source": "game"
+ },
+ {
+  "name": "Vicious Bee",
+  "color": "blue",
+  "rarity": "event",
+  "energy": 50,
+  "speed": 17.5,
+  "attack": 9,
+  "gather": {
+   "amount": 10,
+   "time": 4
+  },
+  "convert": {
+   "amount": 80,
+   "time": 4
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+150% Energy, +25% Movespeed, +8 Attack.",
+   "[Impale] Summons spikes (1 per level) to damage enemies equal to 5% of their current health (Increased by Vicious Bee's attack. [Reduced damage if larger than 1000]). Creates a honey token per enemy hit (worth 50 honey plus 50 per bee level). Multiple spikes on the same target deal less damage. Impale can damage mobs that target other players but will not target other players' Tunnel Bear, King Beetle, Stump Snail, or Coconut Crab. If gifted, Impale has +1 level of accuracy.",
+   "[Blue Bomb+] Collects 10 pollen from 29 surrounding blue Flowers (+10% pollen per Level). Combo with other bombs to increase power."
+  ],
+  "giftedBonus": {
+   "text": "-15% Mob Respawn Time.",
+   "effects": [
+    {
+     "stat": "mob respawn time",
+     "op": "add",
+     "value": -0.15,
+     "percent": true
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "Impale",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Summons spikes (1 per level) to damage enemies equal to 5% of their current health (Increased by Vicious Bee's attack. [Reduced damage if larger than 1000]). Creates a honey token per enemy hit (worth 50 honey plus 50 per bee level). Multiple spikes on the same target deal less damage. Impale can damage mobs that target other players but will not target other players' Tunnel Bear, King Beetle, Stump Snail, or Coconut Crab. If gifted, Impale has +1 level of accuracy."
+   },
+   {
+    "name": "Blue Bomb+",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Collects 10 pollen from 29 surrounding blue Flowers (+10% pollen per Level). Combo with other bombs to increase power."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#f1f1f1",
+  "imageKey": "Vicious",
+  "source": "game"
+ },
+ {
+  "name": "Windy Bee",
+  "color": "white",
+  "rarity": "event",
+  "energy": 20,
+  "speed": 19.6,
+  "attack": 4,
+  "gather": {
+   "amount": 10,
+   "time": 3
+  },
+  "convert": {
+   "amount": 180,
+   "time": 2
+  },
+  "instantConversion": 0,
+  "noSleep": false,
+  "extras": [
+   "+40% Movespeed, +50% Convert Speed, +25% Gather Speed, +100 Convert Amount, +3 Attack.",
+   "[White Boost] Grants x1.2 pollen from White Flowers for 15s. Stacks up to 10 times.",
+   "[Rain Cloud] Summons a Cloud in a different field that lasts for 60s (+10s per level). Clouds make flowers grow and grant +25% Pollen and 10% Unique Instant Conversion to nearby players (50% Pollen and 20% Unique IC if the player has a gifted Windy Bee). If another player's Windy Bee spawns a cloud in the field the player is on, a message will appear announcing \"🌧️ [Username]'s Windy Bee summoned a Cloud in this field. 🌧️\"",
+   "[Tornado] Consumes your \"Haste\" stacks to summon a Tornado which damages enemies and collects Tokens and Pollen as it roams the field. Lifespan, speed, and damage are increased by the number of Haste stacks spent and bee level."
+  ],
+  "giftedBonus": {
+   "text": "+15% Instant White Conversion, x2 Boosts From Clouds.",
+   "effects": [
+    {
+     "stat": "instant white conversion",
+     "op": "add",
+     "value": 0.15,
+     "percent": true
+    },
+    {
+     "stat": "boosts from clouds",
+     "op": "mul",
+     "value": 2
+    }
+   ]
+  },
+  "abilities": [
+   {
+    "name": "White Boost",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Grants x1.2 pollen from White Flowers for 15s. Stacks up to 10 times."
+   },
+   {
+    "name": "Rain Cloud",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Summons a Cloud in a different field that lasts for 60s (+10s per level). Clouds make flowers grow and grant +25% Pollen and 10% Unique Instant Conversion to nearby players (50% Pollen and 20% Unique IC if the player has a gifted Windy Bee). If another player's Windy Bee spawns a cloud in the field the player is on, a message will appear announcing \"🌧️ [Username]'s Windy Bee summoned a Cloud in this field. 🌧️\""
+   },
+   {
+    "name": "Tornado",
+    "giftedOnly": false,
+    "passive": false,
+    "known": true,
+    "description": "Consumes your \"Haste\" stacks to summon a Tornado which damages enemies and collects Tokens and Pollen as it roams the field. Lifespan, speed, and damage are increased by the number of Haste stacks spent and bee level."
+   }
+  ],
+  "giftedInstantConversion": 0,
+  "sleepTime": 15,
+  "bubbleChance": [
+   0,
+   0
+  ],
+  "flameChance": [
+   0,
+   0
+  ],
+  "faceColor": "#f1f1f1",
+  "imageKey": "Windy",
+  "source": "game"
+ }
+]

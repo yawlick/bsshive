@@ -1,0 +1,290 @@
+{
+ "Bucko": {
+  "body": "#1b2a35",
+  "faceColor": "#3b8ed1",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "CC": {
+  "body": "#fc002c",
+  "faceColor": "#f1f1f1",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Looker": {
+  "body": "#32be4e",
+  "faceColor": "#ffffff",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Brave": {
+  "body": "#9f9f9f",
+  "faceColor": "#1b2a35",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Commander": {
+  "body": "#32be4e",
+  "faceColor": "#020202",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Vector": {
+  "body": "#b7bcc8",
+  "faceColor": "#ffffff",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Honey": {
+  "body": "#e5cf38",
+  "faceColor": "#1b2a35",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Hasty": {
+  "body": "#f1f1f1",
+  "faceColor": "#1b2a35",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Lion": {
+  "body": "#e5b238",
+  "faceColor": "#1b2a35",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Shy": {
+  "body": "#9f9f9f",
+  "faceColor": "#f1f1f1",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Frosty": {
+  "body": "#f1f1f1",
+  "faceColor": "#3b8ed1",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Bear": {
+  "body": "#e09557",
+  "faceColor": "#232323",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Ninja": {
+  "body": "#1b2a35",
+  "faceColor": "#3b8ed1",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Spicy": {
+  "body": "#cf2013",
+  "faceColor": "#2e0600",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Digital": {
+  "body": "#7f8688",
+  "faceColor": "#a8ff61",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Bomber": {
+  "body": "#f1f1f1",
+  "faceColor": "#1b2a35",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Rascal": {
+  "body": "#1b2a35",
+  "faceColor": "#f3492d",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Crimson": {
+  "body": "#fc002c",
+  "faceColor": "#f1f1f1",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Fire": {
+  "body": "#9d2916",
+  "faceColor": "#e5cf38",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Cool": {
+  "body": "#3b5e9d",
+  "faceColor": "#afd7f6",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Dual": {
+  "body": "#fc002c",
+  "faceColor": "#f1f1f1",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Riley": {
+  "body": "#1b2a35",
+  "faceColor": "#f3492d",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Tadpole": {
+  "body": "#4fd9a8",
+  "faceColor": "#35525e",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Bubble": {
+  "body": "#afd7f6",
+  "faceColor": "#3b8ed1",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Baby": {
+  "body": "#1b2a35",
+  "faceColor": "#f1f1f1",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Demon": {
+  "body": "#1b2a35",
+  "faceColor": "#f3492d",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Rad": {
+  "body": "#f1f1f1",
+  "faceColor": "#9d2916",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Windy": {
+  "body": "#f2ffff",
+  "faceColor": "#6884a2",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Cobalt": {
+  "body": "#0021fb",
+  "faceColor": "#f1f1f1",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Stubborn": {
+  "body": "#1b2a35",
+  "faceColor": "#fdffbc",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Photon": {
+  "body": "#e7ff2c",
+  "faceColor": "#1b2a35",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Gummy": {
+  "body": "#f281ff",
+  "faceColor": "#21ffac",
+  "face": true,
+  "material": "Glass"
+ },
+ "Precise": {
+  "body": "#eb4b4e",
+  "faceColor": "#560707",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Diamond": {
+  "body": "#afd7f6",
+  "faceColor": "#f1f1f1",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Carpenter": {
+  "body": "#b17e65",
+  "faceColor": "#ffffff",
+  "face": true,
+  "material": "Wood"
+ },
+ "Festive": {
+  "body": "#b72424",
+  "faceColor": "#f1f1f1",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Vicious": {
+  "body": "#0e141d",
+  "faceColor": "#c8f5ff",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Puppy": {
+  "body": "#fbdc87",
+  "faceColor": "#1b2a35",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Demo": {
+  "body": "#1b2a35",
+  "faceColor": "#e5cf38",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Fuzzy": {
+  "body": "#ab8163",
+  "faceColor": "#382821",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Buoyant": {
+  "body": "#1d68d9",
+  "faceColor": "#56f7f9",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Basic": {
+  "body": "#1b2a35",
+  "faceColor": "#f1f1f1",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Exhausted": {
+  "body": "#1b2a35",
+  "faceColor": "#f1f1f1",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Tabby": {
+  "body": "#f99d27",
+  "faceColor": "#232323",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Shocked": {
+  "body": "#1b2a35",
+  "faceColor": "#f1f1f1",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Music": {
+  "body": "#1b2a35",
+  "faceColor": "#ffffff",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Rage": {
+  "body": "#e7a769",
+  "faceColor": "#ee3010",
+  "face": true,
+  "material": "SmoothPlastic"
+ },
+ "Bumble": {
+  "body": "#1b2a35",
+  "faceColor": "#3b8ed1",
+  "face": true,
+  "material": "SmoothPlastic"
+ }
+}

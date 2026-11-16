@@ -1,0 +1,10 @@
+# сырые страницы вики — качаются заново: node scripts/fetch-wiki.mjs
+data/raw/
+node_modules/
+.server.log
+
+# личные данные с сайта (лодауты, «мой улей», калибровка)
+data/loadouts.json
+data/my-hive.json
+data/my-setup.json
+data/calibration.json

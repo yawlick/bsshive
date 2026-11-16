@@ -1,0 +1,1129 @@
+{
+ "source": "ReplicatedStorage.Collectibles / Buffs (клиент игры)",
+ "tokens": {
+  "Haste": {
+   "bg": "#f0f0f0",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Haste+": {
+   "bg": "#eddb4c",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Focus": {
+   "bg": "#22ff06",
+   "icon": "1629649299",
+   "iconColor": "#141414",
+   "img": true
+  },
+  "Rage": {
+   "bg": "#fd9b10",
+   "icon": "1442700745",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Rage+": {
+   "bg": "#e40a05",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Token Link": {
+   "bg": "#ffffff",
+   "icon": "1629547638",
+   "iconColor": "#111111",
+   "img": true
+  },
+  "Beamstorm": {
+   "bg": "#000000",
+   "icon": "1671281844",
+   "iconColor": "#e2ff09",
+   "img": true
+  },
+  "Scratch": {
+   "bg": "#000000",
+   "icon": "1104415222",
+   "iconColor": "#f99d27",
+   "img": true
+  },
+  "Fetch": {
+   "bg": "#fafffa",
+   "icon": "2319100769",
+   "iconColor": "#d7ff38",
+   "img": true
+  },
+  "Puppy Love": {
+   "bg": "#fbdc87",
+   "icon": "2305425690",
+   "iconColor": "#1b2a35",
+   "img": true
+  },
+  "Pollen Mark": {
+   "bg": "#3d713b",
+   "icon": "2499540966",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Pollen Mark+": {
+   "bg": "#3d713b",
+   "icon": "2499540966",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Honey Mark": {
+   "bg": "#3d713b",
+   "icon": "2499514197",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Honey Mark+": {
+   "bg": "#3d713b",
+   "icon": "2499514197",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Mark Surge": {
+   "bg": "#91959f",
+   "icon": "4528379338",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Festive Mark": {
+   "bg": "#e84447",
+   "icon": "6077288982",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Triangulate": {
+   "bg": "#b7bcc8",
+   "icon": "4519523935",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Fuzz Bombs": {
+   "bg": "#ab8163",
+   "icon": "4889322534",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Pollen Haze": {
+   "bg": "#8bb478",
+   "icon": "4889470194",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Inferno": {
+   "bg": "#b72a18",
+   "icon": "4519549299",
+   "iconColor": "#ffdb0c",
+   "img": true
+  },
+  "Flame Fuel": {
+   "bg": "#b72a18",
+   "icon": "4528208186",
+   "iconColor": "#141414",
+   "img": true
+  },
+  "Summon Frog": {
+   "bg": "#4fd9a8",
+   "icon": "4528414666",
+   "iconColor": "#3d6e3f",
+   "img": true
+  },
+  "Inflate Balloons": {
+   "bg": "#fafd38",
+   "icon": "8083436978",
+   "iconColor": "#234bff",
+   "img": true
+  },
+  "Surprise Party": {
+   "bg": "#fafd38",
+   "icon": "8083943936",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Target Practice": {
+   "bg": "#eb4b4e",
+   "icon": "8173559749",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Glitch": {
+   "bg": "#000000",
+   "icon": "5877939956",
+   "iconColor": "#ff00ff",
+   "img": true
+  },
+  "Mind Hack": {
+   "bg": "#000000",
+   "icon": "5877998606",
+   "iconColor": "#ff0000",
+   "img": true
+  },
+  "Map Corruption": {
+   "bg": "#0000ff",
+   "icon": "5877939956",
+   "iconColor": "#ff00ff",
+   "img": true
+  },
+  "Smile Token": {
+   "bg": "#ffffff",
+   "icon": "5877939956",
+   "iconColor": "#000000",
+   "img": true
+  },
+  "Impale": {
+   "bg": "#020205",
+   "icon": "2319083910",
+   "iconColor": "#98d3ff",
+   "img": true
+  },
+  "Glob": {
+   "bg": "#f281ff",
+   "icon": "177997841",
+   "iconColor": "#21ffab",
+   "img": true
+  },
+  "Gumdrop Barrage": {
+   "bg": "#21ffab",
+   "icon": "1839454544",
+   "iconColor": "#f281ff",
+   "img": true
+  },
+  "Pollen Boost": {
+   "bg": "#eddb4c",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Red Boost": {
+   "bg": "#90ff8e",
+   "icon": "1442859163",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Blue Boost": {
+   "bg": "#90ff8e",
+   "icon": "1442863423",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "White Boost": {
+   "bg": "#90ff8e",
+   "icon": "3877732821",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Inspire": {
+   "bg": "#5f4c62",
+   "icon": "2000457501",
+   "iconColor": "#fcfd0a",
+   "img": true
+  },
+  "Baby Love": {
+   "bg": "#8de4f3",
+   "icon": "1472256444",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Melody": {
+   "bg": "#f0f0f0",
+   "icon": "253828517",
+   "iconColor": "#141414",
+   "img": true
+  },
+  "Blue Pulse": {
+   "bg": "#0021fb",
+   "icon": "1874564120",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Red Pulse": {
+   "bg": "#fc002c",
+   "icon": "1874564120",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Festive Gift": {
+   "bg": "#640301",
+   "icon": "2652424740",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Tornado": {
+   "bg": "#9fb1c5",
+   "icon": "3582519526",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Rain Cloud": {
+   "bg": "#9fb1c5",
+   "icon": "3582501342",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Buzz Bomb": {
+   "bg": "#000000",
+   "icon": "1442725244",
+   "iconColor": "#fafafa",
+   "img": true
+  },
+  "Blue Bomb": {
+   "bg": "#000000",
+   "icon": "1442725244",
+   "iconColor": "#467efb",
+   "img": true
+  },
+  "Red Bomb": {
+   "bg": "#000000",
+   "icon": "1442725244",
+   "iconColor": "#f84928",
+   "img": true
+  },
+  "Buzz Bomb+": {
+   "bg": "#000000",
+   "icon": "1442764904",
+   "iconColor": "#fafafa",
+   "img": true
+  },
+  "Blue Bomb+": {
+   "bg": "#000000",
+   "icon": "1442764904",
+   "iconColor": "#467efb",
+   "img": true
+  },
+  "Red Bomb+": {
+   "bg": "#000000",
+   "icon": "1442764904",
+   "iconColor": "#f84928",
+   "img": true
+  },
+  "Bond": {
+   "bg": "#000000",
+   "icon": "1104415222",
+   "iconColor": "#f99d27",
+   "img": true
+  },
+  "Snowglobe Shake": {
+   "bg": "#f8f9f9",
+   "icon": "1874564120",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Reindeer Fetch": {
+   "bg": "#f8f9f9",
+   "icon": "1874564120",
+   "iconColor": "#ffffff",
+   "img": true
+  }
+ },
+ "buffs": {
+  "Haste": {
+   "bg": "#f0f0f0",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Proxy Bonus": {
+   "bg": "#707070",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "APM Bonus": {
+   "bg": "#555555",
+   "icon": "1629649299",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Haste+": {
+   "bg": "#eddb4c",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Splinter Trap": {
+   "bg": "#eddb4c",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Frozen": {
+   "bg": "#e5eaea",
+   "icon": "5705167189",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Rage": {
+   "bg": "#fd9b10",
+   "icon": "1442700745",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Extreme Undying Rage": {
+   "bg": "#fc000a",
+   "icon": "1442700745",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Stinger": {
+   "bg": "#ea2223",
+   "icon": "2314214749",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Red Extract": {
+   "bg": "#fec650",
+   "icon": "2495935291",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Blue Extract": {
+   "bg": "#fec650",
+   "icon": "2495936060",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Glue": {
+   "bg": "#fec650",
+   "icon": "2504978518",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Purple Potion": {
+   "bg": "#fec650",
+   "icon": "4935580111",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Enzymes": {
+   "bg": "#fec650",
+   "icon": "2584584968",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Oil": {
+   "bg": "#fec650",
+   "icon": "2545746569",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Tropical Drink": {
+   "bg": "#fec650",
+   "icon": "3835877932",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Super Smoothie": {
+   "bg": "#fec650",
+   "icon": "5144657109",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Marshmallow Bee": {
+   "bg": "#fec650",
+   "icon": "3027672238",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Rage+": {
+   "bg": "#e40a05",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Pollen Boost": {
+   "bg": "#eddb4c",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Conversion Boost": {
+   "bg": "#ffe362",
+   "icon": "1472135114",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Hive Conversion Boost": {
+   "bg": "#eddb4c",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Capacity Boost": {
+   "bg": "#ffe362",
+   "icon": "2766180433",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Capacity Code": {
+   "bg": "#ffe362",
+   "icon": "2766180433",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Unlimited Gumdrops": {
+   "bg": "#f281ff",
+   "icon": "1838129169",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Wealth Clock": {
+   "bg": "#e2ac35",
+   "icon": "247421299",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Conversion Link": {
+   "bg": "#eddb4c",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Honey Mark": {
+   "bg": "#3d713b",
+   "icon": "2499514197",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Pollen Mark": {
+   "bg": "#3d713b",
+   "icon": "2499540966",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Precise Mark": {
+   "bg": "#e7e7e7",
+   "icon": "8173559749",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Festive Mark": {
+   "bg": "#3d713b",
+   "icon": "6077288982",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Cloud Boost": {
+   "bg": "#9fb1c5",
+   "icon": "3582501342",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Cloud Boost+": {
+   "bg": "#9fb1c5",
+   "icon": "3809516302",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Cool Breeze": {
+   "bg": "#ededed",
+   "icon": "6087969886",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Bubble Bloat": {
+   "bg": "#4880cc",
+   "icon": "5144723635",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Flame Heat": {
+   "bg": "#e81a06",
+   "icon": "4097473201",
+   "iconColor": "#fadb09",
+   "img": true
+  },
+  "Whirligig Boost": {
+   "bg": "#b89063",
+   "icon": "8277898895",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Blue Balloon": {
+   "bg": "#323cff",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Honeycomb": {
+   "bg": "#eddb4c",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Inspire": {
+   "bg": "#f4ef14",
+   "icon": "2000457501",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Red Boost": {
+   "bg": "#90ff8e",
+   "icon": "1442859163",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Blue Boost": {
+   "bg": "#90ff8e",
+   "icon": "1442863423",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Blue Screen Bonus": {
+   "bg": "#1f1f1f",
+   "icon": "1442863423",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Demarcate Bonus": {
+   "bg": "#1f1f1f",
+   "icon": "2499540966",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "White Boost": {
+   "bg": "#90ff8e",
+   "icon": "3877732821",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Baby Love": {
+   "bg": "#8de4f3",
+   "icon": "1472256444",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Precision": {
+   "bg": "#8f4eb4",
+   "icon": "8172818074",
+   "iconColor": "#141414",
+   "img": true
+  },
+  "Polar Power": {
+   "bg": "#86ebff",
+   "icon": "247422112",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Science Enhancement": {
+   "bg": "#f4a90d",
+   "icon": "247421250",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Bomb Combo": {
+   "bg": "#272727",
+   "icon": "1442725244",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "x2 Bee Pollen": {
+   "bg": "#3d713b",
+   "icon": "1537260771",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Cheater Debuff": {
+   "bg": "#1b1b1b",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "x2 Ticket Chance": {
+   "bg": "#3d713b",
+   "icon": "1755825914",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Rally": {
+   "bg": "#fff180",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "x2 Honey Speed": {
+   "bg": "#3d713b",
+   "icon": "1537235536",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Ant Challenge": {
+   "bg": "#fff180",
+   "icon": "2060626811",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Guiding Star Aura": {
+   "bg": "#ffffff",
+   "icon": "5101691186",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Guiding Star Aura+": {
+   "bg": "#ffffff",
+   "icon": "5101691186",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Festive Blessing": {
+   "bg": "#17b52d",
+   "icon": "2652424740",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Triangulate Boost": {
+   "bg": "#125d22",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Bug Blessing": {
+   "bg": "#125d22",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Jelly Bean Sharing Bonus": {
+   "bg": "#f9ccff",
+   "icon": "3080919019",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Aphid Boost": {
+   "bg": "#125d22",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Beesmas Cheer": {
+   "bg": "#17b52d",
+   "icon": "2652364563",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Coconut Haste Surge": {
+   "bg": "#f0f0f0",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Honeyday Event": {
+   "bg": "#17b52d",
+   "icon": "2659216738",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Galentine's Blessing": {
+   "bg": "#ffeffe",
+   "icon": "243089383",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Console Launch Boost": {
+   "bg": "#262626",
+   "icon": "12689980465",
+   "iconColor": "#e3e3e3",
+   "img": true
+  },
+  "Test Realm Megaboost": {
+   "bg": "#17b52d",
+   "icon": "2659216738",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Monster Fast Spawn": {
+   "bg": "#125d22",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Market Megaboost": {
+   "bg": "#125d22",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Crit Chance Market Boost": {
+   "bg": "#125d22",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Test Realm Boost": {
+   "bg": "#125d22",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Test Realm Megaboost 2": {
+   "bg": "#125d22",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Coconut Shield": {
+   "bg": "#ffffff",
+   "icon": "3030407727",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Reindeer Guidance": {
+   "bg": "#cc2c2c",
+   "icon": "6077286858",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Beesmas Repentance": {
+   "bg": "#47ac53",
+   "icon": "6126057730",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Festive Nymph Blessing": {
+   "bg": "#47ac53",
+   "icon": "6299503651",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Pendant": {
+   "bg": "#fff180",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Gummy Bear Morph": {
+   "bg": "#f281ff",
+   "icon": "1837410537",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Mother Bear Morph": {
+   "bg": "#f8f6ff",
+   "icon": "2032949183",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Science Bear Morph": {
+   "bg": "#f8f6ff",
+   "icon": "1489734171",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Balloon Blessing": {
+   "bg": "#fafd38",
+   "icon": "8083443467",
+   "iconColor": "#234bff",
+   "img": true
+  },
+  "Balloon Aura": {
+   "bg": "#fafd38",
+   "icon": "8083447646",
+   "iconColor": "#234bff",
+   "img": true
+  },
+  "Gummyball": {
+   "bg": "#5effca",
+   "icon": "8243095906",
+   "iconColor": "#ff74fd",
+   "img": true
+  },
+  "Gummyball Combo": {
+   "bg": "#5effca",
+   "icon": "8243060176",
+   "iconColor": "#ff74fd",
+   "img": true
+  },
+  "Dark Heat": {
+   "bg": "#8f4eb4",
+   "icon": "4097473201",
+   "iconColor": "#e30000",
+   "img": true
+  },
+  "Tide Power": {
+   "bg": "#91c2fd",
+   "icon": "7052520309",
+   "iconColor": "#f9f9f9",
+   "img": true
+  },
+  "Tidal Surge": {
+   "bg": "#91c2fd",
+   "icon": "7052520309",
+   "iconColor": "#f9f9f9",
+   "img": true
+  },
+  "Tide Blessing": {
+   "bg": "#91c2fd",
+   "icon": "7052520309",
+   "iconColor": "#f9f9f9",
+   "img": true
+  },
+  "Tabby Blessing": {
+   "bg": "#f99d27",
+   "icon": "1753904608",
+   "iconColor": "#000000",
+   "img": true
+  },
+  "Tabby Blessing+": {
+   "bg": "#f99d27",
+   "icon": "1753904608",
+   "iconColor": "#000000",
+   "img": true
+  },
+  "Coconut Combo": {
+   "bg": "#88633e",
+   "icon": "17362698291",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Robo Party Blessing": {
+   "bg": "#3da341",
+   "icon": "12922462485",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Hive Hub Conversion": {
+   "bg": "#1b1b1b",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Puffshroom Blessing": {
+   "bg": "#be9a68",
+   "icon": "15460474729",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "New Golfer's Luck": {
+   "bg": "#17b52d",
+   "icon": "18742562354",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "x2 Bee Gather Voucher": {
+   "bg": "#fff180",
+   "icon": "1537260771",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "x2 Convert Speed Voucher": {
+   "bg": "#fff180",
+   "icon": "1537235536",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Commando Chick Blessing": {
+   "bg": "#e7f8ff",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Mondo Chick Blessing": {
+   "bg": "#ecc6d4",
+   "icon": "4866023853",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Ultimate Mondo Chick Blessing": {
+   "bg": "#e7f8ff",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Spirit Chick Blessing": {
+   "bg": "#e7f8ff",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Hostage Chick Blessing": {
+   "bg": "#e7f8ff",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Blue Chick Blessing": {
+   "bg": "#e7f8ff",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Red Chick Blessing": {
+   "bg": "#e7f8ff",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Swarming Egg of the Hive": {
+   "bg": "#e7f8ff",
+   "icon": "65867881",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Refreshing Nectar": {
+   "bg": "#78b375",
+   "icon": "65867881",
+   "iconColor": "#acffa7",
+   "img": true
+  },
+  "Invigorating Nectar": {
+   "bg": "#b35a51",
+   "icon": "65867881",
+   "iconColor": "#ff8074",
+   "img": true
+  },
+  "Motivating Nectar": {
+   "bg": "#937db3",
+   "icon": "65867881",
+   "iconColor": "#d2b2ff",
+   "img": true
+  },
+  "Satisfying Nectar": {
+   "bg": "#b398a7",
+   "icon": "65867881",
+   "iconColor": "#ffd9ee",
+   "img": true
+  },
+  "Comforting Nectar": {
+   "bg": "#7e9eb3",
+   "icon": "65867881",
+   "iconColor": "#b4e1ff",
+   "img": true
+  },
+  "Red Jelly Bean": {
+   "bg": "#f6988b",
+   "icon": "3080529618",
+   "iconColor": "#ed3116",
+   "img": true
+  },
+  "Blue Jelly Bean": {
+   "bg": "#bcdaf8",
+   "icon": "3080529618",
+   "iconColor": "#79b4f0",
+   "img": true
+  },
+  "White Jelly Bean": {
+   "bg": "#faf7fa",
+   "icon": "3080529618",
+   "iconColor": "#f5eff5",
+   "img": true
+  },
+  "Yellow Jelly Bean": {
+   "bg": "#fbfaa2",
+   "icon": "3080529618",
+   "iconColor": "#f6f445",
+   "img": true
+  },
+  "Green Jelly Bean": {
+   "bg": "#8de58b",
+   "icon": "3080529618",
+   "iconColor": "#1acb17",
+   "img": true
+  },
+  "Pink Jelly Bean": {
+   "bg": "#fab9f4",
+   "icon": "3080529618",
+   "iconColor": "#f473e9",
+   "img": true
+  },
+  "Teal Jelly Bean": {
+   "bg": "#a5fbdd",
+   "icon": "3080529618",
+   "iconColor": "#4af7ba",
+   "img": true
+  },
+  "Brown Jelly Bean": {
+   "bg": "#c9ab9a",
+   "icon": "3080529618",
+   "iconColor": "#935635",
+   "img": true
+  },
+  "Black Jelly Bean": {
+   "bg": "#999999",
+   "icon": "3080529618",
+   "iconColor": "#323232",
+   "img": true
+  },
+  "Navy Jelly Bean": {
+   "bg": "#9697c8",
+   "icon": "3080529618",
+   "iconColor": "#2d2e91",
+   "img": true
+  },
+  "Maroon Jelly Bean": {
+   "bg": "#ce919b",
+   "icon": "3080529618",
+   "iconColor": "#9d2236",
+   "img": true
+  },
+  "Slate Jelly Bean": {
+   "bg": "#d1dde5",
+   "icon": "3080529618",
+   "iconColor": "#a3baca",
+   "img": true
+  },
+  "Periwinkle Jelly Bean": {
+   "bg": "#dbd1ed",
+   "icon": "3080529618",
+   "iconColor": "#b7a2db",
+   "img": true
+  },
+  "Merigold Jelly Bean": {
+   "bg": "#edd48e",
+   "icon": "3080529618",
+   "iconColor": "#daa81c",
+   "img": true
+  },
+  "Spoiled Jelly Bean": {
+   "bg": "#e8ffe9",
+   "icon": "3080529618",
+   "iconColor": "#d1ffd3",
+   "img": true
+  },
+  "Focus": {
+   "bg": "#22ff06",
+   "icon": "1629649299",
+   "iconColor": "#141414",
+   "img": true
+  },
+  "Flame Fuel": {
+   "bg": "#b72a18",
+   "icon": "4528208186",
+   "iconColor": "#141414",
+   "img": true
+  },
+  "Melody": {
+   "bg": "#f0f0f0",
+   "icon": "253828517",
+   "iconColor": "#141414",
+   "img": true
+  },
+  "Brown Bear Morph": {
+   "bg": "#f8f6ff",
+   "icon": "1472425802",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Black Bear Morph": {
+   "bg": "#f8f6ff",
+   "icon": "1472491940",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Panda Bear Morph": {
+   "bg": "#f8f6ff",
+   "icon": "1472580249",
+   "iconColor": "#ffffff",
+   "img": true
+  },
+  "Polar Bear Morph": {
+   "bg": "#f8f6ff",
+   "icon": "1472532912",
+   "iconColor": "#ffffff",
+   "img": true
+  }
+ }
+}

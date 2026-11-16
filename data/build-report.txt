@@ -1,0 +1,76 @@
+bee skipped (no Bee/Stat template): First Edition Bee
+bee skipped (no Bee/Stat template): Gifted Bee
+bee skipped (no Bee/Stat template): Rogue Vicious Bee
+bee skipped (no Bee/Stat template): Wild Windy Bee
+Carpenter Bee: из игры — конвертация 100→120
+Demon Bee: из игры — конвертация 80→60
+Exhausted Bee: из игры — энергия NaN→0
+Fire Bee: из игры — сбор 12→10
+Photon Bee: из игры — энергия NaN→0
+Vector Bee: из игры — время конвертации 1→2.72
+quest «Costs Of Computation» (Science Bear): pollen requirements taken from game code
+quest «A Breath Of Blue» (Spirit Bear): pollen requirements taken from game code
+quest «Spirit Spree» (Spirit Bear): pollen requirements taken from game code
+quest «Blue Beesmas» (Bee Bear): pollen requirements taken from game code
+quests: rewards from game code 221/371, pollen fixed from game 4
+quest requirements not understood: 619
+  ? TBA
+  ? Raise a Bee to Level 2
+  ? Feed 1 Treat to your Bees
+  ? Raise a Bee to Level 3
+  ? Raise 2 Bees to Level 2
+  ? Feed 5 Treat to your Bees
+  ? Raise 3 Bees to Level 3
+  ? Feed 10 Treat to your Bees
+  ? Feed 1 Sunflower Seed to your Bees
+  ? Raise 3 Bees to Level 4
+  ? Feed 15 Treat to your Bees
+  ? Use 1 Royal Jelly
+  ? Raise a Bee to Level 5
+  ? Raise 5 Bees to Level 4
+  ? Feed 20 Treat to your Bees
+  ? Feed 5 Strawberry to your Bees
+  ? Raise 3 Bees to Level 5
+  ? Feed 30 Treat to your Bees
+  ? Feed 10 Blueberry to your Bees
+  ? Raise a Bee to Level 6
+  ? Raise 5 Bees to Level 5
+  ? Feed 50 Treat to your Bees
+  ? Use 3 Royal Jellies
+  ? Raise 6 Bees to Level 6
+  ? Feed 100 Treat to your Bees
+  ? Feed 25 Sunflower Seed to your Bees
+  ? Raise a Bee to Level 7
+  ? Raise 8 Bees to Level 6
+  ? Raise 12 Bees to Level 5
+  ? Feed 250 Treat to your Bees
+  ? Feed 25 Pineapple to your Bees
+  ? Raise 7 Bees to Level 7
+  ? Feed 500 Treat to your Bees
+  ? Feed 25 Blueberry to your Bees
+  ? Feed 25 Strawberry to your Bees
+  ? Raise 3 Bees to Level 8
+  ? Raise 9 Bees to Level 7
+  ? Raise 15 Bees to Level 6
+  ? Feed 1000 Treat to your Bees
+  ? Feed 30 Sunflower Seed to your Bees
+  ? Feed 30 Pineapple to your Bees
+  ? Feed 30 Strawberry to your Bees
+  ? Feed 30 Blueberry to your Bees
+  ? Raise 8 Bees to Level 8
+  ? Feed 2500 Treat to your Bees
+  ? Feed 100 Sunflower Seed to your Bees
+  ? Use 8 Royal Jelly
+  ? Raise 3 Bees to Level 9
+  ? Feed 5000 Treat to your Bees
+  ? Feed 200 Strawberry to your Bees
+  ? Raise a Bee to Level 10
+  ? Raise 5 Bees to Level 9
+  ? Raise 15 Bees to Level 8
+  ? Feed 10000 Treat to your Bees
+  ? Feed 250 Sunflower Seed to your Bees
+  ? Feed 250 Pineapple to your Bees
+  ? Feed 250 Strawberry to your Bees
+  ? Feed 250 Blueberry to your Bees
+  ? Get a Score of 50 in the Ant Challenge
+  ? Get a Score of 75 in the Ant Challenge
